@@ -1,0 +1,110 @@
+name: 🔄 Auto Update GioVang IPTV
+
+on:
+  schedule:
+    # Chạy mỗi 30 phút (UTC)
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+    inputs:
+      no_stream:
+        description: "Không crawl stream (nhanh hơn)"
+        required: false
+        default: "false"
+        type: choice
+        options:
+          - "false"
+          - "true"
+
+jobs:
+  update-iptv:
+    name: 📡 Crawl & Push giovang.vin
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    permissions:
+      contents: write  # Cần để push file JSON vào repo
+
+    steps:
+      # ── 1. Checkout repo ───────────────────────────────────
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # ── 2. Setup Python ────────────────────────────────────
+      - name: 🐍 Setup Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      # ── 3. Install dependencies ────────────────────────────
+      - name: 📦 Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install cloudscraper beautifulsoup4 lxml requests pillow
+
+      # ── 4. Crawl giovang.vin ───────────────────────────────
+      - name: 🕷️ Crawl giovang.vin
+        env:
+          PYTHONUNBUFFERED: "1"
+        run: |
+          NO_STREAM_FLAG=""
+          if [ "${{ github.event.inputs.no_stream }}" = "true" ]; then
+            NO_STREAM_FLAG="--no-stream"
+          fi
+          python crawler_giovang.py --output giovang_iptv.json $NO_STREAM_FLAG
+
+      # ── 5. Validate JSON ───────────────────────────────────
+      - name: ✅ Validate JSON output
+        run: |
+          python3 -c "
+          import json, sys
+          with open('giovang_iptv.json', encoding='utf-8') as f:
+              data = json.load(f)
+          channels = sum(len(g.get('channels',[])) for g in data.get('groups',[]))
+          print(f'✅ JSON hợp lệ: {channels} trận')
+          if channels == 0:
+              print('⚠ Cảnh báo: 0 trận — trang có thể thay đổi cấu trúc')
+              sys.exit(1)
+          "
+
+      # ── 6. Commit & Push ───────────────────────────────────
+      - name: 📤 Commit & Push JSON
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Tính số trận
+          MATCH_COUNT=$(python3 -c "
+          import json
+          with open('giovang_iptv.json') as f:
+              d = json.load(f)
+          print(sum(len(g.get('channels',[])) for g in d.get('groups',[])))
+          ")
+
+          git add giovang_iptv.json
+          git diff --staged --quiet && echo "Không có thay đổi" && exit 0
+
+          NOW=$(TZ='Asia/Ho_Chi_Minh' date '+%d/%m/%Y %H:%M')
+          git commit -m "🔄 Update ${MATCH_COUNT} trận — ${NOW} ICT"
+          git push
+
+      # ── 7. Summary ─────────────────────────────────────────
+      - name: 📊 Job Summary
+        if: always()
+        run: |
+          echo "## 📡 GioVang IPTV Update" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          if [ -f giovang_iptv.json ]; then
+            MATCH_COUNT=$(python3 -c "
+          import json
+          with open('giovang_iptv.json') as f:
+              d = json.load(f)
+          print(sum(len(g.get('channels',[])) for g in d.get('groups',[])))
+          " 2>/dev/null || echo "?")
+            echo "- ✅ **Số trận:** ${MATCH_COUNT}" >> $GITHUB_STEP_SUMMARY
+          fi
+          NOW=$(TZ='Asia/Ho_Chi_Minh' date '+%d/%m/%Y %H:%M ICT')
+          echo "- 🕐 **Cập nhật lúc:** ${NOW}" >> $GITHUB_STEP_SUMMARY
+          echo "- 🔗 **Raw URL:** \`https://raw.githubusercontent.com/\${{ github.repository_owner }}/\${{ github.event.repository.name }}/main/giovang_iptv.json\`" >> $GITHUB_STEP_SUMMARY
