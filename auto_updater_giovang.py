@@ -41,7 +41,7 @@ DEFAULT_CONFIG = {
     "json_filename":   "giovang.json",
 
     # ── Crawler ───────────────────────────────────────────────
-    "crawler_script":  "crawler_giovang.py",
+    "crawler_script":  "crawler_giovang_v2.py",
     "crawler_no_stream": False,     # True = không crawl stream (nhanh hơn)
     "local_json":      "giovang_iptv.json",
 
@@ -249,9 +249,9 @@ def setup_wizard() -> dict:
 
 # ── Crawler runner ────────────────────────────────────────────
 def run_crawler(cfg: dict) -> bool:
-    script = cfg.get("crawler_script", "crawler_giovang.py")
+    script = cfg.get("crawler_script", "crawler_giovang_v2.py")
 
-    candidates = [script, "crawler_giovang.py"]
+    candidates = [script, "crawler_giovang_v2.py"]
     crawler_path = None
     for name in candidates:
         if Path(name).exists():
