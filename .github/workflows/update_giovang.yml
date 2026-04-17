@@ -53,7 +53,7 @@ jobs:
           if [ "${{ github.event.inputs.no_stream }}" = "true" ]; then
             NO_STREAM_FLAG="--no-stream"
           fi
-          python crawler_giovang.py --output giovang_iptv.json $NO_STREAM_FLAG
+          python crawler_giovang_v2.py --output giovang_iptv.json $NO_STREAM_FLAG
 
       # ── 5. Validate JSON ───────────────────────────────────
       - name: ✅ Validate JSON output
