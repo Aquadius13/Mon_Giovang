@@ -2,7 +2,7 @@
   "id": "giovang-iptv",
   "name": "GioVang TV",
   "url": "https://giovang.vin/",
-  "description": "Trực tiếp bóng đá — 3 đang live, 25 sắp tới. Cập nhật 18/04/2026 06:41 ICT",
+  "description": "Trực tiếp bóng đá — 3 đang live, 25 sắp tới. Cập nhật 18/04/2026 06:49 ICT",
   "disable_ads": true,
   "color": "#f5a623",
   "grid_number": 3,
@@ -78,11 +78,11 @@
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
-                          "url": "https://giovang.vin/truc-tiep-new-york-yankees-vs-kansas-city-royals-18-04-p7s6iy039l9w/",
+                          "url": "https://giovang.vin/truc-tiep-new-york-yankees-vs-kansas-city-royals-1804-p7s6iy039l9w/",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://giovang.vin/truc-tiep-new-york-yankees-vs-kansas-city-royals-18-04-p7s6iy039l9w/"
+                              "value": "https://giovang.vin/truc-tiep-new-york-yankees-vs-kansas-city-royals-1804-p7s6iy039l9w/"
                             },
                             {
                               "key": "User-Agent",
@@ -157,11 +157,11 @@
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
-                          "url": "https://giovang.vin/truc-tiep-magic-vs-hornets-18-04-3n9kz04bqrln/",
+                          "url": "https://giovang.vin/truc-tiep-magic-vs-hornets-1804-3n9kz04bqrln/",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://giovang.vin/truc-tiep-magic-vs-hornets-18-04-3n9kz04bqrln/"
+                              "value": "https://giovang.vin/truc-tiep-magic-vs-hornets-1804-3n9kz04bqrln/"
                             },
                             {
                               "key": "User-Agent",
@@ -179,8 +179,8 @@
         },
         {
           "id": "gv-3-union-santa-fe-vs-newell",
-          "name": "Union Santa Fe 1-0 Newells Old Boys  🔴 12'",
-          "description": "VĐQG Argentina | 06:30 | 18/04 | 🔴 LIVE 12min | 1-0 | 🎙 BLV Dậu",
+          "name": "Union Santa Fe 1-1 Newells Old Boys  🔴 20'",
+          "description": "VĐQG Argentina | 06:30 | 18/04 | 🔴 LIVE 20min | 1-1 | 🎙 BLV Dậu",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -206,7 +206,7 @@
               "position": "top-right"
             },
             {
-              "text": "1-0  12'",
+              "text": "1-1  20'",
               "color": "#B71C1C",
               "text_color": "#ffffff",
               "position": "bottom-right"
@@ -225,7 +225,7 @@
               "contents": [
                 {
                   "id": "gv-3-union-santa-fe-vs-newell-ct",
-                  "name": "Union Santa Fe 1-0 Newells Old Boys  🔴 12' · VĐQG Argentina",
+                  "name": "Union Santa Fe 1-1 Newells Old Boys  🔴 20' · VĐQG Argentina",
                   "streams": [
                     {
                       "id": "gv-3-union-santa-fe-vs-newell-st",
@@ -236,11 +236,11 @@
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
-                          "url": "https://giovang.vin/truc-tiep-union-santa-fe-vs-newells-old-boys-18-04-69d83dd724d46db8703e4598/",
+                          "url": "https://giovang.vin/truc-tiep-union-santa-fe-vs-newells-old-boys-1804-69d83dd724d46db8703e4598/",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://giovang.vin/truc-tiep-union-santa-fe-vs-newells-old-boys-18-04-69d83dd724d46db8703e4598/"
+                              "value": "https://giovang.vin/truc-tiep-union-santa-fe-vs-newells-old-boys-1804-69d83dd724d46db8703e4598/"
                             },
                             {
                               "key": "User-Agent",
@@ -309,11 +309,11 @@
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
-                          "url": "https://giovang.vin/truc-tiep-colorado-rockies-vs-los-angeles-dodgers-18-04-uf0p2mo0yfy5/",
+                          "url": "https://giovang.vin/truc-tiep-colorado-rockies-vs-los-angeles-dodgers-1804-uf0p2mo0yfy5/",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://giovang.vin/truc-tiep-colorado-rockies-vs-los-angeles-dodgers-18-04-uf0p2mo0yfy5/"
+                              "value": "https://giovang.vin/truc-tiep-colorado-rockies-vs-los-angeles-dodgers-1804-uf0p2mo0yfy5/"
                             },
                             {
                               "key": "User-Agent",
@@ -382,11 +382,11 @@
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
-                          "url": "https://giovang.vin/truc-tiep-mazatlan-fc-vs-queretaro-fc-18-04-69d83dd724d46db8703e45c5/",
+                          "url": "https://giovang.vin/truc-tiep-mazatlan-fc-vs-queretaro-fc-1804-69d83dd724d46db8703e45c5/",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://giovang.vin/truc-tiep-mazatlan-fc-vs-queretaro-fc-18-04-69d83dd724d46db8703e45c5/"
+                              "value": "https://giovang.vin/truc-tiep-mazatlan-fc-vs-queretaro-fc-1804-69d83dd724d46db8703e45c5/"
                             },
                             {
                               "key": "User-Agent",
@@ -455,11 +455,11 @@
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
-                          "url": "https://giovang.vin/truc-tiep-atletico-san-luis-vs-pumas-unam-18-04-69d83dd724d46db8703e45be/",
+                          "url": "https://giovang.vin/truc-tiep-atletico-san-luis-vs-pumas-unam-1804-69d83dd724d46db8703e45be/",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://giovang.vin/truc-tiep-atletico-san-luis-vs-pumas-unam-18-04-69d83dd724d46db8703e45be/"
+                              "value": "https://giovang.vin/truc-tiep-atletico-san-luis-vs-pumas-unam-1804-69d83dd724d46db8703e45be/"
                             },
                             {
                               "key": "User-Agent",
@@ -528,11 +528,11 @@
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
-                          "url": "https://giovang.vin/truc-tiep-los-angeles-angels-vs-san-diego-padres-18-04-ri4eo7inaimk/",
+                          "url": "https://giovang.vin/truc-tiep-los-angeles-angels-vs-san-diego-padres-1804-ri4eo7inaimk/",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://giovang.vin/truc-tiep-los-angeles-angels-vs-san-diego-padres-18-04-ri4eo7inaimk/"
+                              "value": "https://giovang.vin/truc-tiep-los-angeles-angels-vs-san-diego-padres-1804-ri4eo7inaimk/"
                             },
                             {
                               "key": "User-Agent",
@@ -601,11 +601,11 @@
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
-                          "url": "https://giovang.vin/truc-tiep-suns-vs-warriors-18-04-huueulf1bwoe/",
+                          "url": "https://giovang.vin/truc-tiep-suns-vs-warriors-1804-huueulf1bwoe/",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://giovang.vin/truc-tiep-suns-vs-warriors-18-04-huueulf1bwoe/"
+                              "value": "https://giovang.vin/truc-tiep-suns-vs-warriors-1804-huueulf1bwoe/"
                             },
                             {
                               "key": "User-Agent",
@@ -674,11 +674,11 @@
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
-                          "url": "https://giovang.vin/truc-tiep-yokohama-f-marinos-vs-kawasaki-frontale-18-04-69d83dd724d46db8703e45f8/",
+                          "url": "https://giovang.vin/truc-tiep-yokohama-f-marinos-vs-kawasaki-frontale-1804-69d83dd724d46db8703e45f8/",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://giovang.vin/truc-tiep-yokohama-f-marinos-vs-kawasaki-frontale-18-04-69d83dd724d46db8703e45f8/"
+                              "value": "https://giovang.vin/truc-tiep-yokohama-f-marinos-vs-kawasaki-frontale-1804-69d83dd724d46db8703e45f8/"
                             },
                             {
                               "key": "User-Agent",
@@ -747,11 +747,11 @@
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
-                          "url": "https://giovang.vin/truc-tiep-tauranga-whai-vs-taranaki-airs-18-04-351fy32e2fjx/",
+                          "url": "https://giovang.vin/truc-tiep-tauranga-whai-vs-taranaki-airs-1804-351fy32e2fjx/",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://giovang.vin/truc-tiep-tauranga-whai-vs-taranaki-airs-18-04-351fy32e2fjx/"
+                              "value": "https://giovang.vin/truc-tiep-tauranga-whai-vs-taranaki-airs-1804-351fy32e2fjx/"
                             },
                             {
                               "key": "User-Agent",
@@ -820,11 +820,11 @@
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
-                          "url": "https://giovang.vin/truc-tiep-wellington-phoenix-vs-western-sydney-wanderers-18-04-69d83dd824d46db8703e463f/",
+                          "url": "https://giovang.vin/truc-tiep-wellington-phoenix-vs-western-sydney-wanderers-1804-69d83dd824d46db8703e463f/",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://giovang.vin/truc-tiep-wellington-phoenix-vs-western-sydney-wanderers-18-04-69d83dd824d46db8703e463f/"
+                              "value": "https://giovang.vin/truc-tiep-wellington-phoenix-vs-western-sydney-wanderers-1804-69d83dd824d46db8703e463f/"
                             },
                             {
                               "key": "User-Agent",
@@ -893,11 +893,11 @@
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
-                          "url": "https://giovang.vin/truc-tiep-brisbane-roar-fc-vs-melbourne-city-18-04-69d83dd924d46db8703e4716/",
+                          "url": "https://giovang.vin/truc-tiep-brisbane-roar-fc-vs-melbourne-city-1804-69d83dd924d46db8703e4716/",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://giovang.vin/truc-tiep-brisbane-roar-fc-vs-melbourne-city-18-04-69d83dd924d46db8703e4716/"
+                              "value": "https://giovang.vin/truc-tiep-brisbane-roar-fc-vs-melbourne-city-1804-69d83dd924d46db8703e4716/"
                             },
                             {
                               "key": "User-Agent",
@@ -966,11 +966,11 @@
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
-                          "url": "https://giovang.vin/truc-tiep-nec-red-rockets-nu-vs-osaka-marvelous-nu-18-04-duew76l4weoh/",
+                          "url": "https://giovang.vin/truc-tiep-nec-red-rockets-nu-vs-osaka-marvelous-nu-1804-duew76l4weoh/",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://giovang.vin/truc-tiep-nec-red-rockets-nu-vs-osaka-marvelous-nu-18-04-duew76l4weoh/"
+                              "value": "https://giovang.vin/truc-tiep-nec-red-rockets-nu-vs-osaka-marvelous-nu-1804-duew76l4weoh/"
                             },
                             {
                               "key": "User-Agent",
@@ -1039,11 +1039,11 @@
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
-                          "url": "https://giovang.vin/truc-tiep-auckland-tuatara-vs-southland-sharks-18-04-x189x4ctdkna/",
+                          "url": "https://giovang.vin/truc-tiep-auckland-tuatara-vs-southland-sharks-1804-x189x4ctdkna/",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://giovang.vin/truc-tiep-auckland-tuatara-vs-southland-sharks-18-04-x189x4ctdkna/"
+                              "value": "https://giovang.vin/truc-tiep-auckland-tuatara-vs-southland-sharks-1804-x189x4ctdkna/"
                             },
                             {
                               "key": "User-Agent",
@@ -1112,11 +1112,11 @@
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
-                          "url": "https://giovang.vin/truc-tiep-geng-vs-hanwha-life-18-04-5ndfphdmw4i6/",
+                          "url": "https://giovang.vin/truc-tiep-geng-vs-hanwha-life-1804-5ndfphdmw4i6/",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://giovang.vin/truc-tiep-geng-vs-hanwha-life-18-04-5ndfphdmw4i6/"
+                              "value": "https://giovang.vin/truc-tiep-geng-vs-hanwha-life-1804-5ndfphdmw4i6/"
                             },
                             {
                               "key": "User-Agent",
@@ -1185,11 +1185,11 @@
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
-                          "url": "https://giovang.vin/truc-tiep-sydney-football-club-vs-perth-glory-18-04-mzyz7lyoviwh/",
+                          "url": "https://giovang.vin/truc-tiep-sydney-football-club-vs-perth-glory-1804-mzyz7lyoviwh/",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://giovang.vin/truc-tiep-sydney-football-club-vs-perth-glory-18-04-mzyz7lyoviwh/"
+                              "value": "https://giovang.vin/truc-tiep-sydney-football-club-vs-perth-glory-1804-mzyz7lyoviwh/"
                             },
                             {
                               "key": "User-Agent",
@@ -1258,11 +1258,11 @@
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
-                          "url": "https://giovang.vin/truc-tiep-hong-linh-ha-tinh-vs-hai-phong-18-04-d5s0ulrkabyn/",
+                          "url": "https://giovang.vin/truc-tiep-hong-linh-ha-tinh-vs-hai-phong-1804-d5s0ulrkabyn/",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://giovang.vin/truc-tiep-hong-linh-ha-tinh-vs-hai-phong-18-04-d5s0ulrkabyn/"
+                              "value": "https://giovang.vin/truc-tiep-hong-linh-ha-tinh-vs-hai-phong-1804-d5s0ulrkabyn/"
                             },
                             {
                               "key": "User-Agent",
@@ -1331,11 +1331,11 @@
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
-                          "url": "https://giovang.vin/truc-tiep-brentford-vs-fulham-18-04-rj5eomgt8v6n/",
+                          "url": "https://giovang.vin/truc-tiep-brentford-vs-fulham-1804-rj5eomgt8v6n/",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://giovang.vin/truc-tiep-brentford-vs-fulham-18-04-rj5eomgt8v6n/"
+                              "value": "https://giovang.vin/truc-tiep-brentford-vs-fulham-1804-rj5eomgt8v6n/"
                             },
                             {
                               "key": "User-Agent",
@@ -1404,11 +1404,11 @@
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
-                          "url": "https://giovang.vin/truc-tiep-fujian-vs-guangdong-18-04-rkewya48tsq3/",
+                          "url": "https://giovang.vin/truc-tiep-fujian-vs-guangdong-1804-rkewya48tsq3/",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://giovang.vin/truc-tiep-fujian-vs-guangdong-18-04-rkewya48tsq3/"
+                              "value": "https://giovang.vin/truc-tiep-fujian-vs-guangdong-1804-rkewya48tsq3/"
                             },
                             {
                               "key": "User-Agent",
@@ -1477,11 +1477,11 @@
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
-                          "url": "https://giovang.vin/truc-tiep-jiangsu-dragons-vs-shanxi-zhongyu-18-04-c3d1q1qyt7gi/",
+                          "url": "https://giovang.vin/truc-tiep-jiangsu-dragons-vs-shanxi-zhongyu-1804-c3d1q1qyt7gi/",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://giovang.vin/truc-tiep-jiangsu-dragons-vs-shanxi-zhongyu-18-04-c3d1q1qyt7gi/"
+                              "value": "https://giovang.vin/truc-tiep-jiangsu-dragons-vs-shanxi-zhongyu-1804-c3d1q1qyt7gi/"
                             },
                             {
                               "key": "User-Agent",
@@ -1550,11 +1550,11 @@
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
-                          "url": "https://giovang.vin/truc-tiep-jilin-vs-guangzhou-18-04-4871m16txo6u/",
+                          "url": "https://giovang.vin/truc-tiep-jilin-vs-guangzhou-1804-4871m16txo6u/",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://giovang.vin/truc-tiep-jilin-vs-guangzhou-18-04-4871m16txo6u/"
+                              "value": "https://giovang.vin/truc-tiep-jilin-vs-guangzhou-1804-4871m16txo6u/"
                             },
                             {
                               "key": "User-Agent",
@@ -1623,11 +1623,11 @@
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
-                          "url": "https://giovang.vin/truc-tiep-udinese-vs-parma-18-04-lb3a57f97c0o/",
+                          "url": "https://giovang.vin/truc-tiep-udinese-vs-parma-1804-lb3a57f97c0o/",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://giovang.vin/truc-tiep-udinese-vs-parma-18-04-lb3a57f97c0o/"
+                              "value": "https://giovang.vin/truc-tiep-udinese-vs-parma-1804-lb3a57f97c0o/"
                             },
                             {
                               "key": "User-Agent",
@@ -1696,11 +1696,11 @@
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
-                          "url": "https://giovang.vin/truc-tiep-werder-bremen-vs-hamburger-sv-18-04-ic77bzzcxdsv/",
+                          "url": "https://giovang.vin/truc-tiep-werder-bremen-vs-hamburger-sv-1804-ic77bzzcxdsv/",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://giovang.vin/truc-tiep-werder-bremen-vs-hamburger-sv-18-04-ic77bzzcxdsv/"
+                              "value": "https://giovang.vin/truc-tiep-werder-bremen-vs-hamburger-sv-1804-ic77bzzcxdsv/"
                             },
                             {
                               "key": "User-Agent",
@@ -1769,11 +1769,11 @@
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
-                          "url": "https://giovang.vin/truc-tiep-union-berlin-vs-wolfsburg-18-04-b12w14i7gcp1/",
+                          "url": "https://giovang.vin/truc-tiep-union-berlin-vs-wolfsburg-1804-b12w14i7gcp1/",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://giovang.vin/truc-tiep-union-berlin-vs-wolfsburg-18-04-b12w14i7gcp1/"
+                              "value": "https://giovang.vin/truc-tiep-union-berlin-vs-wolfsburg-1804-b12w14i7gcp1/"
                             },
                             {
                               "key": "User-Agent",
@@ -1842,11 +1842,11 @@
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
-                          "url": "https://giovang.vin/truc-tiep-hoffenheim-vs-borussia-dortmund-18-04-ii7fjrseh0ao/",
+                          "url": "https://giovang.vin/truc-tiep-hoffenheim-vs-borussia-dortmund-1804-ii7fjrseh0ao/",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://giovang.vin/truc-tiep-hoffenheim-vs-borussia-dortmund-18-04-ii7fjrseh0ao/"
+                              "value": "https://giovang.vin/truc-tiep-hoffenheim-vs-borussia-dortmund-1804-ii7fjrseh0ao/"
                             },
                             {
                               "key": "User-Agent",
@@ -1915,11 +1915,11 @@
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
-                          "url": "https://giovang.vin/truc-tiep-newcastle-united-vs-afc-bournemouth-18-04-vwf1vln3sh2n/",
+                          "url": "https://giovang.vin/truc-tiep-newcastle-united-vs-afc-bournemouth-1804-vwf1vln3sh2n/",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://giovang.vin/truc-tiep-newcastle-united-vs-afc-bournemouth-18-04-vwf1vln3sh2n/"
+                              "value": "https://giovang.vin/truc-tiep-newcastle-united-vs-afc-bournemouth-1804-vwf1vln3sh2n/"
                             },
                             {
                               "key": "User-Agent",
@@ -1988,11 +1988,11 @@
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
-                          "url": "https://giovang.vin/truc-tiep-lorient-vs-olympique-marseille-18-04-6u5g4z5raswn/",
+                          "url": "https://giovang.vin/truc-tiep-lorient-vs-olympique-marseille-1804-6u5g4z5raswn/",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://giovang.vin/truc-tiep-lorient-vs-olympique-marseille-18-04-6u5g4z5raswn/"
+                              "value": "https://giovang.vin/truc-tiep-lorient-vs-olympique-marseille-1804-6u5g4z5raswn/"
                             },
                             {
                               "key": "User-Agent",
@@ -2061,11 +2061,11 @@
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
-                          "url": "https://giovang.vin/truc-tiep-manchester-city-vs-arsenal-19-04-6981818b975855c86b063035/",
+                          "url": "https://giovang.vin/truc-tiep-manchester-city-vs-arsenal-1904-6981818b975855c86b063035/",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://giovang.vin/truc-tiep-manchester-city-vs-arsenal-19-04-6981818b975855c86b063035/"
+                              "value": "https://giovang.vin/truc-tiep-manchester-city-vs-arsenal-1904-6981818b975855c86b063035/"
                             },
                             {
                               "key": "User-Agent",
