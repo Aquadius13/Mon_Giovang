@@ -2,7 +2,7 @@
   "id": "giovang-iptv",
   "name": "GioVang TV",
   "url": "https://giovang.vin/",
-  "description": "Trực tiếp bóng đá — 0 đang live, 29 sắp tới. Cập nhật 18/04/2026 16:24 ICT",
+  "description": "Trực tiếp bóng đá — 1 đang live, 28 sắp tới. Cập nhật 18/04/2026 17:08 ICT",
   "disable_ads": true,
   "color": "#f5a623",
   "grid_number": 3,
@@ -21,8 +21,8 @@
       "channels": [
         {
           "id": "gv-1-sydney-football-club-vs",
-          "name": "Sydney Football Club vs Perth Glory  🕐 16:35 | 18/04",
-          "description": "VĐQG Úc | 16:35 | 18/04 | 🕐 Sắp diễn ra | 🎙 BLV Thỏ",
+          "name": "Sydney Football Club 0-0 Perth Glory  🔴",
+          "description": "VĐQG Úc | 16:35 | 18/04 | 🔴 LIVE | 0-0 | 🎙 BLV Thỏ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -36,8 +36,8 @@
           },
           "labels": [
             {
-              "text": "🕐 Sắp diễn ra",
-              "color": "#1565C0",
+              "text": "● LIVE",
+              "color": "#D32F2F",
               "text_color": "#ffffff",
               "position": "top-left"
             },
@@ -46,6 +46,12 @@
               "color": "#0D47A1",
               "text_color": "#ffffff",
               "position": "top-right"
+            },
+            {
+              "text": "0-0",
+              "color": "#B71C1C",
+              "text_color": "#ffffff",
+              "position": "bottom-right"
             },
             {
               "text": "🎙 BLV Thỏ",
@@ -61,7 +67,7 @@
               "contents": [
                 {
                   "id": "gv-1-sydney-football-club-vs-ct",
-                  "name": "Sydney Football Club vs Perth Glory  🕐 16:35 | 18/04 · VĐQG Úc",
+                  "name": "Sydney Football Club 0-0 Perth Glory  🔴 · VĐQG Úc",
                   "streams": [
                     {
                       "id": "gv-1-sydney-football-club-vs-st",
