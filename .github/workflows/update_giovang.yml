@@ -34,6 +34,8 @@ jobs:
 
       - name: 📦 Install dependencies
         run: pip install cloudscraper requests
+            python -m pip install --upgrade pip
+            pip install cloudscraper requests pillow
 
       - name: 🕷️ Crawl giovang.vin
         env:
