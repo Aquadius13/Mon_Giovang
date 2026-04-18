@@ -2,7 +2,7 @@
   "id": "giovang-iptv",
   "name": "GioVang TV",
   "url": "https://giovang.vin/",
-  "description": "Trực tiếp bóng đá — 2 đang live, 27 sắp tới. Cập nhật 18/04/2026 13:47 ICT",
+  "description": "Trực tiếp bóng đá — 4 đang live, 26 sắp tới. Cập nhật 18/04/2026 15:01 ICT",
   "disable_ads": true,
   "color": "#f5a623",
   "grid_number": 3,
@@ -20,9 +20,9 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-1-wellington-phoenix-vs-we",
-          "name": "Wellington Phoenix 2-1 Western Sydney Wanderers  🔴 90+1'",
-          "description": "VĐQG Úc | 12:00 | 18/04 | 🔴 LIVE 90+1min | 2-1 | 🎙 BLV Dậu",
+          "id": "gv-1-brisbane-roar-fc-vs-melb",
+          "name": "Brisbane Roar FC 1-0 Melbourne City  🔴",
+          "description": "VĐQG Úc | 14:00 | 18/04 | 🔴 LIVE | 1-0 | 🎙 BLV Tí",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -30,7 +30,7 @@
             "padding": 2,
             "background_color": "#071a2e",
             "display": "contain",
-            "url": "https://images.keovip88.net/images/teams/wellington-phoenix.png",
+            "url": "https://images.keovip88.net/images/teams/brisbane-roar.png",
             "width": 1600,
             "height": 1200
           },
@@ -48,13 +48,13 @@
               "position": "top-right"
             },
             {
-              "text": "2-1  90+1'",
+              "text": "1-0",
               "color": "#B71C1C",
               "text_color": "#ffffff",
               "position": "bottom-right"
             },
             {
-              "text": "🎙 BLV Dậu",
+              "text": "🎙 BLV Tí",
               "color": "#1B5E20",
               "text_color": "#ffffff",
               "position": "bottom-left"
@@ -62,27 +62,27 @@
           ],
           "sources": [
             {
-              "id": "gv-1-wellington-phoenix-vs-we-src",
+              "id": "gv-1-brisbane-roar-fc-vs-melb-src",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-1-wellington-phoenix-vs-we-ct",
-                  "name": "Wellington Phoenix 2-1 Western Sydney Wanderers  🔴 90+1' · VĐQG Úc",
+                  "id": "gv-1-brisbane-roar-fc-vs-melb-ct",
+                  "name": "Brisbane Roar FC 1-0 Melbourne City  🔴 · VĐQG Úc",
                   "streams": [
                     {
-                      "id": "gv-1-wellington-phoenix-vs-we-st",
+                      "id": "gv-1-brisbane-roar-fc-vs-melb-st",
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-1-wellington-phoenix-vs-we-l0",
+                          "id": "gv-1-brisbane-roar-fc-vs-melb-l0",
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
-                          "url": "https://giovang.vin/truc-tiep-wellington-phoenix-vs-western-sydney-wanderers-1804-69d83dd824d46db8703e463f/",
+                          "url": "https://giovang.vin/truc-tiep-brisbane-roar-fc-vs-melbourne-city-1804-69d83dd924d46db8703e4716/",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://giovang.vin/truc-tiep-wellington-phoenix-vs-western-sydney-wanderers-1804-69d83dd824d46db8703e463f/"
+                              "value": "https://giovang.vin/truc-tiep-brisbane-roar-fc-vs-melbourne-city-1804-69d83dd924d46db8703e4716/"
                             },
                             {
                               "key": "User-Agent",
@@ -178,82 +178,9 @@
           ]
         },
         {
-          "id": "gv-3-brisbane-roar-fc-vs-melb",
-          "name": "Brisbane Roar FC vs Melbourne City  🕐 14:00 | 18/04",
-          "description": "VĐQG Úc | 14:00 | 18/04 | 🕐 Sắp diễn ra | 🎙 BLV Tí",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 2,
-            "background_color": "#071a2e",
-            "display": "contain",
-            "url": "https://images.keovip88.net/images/teams/brisbane-roar.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "🕐 Sắp diễn ra",
-              "color": "#1565C0",
-              "text_color": "#ffffff",
-              "position": "top-left"
-            },
-            {
-              "text": "VĐQG Úc",
-              "color": "#0D47A1",
-              "text_color": "#ffffff",
-              "position": "top-right"
-            },
-            {
-              "text": "🎙 BLV Tí",
-              "color": "#1B5E20",
-              "text_color": "#ffffff",
-              "position": "bottom-left"
-            }
-          ],
-          "sources": [
-            {
-              "id": "gv-3-brisbane-roar-fc-vs-melb-src",
-              "name": "GioVang Live",
-              "contents": [
-                {
-                  "id": "gv-3-brisbane-roar-fc-vs-melb-ct",
-                  "name": "Brisbane Roar FC vs Melbourne City  🕐 14:00 | 18/04 · VĐQG Úc",
-                  "streams": [
-                    {
-                      "id": "gv-3-brisbane-roar-fc-vs-melb-st",
-                      "name": "Trực tiếp",
-                      "stream_links": [
-                        {
-                          "id": "gv-3-brisbane-roar-fc-vs-melb-l0",
-                          "name": "Xem trực tiếp",
-                          "type": "iframe",
-                          "default": true,
-                          "url": "https://giovang.vin/truc-tiep-brisbane-roar-fc-vs-melbourne-city-1804-69d83dd924d46db8703e4716/",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.vin/truc-tiep-brisbane-roar-fc-vs-melbourne-city-1804-69d83dd924d46db8703e4716/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "gv-4-auckland-tuatara-vs-sout",
-          "name": "Auckland Tuatara vs Southland Sharks  🕐 14:30 | 18/04",
-          "description": "NBL | 14:30 | 18/04 | 🕐 Sắp diễn ra | 🎙 BLV Perry",
+          "id": "gv-3-auckland-tuatara-vs-sout",
+          "name": "Auckland Tuatara 0-0 Southland Sharks  🔴",
+          "description": "NBL | 14:30 | 18/04 | 🔴 LIVE | 0-0 | 🎙 BLV Perry",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -267,8 +194,8 @@
           },
           "labels": [
             {
-              "text": "🕐 Sắp diễn ra",
-              "color": "#1565C0",
+              "text": "● LIVE",
+              "color": "#D32F2F",
               "text_color": "#ffffff",
               "position": "top-left"
             },
@@ -279,6 +206,12 @@
               "position": "top-right"
             },
             {
+              "text": "0-0",
+              "color": "#B71C1C",
+              "text_color": "#ffffff",
+              "position": "bottom-right"
+            },
+            {
               "text": "🎙 BLV Perry",
               "color": "#1B5E20",
               "text_color": "#ffffff",
@@ -287,19 +220,19 @@
           ],
           "sources": [
             {
-              "id": "gv-4-auckland-tuatara-vs-sout-src",
+              "id": "gv-3-auckland-tuatara-vs-sout-src",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-4-auckland-tuatara-vs-sout-ct",
-                  "name": "Auckland Tuatara vs Southland Sharks  🕐 14:30 | 18/04 · NBL",
+                  "id": "gv-3-auckland-tuatara-vs-sout-ct",
+                  "name": "Auckland Tuatara 0-0 Southland Sharks  🔴 · NBL",
                   "streams": [
                     {
-                      "id": "gv-4-auckland-tuatara-vs-sout-st",
+                      "id": "gv-3-auckland-tuatara-vs-sout-st",
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-4-auckland-tuatara-vs-sout-l0",
+                          "id": "gv-3-auckland-tuatara-vs-sout-l0",
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
@@ -324,9 +257,9 @@
           ]
         },
         {
-          "id": "gv-5-gen-g-vs-hanwha-life",
-          "name": "Gen.G vs Hanwha Life  🕐 15:00 | 18/04",
-          "description": "LCK | 15:00 | 18/04 | 🕐 Sắp diễn ra | 🎙 BLV Tôm",
+          "id": "gv-4-gen-g-vs-hanwha-life",
+          "name": "Gen.G 0-0 Hanwha Life  🔴",
+          "description": "LCK | 15:00 | 18/04 | 🔴 LIVE | 0-0 | 🎙 BLV Tôm",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -340,8 +273,8 @@
           },
           "labels": [
             {
-              "text": "🕐 Sắp diễn ra",
-              "color": "#1565C0",
+              "text": "● LIVE",
+              "color": "#D32F2F",
               "text_color": "#ffffff",
               "position": "top-left"
             },
@@ -352,6 +285,12 @@
               "position": "top-right"
             },
             {
+              "text": "0-0",
+              "color": "#B71C1C",
+              "text_color": "#ffffff",
+              "position": "bottom-right"
+            },
+            {
               "text": "🎙 BLV Tôm",
               "color": "#1B5E20",
               "text_color": "#ffffff",
@@ -360,19 +299,19 @@
           ],
           "sources": [
             {
-              "id": "gv-5-gen-g-vs-hanwha-life-src",
+              "id": "gv-4-gen-g-vs-hanwha-life-src",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-5-gen-g-vs-hanwha-life-ct",
-                  "name": "Gen.G vs Hanwha Life  🕐 15:00 | 18/04 · LCK",
+                  "id": "gv-4-gen-g-vs-hanwha-life-ct",
+                  "name": "Gen.G 0-0 Hanwha Life  🔴 · LCK",
                   "streams": [
                     {
-                      "id": "gv-5-gen-g-vs-hanwha-life-st",
+                      "id": "gv-4-gen-g-vs-hanwha-life-st",
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-5-gen-g-vs-hanwha-life-l0",
+                          "id": "gv-4-gen-g-vs-hanwha-life-l0",
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
@@ -397,7 +336,7 @@
           ]
         },
         {
-          "id": "gv-6-sydney-football-club-vs",
+          "id": "gv-5-sydney-football-club-vs",
           "name": "Sydney Football Club vs Perth Glory  🕐 16:35 | 18/04",
           "description": "VĐQG Úc | 16:35 | 18/04 | 🕐 Sắp diễn ra | 🎙 BLV Thỏ",
           "type": "single",
@@ -433,19 +372,19 @@
           ],
           "sources": [
             {
-              "id": "gv-6-sydney-football-club-vs-src",
+              "id": "gv-5-sydney-football-club-vs-src",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-6-sydney-football-club-vs-ct",
+                  "id": "gv-5-sydney-football-club-vs-ct",
                   "name": "Sydney Football Club vs Perth Glory  🕐 16:35 | 18/04 · VĐQG Úc",
                   "streams": [
                     {
-                      "id": "gv-6-sydney-football-club-vs-st",
+                      "id": "gv-5-sydney-football-club-vs-st",
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-6-sydney-football-club-vs-l0",
+                          "id": "gv-5-sydney-football-club-vs-l0",
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
@@ -470,7 +409,7 @@
           ]
         },
         {
-          "id": "gv-7-h-ng-l-nh-h-t-nh-vs-hai",
+          "id": "gv-6-h-ng-l-nh-h-t-nh-vs-hai",
           "name": "Hồng Lĩnh Hà Tĩnh vs Hai Phong  🕐 18:00 | 18/04",
           "description": "V-League | 18:00 | 18/04 | 🕐 Sắp diễn ra | 🎙 BLV Mason",
           "type": "single",
@@ -506,19 +445,19 @@
           ],
           "sources": [
             {
-              "id": "gv-7-h-ng-l-nh-h-t-nh-vs-hai-src",
+              "id": "gv-6-h-ng-l-nh-h-t-nh-vs-hai-src",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-7-h-ng-l-nh-h-t-nh-vs-hai-ct",
+                  "id": "gv-6-h-ng-l-nh-h-t-nh-vs-hai-ct",
                   "name": "Hồng Lĩnh Hà Tĩnh vs Hai Phong  🕐 18:00 | 18/04 · V-League",
                   "streams": [
                     {
-                      "id": "gv-7-h-ng-l-nh-h-t-nh-vs-hai-st",
+                      "id": "gv-6-h-ng-l-nh-h-t-nh-vs-hai-st",
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-7-h-ng-l-nh-h-t-nh-vs-hai-l0",
+                          "id": "gv-6-h-ng-l-nh-h-t-nh-vs-hai-l0",
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
@@ -543,7 +482,7 @@
           ]
         },
         {
-          "id": "gv-8-phu-dong-vs-pho-hien",
+          "id": "gv-7-phu-dong-vs-pho-hien",
           "name": "Phu Dong vs Pho Hien  🕐 18:00 | 18/04",
           "description": "V-League | 18:00 | 18/04 | 🕐 Sắp diễn ra | 🎙 BLV Thìn",
           "type": "single",
@@ -579,19 +518,19 @@
           ],
           "sources": [
             {
-              "id": "gv-8-phu-dong-vs-pho-hien-src",
+              "id": "gv-7-phu-dong-vs-pho-hien-src",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-8-phu-dong-vs-pho-hien-ct",
+                  "id": "gv-7-phu-dong-vs-pho-hien-ct",
                   "name": "Phu Dong vs Pho Hien  🕐 18:00 | 18/04 · V-League",
                   "streams": [
                     {
-                      "id": "gv-8-phu-dong-vs-pho-hien-st",
+                      "id": "gv-7-phu-dong-vs-pho-hien-st",
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-8-phu-dong-vs-pho-hien-l0",
+                          "id": "gv-7-phu-dong-vs-pho-hien-l0",
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
@@ -616,7 +555,7 @@
           ]
         },
         {
-          "id": "gv-9-brentford-vs-fulham",
+          "id": "gv-8-brentford-vs-fulham",
           "name": "Brentford vs Fulham  🕐 18:30 | 18/04",
           "description": "Ngoại hạng Anh | 18:30 | 18/04 | 🕐 Sắp diễn ra | 🎙 BLV Dory",
           "type": "single",
@@ -652,19 +591,19 @@
           ],
           "sources": [
             {
-              "id": "gv-9-brentford-vs-fulham-src",
+              "id": "gv-8-brentford-vs-fulham-src",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-9-brentford-vs-fulham-ct",
+                  "id": "gv-8-brentford-vs-fulham-ct",
                   "name": "Brentford vs Fulham  🕐 18:30 | 18/04 · Ngoại hạng Anh",
                   "streams": [
                     {
-                      "id": "gv-9-brentford-vs-fulham-st",
+                      "id": "gv-8-brentford-vs-fulham-st",
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-9-brentford-vs-fulham-l0",
+                          "id": "gv-8-brentford-vs-fulham-l0",
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
@@ -673,6 +612,79 @@
                             {
                               "key": "Referer",
                               "value": "https://giovang.vin/truc-tiep-brentford-vs-fulham-1804-rj5eomgt8v6n/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gv-9-portsmouth-vs-leicester",
+          "name": "Portsmouth vs Leicester City  🕐 18:30 | 18/04",
+          "description": "Hạng Nhất Anh | 18:30 | 18/04 | 🕐 Sắp diễn ra | 🎙 BLV Tí",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 2,
+            "background_color": "#071a2e",
+            "display": "contain",
+            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/3/38/Portsmouth_FC_logo.svg/1280px-Portsmouth_FC_logo.svg.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "🕐 Sắp diễn ra",
+              "color": "#1565C0",
+              "text_color": "#ffffff",
+              "position": "top-left"
+            },
+            {
+              "text": "Hạng Nhất Anh",
+              "color": "#0D47A1",
+              "text_color": "#ffffff",
+              "position": "top-right"
+            },
+            {
+              "text": "🎙 BLV Tí",
+              "color": "#1B5E20",
+              "text_color": "#ffffff",
+              "position": "bottom-left"
+            }
+          ],
+          "sources": [
+            {
+              "id": "gv-9-portsmouth-vs-leicester-src",
+              "name": "GioVang Live",
+              "contents": [
+                {
+                  "id": "gv-9-portsmouth-vs-leicester-ct",
+                  "name": "Portsmouth vs Leicester City  🕐 18:30 | 18/04 · Hạng Nhất Anh",
+                  "streams": [
+                    {
+                      "id": "gv-9-portsmouth-vs-leicester-st",
+                      "name": "Trực tiếp",
+                      "stream_links": [
+                        {
+                          "id": "gv-9-portsmouth-vs-leicester-l0",
+                          "name": "Xem trực tiếp",
+                          "type": "iframe",
+                          "default": true,
+                          "url": "https://giovang.vin/truc-tiep-portsmouth-vs-leicester-city-1804-szdql3nyy0u6/",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.vin/truc-tiep-portsmouth-vs-leicester-city-1804-szdql3nyy0u6/"
                             },
                             {
                               "key": "User-Agent",
@@ -2076,7 +2088,80 @@
           ]
         },
         {
-          "id": "gv-29-manchester-city-vs-arsen",
+          "id": "gv-29-pohang-steelers-vs-fc-an",
+          "name": "Pohang Steelers vs FC Anyang  🕐 14:30 | 19/04",
+          "description": "K-League Hàn Quốc | 14:30 | 19/04 | 🕐 Sắp diễn ra | 🎙 BLV Tí",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 2,
+            "background_color": "#071a2e",
+            "display": "contain",
+            "url": "https://images.keovip88.net/images/teams/pohang-steelers.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "🕐 Sắp diễn ra",
+              "color": "#1565C0",
+              "text_color": "#ffffff",
+              "position": "top-left"
+            },
+            {
+              "text": "K-League Hàn Quốc",
+              "color": "#0D47A1",
+              "text_color": "#ffffff",
+              "position": "top-right"
+            },
+            {
+              "text": "🎙 BLV Tí",
+              "color": "#1B5E20",
+              "text_color": "#ffffff",
+              "position": "bottom-left"
+            }
+          ],
+          "sources": [
+            {
+              "id": "gv-29-pohang-steelers-vs-fc-an-src",
+              "name": "GioVang Live",
+              "contents": [
+                {
+                  "id": "gv-29-pohang-steelers-vs-fc-an-ct",
+                  "name": "Pohang Steelers vs FC Anyang  🕐 14:30 | 19/04 · K-League Hàn Quốc",
+                  "streams": [
+                    {
+                      "id": "gv-29-pohang-steelers-vs-fc-an-st",
+                      "name": "Trực tiếp",
+                      "stream_links": [
+                        {
+                          "id": "gv-29-pohang-steelers-vs-fc-an-l0",
+                          "name": "Xem trực tiếp",
+                          "type": "iframe",
+                          "default": true,
+                          "url": "https://giovang.vin/truc-tiep-pohang-steelers-vs-fc-anyang-1904-69dae0c624d46db87098917e/",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.vin/truc-tiep-pohang-steelers-vs-fc-anyang-1904-69dae0c624d46db87098917e/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gv-30-manchester-city-vs-arsen",
           "name": "Manchester City vs Arsenal  🕐 22:30 | 19/04",
           "description": "Ngoại hạng Anh | 22:30 | 19/04 | 🕐 Sắp diễn ra | 🎙 fan-mc-cam-ben, fan-ars-nen-dau, dau-cau-trung-lap-bang",
           "type": "single",
@@ -2112,19 +2197,19 @@
           ],
           "sources": [
             {
-              "id": "gv-29-manchester-city-vs-arsen-src",
+              "id": "gv-30-manchester-city-vs-arsen-src",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-29-manchester-city-vs-arsen-ct",
+                  "id": "gv-30-manchester-city-vs-arsen-ct",
                   "name": "Manchester City vs Arsenal  🕐 22:30 | 19/04 · Ngoại hạng Anh",
                   "streams": [
                     {
-                      "id": "gv-29-manchester-city-vs-arsen-st",
+                      "id": "gv-30-manchester-city-vs-arsen-st",
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-29-manchester-city-vs-arsen-l0",
+                          "id": "gv-30-manchester-city-vs-arsen-l0",
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
