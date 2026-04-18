@@ -2,7 +2,7 @@
   "id": "giovang-iptv",
   "name": "GioVang TV",
   "url": "https://giovang.vin/",
-  "description": "Trực tiếp bóng đá — 1 đang live, 28 sắp tới. Cập nhật 18/04/2026 17:16 ICT",
+  "description": "Trực tiếp bóng đá — 5 đang live, 24 sắp tới. Cập nhật 18/04/2026 18:08 ICT",
   "disable_ads": true,
   "color": "#f5a623",
   "grid_number": 3,
@@ -100,8 +100,8 @@
         },
         {
           "id": "gv-2-hong-linh-ha-tinh-vs-hai",
-          "name": "Hồng Lĩnh Hà Tĩnh vs Hai Phong  🕐 18:00 | 18/04",
-          "description": "V-League | 18:00 | 18/04 | 🕐 Sắp diễn ra | 🎙 BLV Mason",
+          "name": "Hồng Lĩnh Hà Tĩnh 0-0 Hai Phong  🔴",
+          "description": "V-League | 18:00 | 18/04 | 🔴 LIVE | 0-0 | 🎙 BLV Mason",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -115,8 +115,8 @@
           },
           "labels": [
             {
-              "text": "🕐 Sắp diễn ra",
-              "color": "#1565C0",
+              "text": "● LIVE",
+              "color": "#C62828",
               "text_color": "#ffffff",
               "position": "top-left"
             },
@@ -125,6 +125,12 @@
               "color": "#0D47A1",
               "text_color": "#ffffff",
               "position": "top-right"
+            },
+            {
+              "text": "0-0",
+              "color": "#B71C1C",
+              "text_color": "#ffffff",
+              "position": "bottom-right"
             },
             {
               "text": "🎙 BLV Mason",
@@ -140,7 +146,7 @@
               "contents": [
                 {
                   "id": "gv-2-hong-linh-ha-tinh-vs-hai-ct",
-                  "name": "Hồng Lĩnh Hà Tĩnh vs Hai Phong  🕐 18:00 | 18/04 · V-League",
+                  "name": "Hồng Lĩnh Hà Tĩnh 0-0 Hai Phong  🔴 · V-League",
                   "streams": [
                     {
                       "id": "gv-2-hong-linh-ha-tinh-vs-hai-st",
@@ -172,9 +178,9 @@
           ]
         },
         {
-          "id": "gv-3-phu-dong-vs-pho-hien",
-          "name": "Phu Dong vs Pho Hien  🕐 18:00 | 18/04",
-          "description": "V-League | 18:00 | 18/04 | 🕐 Sắp diễn ra | 🎙 BLV Thìn",
+          "id": "gv-3-phu-dong-ninh-binh-vs-pv",
+          "name": "Phu Dong Ninh Binh 0-0 PVF-CAND  🔴",
+          "description": "V-League | 18:00 | 18/04 | 🔴 LIVE | 0-0 | 🎙 BLV Thìn",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -182,14 +188,14 @@
             "padding": 0,
             "background_color": "#071a2e",
             "display": "contain",
-            "url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjQ1MCIgdmlld0JveD0iMCAwIDgwMCA0NTAiPjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNDUwIiBmaWxsPSIjMDcxYTJlIi8+PGltYWdlIGhyZWY9Imh0dHBzOi8vdXBsb2FkLndpa2ltZWRpYS5vcmcvd2lraXBlZGlhL3ZpL2EvYTUvUGh1ZG9uZ2ZjLWxvZ28ucG5nIiB4PSI4MCIgeT0iMTI1IiB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCIvPjxpbWFnZSBocmVmPSJodHRwczovL2VuY3J5cHRlZC10Ym4wLmdzdGF0aWMuY29tL2ltYWdlcz9xPXRibjpBTmQ5R2NTVTdvSlpqY3RBVHFEcEt5V1YwN3YzeDl2NnljVmVHbjJyMEEmcyIgeD0iNTIwIiB5PSIxMjUiIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCBtZWV0Ii8+PHRleHQgeD0iNDAwIiB5PSIyMzUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCxzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ4IiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0id2hpdGUiIG9wYWNpdHk9IjAuOSI+VlM8L3RleHQ+PC9zdmc+",
+            "url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjQ1MCIgdmlld0JveD0iMCAwIDgwMCA0NTAiPjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNDUwIiBmaWxsPSIjMDcxYTJlIi8+PGltYWdlIGhyZWY9Imh0dHBzOi8vZW5jcnlwdGVkLXRibjAuZ3N0YXRpYy5jb20vaW1hZ2VzP3E9dGJuOkFOZDlHY1JlREhSNXE0akN5VkpYSEpRNkk0akRlbVdWNDA3d0dJTnhuQSZzIiB4PSI4MCIgeT0iMTI1IiB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCIvPjxpbWFnZSBocmVmPSJodHRwczovL3VwbG9hZC53aWtpbWVkaWEub3JnL3dpa2lwZWRpYS9lbi90aHVtYi84LzhkL1BWRi1DQU5EX0ZDX2xvZ28uc3ZnLzEyODBweC1QVkYtQ0FORF9GQ19sb2dvLnN2Zy5wbmciIHg9IjUyMCIgeT0iMTI1IiB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCIvPjx0ZXh0IHg9IjQwMCIgeT0iMjM1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsc2Fucy1zZXJpZiIgZm9udC1zaXplPSI0OCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjkiPlZTPC90ZXh0Pjwvc3ZnPg==",
             "width": 800,
             "height": 450
           },
           "labels": [
             {
-              "text": "🕐 Sắp diễn ra",
-              "color": "#1565C0",
+              "text": "● LIVE",
+              "color": "#C62828",
               "text_color": "#ffffff",
               "position": "top-left"
             },
@@ -200,6 +206,12 @@
               "position": "top-right"
             },
             {
+              "text": "0-0",
+              "color": "#B71C1C",
+              "text_color": "#ffffff",
+              "position": "bottom-right"
+            },
+            {
               "text": "🎙 BLV Thìn",
               "color": "#1B5E20",
               "text_color": "#ffffff",
@@ -208,23 +220,23 @@
           ],
           "sources": [
             {
-              "id": "gv-3-phu-dong-vs-pho-hien-src",
+              "id": "gv-3-phu-dong-ninh-binh-vs-pv-src",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-3-phu-dong-vs-pho-hien-ct",
-                  "name": "Phu Dong vs Pho Hien  🕐 18:00 | 18/04 · V-League",
+                  "id": "gv-3-phu-dong-ninh-binh-vs-pv-ct",
+                  "name": "Phu Dong Ninh Binh 0-0 PVF-CAND  🔴 · V-League",
                   "streams": [
                     {
-                      "id": "gv-3-phu-dong-vs-pho-hien-st",
+                      "id": "gv-3-phu-dong-ninh-binh-vs-pv-st",
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-3-phu-dong-vs-pho-hien-lnk0",
+                          "id": "gv-3-phu-dong-ninh-binh-vs-pv-lnk0",
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
-                          "url": "https://giovang.vin/truc-tiep-phu-dong-vs-pho-hien-18-04-omo0xwe00d5u/",
+                          "url": "https://giovang.vin/truc-tiep-phu-dong-ninh-binh-vs-pvf-cand-18-04-omo0xwe00d5u/",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -245,7 +257,165 @@
           ]
         },
         {
-          "id": "gv-4-brentford-vs-fulham",
+          "id": "gv-4-portsmouth-vs-leicester",
+          "name": "Portsmouth 0-0 Leicester City  🔴",
+          "description": "Hạng Nhất Anh | 18:30 | 18/04 | 🔴 LIVE | 0-0 | 🎙 BLV Tí",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 0,
+            "background_color": "#071a2e",
+            "display": "contain",
+            "url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjQ1MCIgdmlld0JveD0iMCAwIDgwMCA0NTAiPjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNDUwIiBmaWxsPSIjMDcxYTJlIi8+PGltYWdlIGhyZWY9Imh0dHBzOi8vdXBsb2FkLndpa2ltZWRpYS5vcmcvd2lraXBlZGlhL2VuL3RodW1iLzMvMzgvUG9ydHNtb3V0aF9GQ19sb2dvLnN2Zy8xMjgwcHgtUG9ydHNtb3V0aF9GQ19sb2dvLnN2Zy5wbmciIHg9IjgwIiB5PSIxMjUiIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCBtZWV0Ii8+PGltYWdlIGhyZWY9Imh0dHBzOi8vdXBsb2FkLndpa2ltZWRpYS5vcmcvd2lraXBlZGlhL2VuL3RodW1iLzIvMmQvTGVpY2VzdGVyX0NpdHlfY3Jlc3Quc3ZnLzEyODBweC1MZWljZXN0ZXJfQ2l0eV9jcmVzdC5zdmcucG5nIiB4PSI1MjAiIHk9IjEyNSIgd2lkdGg9IjIwMCIgaGVpZ2h0PSIyMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIG1lZXQiLz48dGV4dCB4PSI0MDAiIHk9IjIzNSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IkFyaWFsLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNDgiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSJ3aGl0ZSIgb3BhY2l0eT0iMC45Ij5WUzwvdGV4dD48L3N2Zz4=",
+            "width": 800,
+            "height": 450
+          },
+          "labels": [
+            {
+              "text": "● LIVE",
+              "color": "#C62828",
+              "text_color": "#ffffff",
+              "position": "top-left"
+            },
+            {
+              "text": "Hạng Nhất Anh",
+              "color": "#0D47A1",
+              "text_color": "#ffffff",
+              "position": "top-right"
+            },
+            {
+              "text": "0-0",
+              "color": "#B71C1C",
+              "text_color": "#ffffff",
+              "position": "bottom-right"
+            },
+            {
+              "text": "🎙 BLV Tí",
+              "color": "#1B5E20",
+              "text_color": "#ffffff",
+              "position": "bottom-left"
+            }
+          ],
+          "sources": [
+            {
+              "id": "gv-4-portsmouth-vs-leicester-src",
+              "name": "GioVang Live",
+              "contents": [
+                {
+                  "id": "gv-4-portsmouth-vs-leicester-ct",
+                  "name": "Portsmouth 0-0 Leicester City  🔴 · Hạng Nhất Anh",
+                  "streams": [
+                    {
+                      "id": "gv-4-portsmouth-vs-leicester-st",
+                      "name": "Trực tiếp",
+                      "stream_links": [
+                        {
+                          "id": "gv-4-portsmouth-vs-leicester-lnk0",
+                          "name": "Xem trực tiếp",
+                          "type": "iframe",
+                          "default": true,
+                          "url": "https://giovang.vin/truc-tiep-portsmouth-vs-leicester-city-18-04-szdql3nyy0u6/",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.vin/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gv-5-fujian-vs-guangdong",
+          "name": "Fujian 0-0 Guangdong  🔴",
+          "description": "CBA | 18:35 | 18/04 | 🔴 LIVE | 0-0 | 🎙 BLV Chè",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 0,
+            "background_color": "#071a2e",
+            "display": "contain",
+            "url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjQ1MCIgdmlld0JveD0iMCAwIDgwMCA0NTAiPjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNDUwIiBmaWxsPSIjMDcxYTJlIi8+PGltYWdlIGhyZWY9Imh0dHBzOi8vZW5jcnlwdGVkLXRibjAuZ3N0YXRpYy5jb20vaW1hZ2VzP3E9dGJuOkFOZDlHY1R2MEpGUkpYcV9iS25zRzlvTFZjZmZZci1rMFRVVjJQVW1XQSZzIiB4PSI4MCIgeT0iMTI1IiB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCIvPjxpbWFnZSBocmVmPSJodHRwczovL2VuY3J5cHRlZC10Ym4wLmdzdGF0aWMuY29tL2ltYWdlcz9xPXRibjpBTmQ5R2NRa0pFSGZJR3ZMU3hIWnM5c2ItN0dlaE1PV3BFZ0JIQ1c4V2cmcyIgeD0iNTIwIiB5PSIxMjUiIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCBtZWV0Ii8+PHRleHQgeD0iNDAwIiB5PSIyMzUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCxzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ4IiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0id2hpdGUiIG9wYWNpdHk9IjAuOSI+VlM8L3RleHQ+PC9zdmc+",
+            "width": 800,
+            "height": 450
+          },
+          "labels": [
+            {
+              "text": "● LIVE",
+              "color": "#C62828",
+              "text_color": "#ffffff",
+              "position": "top-left"
+            },
+            {
+              "text": "CBA",
+              "color": "#0D47A1",
+              "text_color": "#ffffff",
+              "position": "top-right"
+            },
+            {
+              "text": "0-0",
+              "color": "#B71C1C",
+              "text_color": "#ffffff",
+              "position": "bottom-right"
+            },
+            {
+              "text": "🎙 BLV Chè",
+              "color": "#1B5E20",
+              "text_color": "#ffffff",
+              "position": "bottom-left"
+            }
+          ],
+          "sources": [
+            {
+              "id": "gv-5-fujian-vs-guangdong-src",
+              "name": "GioVang Live",
+              "contents": [
+                {
+                  "id": "gv-5-fujian-vs-guangdong-ct",
+                  "name": "Fujian 0-0 Guangdong  🔴 · CBA",
+                  "streams": [
+                    {
+                      "id": "gv-5-fujian-vs-guangdong-st",
+                      "name": "Trực tiếp",
+                      "stream_links": [
+                        {
+                          "id": "gv-5-fujian-vs-guangdong-lnk0",
+                          "name": "Xem trực tiếp",
+                          "type": "iframe",
+                          "default": true,
+                          "url": "https://giovang.vin/truc-tiep-fujian-vs-guangdong-18-04-rkewya48tsq3/",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.vin/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gv-6-brentford-vs-fulham",
           "name": "Brentford vs Fulham  🕐 18:30 | 18/04",
           "description": "Ngoại hạng Anh | 18:30 | 18/04 | 🕐 Sắp diễn ra | 🎙 BLV Dory",
           "type": "single",
@@ -281,169 +451,23 @@
           ],
           "sources": [
             {
-              "id": "gv-4-brentford-vs-fulham-src",
+              "id": "gv-6-brentford-vs-fulham-src",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-4-brentford-vs-fulham-ct",
+                  "id": "gv-6-brentford-vs-fulham-ct",
                   "name": "Brentford vs Fulham  🕐 18:30 | 18/04 · Ngoại hạng Anh",
                   "streams": [
                     {
-                      "id": "gv-4-brentford-vs-fulham-st",
+                      "id": "gv-6-brentford-vs-fulham-st",
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-4-brentford-vs-fulham-lnk0",
+                          "id": "gv-6-brentford-vs-fulham-lnk0",
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
                           "url": "https://giovang.vin/truc-tiep-brentford-vs-fulham-18-04-rj5eomgt8v6n/",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.vin/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "gv-5-portsmouth-vs-leicester",
-          "name": "Portsmouth vs Leicester City  🕐 18:30 | 18/04",
-          "description": "Hạng Nhất Anh | 18:30 | 18/04 | 🕐 Sắp diễn ra | 🎙 BLV Tí",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 0,
-            "background_color": "#071a2e",
-            "display": "contain",
-            "url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjQ1MCIgdmlld0JveD0iMCAwIDgwMCA0NTAiPjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNDUwIiBmaWxsPSIjMDcxYTJlIi8+PGltYWdlIGhyZWY9Imh0dHBzOi8vdXBsb2FkLndpa2ltZWRpYS5vcmcvd2lraXBlZGlhL2VuL3RodW1iLzMvMzgvUG9ydHNtb3V0aF9GQ19sb2dvLnN2Zy8xMjgwcHgtUG9ydHNtb3V0aF9GQ19sb2dvLnN2Zy5wbmciIHg9IjgwIiB5PSIxMjUiIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCBtZWV0Ii8+PGltYWdlIGhyZWY9Imh0dHBzOi8vdXBsb2FkLndpa2ltZWRpYS5vcmcvd2lraXBlZGlhL2VuL3RodW1iLzIvMmQvTGVpY2VzdGVyX0NpdHlfY3Jlc3Quc3ZnLzEyODBweC1MZWljZXN0ZXJfQ2l0eV9jcmVzdC5zdmcucG5nIiB4PSI1MjAiIHk9IjEyNSIgd2lkdGg9IjIwMCIgaGVpZ2h0PSIyMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIG1lZXQiLz48dGV4dCB4PSI0MDAiIHk9IjIzNSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IkFyaWFsLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNDgiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSJ3aGl0ZSIgb3BhY2l0eT0iMC45Ij5WUzwvdGV4dD48L3N2Zz4=",
-            "width": 800,
-            "height": 450
-          },
-          "labels": [
-            {
-              "text": "🕐 Sắp diễn ra",
-              "color": "#1565C0",
-              "text_color": "#ffffff",
-              "position": "top-left"
-            },
-            {
-              "text": "Hạng Nhất Anh",
-              "color": "#0D47A1",
-              "text_color": "#ffffff",
-              "position": "top-right"
-            },
-            {
-              "text": "🎙 BLV Tí",
-              "color": "#1B5E20",
-              "text_color": "#ffffff",
-              "position": "bottom-left"
-            }
-          ],
-          "sources": [
-            {
-              "id": "gv-5-portsmouth-vs-leicester-src",
-              "name": "GioVang Live",
-              "contents": [
-                {
-                  "id": "gv-5-portsmouth-vs-leicester-ct",
-                  "name": "Portsmouth vs Leicester City  🕐 18:30 | 18/04 · Hạng Nhất Anh",
-                  "streams": [
-                    {
-                      "id": "gv-5-portsmouth-vs-leicester-st",
-                      "name": "Trực tiếp",
-                      "stream_links": [
-                        {
-                          "id": "gv-5-portsmouth-vs-leicester-lnk0",
-                          "name": "Xem trực tiếp",
-                          "type": "iframe",
-                          "default": true,
-                          "url": "https://giovang.vin/truc-tiep-portsmouth-vs-leicester-city-18-04-szdql3nyy0u6/",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.vin/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "gv-6-fujian-vs-guangdong",
-          "name": "Fujian vs Guangdong  🕐 18:35 | 18/04",
-          "description": "CBA | 18:35 | 18/04 | 🕐 Sắp diễn ra | 🎙 BLV Chè",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 0,
-            "background_color": "#071a2e",
-            "display": "contain",
-            "url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjQ1MCIgdmlld0JveD0iMCAwIDgwMCA0NTAiPjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNDUwIiBmaWxsPSIjMDcxYTJlIi8+PGltYWdlIGhyZWY9Imh0dHBzOi8vZW5jcnlwdGVkLXRibjAuZ3N0YXRpYy5jb20vaW1hZ2VzP3E9dGJuOkFOZDlHY1R2MEpGUkpYcV9iS25zRzlvTFZjZmZZci1rMFRVVjJQVW1XQSZzIiB4PSI4MCIgeT0iMTI1IiB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCIvPjxpbWFnZSBocmVmPSJodHRwczovL2VuY3J5cHRlZC10Ym4wLmdzdGF0aWMuY29tL2ltYWdlcz9xPXRibjpBTmQ5R2NRa0pFSGZJR3ZMU3hIWnM5c2ItN0dlaE1PV3BFZ0JIQ1c4V2cmcyIgeD0iNTIwIiB5PSIxMjUiIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCBtZWV0Ii8+PHRleHQgeD0iNDAwIiB5PSIyMzUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCxzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ4IiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0id2hpdGUiIG9wYWNpdHk9IjAuOSI+VlM8L3RleHQ+PC9zdmc+",
-            "width": 800,
-            "height": 450
-          },
-          "labels": [
-            {
-              "text": "🕐 Sắp diễn ra",
-              "color": "#1565C0",
-              "text_color": "#ffffff",
-              "position": "top-left"
-            },
-            {
-              "text": "CBA",
-              "color": "#0D47A1",
-              "text_color": "#ffffff",
-              "position": "top-right"
-            },
-            {
-              "text": "🎙 BLV Chè",
-              "color": "#1B5E20",
-              "text_color": "#ffffff",
-              "position": "bottom-left"
-            }
-          ],
-          "sources": [
-            {
-              "id": "gv-6-fujian-vs-guangdong-src",
-              "name": "GioVang Live",
-              "contents": [
-                {
-                  "id": "gv-6-fujian-vs-guangdong-ct",
-                  "name": "Fujian vs Guangdong  🕐 18:35 | 18/04 · CBA",
-                  "streams": [
-                    {
-                      "id": "gv-6-fujian-vs-guangdong-st",
-                      "name": "Trực tiếp",
-                      "stream_links": [
-                        {
-                          "id": "gv-6-fujian-vs-guangdong-lnk0",
-                          "name": "Xem trực tiếp",
-                          "type": "iframe",
-                          "default": true,
-                          "url": "https://giovang.vin/truc-tiep-fujian-vs-guangdong-18-04-rkewya48tsq3/",
                           "request_headers": [
                             {
                               "key": "Referer",
