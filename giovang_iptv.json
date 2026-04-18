@@ -2,7 +2,7 @@
   "id": "giovang-iptv",
   "name": "GioVang TV",
   "url": "https://giovang.vin/",
-  "description": "Trực tiếp bóng đá — 5 đang live, 24 sắp tới. Cập nhật 18/04/2026 18:08 ICT",
+  "description": "Trực tiếp bóng đá — 6 đang live, 21 sắp tới. Cập nhật 18/04/2026 18:59 ICT",
   "disable_ads": true,
   "color": "#f5a623",
   "grid_number": 3,
@@ -20,86 +20,7 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-1-sydney-football-club-vs",
-          "name": "Sydney Football Club 0-0 Perth Glory  🔴",
-          "description": "VĐQG Úc | 16:35 | 18/04 | 🔴 LIVE | 0-0 | 🎙 BLV Thỏ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 0,
-            "background_color": "#071a2e",
-            "display": "contain",
-            "url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjQ1MCIgdmlld0JveD0iMCAwIDgwMCA0NTAiPjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNDUwIiBmaWxsPSIjMDcxYTJlIi8+PGltYWdlIGhyZWY9Imh0dHBzOi8vdXBsb2FkLndpa2ltZWRpYS5vcmcvd2lraXBlZGlhL2VuL3RodW1iL2UvZTAvU3lkbmV5X0ZDX0xvZ28uc3ZnLzI1MHB4LVN5ZG5leV9GQ19Mb2dvLnN2Zy5wbmciIHg9IjgwIiB5PSIxMjUiIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCBtZWV0Ii8+PGltYWdlIGhyZWY9Imh0dHBzOi8vZW5jcnlwdGVkLXRibjAuZ3N0YXRpYy5jb20vaW1hZ2VzP3E9dGJuOkFOZDlHY1JKMkY5RFZEd0RKaWIycVJoVGU4UTRaSVUzN1BJd3J1M3dPdyZzIiB4PSI1MjAiIHk9IjEyNSIgd2lkdGg9IjIwMCIgaGVpZ2h0PSIyMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIG1lZXQiLz48dGV4dCB4PSI0MDAiIHk9IjIzNSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IkFyaWFsLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNDgiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSJ3aGl0ZSIgb3BhY2l0eT0iMC45Ij5WUzwvdGV4dD48L3N2Zz4=",
-            "width": 800,
-            "height": 450
-          },
-          "labels": [
-            {
-              "text": "● LIVE",
-              "color": "#C62828",
-              "text_color": "#ffffff",
-              "position": "top-left"
-            },
-            {
-              "text": "VĐQG Úc",
-              "color": "#0D47A1",
-              "text_color": "#ffffff",
-              "position": "top-right"
-            },
-            {
-              "text": "0-0",
-              "color": "#B71C1C",
-              "text_color": "#ffffff",
-              "position": "bottom-right"
-            },
-            {
-              "text": "🎙 BLV Thỏ",
-              "color": "#1B5E20",
-              "text_color": "#ffffff",
-              "position": "bottom-left"
-            }
-          ],
-          "sources": [
-            {
-              "id": "gv-1-sydney-football-club-vs-src",
-              "name": "GioVang Live",
-              "contents": [
-                {
-                  "id": "gv-1-sydney-football-club-vs-ct",
-                  "name": "Sydney Football Club 0-0 Perth Glory  🔴 · VĐQG Úc",
-                  "streams": [
-                    {
-                      "id": "gv-1-sydney-football-club-vs-st",
-                      "name": "Trực tiếp",
-                      "stream_links": [
-                        {
-                          "id": "gv-1-sydney-football-club-vs-lnk0",
-                          "name": "Xem trực tiếp",
-                          "type": "iframe",
-                          "default": true,
-                          "url": "https://giovang.vin/truc-tiep-sydney-football-club-vs-perth-glory-18-04-mzyz7lyoviwh/",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.vin/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "gv-2-hong-linh-ha-tinh-vs-hai",
+          "id": "gv-1-hong-linh-ha-tinh-vs-hai",
           "name": "Hồng Lĩnh Hà Tĩnh 0-0 Hai Phong  🔴",
           "description": "V-League | 18:00 | 18/04 | 🔴 LIVE | 0-0 | 🎙 BLV Mason",
           "type": "single",
@@ -141,19 +62,19 @@
           ],
           "sources": [
             {
-              "id": "gv-2-hong-linh-ha-tinh-vs-hai-src",
+              "id": "gv-1-hong-linh-ha-tinh-vs-hai-src",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-2-hong-linh-ha-tinh-vs-hai-ct",
+                  "id": "gv-1-hong-linh-ha-tinh-vs-hai-ct",
                   "name": "Hồng Lĩnh Hà Tĩnh 0-0 Hai Phong  🔴 · V-League",
                   "streams": [
                     {
-                      "id": "gv-2-hong-linh-ha-tinh-vs-hai-st",
+                      "id": "gv-1-hong-linh-ha-tinh-vs-hai-st",
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-2-hong-linh-ha-tinh-vs-hai-lnk0",
+                          "id": "gv-1-hong-linh-ha-tinh-vs-hai-lnk0",
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
@@ -178,7 +99,7 @@
           ]
         },
         {
-          "id": "gv-3-phu-dong-ninh-binh-vs-pv",
+          "id": "gv-2-phu-dong-ninh-binh-vs-pv",
           "name": "Phu Dong Ninh Binh 0-0 PVF-CAND  🔴",
           "description": "V-League | 18:00 | 18/04 | 🔴 LIVE | 0-0 | 🎙 BLV Thìn",
           "type": "single",
@@ -220,23 +141,102 @@
           ],
           "sources": [
             {
-              "id": "gv-3-phu-dong-ninh-binh-vs-pv-src",
+              "id": "gv-2-phu-dong-ninh-binh-vs-pv-src",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-3-phu-dong-ninh-binh-vs-pv-ct",
+                  "id": "gv-2-phu-dong-ninh-binh-vs-pv-ct",
                   "name": "Phu Dong Ninh Binh 0-0 PVF-CAND  🔴 · V-League",
                   "streams": [
                     {
-                      "id": "gv-3-phu-dong-ninh-binh-vs-pv-st",
+                      "id": "gv-2-phu-dong-ninh-binh-vs-pv-st",
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-3-phu-dong-ninh-binh-vs-pv-lnk0",
+                          "id": "gv-2-phu-dong-ninh-binh-vs-pv-lnk0",
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
                           "url": "https://giovang.vin/truc-tiep-phu-dong-ninh-binh-vs-pvf-cand-18-04-omo0xwe00d5u/",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.vin/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gv-3-brentford-vs-fulham",
+          "name": "Brentford 0-0 Fulham  🔴",
+          "description": "Ngoại hạng Anh | 18:30 | 18/04 | 🔴 LIVE | 0-0 | 🎙 BLV Dory",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 0,
+            "background_color": "#071a2e",
+            "display": "contain",
+            "url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjQ1MCIgdmlld0JveD0iMCAwIDgwMCA0NTAiPjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNDUwIiBmaWxsPSIjMDcxYTJlIi8+PGltYWdlIGhyZWY9Imh0dHBzOi8vdXBsb2FkLndpa2ltZWRpYS5vcmcvd2lraXBlZGlhL3ZpL3RodW1iLzIvMmEvQnJlbnRmb3JkX0ZDX2NyZXN0LnN2Zy8yNTBweC1CcmVudGZvcmRfRkNfY3Jlc3Quc3ZnLnBuZyIgeD0iODAiIHk9IjEyNSIgd2lkdGg9IjIwMCIgaGVpZ2h0PSIyMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIG1lZXQiLz48aW1hZ2UgaHJlZj0iaHR0cHM6Ly91cGxvYWQud2lraW1lZGlhLm9yZy93aWtpcGVkaWEvdmkvOC84ZC9GdWxoYW1fRkMucG5nIiB4PSI1MjAiIHk9IjEyNSIgd2lkdGg9IjIwMCIgaGVpZ2h0PSIyMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIG1lZXQiLz48dGV4dCB4PSI0MDAiIHk9IjIzNSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IkFyaWFsLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNDgiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSJ3aGl0ZSIgb3BhY2l0eT0iMC45Ij5WUzwvdGV4dD48L3N2Zz4=",
+            "width": 800,
+            "height": 450
+          },
+          "labels": [
+            {
+              "text": "● LIVE",
+              "color": "#C62828",
+              "text_color": "#ffffff",
+              "position": "top-left"
+            },
+            {
+              "text": "Ngoại hạng Anh",
+              "color": "#0D47A1",
+              "text_color": "#ffffff",
+              "position": "top-right"
+            },
+            {
+              "text": "0-0",
+              "color": "#B71C1C",
+              "text_color": "#ffffff",
+              "position": "bottom-right"
+            },
+            {
+              "text": "🎙 BLV Dory",
+              "color": "#1B5E20",
+              "text_color": "#ffffff",
+              "position": "bottom-left"
+            }
+          ],
+          "sources": [
+            {
+              "id": "gv-3-brentford-vs-fulham-src",
+              "name": "GioVang Live",
+              "contents": [
+                {
+                  "id": "gv-3-brentford-vs-fulham-ct",
+                  "name": "Brentford 0-0 Fulham  🔴 · Ngoại hạng Anh",
+                  "streams": [
+                    {
+                      "id": "gv-3-brentford-vs-fulham-st",
+                      "name": "Trực tiếp",
+                      "stream_links": [
+                        {
+                          "id": "gv-3-brentford-vs-fulham-lnk0",
+                          "name": "Xem trực tiếp",
+                          "type": "iframe",
+                          "default": true,
+                          "url": "https://giovang.vin/truc-tiep-brentford-vs-fulham-18-04-rj5eomgt8v6n/",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -415,155 +415,9 @@
           ]
         },
         {
-          "id": "gv-6-brentford-vs-fulham",
-          "name": "Brentford vs Fulham  🕐 18:30 | 18/04",
-          "description": "Ngoại hạng Anh | 18:30 | 18/04 | 🕐 Sắp diễn ra | 🎙 BLV Dory",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 0,
-            "background_color": "#071a2e",
-            "display": "contain",
-            "url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjQ1MCIgdmlld0JveD0iMCAwIDgwMCA0NTAiPjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNDUwIiBmaWxsPSIjMDcxYTJlIi8+PGltYWdlIGhyZWY9Imh0dHBzOi8vdXBsb2FkLndpa2ltZWRpYS5vcmcvd2lraXBlZGlhL3ZpL3RodW1iLzIvMmEvQnJlbnRmb3JkX0ZDX2NyZXN0LnN2Zy8yNTBweC1CcmVudGZvcmRfRkNfY3Jlc3Quc3ZnLnBuZyIgeD0iODAiIHk9IjEyNSIgd2lkdGg9IjIwMCIgaGVpZ2h0PSIyMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIG1lZXQiLz48aW1hZ2UgaHJlZj0iaHR0cHM6Ly91cGxvYWQud2lraW1lZGlhLm9yZy93aWtpcGVkaWEvdmkvOC84ZC9GdWxoYW1fRkMucG5nIiB4PSI1MjAiIHk9IjEyNSIgd2lkdGg9IjIwMCIgaGVpZ2h0PSIyMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIG1lZXQiLz48dGV4dCB4PSI0MDAiIHk9IjIzNSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IkFyaWFsLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNDgiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSJ3aGl0ZSIgb3BhY2l0eT0iMC45Ij5WUzwvdGV4dD48L3N2Zz4=",
-            "width": 800,
-            "height": 450
-          },
-          "labels": [
-            {
-              "text": "🕐 Sắp diễn ra",
-              "color": "#1565C0",
-              "text_color": "#ffffff",
-              "position": "top-left"
-            },
-            {
-              "text": "Ngoại hạng Anh",
-              "color": "#0D47A1",
-              "text_color": "#ffffff",
-              "position": "top-right"
-            },
-            {
-              "text": "🎙 BLV Dory",
-              "color": "#1B5E20",
-              "text_color": "#ffffff",
-              "position": "bottom-left"
-            }
-          ],
-          "sources": [
-            {
-              "id": "gv-6-brentford-vs-fulham-src",
-              "name": "GioVang Live",
-              "contents": [
-                {
-                  "id": "gv-6-brentford-vs-fulham-ct",
-                  "name": "Brentford vs Fulham  🕐 18:30 | 18/04 · Ngoại hạng Anh",
-                  "streams": [
-                    {
-                      "id": "gv-6-brentford-vs-fulham-st",
-                      "name": "Trực tiếp",
-                      "stream_links": [
-                        {
-                          "id": "gv-6-brentford-vs-fulham-lnk0",
-                          "name": "Xem trực tiếp",
-                          "type": "iframe",
-                          "default": true,
-                          "url": "https://giovang.vin/truc-tiep-brentford-vs-fulham-18-04-rj5eomgt8v6n/",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.vin/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "gv-7-jiangsu-dragons-vs-shanx",
-          "name": "Jiangsu Dragons vs Shanxi Zhongyu  🕐 18:35 | 18/04",
-          "description": "CBA | 18:35 | 18/04 | 🕐 Sắp diễn ra | 🎙 BLV Tôm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 0,
-            "background_color": "#071a2e",
-            "display": "contain",
-            "url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjQ1MCIgdmlld0JveD0iMCAwIDgwMCA0NTAiPjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNDUwIiBmaWxsPSIjMDcxYTJlIi8+PGltYWdlIGhyZWY9Imh0dHBzOi8vdXBsb2FkLndpa2ltZWRpYS5vcmcvd2lraXBlZGlhL2VuL2EvYTYvSmlhbmdzdV9EcmFnb25zLnBuZyIgeD0iODAiIHk9IjEyNSIgd2lkdGg9IjIwMCIgaGVpZ2h0PSIyMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIG1lZXQiLz48aW1hZ2UgaHJlZj0iaHR0cHM6Ly91cGxvYWQud2lraW1lZGlhLm9yZy93aWtpcGVkaWEvZW4vNS81NS9TaGFueGlfQnJhdmVfRHJhZ29uc19sb2dvLmpwZyIgeD0iNTIwIiB5PSIxMjUiIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCBtZWV0Ii8+PHRleHQgeD0iNDAwIiB5PSIyMzUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCxzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ4IiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0id2hpdGUiIG9wYWNpdHk9IjAuOSI+VlM8L3RleHQ+PC9zdmc+",
-            "width": 800,
-            "height": 450
-          },
-          "labels": [
-            {
-              "text": "🕐 Sắp diễn ra",
-              "color": "#1565C0",
-              "text_color": "#ffffff",
-              "position": "top-left"
-            },
-            {
-              "text": "CBA",
-              "color": "#0D47A1",
-              "text_color": "#ffffff",
-              "position": "top-right"
-            },
-            {
-              "text": "🎙 BLV Tôm",
-              "color": "#1B5E20",
-              "text_color": "#ffffff",
-              "position": "bottom-left"
-            }
-          ],
-          "sources": [
-            {
-              "id": "gv-7-jiangsu-dragons-vs-shanx-src",
-              "name": "GioVang Live",
-              "contents": [
-                {
-                  "id": "gv-7-jiangsu-dragons-vs-shanx-ct",
-                  "name": "Jiangsu Dragons vs Shanxi Zhongyu  🕐 18:35 | 18/04 · CBA",
-                  "streams": [
-                    {
-                      "id": "gv-7-jiangsu-dragons-vs-shanx-st",
-                      "name": "Trực tiếp",
-                      "stream_links": [
-                        {
-                          "id": "gv-7-jiangsu-dragons-vs-shanx-lnk0",
-                          "name": "Xem trực tiếp",
-                          "type": "iframe",
-                          "default": true,
-                          "url": "https://giovang.vin/truc-tiep-jiangsu-dragons-vs-shanxi-zhongyu-18-04-c3d1q1qyt7gi/",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.vin/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "gv-8-jilin-vs-guangzhou",
-          "name": "Jilin vs Guangzhou  🕐 18:35 | 18/04",
-          "description": "CBA | 18:35 | 18/04 | 🕐 Sắp diễn ra | 🎙 BLV Cầy",
+          "id": "gv-6-jilin-vs-guangzhou",
+          "name": "Jilin 0-0 Guangzhou  🔴",
+          "description": "CBA | 18:35 | 18/04 | 🔴 LIVE | 0-0 | 🎙 BLV Cầy",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -577,8 +431,8 @@
           },
           "labels": [
             {
-              "text": "🕐 Sắp diễn ra",
-              "color": "#1565C0",
+              "text": "● LIVE",
+              "color": "#C62828",
               "text_color": "#ffffff",
               "position": "top-left"
             },
@@ -589,6 +443,12 @@
               "position": "top-right"
             },
             {
+              "text": "0-0",
+              "color": "#B71C1C",
+              "text_color": "#ffffff",
+              "position": "bottom-right"
+            },
+            {
               "text": "🎙 BLV Cầy",
               "color": "#1B5E20",
               "text_color": "#ffffff",
@@ -597,19 +457,19 @@
           ],
           "sources": [
             {
-              "id": "gv-8-jilin-vs-guangzhou-src",
+              "id": "gv-6-jilin-vs-guangzhou-src",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-8-jilin-vs-guangzhou-ct",
-                  "name": "Jilin vs Guangzhou  🕐 18:35 | 18/04 · CBA",
+                  "id": "gv-6-jilin-vs-guangzhou-ct",
+                  "name": "Jilin 0-0 Guangzhou  🔴 · CBA",
                   "streams": [
                     {
-                      "id": "gv-8-jilin-vs-guangzhou-st",
+                      "id": "gv-6-jilin-vs-guangzhou-st",
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-8-jilin-vs-guangzhou-lnk0",
+                          "id": "gv-6-jilin-vs-guangzhou-lnk0",
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
@@ -634,7 +494,7 @@
           ]
         },
         {
-          "id": "gv-9-udinese-vs-parma",
+          "id": "gv-7-udinese-vs-parma",
           "name": "Udinese vs Parma  🕐 20:00 | 18/04",
           "description": "Seria A | 20:00 | 18/04 | 🕐 Sắp diễn ra | 🎙 BLV Thìn",
           "type": "single",
@@ -670,19 +530,19 @@
           ],
           "sources": [
             {
-              "id": "gv-9-udinese-vs-parma-src",
+              "id": "gv-7-udinese-vs-parma-src",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-9-udinese-vs-parma-ct",
+                  "id": "gv-7-udinese-vs-parma-ct",
                   "name": "Udinese vs Parma  🕐 20:00 | 18/04 · Seria A",
                   "streams": [
                     {
-                      "id": "gv-9-udinese-vs-parma-st",
+                      "id": "gv-7-udinese-vs-parma-st",
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-9-udinese-vs-parma-lnk0",
+                          "id": "gv-7-udinese-vs-parma-lnk0",
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
@@ -707,7 +567,7 @@
           ]
         },
         {
-          "id": "gv-10-werder-bremen-vs-hamburg",
+          "id": "gv-8-werder-bremen-vs-hamburg",
           "name": "Werder Bremen vs Hamburger SV  🕐 20:30 | 18/04",
           "description": "Bundesliga | 20:30 | 18/04 | 🕐 Sắp diễn ra | 🎙 BLV Mason",
           "type": "single",
@@ -743,19 +603,19 @@
           ],
           "sources": [
             {
-              "id": "gv-10-werder-bremen-vs-hamburg-src",
+              "id": "gv-8-werder-bremen-vs-hamburg-src",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-10-werder-bremen-vs-hamburg-ct",
+                  "id": "gv-8-werder-bremen-vs-hamburg-ct",
                   "name": "Werder Bremen vs Hamburger SV  🕐 20:30 | 18/04 · Bundesliga",
                   "streams": [
                     {
-                      "id": "gv-10-werder-bremen-vs-hamburg-st",
+                      "id": "gv-8-werder-bremen-vs-hamburg-st",
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-10-werder-bremen-vs-hamburg-lnk0",
+                          "id": "gv-8-werder-bremen-vs-hamburg-lnk0",
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
@@ -780,7 +640,7 @@
           ]
         },
         {
-          "id": "gv-11-union-berlin-vs-wolfsbur",
+          "id": "gv-9-union-berlin-vs-wolfsbur",
           "name": "Union Berlin vs Wolfsburg  🕐 20:30 | 18/04",
           "description": "Bundesliga | 20:30 | 18/04 | 🕐 Sắp diễn ra | 🎙 BLV Dory",
           "type": "single",
@@ -816,19 +676,19 @@
           ],
           "sources": [
             {
-              "id": "gv-11-union-berlin-vs-wolfsbur-src",
+              "id": "gv-9-union-berlin-vs-wolfsbur-src",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-11-union-berlin-vs-wolfsbur-ct",
+                  "id": "gv-9-union-berlin-vs-wolfsbur-ct",
                   "name": "Union Berlin vs Wolfsburg  🕐 20:30 | 18/04 · Bundesliga",
                   "streams": [
                     {
-                      "id": "gv-11-union-berlin-vs-wolfsbur-st",
+                      "id": "gv-9-union-berlin-vs-wolfsbur-st",
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-11-union-berlin-vs-wolfsbur-lnk0",
+                          "id": "gv-9-union-berlin-vs-wolfsbur-lnk0",
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
@@ -853,7 +713,7 @@
           ]
         },
         {
-          "id": "gv-12-hoffenheim-vs-borussia-d",
+          "id": "gv-10-hoffenheim-vs-borussia-d",
           "name": "Hoffenheim vs Borussia Dortmund  🕐 20:30 | 18/04",
           "description": "Bundesliga | 20:30 | 18/04 | 🕐 Sắp diễn ra | 🎙 BLV Nến",
           "type": "single",
@@ -889,19 +749,19 @@
           ],
           "sources": [
             {
-              "id": "gv-12-hoffenheim-vs-borussia-d-src",
+              "id": "gv-10-hoffenheim-vs-borussia-d-src",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-12-hoffenheim-vs-borussia-d-ct",
+                  "id": "gv-10-hoffenheim-vs-borussia-d-ct",
                   "name": "Hoffenheim vs Borussia Dortmund  🕐 20:30 | 18/04 · Bundesliga",
                   "streams": [
                     {
-                      "id": "gv-12-hoffenheim-vs-borussia-d-st",
+                      "id": "gv-10-hoffenheim-vs-borussia-d-st",
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-12-hoffenheim-vs-borussia-d-lnk0",
+                          "id": "gv-10-hoffenheim-vs-borussia-d-lnk0",
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
@@ -926,7 +786,7 @@
           ]
         },
         {
-          "id": "gv-13-bayer-leverkusen-vs-augs",
+          "id": "gv-11-bayer-leverkusen-vs-augs",
           "name": "Bayer Leverkusen vs Augsburg  🕐 20:30 | 18/04",
           "description": "Bundesliga | 20:30 | 18/04 | 🕐 Sắp diễn ra | 🎙 BLV Thìn",
           "type": "single",
@@ -962,19 +822,19 @@
           ],
           "sources": [
             {
-              "id": "gv-13-bayer-leverkusen-vs-augs-src",
+              "id": "gv-11-bayer-leverkusen-vs-augs-src",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-13-bayer-leverkusen-vs-augs-ct",
+                  "id": "gv-11-bayer-leverkusen-vs-augs-ct",
                   "name": "Bayer Leverkusen vs Augsburg  🕐 20:30 | 18/04 · Bundesliga",
                   "streams": [
                     {
-                      "id": "gv-13-bayer-leverkusen-vs-augs-st",
+                      "id": "gv-11-bayer-leverkusen-vs-augs-st",
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-13-bayer-leverkusen-vs-augs-lnk0",
+                          "id": "gv-11-bayer-leverkusen-vs-augs-lnk0",
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
@@ -999,7 +859,7 @@
           ]
         },
         {
-          "id": "gv-14-newcastle-united-vs-afc",
+          "id": "gv-12-newcastle-united-vs-afc",
           "name": "Newcastle United vs AFC Bournemouth  🕐 21:00 | 18/04",
           "description": "Bundesliga | 21:00 | 18/04 | 🕐 Sắp diễn ra | 🎙 BLV Dần",
           "type": "single",
@@ -1035,19 +895,19 @@
           ],
           "sources": [
             {
-              "id": "gv-14-newcastle-united-vs-afc-src",
+              "id": "gv-12-newcastle-united-vs-afc-src",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-14-newcastle-united-vs-afc-ct",
+                  "id": "gv-12-newcastle-united-vs-afc-ct",
                   "name": "Newcastle United vs AFC Bournemouth  🕐 21:00 | 18/04 · Bundesliga",
                   "streams": [
                     {
-                      "id": "gv-14-newcastle-united-vs-afc-st",
+                      "id": "gv-12-newcastle-united-vs-afc-st",
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-14-newcastle-united-vs-afc-lnk0",
+                          "id": "gv-12-newcastle-united-vs-afc-lnk0",
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
@@ -1072,7 +932,7 @@
           ]
         },
         {
-          "id": "gv-15-leeds-united-vs-wolverha",
+          "id": "gv-13-leeds-united-vs-wolverha",
           "name": "Leeds United vs Wolverhampton Wanderers  🕐 21:00 | 18/04",
           "description": "Ngoại hạng Anh | 21:00 | 18/04 | 🕐 Sắp diễn ra | 🎙 BLV Chè",
           "type": "single",
@@ -1108,19 +968,19 @@
           ],
           "sources": [
             {
-              "id": "gv-15-leeds-united-vs-wolverha-src",
+              "id": "gv-13-leeds-united-vs-wolverha-src",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-15-leeds-united-vs-wolverha-ct",
+                  "id": "gv-13-leeds-united-vs-wolverha-ct",
                   "name": "Leeds United vs Wolverhampton Wanderers  🕐 21:00 | 18/04 · Ngoại hạng Anh",
                   "streams": [
                     {
-                      "id": "gv-15-leeds-united-vs-wolverha-st",
+                      "id": "gv-13-leeds-united-vs-wolverha-st",
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-15-leeds-united-vs-wolverha-lnk0",
+                          "id": "gv-13-leeds-united-vs-wolverha-lnk0",
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
@@ -1145,7 +1005,7 @@
           ]
         },
         {
-          "id": "gv-16-lorient-vs-olympique-mar",
+          "id": "gv-14-lorient-vs-olympique-mar",
           "name": "Lorient vs Olympique Marseille  🕐 22:00 | 18/04",
           "description": "Ligue 1 | 22:00 | 18/04 | 🕐 Sắp diễn ra | 🎙 BLV Mason",
           "type": "single",
@@ -1181,19 +1041,19 @@
           ],
           "sources": [
             {
-              "id": "gv-16-lorient-vs-olympique-mar-src",
+              "id": "gv-14-lorient-vs-olympique-mar-src",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-16-lorient-vs-olympique-mar-ct",
+                  "id": "gv-14-lorient-vs-olympique-mar-ct",
                   "name": "Lorient vs Olympique Marseille  🕐 22:00 | 18/04 · Ligue 1",
                   "streams": [
                     {
-                      "id": "gv-16-lorient-vs-olympique-mar-st",
+                      "id": "gv-14-lorient-vs-olympique-mar-st",
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-16-lorient-vs-olympique-mar-lnk0",
+                          "id": "gv-14-lorient-vs-olympique-mar-lnk0",
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
@@ -1218,7 +1078,7 @@
           ]
         },
         {
-          "id": "gv-17-napoli-vs-lazio",
+          "id": "gv-15-napoli-vs-lazio",
           "name": "Napoli vs Lazio  🕐 23:00 | 18/04",
           "description": "Seria A | 23:00 | 18/04 | 🕐 Sắp diễn ra | 🎙 BLV Hợi",
           "type": "single",
@@ -1254,19 +1114,19 @@
           ],
           "sources": [
             {
-              "id": "gv-17-napoli-vs-lazio-src",
+              "id": "gv-15-napoli-vs-lazio-src",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-17-napoli-vs-lazio-ct",
+                  "id": "gv-15-napoli-vs-lazio-ct",
                   "name": "Napoli vs Lazio  🕐 23:00 | 18/04 · Seria A",
                   "streams": [
                     {
-                      "id": "gv-17-napoli-vs-lazio-st",
+                      "id": "gv-15-napoli-vs-lazio-st",
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-17-napoli-vs-lazio-lnk0",
+                          "id": "gv-15-napoli-vs-lazio-lnk0",
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
@@ -1291,7 +1151,7 @@
           ]
         },
         {
-          "id": "gv-18-tottenham-hotspur-vs-bri",
+          "id": "gv-16-tottenham-hotspur-vs-bri",
           "name": "Tottenham Hotspur vs Brighton   Hove Albion  🕐 23:30 | 18/04",
           "description": "Ngoại hạng Anh | 23:30 | 18/04 | 🕐 Sắp diễn ra | 🎙 BLV Chè, BLV Dần",
           "type": "single",
@@ -1327,19 +1187,19 @@
           ],
           "sources": [
             {
-              "id": "gv-18-tottenham-hotspur-vs-bri-src",
+              "id": "gv-16-tottenham-hotspur-vs-bri-src",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-18-tottenham-hotspur-vs-bri-ct",
+                  "id": "gv-16-tottenham-hotspur-vs-bri-ct",
                   "name": "Tottenham Hotspur vs Brighton   Hove Albion  🕐 23:30 | 18/04 · Ngoại hạng Anh",
                   "streams": [
                     {
-                      "id": "gv-18-tottenham-hotspur-vs-bri-st",
+                      "id": "gv-16-tottenham-hotspur-vs-bri-st",
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-18-tottenham-hotspur-vs-bri-lnk0",
+                          "id": "gv-16-tottenham-hotspur-vs-bri-lnk0",
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
@@ -1364,7 +1224,7 @@
           ]
         },
         {
-          "id": "gv-19-as-roma-vs-atalanta",
+          "id": "gv-17-as-roma-vs-atalanta",
           "name": "AS Roma vs Atalanta  🕐 01:45 | 19/04",
           "description": "Seria A | 01:45 | 19/04 | 🕐 Sắp diễn ra | 🎙 BLV Mason",
           "type": "single",
@@ -1400,19 +1260,19 @@
           ],
           "sources": [
             {
-              "id": "gv-19-as-roma-vs-atalanta-src",
+              "id": "gv-17-as-roma-vs-atalanta-src",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-19-as-roma-vs-atalanta-ct",
+                  "id": "gv-17-as-roma-vs-atalanta-ct",
                   "name": "AS Roma vs Atalanta  🕐 01:45 | 19/04 · Seria A",
                   "streams": [
                     {
-                      "id": "gv-19-as-roma-vs-atalanta-st",
+                      "id": "gv-17-as-roma-vs-atalanta-st",
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-19-as-roma-vs-atalanta-lnk0",
+                          "id": "gv-17-as-roma-vs-atalanta-lnk0",
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
@@ -1437,7 +1297,7 @@
           ]
         },
         {
-          "id": "gv-20-chelsea-fc-vs-manchester",
+          "id": "gv-18-chelsea-fc-vs-manchester",
           "name": "Chelsea FC vs Manchester United  🕐 02:00 | 19/04",
           "description": "Ngoại hạng Anh | 02:00 | 19/04 | 🕐 Sắp diễn ra | 🎙 BLV Chè, BLV Dory",
           "type": "single",
@@ -1473,19 +1333,19 @@
           ],
           "sources": [
             {
-              "id": "gv-20-chelsea-fc-vs-manchester-src",
+              "id": "gv-18-chelsea-fc-vs-manchester-src",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-20-chelsea-fc-vs-manchester-ct",
+                  "id": "gv-18-chelsea-fc-vs-manchester-ct",
                   "name": "Chelsea FC vs Manchester United  🕐 02:00 | 19/04 · Ngoại hạng Anh",
                   "streams": [
                     {
-                      "id": "gv-20-chelsea-fc-vs-manchester-st",
+                      "id": "gv-18-chelsea-fc-vs-manchester-st",
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-20-chelsea-fc-vs-manchester-lnk0",
+                          "id": "gv-18-chelsea-fc-vs-manchester-lnk0",
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
@@ -1510,7 +1370,7 @@
           ]
         },
         {
-          "id": "gv-21-atletico-madrid-vs-real",
+          "id": "gv-19-atletico-madrid-vs-real",
           "name": "Atletico Madrid vs Real Sociedad  🕐 02:00 | 19/04",
           "description": "Cúp nhà vua Tây Ban Nha | 02:00 | 19/04 | 🕐 Sắp diễn ra | 🎙 BLV Chanh",
           "type": "single",
@@ -1546,19 +1406,19 @@
           ],
           "sources": [
             {
-              "id": "gv-21-atletico-madrid-vs-real-src",
+              "id": "gv-19-atletico-madrid-vs-real-src",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-21-atletico-madrid-vs-real-ct",
+                  "id": "gv-19-atletico-madrid-vs-real-ct",
                   "name": "Atletico Madrid vs Real Sociedad  🕐 02:00 | 19/04 · Cúp nhà vua Tây Ban Nha",
                   "streams": [
                     {
-                      "id": "gv-21-atletico-madrid-vs-real-st",
+                      "id": "gv-19-atletico-madrid-vs-real-st",
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-21-atletico-madrid-vs-real-lnk0",
+                          "id": "gv-19-atletico-madrid-vs-real-lnk0",
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
@@ -1583,7 +1443,7 @@
           ]
         },
         {
-          "id": "gv-22-lille-osc-vs-nice",
+          "id": "gv-20-lille-osc-vs-nice",
           "name": "Lille OSC vs Nice  🕐 02:05 | 19/04",
           "description": "Ligue 1 | 02:05 | 19/04 | 🕐 Sắp diễn ra | 🎙 BLV Tí",
           "type": "single",
@@ -1619,19 +1479,19 @@
           ],
           "sources": [
             {
-              "id": "gv-22-lille-osc-vs-nice-src",
+              "id": "gv-20-lille-osc-vs-nice-src",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-22-lille-osc-vs-nice-ct",
+                  "id": "gv-20-lille-osc-vs-nice-ct",
                   "name": "Lille OSC vs Nice  🕐 02:05 | 19/04 · Ligue 1",
                   "streams": [
                     {
-                      "id": "gv-22-lille-osc-vs-nice-st",
+                      "id": "gv-20-lille-osc-vs-nice-st",
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-22-lille-osc-vs-nice-lnk0",
+                          "id": "gv-20-lille-osc-vs-nice-lnk0",
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
@@ -1656,7 +1516,7 @@
           ]
         },
         {
-          "id": "gv-23-colorado-rapids-vs-inter",
+          "id": "gv-21-colorado-rapids-vs-inter",
           "name": "Colorado Rapids vs Inter Miami  🕐 03:30 | 19/04",
           "description": "MLS Mỹ | 03:30 | 19/04 | 🕐 Sắp diễn ra | 🎙 BLV Hợi",
           "type": "single",
@@ -1692,19 +1552,19 @@
           ],
           "sources": [
             {
-              "id": "gv-23-colorado-rapids-vs-inter-src",
+              "id": "gv-21-colorado-rapids-vs-inter-src",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-23-colorado-rapids-vs-inter-ct",
+                  "id": "gv-21-colorado-rapids-vs-inter-ct",
                   "name": "Colorado Rapids vs Inter Miami  🕐 03:30 | 19/04 · MLS Mỹ",
                   "streams": [
                     {
-                      "id": "gv-23-colorado-rapids-vs-inter-st",
+                      "id": "gv-21-colorado-rapids-vs-inter-st",
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-23-colorado-rapids-vs-inter-lnk0",
+                          "id": "gv-21-colorado-rapids-vs-inter-lnk0",
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
@@ -1729,7 +1589,7 @@
           ]
         },
         {
-          "id": "gv-24-chapecoense-sc-vs-botafo",
+          "id": "gv-22-chapecoense-sc-vs-botafo",
           "name": "Chapecoense SC vs Botafogo (RJ)  🕐 04:30 | 19/04",
           "description": "VĐQG Brazil | 04:30 | 19/04 | 🕐 Sắp diễn ra | 🎙 BLV Dần",
           "type": "single",
@@ -1765,19 +1625,19 @@
           ],
           "sources": [
             {
-              "id": "gv-24-chapecoense-sc-vs-botafo-src",
+              "id": "gv-22-chapecoense-sc-vs-botafo-src",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-24-chapecoense-sc-vs-botafo-ct",
+                  "id": "gv-22-chapecoense-sc-vs-botafo-ct",
                   "name": "Chapecoense SC vs Botafogo (RJ)  🕐 04:30 | 19/04 · VĐQG Brazil",
                   "streams": [
                     {
-                      "id": "gv-24-chapecoense-sc-vs-botafo-st",
+                      "id": "gv-22-chapecoense-sc-vs-botafo-st",
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-24-chapecoense-sc-vs-botafo-lnk0",
+                          "id": "gv-22-chapecoense-sc-vs-botafo-lnk0",
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
@@ -1802,7 +1662,7 @@
           ]
         },
         {
-          "id": "gv-25-colorado-rockies-vs-los",
+          "id": "gv-23-colorado-rockies-vs-los",
           "name": "Colorado Rockies vs Los Angeles Dodgers  🕐 07:10 | 19/04",
           "description": "MLB | 07:10 | 19/04 | 🕐 Sắp diễn ra | 🎙 BLV Nến",
           "type": "single",
@@ -1838,19 +1698,19 @@
           ],
           "sources": [
             {
-              "id": "gv-25-colorado-rockies-vs-los-src",
+              "id": "gv-23-colorado-rockies-vs-los-src",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-25-colorado-rockies-vs-los-ct",
+                  "id": "gv-23-colorado-rockies-vs-los-ct",
                   "name": "Colorado Rockies vs Los Angeles Dodgers  🕐 07:10 | 19/04 · MLB",
                   "streams": [
                     {
-                      "id": "gv-25-colorado-rockies-vs-los-st",
+                      "id": "gv-23-colorado-rockies-vs-los-st",
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-25-colorado-rockies-vs-los-lnk0",
+                          "id": "gv-23-colorado-rockies-vs-los-lnk0",
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
@@ -1875,7 +1735,7 @@
           ]
         },
         {
-          "id": "gv-26-los-angeles-lakers-vs-ho",
+          "id": "gv-24-los-angeles-lakers-vs-ho",
           "name": "Los Angeles Lakers vs Houston Rockets  🕐 07:30 | 19/04",
           "description": "NBA | 07:30 | 19/04 | 🕐 Sắp diễn ra | 🎙 BLV Perry, BLV Chè",
           "type": "single",
@@ -1911,19 +1771,19 @@
           ],
           "sources": [
             {
-              "id": "gv-26-los-angeles-lakers-vs-ho-src",
+              "id": "gv-24-los-angeles-lakers-vs-ho-src",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-26-los-angeles-lakers-vs-ho-ct",
+                  "id": "gv-24-los-angeles-lakers-vs-ho-ct",
                   "name": "Los Angeles Lakers vs Houston Rockets  🕐 07:30 | 19/04 · NBA",
                   "streams": [
                     {
-                      "id": "gv-26-los-angeles-lakers-vs-ho-st",
+                      "id": "gv-24-los-angeles-lakers-vs-ho-st",
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-26-los-angeles-lakers-vs-ho-lnk0",
+                          "id": "gv-24-los-angeles-lakers-vs-ho-lnk0",
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
@@ -1948,7 +1808,7 @@
           ]
         },
         {
-          "id": "gv-27-canterbury-rams-vs-welli",
+          "id": "gv-25-canterbury-rams-vs-welli",
           "name": "Canterbury Rams vs Wellington Saints  🕐 10:00 | 19/04",
           "description": "NBL | 10:00 | 19/04 | 🕐 Sắp diễn ra | 🎙 BLV Perry",
           "type": "single",
@@ -1984,19 +1844,19 @@
           ],
           "sources": [
             {
-              "id": "gv-27-canterbury-rams-vs-welli-src",
+              "id": "gv-25-canterbury-rams-vs-welli-src",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-27-canterbury-rams-vs-welli-ct",
+                  "id": "gv-25-canterbury-rams-vs-welli-ct",
                   "name": "Canterbury Rams vs Wellington Saints  🕐 10:00 | 19/04 · NBL",
                   "streams": [
                     {
-                      "id": "gv-27-canterbury-rams-vs-welli-st",
+                      "id": "gv-25-canterbury-rams-vs-welli-st",
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-27-canterbury-rams-vs-welli-lnk0",
+                          "id": "gv-25-canterbury-rams-vs-welli-lnk0",
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
@@ -2021,7 +1881,7 @@
           ]
         },
         {
-          "id": "gv-28-pohang-steelers-vs-fc-an",
+          "id": "gv-26-pohang-steelers-vs-fc-an",
           "name": "Pohang Steelers vs FC Anyang  🕐 14:30 | 19/04",
           "description": "K-League Hàn Quốc | 14:30 | 19/04 | 🕐 Sắp diễn ra | 🎙 BLV Tí",
           "type": "single",
@@ -2057,19 +1917,19 @@
           ],
           "sources": [
             {
-              "id": "gv-28-pohang-steelers-vs-fc-an-src",
+              "id": "gv-26-pohang-steelers-vs-fc-an-src",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-28-pohang-steelers-vs-fc-an-ct",
+                  "id": "gv-26-pohang-steelers-vs-fc-an-ct",
                   "name": "Pohang Steelers vs FC Anyang  🕐 14:30 | 19/04 · K-League Hàn Quốc",
                   "streams": [
                     {
-                      "id": "gv-28-pohang-steelers-vs-fc-an-st",
+                      "id": "gv-26-pohang-steelers-vs-fc-an-st",
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-28-pohang-steelers-vs-fc-an-lnk0",
+                          "id": "gv-26-pohang-steelers-vs-fc-an-lnk0",
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
@@ -2094,7 +1954,7 @@
           ]
         },
         {
-          "id": "gv-29-manchester-city-vs-arsen",
+          "id": "gv-27-manchester-city-vs-arsen",
           "name": "Manchester City vs Arsenal  🕐 22:30 | 19/04",
           "description": "Ngoại hạng Anh | 22:30 | 19/04 | 🕐 Sắp diễn ra | 🎙 fan-mc-cam-ben, fan-ars-nen-dau, dau-cau-trung-lap-bang",
           "type": "single",
@@ -2130,19 +1990,19 @@
           ],
           "sources": [
             {
-              "id": "gv-29-manchester-city-vs-arsen-src",
+              "id": "gv-27-manchester-city-vs-arsen-src",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-29-manchester-city-vs-arsen-ct",
+                  "id": "gv-27-manchester-city-vs-arsen-ct",
                   "name": "Manchester City vs Arsenal  🕐 22:30 | 19/04 · Ngoại hạng Anh",
                   "streams": [
                     {
-                      "id": "gv-29-manchester-city-vs-arsen-st",
+                      "id": "gv-27-manchester-city-vs-arsen-st",
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-29-manchester-city-vs-arsen-lnk0",
+                          "id": "gv-27-manchester-city-vs-arsen-lnk0",
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
