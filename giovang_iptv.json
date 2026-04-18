@@ -2,7 +2,7 @@
   "id": "giovang-iptv",
   "name": "GioVang TV",
   "url": "https://giovang.vin/",
-  "description": "Trực tiếp bóng đá — 2 đang live, 21 sắp tới. Cập nhật 19/04/2026 04:59 ICT",
+  "description": "Trực tiếp bóng đá — 2 đang live, 19 sắp tới. Cập nhật 19/04/2026 05:49 ICT",
   "disable_ads": true,
   "color": "#f5a623",
   "grid_number": 3,
@@ -20,201 +20,9 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-1-nuggets-vs-timberwolves",
-          "name": "Nuggets  0-0 Timberwolves  🔴",
-          "description": "NBA | 02:30 | 19/04 | 🔴 LIVE | 0-0 | 🎙 BLV Cầy",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 0,
-            "background_color": "#0a1628",
-            "display": "contain",
-            "url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjQ1MCIgdmlld0JveD0iMCAwIDgwMCA0NTAiPjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iYmciIHgxPSIwIiB5MT0iMCIgeDI9IjAiIHkyPSIxIj48c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjMGExNjI4Ii8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMDcxMDIwIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3Qgd2lkdGg9IjgwMCIgaGVpZ2h0PSI0NTAiIGZpbGw9InVybCgjYmcpIi8+PGxpbmUgeDE9IjQwMCIgeTE9IjgwIiB4Mj0iNDAwIiB5Mj0iMzcwIiBzdHJva2U9InJnYmEoMjU1LDI1NSwyNTUsMC4wOCkiIHN0cm9rZS13aWR0aD0iMSIvPjxpbWFnZSBocmVmPSJodHRwczovL2ltZ3RzLnNwb3J0cHVsc2VhcGl6LmNvbS9iYXNrZXRiYWxsL3RlYW0vcDNnbHJ3eXRlNDhxZHlqL2ltYWdlL3NtYWxsIiB4PSI2MCIgeT0iMTAwIiB3aWR0aD0iMjIwIiBoZWlnaHQ9IjIyMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCIgb3BhY2l0eT0iMC45NSIvPjxpbWFnZSBocmVmPSJodHRwczovL3VwbG9hZC53aWtpbWVkaWEub3JnL3dpa2lwZWRpYS9lbi90aHVtYi9jL2MyL01pbm5lc290YV9UaW1iZXJ3b2x2ZXNfbG9nby5zdmcvOTYwcHgtTWlubmVzb3RhX1RpbWJlcndvbHZlc19sb2dvLnN2Zy5wbmciIHg9IjUyMCIgeT0iMTAwIiB3aWR0aD0iMjIwIiBoZWlnaHQ9IjIyMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCIgb3BhY2l0eT0iMC45NSIvPjx0ZXh0IHg9IjQwMCIgeT0iMjI4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwgQmxhY2ssQXJpYWwsc2Fucy1zZXJpZiIgZm9udC1zaXplPSI1MiIgZm9udC13ZWlnaHQ9IjkwMCIgZmlsbD0id2hpdGUiIG9wYWNpdHk9IjAuODUiPlZTPC90ZXh0Pjwvc3ZnPg==",
-            "width": 800,
-            "height": 450
-          },
-          "labels": [
-            {
-              "text": "● LIVE",
-              "color": "#C62828",
-              "text_color": "#ffffff",
-              "position": "top-left"
-            },
-            {
-              "text": "NBA",
-              "color": "#0D47A1",
-              "text_color": "#ffffff",
-              "position": "top-right"
-            },
-            {
-              "text": "0-0",
-              "color": "#B71C1C",
-              "text_color": "#ffffff",
-              "position": "bottom-right"
-            },
-            {
-              "text": "🎙 BLV Cầy",
-              "color": "#1B5E20",
-              "text_color": "#ffffff",
-              "position": "bottom-left"
-            }
-          ],
-          "sources": [
-            {
-              "id": "gv-1-nuggets-vs-timberwolves-src",
-              "name": "GioVang Live",
-              "contents": [
-                {
-                  "id": "gv-1-nuggets-vs-timberwolves-ct",
-                  "name": "Nuggets  0-0 Timberwolves  🔴 · NBA",
-                  "streams": [
-                    {
-                      "id": "gv-1-nuggets-vs-timberwolves-st",
-                      "name": "Trực tiếp",
-                      "stream_links": [
-                        {
-                          "id": "gv-1-nuggets-vs-timberwolves-l0hd",
-                          "name": "BLV Cầy – HD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1776520821_hd/1776520821_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.vin/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "gv-1-nuggets-vs-timberwolves-l0sd",
-                          "name": "BLV Cầy – SD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1776520821_sd/1776520821_hd@480p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.vin/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "gv-2-colorado-rapids-vs-inter",
-          "name": "Colorado Rapids 0-2 Inter Miami  🔴 53'",
-          "description": "MLS Mỹ | 03:30 | 19/04 | 🔴 LIVE 53' | 0-2 | 🎙 BLV Hợi",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 0,
-            "background_color": "#0a1628",
-            "display": "contain",
-            "url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjQ1MCIgdmlld0JveD0iMCAwIDgwMCA0NTAiPjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iYmciIHgxPSIwIiB5MT0iMCIgeDI9IjAiIHkyPSIxIj48c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjMGExNjI4Ii8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMDcxMDIwIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3Qgd2lkdGg9IjgwMCIgaGVpZ2h0PSI0NTAiIGZpbGw9InVybCgjYmcpIi8+PGxpbmUgeDE9IjQwMCIgeTE9IjgwIiB4Mj0iNDAwIiB5Mj0iMzcwIiBzdHJva2U9InJnYmEoMjU1LDI1NSwyNTUsMC4wOCkiIHN0cm9rZS13aWR0aD0iMSIvPjxpbWFnZSBocmVmPSJodHRwczovL2ltYWdlcy5rZW92aXA4OC5uZXQvaW1hZ2VzL3RlYW1zL2NvbG9yYWRvLXJhcGlkcy5wbmciIHg9IjYwIiB5PSIxMDAiIHdpZHRoPSIyMjAiIGhlaWdodD0iMjIwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCBtZWV0IiBvcGFjaXR5PSIwLjk1Ii8+PGltYWdlIGhyZWY9Imh0dHBzOi8vaW1hZ2VzLmtlb3ZpcDg4Lm5ldC9pbWFnZXMvdGVhbXMvaW50ZXItbWlhbWktY2YucG5nIiB4PSI1MjAiIHk9IjEwMCIgd2lkdGg9IjIyMCIgaGVpZ2h0PSIyMjAiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIG1lZXQiIG9wYWNpdHk9IjAuOTUiLz48dGV4dCB4PSI0MDAiIHk9IjIyOCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgZm9udC1mYW1pbHk9IkFyaWFsIEJsYWNrLEFyaWFsLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNTIiIGZvbnQtd2VpZ2h0PSI5MDAiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjg1Ij5WUzwvdGV4dD48L3N2Zz4=",
-            "width": 800,
-            "height": 450
-          },
-          "labels": [
-            {
-              "text": "● LIVE",
-              "color": "#C62828",
-              "text_color": "#ffffff",
-              "position": "top-left"
-            },
-            {
-              "text": "MLS Mỹ",
-              "color": "#0D47A1",
-              "text_color": "#ffffff",
-              "position": "top-right"
-            },
-            {
-              "text": "0-2  53'",
-              "color": "#B71C1C",
-              "text_color": "#ffffff",
-              "position": "bottom-right"
-            },
-            {
-              "text": "🎙 BLV Hợi",
-              "color": "#1B5E20",
-              "text_color": "#ffffff",
-              "position": "bottom-left"
-            }
-          ],
-          "sources": [
-            {
-              "id": "gv-2-colorado-rapids-vs-inter-src",
-              "name": "GioVang Live",
-              "contents": [
-                {
-                  "id": "gv-2-colorado-rapids-vs-inter-ct",
-                  "name": "Colorado Rapids 0-2 Inter Miami  🔴 53' · MLS Mỹ",
-                  "streams": [
-                    {
-                      "id": "gv-2-colorado-rapids-vs-inter-st",
-                      "name": "Trực tiếp",
-                      "stream_links": [
-                        {
-                          "id": "gv-2-colorado-rapids-vs-inter-l0hd",
-                          "name": "BLV Hợi – HD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1776479953_hd/1776479953_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.vin/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "gv-2-colorado-rapids-vs-inter-l0sd",
-                          "name": "BLV Hợi – SD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1776479953_sd/1776479953_hd@480p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.vin/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "gv-3-chapecoense-sc-vs-botafo",
-          "name": "Chapecoense SC vs Botafogo (RJ)  🕐 04:30 | 19/04",
-          "description": "VĐQG Brazil | 04:30 | 19/04 | 🕐 Sắp diễn ra | 🎙 BLV Dần",
+          "id": "gv-1-chapecoense-sc-vs-botafo",
+          "name": "Chapecoense SC 1-3 Botafogo (RJ)  🔴 56'",
+          "description": "VĐQG Brazil | 04:30 | 19/04 | 🔴 LIVE 56' | 1-3 | 🎙 BLV Dần",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -228,8 +36,8 @@
           },
           "labels": [
             {
-              "text": "🕐 Sắp diễn ra",
-              "color": "#1565C0",
+              "text": "● LIVE",
+              "color": "#C62828",
               "text_color": "#ffffff",
               "position": "top-left"
             },
@@ -240,6 +48,12 @@
               "position": "top-right"
             },
             {
+              "text": "1-3  56'",
+              "color": "#B71C1C",
+              "text_color": "#ffffff",
+              "position": "bottom-right"
+            },
+            {
               "text": "🎙 BLV Dần",
               "color": "#1B5E20",
               "text_color": "#ffffff",
@@ -248,19 +62,19 @@
           ],
           "sources": [
             {
-              "id": "gv-3-chapecoense-sc-vs-botafo-src",
+              "id": "gv-1-chapecoense-sc-vs-botafo-src",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-3-chapecoense-sc-vs-botafo-ct",
-                  "name": "Chapecoense SC vs Botafogo (RJ)  🕐 04:30 | 19/04 · VĐQG Brazil",
+                  "id": "gv-1-chapecoense-sc-vs-botafo-ct",
+                  "name": "Chapecoense SC 1-3 Botafogo (RJ)  🔴 56' · VĐQG Brazil",
                   "streams": [
                     {
-                      "id": "gv-3-chapecoense-sc-vs-botafo-st",
+                      "id": "gv-1-chapecoense-sc-vs-botafo-st",
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-3-chapecoense-sc-vs-botafo-l0hd",
+                          "id": "gv-1-chapecoense-sc-vs-botafo-l0hd",
                           "name": "BLV Dần – HD",
                           "type": "hls",
                           "default": true,
@@ -277,7 +91,7 @@
                           ]
                         },
                         {
-                          "id": "gv-3-chapecoense-sc-vs-botafo-l0sd",
+                          "id": "gv-1-chapecoense-sc-vs-botafo-l0sd",
                           "name": "BLV Dần – SD",
                           "type": "hls",
                           "default": false,
@@ -302,9 +116,9 @@
           ]
         },
         {
-          "id": "gv-4-knicks-vs-atlanta-hawks",
-          "name": "Knicks  vs Atlanta Hawks  🕐 05:00 | 19/04",
-          "description": "NBA | 05:00 | 19/04 | 🕐 Sắp diễn ra | 🎙 BLV Chè",
+          "id": "gv-2-knicks-vs-atlanta-hawks",
+          "name": "Knicks  0-0 Atlanta Hawks  🔴",
+          "description": "NBA | 05:00 | 19/04 | 🔴 LIVE | 0-0 | 🎙 BLV Chè",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -318,8 +132,8 @@
           },
           "labels": [
             {
-              "text": "🕐 Sắp diễn ra",
-              "color": "#1565C0",
+              "text": "● LIVE",
+              "color": "#C62828",
               "text_color": "#ffffff",
               "position": "top-left"
             },
@@ -330,6 +144,12 @@
               "position": "top-right"
             },
             {
+              "text": "0-0",
+              "color": "#B71C1C",
+              "text_color": "#ffffff",
+              "position": "bottom-right"
+            },
+            {
               "text": "🎙 BLV Chè",
               "color": "#1B5E20",
               "text_color": "#ffffff",
@@ -338,19 +158,19 @@
           ],
           "sources": [
             {
-              "id": "gv-4-knicks-vs-atlanta-hawks-src",
+              "id": "gv-2-knicks-vs-atlanta-hawks-src",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-4-knicks-vs-atlanta-hawks-ct",
-                  "name": "Knicks  vs Atlanta Hawks  🕐 05:00 | 19/04 · NBA",
+                  "id": "gv-2-knicks-vs-atlanta-hawks-ct",
+                  "name": "Knicks  0-0 Atlanta Hawks  🔴 · NBA",
                   "streams": [
                     {
-                      "id": "gv-4-knicks-vs-atlanta-hawks-st",
+                      "id": "gv-2-knicks-vs-atlanta-hawks-st",
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-4-knicks-vs-atlanta-hawks-l0hd",
+                          "id": "gv-2-knicks-vs-atlanta-hawks-l0hd",
                           "name": "BLV Chè – HD",
                           "type": "hls",
                           "default": true,
@@ -367,7 +187,7 @@
                           ]
                         },
                         {
-                          "id": "gv-4-knicks-vs-atlanta-hawks-l0sd",
+                          "id": "gv-2-knicks-vs-atlanta-hawks-l0sd",
                           "name": "BLV Chè – SD",
                           "type": "hls",
                           "default": false,
@@ -392,7 +212,7 @@
           ]
         },
         {
-          "id": "gv-5-colorado-rockies-vs-los",
+          "id": "gv-3-colorado-rockies-vs-los",
           "name": "Colorado Rockies vs Los Angeles Dodgers  🕐 07:10 | 19/04",
           "description": "MLB | 07:10 | 19/04 | 🕐 Sắp diễn ra | 🎙 BLV Cầy",
           "type": "single",
@@ -428,19 +248,19 @@
           ],
           "sources": [
             {
-              "id": "gv-5-colorado-rockies-vs-los-src",
+              "id": "gv-3-colorado-rockies-vs-los-src",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-5-colorado-rockies-vs-los-ct",
+                  "id": "gv-3-colorado-rockies-vs-los-ct",
                   "name": "Colorado Rockies vs Los Angeles Dodgers  🕐 07:10 | 19/04 · MLB",
                   "streams": [
                     {
-                      "id": "gv-5-colorado-rockies-vs-los-st",
+                      "id": "gv-3-colorado-rockies-vs-los-st",
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-5-colorado-rockies-vs-los-l0hd",
+                          "id": "gv-3-colorado-rockies-vs-los-l0hd",
                           "name": "BLV Cầy – HD",
                           "type": "hls",
                           "default": true,
@@ -457,7 +277,7 @@
                           ]
                         },
                         {
-                          "id": "gv-5-colorado-rockies-vs-los-l0sd",
+                          "id": "gv-3-colorado-rockies-vs-los-l0sd",
                           "name": "BLV Cầy – SD",
                           "type": "hls",
                           "default": false,
@@ -482,7 +302,7 @@
           ]
         },
         {
-          "id": "gv-6-los-angeles-lakers-vs-ho",
+          "id": "gv-4-los-angeles-lakers-vs-ho",
           "name": "Los Angeles Lakers vs Houston Rockets  🕐 07:30 | 19/04",
           "description": "NBA | 07:30 | 19/04 | 🕐 Sắp diễn ra | 🎙 BLV Perry | BLV Ben",
           "type": "single",
@@ -518,19 +338,19 @@
           ],
           "sources": [
             {
-              "id": "gv-6-los-angeles-lakers-vs-ho-src",
+              "id": "gv-4-los-angeles-lakers-vs-ho-src",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-6-los-angeles-lakers-vs-ho-ct",
+                  "id": "gv-4-los-angeles-lakers-vs-ho-ct",
                   "name": "Los Angeles Lakers vs Houston Rockets  🕐 07:30 | 19/04 · NBA",
                   "streams": [
                     {
-                      "id": "gv-6-los-angeles-lakers-vs-ho-st",
+                      "id": "gv-4-los-angeles-lakers-vs-ho-st",
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-6-los-angeles-lakers-vs-ho-l0hd",
+                          "id": "gv-4-los-angeles-lakers-vs-ho-l0hd",
                           "name": "BLV Perry – HD",
                           "type": "hls",
                           "default": true,
@@ -547,7 +367,7 @@
                           ]
                         },
                         {
-                          "id": "gv-6-los-angeles-lakers-vs-ho-l0sd",
+                          "id": "gv-4-los-angeles-lakers-vs-ho-l0sd",
                           "name": "BLV Perry – SD",
                           "type": "hls",
                           "default": false,
@@ -564,7 +384,7 @@
                           ]
                         },
                         {
-                          "id": "gv-6-los-angeles-lakers-vs-ho-l1hd",
+                          "id": "gv-4-los-angeles-lakers-vs-ho-l1hd",
                           "name": "BLV Ben – HD",
                           "type": "hls",
                           "default": false,
@@ -581,7 +401,7 @@
                           ]
                         },
                         {
-                          "id": "gv-6-los-angeles-lakers-vs-ho-l1sd",
+                          "id": "gv-4-los-angeles-lakers-vs-ho-l1sd",
                           "name": "BLV Ben – SD",
                           "type": "hls",
                           "default": false,
@@ -606,7 +426,7 @@
           ]
         },
         {
-          "id": "gv-7-canterbury-rams-vs-welli",
+          "id": "gv-5-canterbury-rams-vs-welli",
           "name": "Canterbury Rams vs Wellington Saints  🕐 10:00 | 19/04",
           "description": "NBL | 10:00 | 19/04 | 🕐 Sắp diễn ra | 🎙 BLV Perry",
           "type": "single",
@@ -642,19 +462,19 @@
           ],
           "sources": [
             {
-              "id": "gv-7-canterbury-rams-vs-welli-src",
+              "id": "gv-5-canterbury-rams-vs-welli-src",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-7-canterbury-rams-vs-welli-ct",
+                  "id": "gv-5-canterbury-rams-vs-welli-ct",
                   "name": "Canterbury Rams vs Wellington Saints  🕐 10:00 | 19/04 · NBL",
                   "streams": [
                     {
-                      "id": "gv-7-canterbury-rams-vs-welli-st",
+                      "id": "gv-5-canterbury-rams-vs-welli-st",
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-7-canterbury-rams-vs-welli-l0hd",
+                          "id": "gv-5-canterbury-rams-vs-welli-l0hd",
                           "name": "BLV Perry – HD",
                           "type": "hls",
                           "default": true,
@@ -671,7 +491,7 @@
                           ]
                         },
                         {
-                          "id": "gv-7-canterbury-rams-vs-welli-l0sd",
+                          "id": "gv-5-canterbury-rams-vs-welli-l0sd",
                           "name": "BLV Perry – SD",
                           "type": "hls",
                           "default": false,
@@ -696,7 +516,7 @@
           ]
         },
         {
-          "id": "gv-8-pohang-steelers-vs-fc-an",
+          "id": "gv-6-pohang-steelers-vs-fc-an",
           "name": "Pohang Steelers vs FC Anyang  🕐 14:30 | 19/04",
           "description": "K-League Hàn Quốc | 14:30 | 19/04 | 🕐 Sắp diễn ra | 🎙 BLV Tí",
           "type": "single",
@@ -732,19 +552,19 @@
           ],
           "sources": [
             {
-              "id": "gv-8-pohang-steelers-vs-fc-an-src",
+              "id": "gv-6-pohang-steelers-vs-fc-an-src",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-8-pohang-steelers-vs-fc-an-ct",
+                  "id": "gv-6-pohang-steelers-vs-fc-an-ct",
                   "name": "Pohang Steelers vs FC Anyang  🕐 14:30 | 19/04 · K-League Hàn Quốc",
                   "streams": [
                     {
-                      "id": "gv-8-pohang-steelers-vs-fc-an-st",
+                      "id": "gv-6-pohang-steelers-vs-fc-an-st",
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-8-pohang-steelers-vs-fc-an-l0hd",
+                          "id": "gv-6-pohang-steelers-vs-fc-an-l0hd",
                           "name": "BLV Tí – HD",
                           "type": "hls",
                           "default": true,
@@ -761,7 +581,7 @@
                           ]
                         },
                         {
-                          "id": "gv-8-pohang-steelers-vs-fc-an-l0sd",
+                          "id": "gv-6-pohang-steelers-vs-fc-an-l0sd",
                           "name": "BLV Tí – SD",
                           "type": "hls",
                           "default": false,
@@ -786,7 +606,7 @@
           ]
         },
         {
-          "id": "gv-9-bro-vs-ns",
+          "id": "gv-7-bro-vs-ns",
           "name": "BRO  vs NS  🕐 15:00 | 19/04",
           "description": "LCK | 15:00 | 19/04 | 🕐 Sắp diễn ra | 🎙 BLV Tôm",
           "type": "single",
@@ -822,19 +642,19 @@
           ],
           "sources": [
             {
-              "id": "gv-9-bro-vs-ns-src",
+              "id": "gv-7-bro-vs-ns-src",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-9-bro-vs-ns-ct",
+                  "id": "gv-7-bro-vs-ns-ct",
                   "name": "BRO  vs NS  🕐 15:00 | 19/04 · LCK",
                   "streams": [
                     {
-                      "id": "gv-9-bro-vs-ns-st",
+                      "id": "gv-7-bro-vs-ns-st",
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-9-bro-vs-ns-l0hd",
+                          "id": "gv-7-bro-vs-ns-l0hd",
                           "name": "BLV Tôm – HD",
                           "type": "hls",
                           "default": true,
@@ -851,7 +671,7 @@
                           ]
                         },
                         {
-                          "id": "gv-9-bro-vs-ns-l0sd",
+                          "id": "gv-7-bro-vs-ns-l0sd",
                           "name": "BLV Tôm – SD",
                           "type": "hls",
                           "default": false,
@@ -876,7 +696,7 @@
           ]
         },
         {
-          "id": "gv-10-forca-lleida-vs-barcelon",
+          "id": "gv-8-forca-lleida-vs-barcelon",
           "name": "Forca Lleida  vs Barcelona  🕐 17:00 | 19/04",
           "description": "ACB | 17:00 | 19/04 | 🕐 Sắp diễn ra | 🎙 BLV Tôm",
           "type": "single",
@@ -912,19 +732,19 @@
           ],
           "sources": [
             {
-              "id": "gv-10-forca-lleida-vs-barcelon-src",
+              "id": "gv-8-forca-lleida-vs-barcelon-src",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-10-forca-lleida-vs-barcelon-ct",
+                  "id": "gv-8-forca-lleida-vs-barcelon-ct",
                   "name": "Forca Lleida  vs Barcelona  🕐 17:00 | 19/04 · ACB",
                   "streams": [
                     {
-                      "id": "gv-10-forca-lleida-vs-barcelon-st",
+                      "id": "gv-8-forca-lleida-vs-barcelon-st",
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-10-forca-lleida-vs-barcelon-l0hd",
+                          "id": "gv-8-forca-lleida-vs-barcelon-l0hd",
                           "name": "BLV Tôm – HD",
                           "type": "hls",
                           "default": true,
@@ -941,7 +761,7 @@
                           ]
                         },
                         {
-                          "id": "gv-10-forca-lleida-vs-barcelon-l0sd",
+                          "id": "gv-8-forca-lleida-vs-barcelon-l0sd",
                           "name": "BLV Tôm – SD",
                           "type": "hls",
                           "default": false,
@@ -966,7 +786,7 @@
           ]
         },
         {
-          "id": "gv-11-thanh-hoa-vs-song-lam-ng",
+          "id": "gv-9-thanh-hoa-vs-song-lam-ng",
           "name": "Thanh Hóa vs Sông Lam Nghệ An  🕐 18:00 | 19/04",
           "description": "V-League | 18:00 | 19/04 | 🕐 Sắp diễn ra | 🎙 BLV Băng",
           "type": "single",
@@ -1002,19 +822,19 @@
           ],
           "sources": [
             {
-              "id": "gv-11-thanh-hoa-vs-song-lam-ng-src",
+              "id": "gv-9-thanh-hoa-vs-song-lam-ng-src",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-11-thanh-hoa-vs-song-lam-ng-ct",
+                  "id": "gv-9-thanh-hoa-vs-song-lam-ng-ct",
                   "name": "Thanh Hóa vs Sông Lam Nghệ An  🕐 18:00 | 19/04 · V-League",
                   "streams": [
                     {
-                      "id": "gv-11-thanh-hoa-vs-song-lam-ng-st",
+                      "id": "gv-9-thanh-hoa-vs-song-lam-ng-st",
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-11-thanh-hoa-vs-song-lam-ng-l0hd",
+                          "id": "gv-9-thanh-hoa-vs-song-lam-ng-l0hd",
                           "name": "BLV Băng – HD",
                           "type": "hls",
                           "default": true,
@@ -1031,7 +851,7 @@
                           ]
                         },
                         {
-                          "id": "gv-11-thanh-hoa-vs-song-lam-ng-l0sd",
+                          "id": "gv-9-thanh-hoa-vs-song-lam-ng-l0sd",
                           "name": "BLV Băng – SD",
                           "type": "hls",
                           "default": false,
@@ -1056,7 +876,7 @@
           ]
         },
         {
-          "id": "gv-12-shb-da-nang-vs-thep-xanh",
+          "id": "gv-10-shb-da-nang-vs-thep-xanh",
           "name": "SHB Đà Nẵng vs Thép Xanh Nam Định  🕐 18:00 | 19/04",
           "description": "V-League | 18:00 | 19/04 | 🕐 Sắp diễn ra | 🎙 BLV Tí",
           "type": "single",
@@ -1092,19 +912,19 @@
           ],
           "sources": [
             {
-              "id": "gv-12-shb-da-nang-vs-thep-xanh-src",
+              "id": "gv-10-shb-da-nang-vs-thep-xanh-src",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-12-shb-da-nang-vs-thep-xanh-ct",
+                  "id": "gv-10-shb-da-nang-vs-thep-xanh-ct",
                   "name": "SHB Đà Nẵng vs Thép Xanh Nam Định  🕐 18:00 | 19/04 · V-League",
                   "streams": [
                     {
-                      "id": "gv-12-shb-da-nang-vs-thep-xanh-st",
+                      "id": "gv-10-shb-da-nang-vs-thep-xanh-st",
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-12-shb-da-nang-vs-thep-xanh-l0hd",
+                          "id": "gv-10-shb-da-nang-vs-thep-xanh-l0hd",
                           "name": "BLV Tí – HD",
                           "type": "hls",
                           "default": true,
@@ -1121,7 +941,7 @@
                           ]
                         },
                         {
-                          "id": "gv-12-shb-da-nang-vs-thep-xanh-l0sd",
+                          "id": "gv-10-shb-da-nang-vs-thep-xanh-l0sd",
                           "name": "BLV Tí – SD",
                           "type": "hls",
                           "default": false,
@@ -1146,7 +966,7 @@
           ]
         },
         {
-          "id": "gv-13-tp-ho-chi-minh-vs-cong-a",
+          "id": "gv-11-tp-ho-chi-minh-vs-cong-a",
           "name": "TP Hồ Chí Minh vs Công An Hà Nội  🕐 18:00 | 19/04",
           "description": "V-League | 18:00 | 19/04 | 🕐 Sắp diễn ra | 🎙 BLV Chanh",
           "type": "single",
@@ -1182,19 +1002,19 @@
           ],
           "sources": [
             {
-              "id": "gv-13-tp-ho-chi-minh-vs-cong-a-src",
+              "id": "gv-11-tp-ho-chi-minh-vs-cong-a-src",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-13-tp-ho-chi-minh-vs-cong-a-ct",
+                  "id": "gv-11-tp-ho-chi-minh-vs-cong-a-ct",
                   "name": "TP Hồ Chí Minh vs Công An Hà Nội  🕐 18:00 | 19/04 · V-League",
                   "streams": [
                     {
-                      "id": "gv-13-tp-ho-chi-minh-vs-cong-a-st",
+                      "id": "gv-11-tp-ho-chi-minh-vs-cong-a-st",
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-13-tp-ho-chi-minh-vs-cong-a-l0hd",
+                          "id": "gv-11-tp-ho-chi-minh-vs-cong-a-l0hd",
                           "name": "BLV Chanh – HD",
                           "type": "hls",
                           "default": true,
@@ -1211,7 +1031,7 @@
                           ]
                         },
                         {
-                          "id": "gv-13-tp-ho-chi-minh-vs-cong-a-l0sd",
+                          "id": "gv-11-tp-ho-chi-minh-vs-cong-a-l0sd",
                           "name": "BLV Chanh – SD",
                           "type": "hls",
                           "default": false,
@@ -1236,7 +1056,7 @@
           ]
         },
         {
-          "id": "gv-14-xinjiang-vs-nanjing-tong",
+          "id": "gv-12-xinjiang-vs-nanjing-tong",
           "name": "Xinjiang  vs Nanjing Tongxi  🕐 19:00 | 19/04",
           "description": "CBA | 19:00 | 19/04 | 🕐 Sắp diễn ra | 🎙 BLV Tôm",
           "type": "single",
@@ -1272,19 +1092,19 @@
           ],
           "sources": [
             {
-              "id": "gv-14-xinjiang-vs-nanjing-tong-src",
+              "id": "gv-12-xinjiang-vs-nanjing-tong-src",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-14-xinjiang-vs-nanjing-tong-ct",
+                  "id": "gv-12-xinjiang-vs-nanjing-tong-ct",
                   "name": "Xinjiang  vs Nanjing Tongxi  🕐 19:00 | 19/04 · CBA",
                   "streams": [
                     {
-                      "id": "gv-14-xinjiang-vs-nanjing-tong-st",
+                      "id": "gv-12-xinjiang-vs-nanjing-tong-st",
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-14-xinjiang-vs-nanjing-tong-l0hd",
+                          "id": "gv-12-xinjiang-vs-nanjing-tong-l0hd",
                           "name": "BLV Tôm – HD",
                           "type": "hls",
                           "default": true,
@@ -1301,7 +1121,7 @@
                           ]
                         },
                         {
-                          "id": "gv-14-xinjiang-vs-nanjing-tong-l0sd",
+                          "id": "gv-12-xinjiang-vs-nanjing-tong-l0sd",
                           "name": "BLV Tôm – SD",
                           "type": "hls",
                           "default": false,
@@ -1326,7 +1146,7 @@
           ]
         },
         {
-          "id": "gv-15-the-cong-viettel-vs-hoan",
+          "id": "gv-13-the-cong-viettel-vs-hoan",
           "name": "Thể Công Viettel vs Hoàng Anh Gia Lai  🕐 19:15 | 19/04",
           "description": "V-League | 19:15 | 19/04 | 🕐 Sắp diễn ra | 🎙 BLV Dory",
           "type": "single",
@@ -1362,19 +1182,19 @@
           ],
           "sources": [
             {
-              "id": "gv-15-the-cong-viettel-vs-hoan-src",
+              "id": "gv-13-the-cong-viettel-vs-hoan-src",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-15-the-cong-viettel-vs-hoan-ct",
+                  "id": "gv-13-the-cong-viettel-vs-hoan-ct",
                   "name": "Thể Công Viettel vs Hoàng Anh Gia Lai  🕐 19:15 | 19/04 · V-League",
                   "streams": [
                     {
-                      "id": "gv-15-the-cong-viettel-vs-hoan-st",
+                      "id": "gv-13-the-cong-viettel-vs-hoan-st",
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-15-the-cong-viettel-vs-hoan-l0hd",
+                          "id": "gv-13-the-cong-viettel-vs-hoan-l0hd",
                           "name": "BLV Dory – HD",
                           "type": "hls",
                           "default": true,
@@ -1391,7 +1211,7 @@
                           ]
                         },
                         {
-                          "id": "gv-15-the-cong-viettel-vs-hoan-l0sd",
+                          "id": "gv-13-the-cong-viettel-vs-hoan-l0sd",
                           "name": "BLV Dory – SD",
                           "type": "hls",
                           "default": false,
@@ -1416,7 +1236,7 @@
           ]
         },
         {
-          "id": "gv-16-everton-vs-liverpool",
+          "id": "gv-14-everton-vs-liverpool",
           "name": "Everton vs Liverpool  🕐 20:00 | 19/04",
           "description": "Ngoại hạng Anh | 20:00 | 19/04 | 🕐 Sắp diễn ra | 🎙 BLV Thìn | BLV Dần",
           "type": "single",
@@ -1452,19 +1272,19 @@
           ],
           "sources": [
             {
-              "id": "gv-16-everton-vs-liverpool-src",
+              "id": "gv-14-everton-vs-liverpool-src",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-16-everton-vs-liverpool-ct",
+                  "id": "gv-14-everton-vs-liverpool-ct",
                   "name": "Everton vs Liverpool  🕐 20:00 | 19/04 · Ngoại hạng Anh",
                   "streams": [
                     {
-                      "id": "gv-16-everton-vs-liverpool-st",
+                      "id": "gv-14-everton-vs-liverpool-st",
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-16-everton-vs-liverpool-l0hd",
+                          "id": "gv-14-everton-vs-liverpool-l0hd",
                           "name": "BLV Thìn – HD",
                           "type": "hls",
                           "default": true,
@@ -1481,7 +1301,7 @@
                           ]
                         },
                         {
-                          "id": "gv-16-everton-vs-liverpool-l0sd",
+                          "id": "gv-14-everton-vs-liverpool-l0sd",
                           "name": "BLV Thìn – SD",
                           "type": "hls",
                           "default": false,
@@ -1498,7 +1318,7 @@
                           ]
                         },
                         {
-                          "id": "gv-16-everton-vs-liverpool-l1hd",
+                          "id": "gv-14-everton-vs-liverpool-l1hd",
                           "name": "BLV Dần – HD",
                           "type": "hls",
                           "default": false,
@@ -1515,7 +1335,7 @@
                           ]
                         },
                         {
-                          "id": "gv-16-everton-vs-liverpool-l1sd",
+                          "id": "gv-14-everton-vs-liverpool-l1sd",
                           "name": "BLV Dần – SD",
                           "type": "hls",
                           "default": false,
@@ -1540,7 +1360,7 @@
           ]
         },
         {
-          "id": "gv-17-aston-villa-vs-sunderlan",
+          "id": "gv-15-aston-villa-vs-sunderlan",
           "name": "Aston Villa vs Sunderland  🕐 20:00 | 19/04",
           "description": "Ngoại hạng Anh | 20:00 | 19/04 | 🕐 Sắp diễn ra | 🎙 BLV Tí",
           "type": "single",
@@ -1576,19 +1396,19 @@
           ],
           "sources": [
             {
-              "id": "gv-17-aston-villa-vs-sunderlan-src",
+              "id": "gv-15-aston-villa-vs-sunderlan-src",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-17-aston-villa-vs-sunderlan-ct",
+                  "id": "gv-15-aston-villa-vs-sunderlan-ct",
                   "name": "Aston Villa vs Sunderland  🕐 20:00 | 19/04 · Ngoại hạng Anh",
                   "streams": [
                     {
-                      "id": "gv-17-aston-villa-vs-sunderlan-st",
+                      "id": "gv-15-aston-villa-vs-sunderlan-st",
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-17-aston-villa-vs-sunderlan-l0hd",
+                          "id": "gv-15-aston-villa-vs-sunderlan-l0hd",
                           "name": "BLV Tí – HD",
                           "type": "hls",
                           "default": true,
@@ -1605,7 +1425,7 @@
                           ]
                         },
                         {
-                          "id": "gv-17-aston-villa-vs-sunderlan-l0sd",
+                          "id": "gv-15-aston-villa-vs-sunderlan-l0sd",
                           "name": "BLV Tí – SD",
                           "type": "hls",
                           "default": false,
@@ -1630,7 +1450,7 @@
           ]
         },
         {
-          "id": "gv-18-as-monaco-vs-auxerre",
+          "id": "gv-16-as-monaco-vs-auxerre",
           "name": "AS Monaco vs Auxerre  🕐 20:00 | 19/04",
           "description": "Ligue 1 | 20:00 | 19/04 | 🕐 Sắp diễn ra | 🎙 BLV Thỏ",
           "type": "single",
@@ -1666,19 +1486,19 @@
           ],
           "sources": [
             {
-              "id": "gv-18-as-monaco-vs-auxerre-src",
+              "id": "gv-16-as-monaco-vs-auxerre-src",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-18-as-monaco-vs-auxerre-ct",
+                  "id": "gv-16-as-monaco-vs-auxerre-ct",
                   "name": "AS Monaco vs Auxerre  🕐 20:00 | 19/04 · Ligue 1",
                   "streams": [
                     {
-                      "id": "gv-18-as-monaco-vs-auxerre-st",
+                      "id": "gv-16-as-monaco-vs-auxerre-st",
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-18-as-monaco-vs-auxerre-l0hd",
+                          "id": "gv-16-as-monaco-vs-auxerre-l0hd",
                           "name": "BLV Thỏ – HD",
                           "type": "hls",
                           "default": true,
@@ -1695,7 +1515,7 @@
                           ]
                         },
                         {
-                          "id": "gv-18-as-monaco-vs-auxerre-l0sd",
+                          "id": "gv-16-as-monaco-vs-auxerre-l0sd",
                           "name": "BLV Thỏ – SD",
                           "type": "hls",
                           "default": false,
@@ -1720,7 +1540,7 @@
           ]
         },
         {
-          "id": "gv-19-hellas-verona-vs-ac-mila",
+          "id": "gv-17-hellas-verona-vs-ac-mila",
           "name": "Hellas Verona vs AC Milan  🕐 20:00 | 19/04",
           "description": "Seria A | 20:00 | 19/04 | 🕐 Sắp diễn ra | 🎙 BLV Nến",
           "type": "single",
@@ -1756,19 +1576,19 @@
           ],
           "sources": [
             {
-              "id": "gv-19-hellas-verona-vs-ac-mila-src",
+              "id": "gv-17-hellas-verona-vs-ac-mila-src",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-19-hellas-verona-vs-ac-mila-ct",
+                  "id": "gv-17-hellas-verona-vs-ac-mila-ct",
                   "name": "Hellas Verona vs AC Milan  🕐 20:00 | 19/04 · Seria A",
                   "streams": [
                     {
-                      "id": "gv-19-hellas-verona-vs-ac-mila-st",
+                      "id": "gv-17-hellas-verona-vs-ac-mila-st",
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-19-hellas-verona-vs-ac-mila-l0hd",
+                          "id": "gv-17-hellas-verona-vs-ac-mila-l0hd",
                           "name": "BLV Nến – HD",
                           "type": "hls",
                           "default": true,
@@ -1785,7 +1605,7 @@
                           ]
                         },
                         {
-                          "id": "gv-19-hellas-verona-vs-ac-mila-l0sd",
+                          "id": "gv-17-hellas-verona-vs-ac-mila-l0sd",
                           "name": "BLV Nến – SD",
                           "type": "hls",
                           "default": false,
@@ -1810,7 +1630,7 @@
           ]
         },
         {
-          "id": "gv-20-metz-vs-paris-fc",
+          "id": "gv-18-metz-vs-paris-fc",
           "name": "Metz vs Paris FC  🕐 22:15 | 19/04",
           "description": "Ligue 1 | 22:15 | 19/04 | 🕐 Sắp diễn ra | 🎙 BLV Dory",
           "type": "single",
@@ -1846,19 +1666,19 @@
           ],
           "sources": [
             {
-              "id": "gv-20-metz-vs-paris-fc-src",
+              "id": "gv-18-metz-vs-paris-fc-src",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-20-metz-vs-paris-fc-ct",
+                  "id": "gv-18-metz-vs-paris-fc-ct",
                   "name": "Metz vs Paris FC  🕐 22:15 | 19/04 · Ligue 1",
                   "streams": [
                     {
-                      "id": "gv-20-metz-vs-paris-fc-st",
+                      "id": "gv-18-metz-vs-paris-fc-st",
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-20-metz-vs-paris-fc-l0hd",
+                          "id": "gv-18-metz-vs-paris-fc-l0hd",
                           "name": "BLV Dory – HD",
                           "type": "hls",
                           "default": true,
@@ -1875,7 +1695,7 @@
                           ]
                         },
                         {
-                          "id": "gv-20-metz-vs-paris-fc-l0sd",
+                          "id": "gv-18-metz-vs-paris-fc-l0sd",
                           "name": "BLV Dory – SD",
                           "type": "hls",
                           "default": false,
@@ -1900,7 +1720,7 @@
           ]
         },
         {
-          "id": "gv-21-nantes-vs-stade-brestois",
+          "id": "gv-19-nantes-vs-stade-brestois",
           "name": "Nantes vs Stade Brestois  🕐 22:15 | 19/04",
           "description": "Ligue 1 | 22:15 | 19/04 | 🕐 Sắp diễn ra | 🎙 BLV Thìn",
           "type": "single",
@@ -1936,19 +1756,19 @@
           ],
           "sources": [
             {
-              "id": "gv-21-nantes-vs-stade-brestois-src",
+              "id": "gv-19-nantes-vs-stade-brestois-src",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-21-nantes-vs-stade-brestois-ct",
+                  "id": "gv-19-nantes-vs-stade-brestois-ct",
                   "name": "Nantes vs Stade Brestois  🕐 22:15 | 19/04 · Ligue 1",
                   "streams": [
                     {
-                      "id": "gv-21-nantes-vs-stade-brestois-st",
+                      "id": "gv-19-nantes-vs-stade-brestois-st",
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-21-nantes-vs-stade-brestois-l0hd",
+                          "id": "gv-19-nantes-vs-stade-brestois-l0hd",
                           "name": "BLV Thìn – HD",
                           "type": "hls",
                           "default": true,
@@ -1965,7 +1785,7 @@
                           ]
                         },
                         {
-                          "id": "gv-21-nantes-vs-stade-brestois-l0sd",
+                          "id": "gv-19-nantes-vs-stade-brestois-l0sd",
                           "name": "BLV Thìn – SD",
                           "type": "hls",
                           "default": false,
@@ -1990,7 +1810,7 @@
           ]
         },
         {
-          "id": "gv-22-manchester-city-vs-arsen",
+          "id": "gv-20-manchester-city-vs-arsen",
           "name": "Manchester City vs Arsenal  🕐 22:30 | 19/04",
           "description": "Ngoại hạng Anh | 22:30 | 19/04 | 🕐 Sắp diễn ra | 🎙 fan-mc-cam-ben | fan-ars-nen-dau | dau-cau-trung-lap-bang",
           "type": "single",
@@ -2026,19 +1846,19 @@
           ],
           "sources": [
             {
-              "id": "gv-22-manchester-city-vs-arsen-src",
+              "id": "gv-20-manchester-city-vs-arsen-src",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-22-manchester-city-vs-arsen-ct",
+                  "id": "gv-20-manchester-city-vs-arsen-ct",
                   "name": "Manchester City vs Arsenal  🕐 22:30 | 19/04 · Ngoại hạng Anh",
                   "streams": [
                     {
-                      "id": "gv-22-manchester-city-vs-arsen-st",
+                      "id": "gv-20-manchester-city-vs-arsen-st",
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-22-manchester-city-vs-arsen-l0hd",
+                          "id": "gv-20-manchester-city-vs-arsen-l0hd",
                           "name": "fan-mc-cam-ben – HD",
                           "type": "hls",
                           "default": true,
@@ -2055,7 +1875,7 @@
                           ]
                         },
                         {
-                          "id": "gv-22-manchester-city-vs-arsen-l0sd",
+                          "id": "gv-20-manchester-city-vs-arsen-l0sd",
                           "name": "fan-mc-cam-ben – SD",
                           "type": "hls",
                           "default": false,
@@ -2072,7 +1892,7 @@
                           ]
                         },
                         {
-                          "id": "gv-22-manchester-city-vs-arsen-l1hd",
+                          "id": "gv-20-manchester-city-vs-arsen-l1hd",
                           "name": "fan-ars-nen-dau – HD",
                           "type": "hls",
                           "default": false,
@@ -2089,7 +1909,7 @@
                           ]
                         },
                         {
-                          "id": "gv-22-manchester-city-vs-arsen-l1sd",
+                          "id": "gv-20-manchester-city-vs-arsen-l1sd",
                           "name": "fan-ars-nen-dau – SD",
                           "type": "hls",
                           "default": false,
@@ -2106,7 +1926,7 @@
                           ]
                         },
                         {
-                          "id": "gv-22-manchester-city-vs-arsen-l2hd",
+                          "id": "gv-20-manchester-city-vs-arsen-l2hd",
                           "name": "dau-cau-trung-lap-bang – HD",
                           "type": "hls",
                           "default": false,
@@ -2123,7 +1943,7 @@
                           ]
                         },
                         {
-                          "id": "gv-22-manchester-city-vs-arsen-l2sd",
+                          "id": "gv-20-manchester-city-vs-arsen-l2sd",
                           "name": "dau-cau-trung-lap-bang – SD",
                           "type": "hls",
                           "default": false,
@@ -2148,7 +1968,7 @@
           ]
         },
         {
-          "id": "gv-23-bayern-munich-vs-vfb-stu",
+          "id": "gv-21-bayern-munich-vs-vfb-stu",
           "name": "Bayern Munich vs VfB Stuttgart  🕐 22:30 | 19/04",
           "description": "Bundesliga | 22:30 | 19/04 | 🕐 Sắp diễn ra | 🎙 BLV Chanh",
           "type": "single",
@@ -2184,19 +2004,19 @@
           ],
           "sources": [
             {
-              "id": "gv-23-bayern-munich-vs-vfb-stu-src",
+              "id": "gv-21-bayern-munich-vs-vfb-stu-src",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-23-bayern-munich-vs-vfb-stu-ct",
+                  "id": "gv-21-bayern-munich-vs-vfb-stu-ct",
                   "name": "Bayern Munich vs VfB Stuttgart  🕐 22:30 | 19/04 · Bundesliga",
                   "streams": [
                     {
-                      "id": "gv-23-bayern-munich-vs-vfb-stu-st",
+                      "id": "gv-21-bayern-munich-vs-vfb-stu-st",
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-23-bayern-munich-vs-vfb-stu-l0hd",
+                          "id": "gv-21-bayern-munich-vs-vfb-stu-l0hd",
                           "name": "BLV Chanh – HD",
                           "type": "hls",
                           "default": true,
@@ -2213,7 +2033,7 @@
                           ]
                         },
                         {
-                          "id": "gv-23-bayern-munich-vs-vfb-stu-l0sd",
+                          "id": "gv-21-bayern-munich-vs-vfb-stu-l0sd",
                           "name": "BLV Chanh – SD",
                           "type": "hls",
                           "default": false,
