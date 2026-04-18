@@ -2,7 +2,7 @@
   "id": "giovang-iptv",
   "name": "GioVang TV",
   "url": "https://giovang.vin/",
-  "description": "Trực tiếp bóng đá — 1 đang live, 28 sắp tới. Cập nhật 18/04/2026 17:08 ICT",
+  "description": "Trực tiếp bóng đá — 1 đang live, 28 sắp tới. Cập nhật 18/04/2026 17:16 ICT",
   "disable_ads": true,
   "color": "#f5a623",
   "grid_number": 3,
@@ -27,17 +27,17 @@
           "display": "thumbnail-only",
           "enable_detail": false,
           "image": {
-            "padding": 2,
+            "padding": 0,
             "background_color": "#071a2e",
             "display": "contain",
-            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e0/Sydney_FC_Logo.svg/250px-Sydney_FC_Logo.svg.png",
-            "width": 1600,
-            "height": 1200
+            "url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjQ1MCIgdmlld0JveD0iMCAwIDgwMCA0NTAiPjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNDUwIiBmaWxsPSIjMDcxYTJlIi8+PGltYWdlIGhyZWY9Imh0dHBzOi8vdXBsb2FkLndpa2ltZWRpYS5vcmcvd2lraXBlZGlhL2VuL3RodW1iL2UvZTAvU3lkbmV5X0ZDX0xvZ28uc3ZnLzI1MHB4LVN5ZG5leV9GQ19Mb2dvLnN2Zy5wbmciIHg9IjgwIiB5PSIxMjUiIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCBtZWV0Ii8+PGltYWdlIGhyZWY9Imh0dHBzOi8vZW5jcnlwdGVkLXRibjAuZ3N0YXRpYy5jb20vaW1hZ2VzP3E9dGJuOkFOZDlHY1JKMkY5RFZEd0RKaWIycVJoVGU4UTRaSVUzN1BJd3J1M3dPdyZzIiB4PSI1MjAiIHk9IjEyNSIgd2lkdGg9IjIwMCIgaGVpZ2h0PSIyMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIG1lZXQiLz48dGV4dCB4PSI0MDAiIHk9IjIzNSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IkFyaWFsLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNDgiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSJ3aGl0ZSIgb3BhY2l0eT0iMC45Ij5WUzwvdGV4dD48L3N2Zz4=",
+            "width": 800,
+            "height": 450
           },
           "labels": [
             {
               "text": "● LIVE",
-              "color": "#D32F2F",
+              "color": "#C62828",
               "text_color": "#ffffff",
               "position": "top-left"
             },
@@ -74,15 +74,15 @@
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-1-sydney-football-club-vs-l0",
+                          "id": "gv-1-sydney-football-club-vs-lnk0",
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
-                          "url": "https://giovang.vin/truc-tiep-sydney-football-club-vs-perth-glory-1804-mzyz7lyoviwh/",
+                          "url": "https://giovang.vin/truc-tiep-sydney-football-club-vs-perth-glory-18-04-mzyz7lyoviwh/",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://giovang.vin/truc-tiep-sydney-football-club-vs-perth-glory-1804-mzyz7lyoviwh/"
+                              "value": "https://giovang.vin/"
                             },
                             {
                               "key": "User-Agent",
@@ -99,19 +99,19 @@
           ]
         },
         {
-          "id": "gv-2-h-ng-l-nh-h-t-nh-vs-hai",
+          "id": "gv-2-hong-linh-ha-tinh-vs-hai",
           "name": "Hồng Lĩnh Hà Tĩnh vs Hai Phong  🕐 18:00 | 18/04",
           "description": "V-League | 18:00 | 18/04 | 🕐 Sắp diễn ra | 🎙 BLV Mason",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "image": {
-            "padding": 2,
+            "padding": 0,
             "background_color": "#071a2e",
             "display": "contain",
-            "url": "https://upload.wikimedia.org/wikipedia/vi/thumb/2/22/HLHT_FC.svg/1280px-HLHT_FC.svg.png",
-            "width": 1600,
-            "height": 1200
+            "url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjQ1MCIgdmlld0JveD0iMCAwIDgwMCA0NTAiPjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNDUwIiBmaWxsPSIjMDcxYTJlIi8+PGltYWdlIGhyZWY9Imh0dHBzOi8vdXBsb2FkLndpa2ltZWRpYS5vcmcvd2lraXBlZGlhL3ZpL3RodW1iLzIvMjIvSExIVF9GQy5zdmcvMTI4MHB4LUhMSFRfRkMuc3ZnLnBuZyIgeD0iODAiIHk9IjEyNSIgd2lkdGg9IjIwMCIgaGVpZ2h0PSIyMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIG1lZXQiLz48aW1hZ2UgaHJlZj0iaHR0cHM6Ly91cGxvYWQud2lraW1lZGlhLm9yZy93aWtpcGVkaWEvZW4vdGh1bWIvYS9hZC9IYWlwaG9uZ19GQ19Mb2dvXyUyODIwMjItcHJlc2VudCUyOS5zdmcvMTI4MHB4LUhhaXBob25nX0ZDX0xvZ29fJTI4MjAyMi1wcmVzZW50JTI5LnN2Zy5wbmciIHg9IjUyMCIgeT0iMTI1IiB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCIvPjx0ZXh0IHg9IjQwMCIgeT0iMjM1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsc2Fucy1zZXJpZiIgZm9udC1zaXplPSI0OCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjkiPlZTPC90ZXh0Pjwvc3ZnPg==",
+            "width": 800,
+            "height": 450
           },
           "labels": [
             {
@@ -135,27 +135,27 @@
           ],
           "sources": [
             {
-              "id": "gv-2-h-ng-l-nh-h-t-nh-vs-hai-src",
+              "id": "gv-2-hong-linh-ha-tinh-vs-hai-src",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-2-h-ng-l-nh-h-t-nh-vs-hai-ct",
+                  "id": "gv-2-hong-linh-ha-tinh-vs-hai-ct",
                   "name": "Hồng Lĩnh Hà Tĩnh vs Hai Phong  🕐 18:00 | 18/04 · V-League",
                   "streams": [
                     {
-                      "id": "gv-2-h-ng-l-nh-h-t-nh-vs-hai-st",
+                      "id": "gv-2-hong-linh-ha-tinh-vs-hai-st",
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-2-h-ng-l-nh-h-t-nh-vs-hai-l0",
+                          "id": "gv-2-hong-linh-ha-tinh-vs-hai-lnk0",
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
-                          "url": "https://giovang.vin/truc-tiep-hong-linh-ha-tinh-vs-hai-phong-1804-d5s0ulrkabyn/",
+                          "url": "https://giovang.vin/truc-tiep-hong-linh-ha-tinh-vs-hai-phong-18-04-d5s0ulrkabyn/",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://giovang.vin/truc-tiep-hong-linh-ha-tinh-vs-hai-phong-1804-d5s0ulrkabyn/"
+                              "value": "https://giovang.vin/"
                             },
                             {
                               "key": "User-Agent",
@@ -179,12 +179,12 @@
           "display": "thumbnail-only",
           "enable_detail": false,
           "image": {
-            "padding": 2,
+            "padding": 0,
             "background_color": "#071a2e",
             "display": "contain",
-            "url": "https://upload.wikimedia.org/wikipedia/vi/a/a5/Phudongfc-logo.png",
-            "width": 1600,
-            "height": 1200
+            "url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjQ1MCIgdmlld0JveD0iMCAwIDgwMCA0NTAiPjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNDUwIiBmaWxsPSIjMDcxYTJlIi8+PGltYWdlIGhyZWY9Imh0dHBzOi8vdXBsb2FkLndpa2ltZWRpYS5vcmcvd2lraXBlZGlhL3ZpL2EvYTUvUGh1ZG9uZ2ZjLWxvZ28ucG5nIiB4PSI4MCIgeT0iMTI1IiB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCIvPjxpbWFnZSBocmVmPSJodHRwczovL2VuY3J5cHRlZC10Ym4wLmdzdGF0aWMuY29tL2ltYWdlcz9xPXRibjpBTmQ5R2NTVTdvSlpqY3RBVHFEcEt5V1YwN3YzeDl2NnljVmVHbjJyMEEmcyIgeD0iNTIwIiB5PSIxMjUiIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCBtZWV0Ii8+PHRleHQgeD0iNDAwIiB5PSIyMzUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCxzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ4IiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0id2hpdGUiIG9wYWNpdHk9IjAuOSI+VlM8L3RleHQ+PC9zdmc+",
+            "width": 800,
+            "height": 450
           },
           "labels": [
             {
@@ -220,15 +220,15 @@
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-3-phu-dong-vs-pho-hien-l0",
+                          "id": "gv-3-phu-dong-vs-pho-hien-lnk0",
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
-                          "url": "https://giovang.vin/truc-tiep-phu-dong-vs-pho-hien-1804-omo0xwe00d5u/",
+                          "url": "https://giovang.vin/truc-tiep-phu-dong-vs-pho-hien-18-04-omo0xwe00d5u/",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://giovang.vin/truc-tiep-phu-dong-vs-pho-hien-1804-omo0xwe00d5u/"
+                              "value": "https://giovang.vin/"
                             },
                             {
                               "key": "User-Agent",
@@ -252,12 +252,12 @@
           "display": "thumbnail-only",
           "enable_detail": false,
           "image": {
-            "padding": 2,
+            "padding": 0,
             "background_color": "#071a2e",
             "display": "contain",
-            "url": "https://upload.wikimedia.org/wikipedia/vi/thumb/2/2a/Brentford_FC_crest.svg/250px-Brentford_FC_crest.svg.png",
-            "width": 1600,
-            "height": 1200
+            "url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjQ1MCIgdmlld0JveD0iMCAwIDgwMCA0NTAiPjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNDUwIiBmaWxsPSIjMDcxYTJlIi8+PGltYWdlIGhyZWY9Imh0dHBzOi8vdXBsb2FkLndpa2ltZWRpYS5vcmcvd2lraXBlZGlhL3ZpL3RodW1iLzIvMmEvQnJlbnRmb3JkX0ZDX2NyZXN0LnN2Zy8yNTBweC1CcmVudGZvcmRfRkNfY3Jlc3Quc3ZnLnBuZyIgeD0iODAiIHk9IjEyNSIgd2lkdGg9IjIwMCIgaGVpZ2h0PSIyMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIG1lZXQiLz48aW1hZ2UgaHJlZj0iaHR0cHM6Ly91cGxvYWQud2lraW1lZGlhLm9yZy93aWtpcGVkaWEvdmkvOC84ZC9GdWxoYW1fRkMucG5nIiB4PSI1MjAiIHk9IjEyNSIgd2lkdGg9IjIwMCIgaGVpZ2h0PSIyMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIG1lZXQiLz48dGV4dCB4PSI0MDAiIHk9IjIzNSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IkFyaWFsLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNDgiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSJ3aGl0ZSIgb3BhY2l0eT0iMC45Ij5WUzwvdGV4dD48L3N2Zz4=",
+            "width": 800,
+            "height": 450
           },
           "labels": [
             {
@@ -293,15 +293,15 @@
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-4-brentford-vs-fulham-l0",
+                          "id": "gv-4-brentford-vs-fulham-lnk0",
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
-                          "url": "https://giovang.vin/truc-tiep-brentford-vs-fulham-1804-rj5eomgt8v6n/",
+                          "url": "https://giovang.vin/truc-tiep-brentford-vs-fulham-18-04-rj5eomgt8v6n/",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://giovang.vin/truc-tiep-brentford-vs-fulham-1804-rj5eomgt8v6n/"
+                              "value": "https://giovang.vin/"
                             },
                             {
                               "key": "User-Agent",
@@ -325,12 +325,12 @@
           "display": "thumbnail-only",
           "enable_detail": false,
           "image": {
-            "padding": 2,
+            "padding": 0,
             "background_color": "#071a2e",
             "display": "contain",
-            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/3/38/Portsmouth_FC_logo.svg/1280px-Portsmouth_FC_logo.svg.png",
-            "width": 1600,
-            "height": 1200
+            "url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjQ1MCIgdmlld0JveD0iMCAwIDgwMCA0NTAiPjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNDUwIiBmaWxsPSIjMDcxYTJlIi8+PGltYWdlIGhyZWY9Imh0dHBzOi8vdXBsb2FkLndpa2ltZWRpYS5vcmcvd2lraXBlZGlhL2VuL3RodW1iLzMvMzgvUG9ydHNtb3V0aF9GQ19sb2dvLnN2Zy8xMjgwcHgtUG9ydHNtb3V0aF9GQ19sb2dvLnN2Zy5wbmciIHg9IjgwIiB5PSIxMjUiIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCBtZWV0Ii8+PGltYWdlIGhyZWY9Imh0dHBzOi8vdXBsb2FkLndpa2ltZWRpYS5vcmcvd2lraXBlZGlhL2VuL3RodW1iLzIvMmQvTGVpY2VzdGVyX0NpdHlfY3Jlc3Quc3ZnLzEyODBweC1MZWljZXN0ZXJfQ2l0eV9jcmVzdC5zdmcucG5nIiB4PSI1MjAiIHk9IjEyNSIgd2lkdGg9IjIwMCIgaGVpZ2h0PSIyMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIG1lZXQiLz48dGV4dCB4PSI0MDAiIHk9IjIzNSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IkFyaWFsLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNDgiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSJ3aGl0ZSIgb3BhY2l0eT0iMC45Ij5WUzwvdGV4dD48L3N2Zz4=",
+            "width": 800,
+            "height": 450
           },
           "labels": [
             {
@@ -366,15 +366,15 @@
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-5-portsmouth-vs-leicester-l0",
+                          "id": "gv-5-portsmouth-vs-leicester-lnk0",
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
-                          "url": "https://giovang.vin/truc-tiep-portsmouth-vs-leicester-city-1804-szdql3nyy0u6/",
+                          "url": "https://giovang.vin/truc-tiep-portsmouth-vs-leicester-city-18-04-szdql3nyy0u6/",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://giovang.vin/truc-tiep-portsmouth-vs-leicester-city-1804-szdql3nyy0u6/"
+                              "value": "https://giovang.vin/"
                             },
                             {
                               "key": "User-Agent",
@@ -398,12 +398,12 @@
           "display": "thumbnail-only",
           "enable_detail": false,
           "image": {
-            "padding": 2,
+            "padding": 0,
             "background_color": "#071a2e",
             "display": "contain",
-            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv0JFRJXq_bKnsG9oLVcffYr-k0TUV2PUmWA&s",
-            "width": 1600,
-            "height": 1200
+            "url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjQ1MCIgdmlld0JveD0iMCAwIDgwMCA0NTAiPjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNDUwIiBmaWxsPSIjMDcxYTJlIi8+PGltYWdlIGhyZWY9Imh0dHBzOi8vZW5jcnlwdGVkLXRibjAuZ3N0YXRpYy5jb20vaW1hZ2VzP3E9dGJuOkFOZDlHY1R2MEpGUkpYcV9iS25zRzlvTFZjZmZZci1rMFRVVjJQVW1XQSZzIiB4PSI4MCIgeT0iMTI1IiB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCIvPjxpbWFnZSBocmVmPSJodHRwczovL2VuY3J5cHRlZC10Ym4wLmdzdGF0aWMuY29tL2ltYWdlcz9xPXRibjpBTmQ5R2NRa0pFSGZJR3ZMU3hIWnM5c2ItN0dlaE1PV3BFZ0JIQ1c4V2cmcyIgeD0iNTIwIiB5PSIxMjUiIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCBtZWV0Ii8+PHRleHQgeD0iNDAwIiB5PSIyMzUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCxzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ4IiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0id2hpdGUiIG9wYWNpdHk9IjAuOSI+VlM8L3RleHQ+PC9zdmc+",
+            "width": 800,
+            "height": 450
           },
           "labels": [
             {
@@ -439,15 +439,15 @@
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-6-fujian-vs-guangdong-l0",
+                          "id": "gv-6-fujian-vs-guangdong-lnk0",
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
-                          "url": "https://giovang.vin/truc-tiep-fujian-vs-guangdong-1804-rkewya48tsq3/",
+                          "url": "https://giovang.vin/truc-tiep-fujian-vs-guangdong-18-04-rkewya48tsq3/",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://giovang.vin/truc-tiep-fujian-vs-guangdong-1804-rkewya48tsq3/"
+                              "value": "https://giovang.vin/"
                             },
                             {
                               "key": "User-Agent",
@@ -471,12 +471,12 @@
           "display": "thumbnail-only",
           "enable_detail": false,
           "image": {
-            "padding": 2,
+            "padding": 0,
             "background_color": "#071a2e",
             "display": "contain",
-            "url": "https://upload.wikimedia.org/wikipedia/en/a/a6/Jiangsu_Dragons.png",
-            "width": 1600,
-            "height": 1200
+            "url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjQ1MCIgdmlld0JveD0iMCAwIDgwMCA0NTAiPjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNDUwIiBmaWxsPSIjMDcxYTJlIi8+PGltYWdlIGhyZWY9Imh0dHBzOi8vdXBsb2FkLndpa2ltZWRpYS5vcmcvd2lraXBlZGlhL2VuL2EvYTYvSmlhbmdzdV9EcmFnb25zLnBuZyIgeD0iODAiIHk9IjEyNSIgd2lkdGg9IjIwMCIgaGVpZ2h0PSIyMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIG1lZXQiLz48aW1hZ2UgaHJlZj0iaHR0cHM6Ly91cGxvYWQud2lraW1lZGlhLm9yZy93aWtpcGVkaWEvZW4vNS81NS9TaGFueGlfQnJhdmVfRHJhZ29uc19sb2dvLmpwZyIgeD0iNTIwIiB5PSIxMjUiIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCBtZWV0Ii8+PHRleHQgeD0iNDAwIiB5PSIyMzUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCxzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ4IiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0id2hpdGUiIG9wYWNpdHk9IjAuOSI+VlM8L3RleHQ+PC9zdmc+",
+            "width": 800,
+            "height": 450
           },
           "labels": [
             {
@@ -512,15 +512,15 @@
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-7-jiangsu-dragons-vs-shanx-l0",
+                          "id": "gv-7-jiangsu-dragons-vs-shanx-lnk0",
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
-                          "url": "https://giovang.vin/truc-tiep-jiangsu-dragons-vs-shanxi-zhongyu-1804-c3d1q1qyt7gi/",
+                          "url": "https://giovang.vin/truc-tiep-jiangsu-dragons-vs-shanxi-zhongyu-18-04-c3d1q1qyt7gi/",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://giovang.vin/truc-tiep-jiangsu-dragons-vs-shanxi-zhongyu-1804-c3d1q1qyt7gi/"
+                              "value": "https://giovang.vin/"
                             },
                             {
                               "key": "User-Agent",
@@ -544,12 +544,12 @@
           "display": "thumbnail-only",
           "enable_detail": false,
           "image": {
-            "padding": 2,
+            "padding": 0,
             "background_color": "#071a2e",
             "display": "contain",
-            "url": "https://upload.wikimedia.org/wikipedia/en/8/8e/Jilin_Northeast_Tigers.PNG",
-            "width": 1600,
-            "height": 1200
+            "url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjQ1MCIgdmlld0JveD0iMCAwIDgwMCA0NTAiPjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNDUwIiBmaWxsPSIjMDcxYTJlIi8+PGltYWdlIGhyZWY9Imh0dHBzOi8vdXBsb2FkLndpa2ltZWRpYS5vcmcvd2lraXBlZGlhL2VuLzgvOGUvSmlsaW5fTm9ydGhlYXN0X1RpZ2Vycy5QTkciIHg9IjgwIiB5PSIxMjUiIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCBtZWV0Ii8+PGltYWdlIGhyZWY9Imh0dHBzOi8vZW5jcnlwdGVkLXRibjAuZ3N0YXRpYy5jb20vaW1hZ2VzP3E9dGJuOkFOZDlHY1M2S2pTRWM3UE5WNm9vV2dhOGlhVUptbENLM1JGMFVEd3lfZyZzIiB4PSI1MjAiIHk9IjEyNSIgd2lkdGg9IjIwMCIgaGVpZ2h0PSIyMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIG1lZXQiLz48dGV4dCB4PSI0MDAiIHk9IjIzNSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IkFyaWFsLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNDgiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSJ3aGl0ZSIgb3BhY2l0eT0iMC45Ij5WUzwvdGV4dD48L3N2Zz4=",
+            "width": 800,
+            "height": 450
           },
           "labels": [
             {
@@ -585,15 +585,15 @@
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-8-jilin-vs-guangzhou-l0",
+                          "id": "gv-8-jilin-vs-guangzhou-lnk0",
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
-                          "url": "https://giovang.vin/truc-tiep-jilin-vs-guangzhou-1804-4871m16txo6u/",
+                          "url": "https://giovang.vin/truc-tiep-jilin-vs-guangzhou-18-04-4871m16txo6u/",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://giovang.vin/truc-tiep-jilin-vs-guangzhou-1804-4871m16txo6u/"
+                              "value": "https://giovang.vin/"
                             },
                             {
                               "key": "User-Agent",
@@ -617,12 +617,12 @@
           "display": "thumbnail-only",
           "enable_detail": false,
           "image": {
-            "padding": 2,
+            "padding": 0,
             "background_color": "#071a2e",
             "display": "contain",
-            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/c/ce/Udinese_Calcio_logo.svg/1280px-Udinese_Calcio_logo.svg.png",
-            "width": 1600,
-            "height": 1200
+            "url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjQ1MCIgdmlld0JveD0iMCAwIDgwMCA0NTAiPjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNDUwIiBmaWxsPSIjMDcxYTJlIi8+PGltYWdlIGhyZWY9Imh0dHBzOi8vdXBsb2FkLndpa2ltZWRpYS5vcmcvd2lraXBlZGlhL2VuL3RodW1iL2MvY2UvVWRpbmVzZV9DYWxjaW9fbG9nby5zdmcvMTI4MHB4LVVkaW5lc2VfQ2FsY2lvX2xvZ28uc3ZnLnBuZyIgeD0iODAiIHk9IjEyNSIgd2lkdGg9IjIwMCIgaGVpZ2h0PSIyMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIG1lZXQiLz48aW1hZ2UgaHJlZj0iaHR0cHM6Ly91cGxvYWQud2lraW1lZGlhLm9yZy93aWtpcGVkaWEvY29tbW9ucy90aHVtYi85Lzk3L0xvZ29fUGFybWFfQ2FsY2lvXzE5MTNfJTI4YWRvemlvbmVfMjAxNiUyOS5zdmcvMTI4MHB4LUxvZ29fUGFybWFfQ2FsY2lvXzE5MTNfJTI4YWRvemlvbmVfMjAxNiUyOS5zdmcucG5nIiB4PSI1MjAiIHk9IjEyNSIgd2lkdGg9IjIwMCIgaGVpZ2h0PSIyMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIG1lZXQiLz48dGV4dCB4PSI0MDAiIHk9IjIzNSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IkFyaWFsLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNDgiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSJ3aGl0ZSIgb3BhY2l0eT0iMC45Ij5WUzwvdGV4dD48L3N2Zz4=",
+            "width": 800,
+            "height": 450
           },
           "labels": [
             {
@@ -658,15 +658,15 @@
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-9-udinese-vs-parma-l0",
+                          "id": "gv-9-udinese-vs-parma-lnk0",
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
-                          "url": "https://giovang.vin/truc-tiep-udinese-vs-parma-1804-lb3a57f97c0o/",
+                          "url": "https://giovang.vin/truc-tiep-udinese-vs-parma-18-04-lb3a57f97c0o/",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://giovang.vin/truc-tiep-udinese-vs-parma-1804-lb3a57f97c0o/"
+                              "value": "https://giovang.vin/"
                             },
                             {
                               "key": "User-Agent",
@@ -690,12 +690,12 @@
           "display": "thumbnail-only",
           "enable_detail": false,
           "image": {
-            "padding": 2,
+            "padding": 0,
             "background_color": "#071a2e",
             "display": "contain",
-            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/SV-Werder-Bremen-Logo.svg/1920px-SV-Werder-Bremen-Logo.svg.png",
-            "width": 1600,
-            "height": 1200
+            "url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjQ1MCIgdmlld0JveD0iMCAwIDgwMCA0NTAiPjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNDUwIiBmaWxsPSIjMDcxYTJlIi8+PGltYWdlIGhyZWY9Imh0dHBzOi8vdXBsb2FkLndpa2ltZWRpYS5vcmcvd2lraXBlZGlhL2NvbW1vbnMvdGh1bWIvYi9iZS9TVi1XZXJkZXItQnJlbWVuLUxvZ28uc3ZnLzE5MjBweC1TVi1XZXJkZXItQnJlbWVuLUxvZ28uc3ZnLnBuZyIgeD0iODAiIHk9IjEyNSIgd2lkdGg9IjIwMCIgaGVpZ2h0PSIyMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIG1lZXQiLz48aW1hZ2UgaHJlZj0iaHR0cHM6Ly91cGxvYWQud2lraW1lZGlhLm9yZy93aWtpcGVkaWEvY29tbW9ucy90aHVtYi9mL2Y3L0hhbWJ1cmdlcl9TVl9sb2dvLnN2Zy8xMjgwcHgtSGFtYnVyZ2VyX1NWX2xvZ28uc3ZnLnBuZyIgeD0iNTIwIiB5PSIxMjUiIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCBtZWV0Ii8+PHRleHQgeD0iNDAwIiB5PSIyMzUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCxzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ4IiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0id2hpdGUiIG9wYWNpdHk9IjAuOSI+VlM8L3RleHQ+PC9zdmc+",
+            "width": 800,
+            "height": 450
           },
           "labels": [
             {
@@ -731,15 +731,15 @@
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-10-werder-bremen-vs-hamburg-l0",
+                          "id": "gv-10-werder-bremen-vs-hamburg-lnk0",
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
-                          "url": "https://giovang.vin/truc-tiep-werder-bremen-vs-hamburger-sv-1804-ic77bzzcxdsv/",
+                          "url": "https://giovang.vin/truc-tiep-werder-bremen-vs-hamburger-sv-18-04-ic77bzzcxdsv/",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://giovang.vin/truc-tiep-werder-bremen-vs-hamburger-sv-1804-ic77bzzcxdsv/"
+                              "value": "https://giovang.vin/"
                             },
                             {
                               "key": "User-Agent",
@@ -763,12 +763,12 @@
           "display": "thumbnail-only",
           "enable_detail": false,
           "image": {
-            "padding": 2,
+            "padding": 0,
             "background_color": "#071a2e",
             "display": "contain",
-            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/1._FC_Union_Berlin_Logo.svg/1280px-1._FC_Union_Berlin_Logo.svg.png",
-            "width": 1600,
-            "height": 1200
+            "url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjQ1MCIgdmlld0JveD0iMCAwIDgwMCA0NTAiPjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNDUwIiBmaWxsPSIjMDcxYTJlIi8+PGltYWdlIGhyZWY9Imh0dHBzOi8vdXBsb2FkLndpa2ltZWRpYS5vcmcvd2lraXBlZGlhL2NvbW1vbnMvdGh1bWIvNC80NC8xLl9GQ19Vbmlvbl9CZXJsaW5fTG9nby5zdmcvMTI4MHB4LTEuX0ZDX1VuaW9uX0Jlcmxpbl9Mb2dvLnN2Zy5wbmciIHg9IjgwIiB5PSIxMjUiIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCBtZWV0Ii8+PGltYWdlIGhyZWY9Imh0dHBzOi8vdXBsb2FkLndpa2ltZWRpYS5vcmcvd2lraXBlZGlhL2NvbW1vbnMvdGh1bWIvYy9jZS9WZkxfV29sZnNidXJnX0xvZ28uc3ZnLzEyODBweC1WZkxfV29sZnNidXJnX0xvZ28uc3ZnLnBuZyIgeD0iNTIwIiB5PSIxMjUiIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCBtZWV0Ii8+PHRleHQgeD0iNDAwIiB5PSIyMzUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCxzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ4IiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0id2hpdGUiIG9wYWNpdHk9IjAuOSI+VlM8L3RleHQ+PC9zdmc+",
+            "width": 800,
+            "height": 450
           },
           "labels": [
             {
@@ -804,15 +804,15 @@
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-11-union-berlin-vs-wolfsbur-l0",
+                          "id": "gv-11-union-berlin-vs-wolfsbur-lnk0",
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
-                          "url": "https://giovang.vin/truc-tiep-union-berlin-vs-wolfsburg-1804-b12w14i7gcp1/",
+                          "url": "https://giovang.vin/truc-tiep-union-berlin-vs-wolfsburg-18-04-b12w14i7gcp1/",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://giovang.vin/truc-tiep-union-berlin-vs-wolfsburg-1804-b12w14i7gcp1/"
+                              "value": "https://giovang.vin/"
                             },
                             {
                               "key": "User-Agent",
@@ -836,12 +836,12 @@
           "display": "thumbnail-only",
           "enable_detail": false,
           "image": {
-            "padding": 2,
+            "padding": 0,
             "background_color": "#071a2e",
             "display": "contain",
-            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX7ND57Auck2Dn3Je1S6VLbLCtfpswfWFByQ&s",
-            "width": 1600,
-            "height": 1200
+            "url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjQ1MCIgdmlld0JveD0iMCAwIDgwMCA0NTAiPjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNDUwIiBmaWxsPSIjMDcxYTJlIi8+PGltYWdlIGhyZWY9Imh0dHBzOi8vZW5jcnlwdGVkLXRibjAuZ3N0YXRpYy5jb20vaW1hZ2VzP3E9dGJuOkFOZDlHY1NYN05ENTdBdWNrMkRuM0plMVM2VkxiTEN0ZnBzd2ZXRkJ5USZzIiB4PSI4MCIgeT0iMTI1IiB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCIvPjxpbWFnZSBocmVmPSJodHRwczovL3VwbG9hZC53aWtpbWVkaWEub3JnL3dpa2lwZWRpYS9jb21tb25zL3RodW1iLzYvNjcvQm9ydXNzaWFfRG9ydG11bmRfbG9nby5zdmcvMTI4MHB4LUJvcnVzc2lhX0RvcnRtdW5kX2xvZ28uc3ZnLnBuZyIgeD0iNTIwIiB5PSIxMjUiIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCBtZWV0Ii8+PHRleHQgeD0iNDAwIiB5PSIyMzUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCxzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ4IiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0id2hpdGUiIG9wYWNpdHk9IjAuOSI+VlM8L3RleHQ+PC9zdmc+",
+            "width": 800,
+            "height": 450
           },
           "labels": [
             {
@@ -877,15 +877,15 @@
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-12-hoffenheim-vs-borussia-d-l0",
+                          "id": "gv-12-hoffenheim-vs-borussia-d-lnk0",
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
-                          "url": "https://giovang.vin/truc-tiep-hoffenheim-vs-borussia-dortmund-1804-ii7fjrseh0ao/",
+                          "url": "https://giovang.vin/truc-tiep-hoffenheim-vs-borussia-dortmund-18-04-ii7fjrseh0ao/",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://giovang.vin/truc-tiep-hoffenheim-vs-borussia-dortmund-1804-ii7fjrseh0ao/"
+                              "value": "https://giovang.vin/"
                             },
                             {
                               "key": "User-Agent",
@@ -909,12 +909,12 @@
           "display": "thumbnail-only",
           "enable_detail": false,
           "image": {
-            "padding": 2,
+            "padding": 0,
             "background_color": "#071a2e",
             "display": "contain",
-            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQp_FuqizZIPaei2RwGcknFRQ4e0jUu5I_hDw&s",
-            "width": 1600,
-            "height": 1200
+            "url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjQ1MCIgdmlld0JveD0iMCAwIDgwMCA0NTAiPjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNDUwIiBmaWxsPSIjMDcxYTJlIi8+PGltYWdlIGhyZWY9Imh0dHBzOi8vZW5jcnlwdGVkLXRibjAuZ3N0YXRpYy5jb20vaW1hZ2VzP3E9dGJuOkFOZDlHY1FwX0Z1cWl6WklQYWVpMlJ3R2NrbkZSUTRlMGpVdTVJX2hEdyZzIiB4PSI4MCIgeT0iMTI1IiB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCIvPjxpbWFnZSBocmVmPSJodHRwczovL3VwbG9hZC53aWtpbWVkaWEub3JnL3dpa2lwZWRpYS9lbi90aHVtYi9jL2M1L0ZDX0F1Z3NidXJnX2xvZ28uc3ZnLzk2MHB4LUZDX0F1Z3NidXJnX2xvZ28uc3ZnLnBuZyIgeD0iNTIwIiB5PSIxMjUiIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCBtZWV0Ii8+PHRleHQgeD0iNDAwIiB5PSIyMzUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCxzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ4IiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0id2hpdGUiIG9wYWNpdHk9IjAuOSI+VlM8L3RleHQ+PC9zdmc+",
+            "width": 800,
+            "height": 450
           },
           "labels": [
             {
@@ -950,15 +950,15 @@
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-13-bayer-leverkusen-vs-augs-l0",
+                          "id": "gv-13-bayer-leverkusen-vs-augs-lnk0",
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
-                          "url": "https://giovang.vin/truc-tiep-bayer-leverkusen-vs-augsburg-1804-g68yid2k4hsz/",
+                          "url": "https://giovang.vin/truc-tiep-bayer-leverkusen-vs-augsburg-18-04-g68yid2k4hsz/",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://giovang.vin/truc-tiep-bayer-leverkusen-vs-augsburg-1804-g68yid2k4hsz/"
+                              "value": "https://giovang.vin/"
                             },
                             {
                               "key": "User-Agent",
@@ -982,12 +982,12 @@
           "display": "thumbnail-only",
           "enable_detail": false,
           "image": {
-            "padding": 2,
+            "padding": 0,
             "background_color": "#071a2e",
             "display": "contain",
-            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Newcastle_United_Logo.svg/1280px-Newcastle_United_Logo.svg.png",
-            "width": 1600,
-            "height": 1200
+            "url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjQ1MCIgdmlld0JveD0iMCAwIDgwMCA0NTAiPjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNDUwIiBmaWxsPSIjMDcxYTJlIi8+PGltYWdlIGhyZWY9Imh0dHBzOi8vdXBsb2FkLndpa2ltZWRpYS5vcmcvd2lraXBlZGlhL2VuL3RodW1iLzUvNTYvTmV3Y2FzdGxlX1VuaXRlZF9Mb2dvLnN2Zy8xMjgwcHgtTmV3Y2FzdGxlX1VuaXRlZF9Mb2dvLnN2Zy5wbmciIHg9IjgwIiB5PSIxMjUiIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCBtZWV0Ii8+PGltYWdlIGhyZWY9Imh0dHBzOi8vdXBsb2FkLndpa2ltZWRpYS5vcmcvd2lraXBlZGlhL3ZpLzUvNTMvQUZDX0JvdXJuZW1vdXRoXyUyODIwMTMlMjkucG5nIiB4PSI1MjAiIHk9IjEyNSIgd2lkdGg9IjIwMCIgaGVpZ2h0PSIyMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIG1lZXQiLz48dGV4dCB4PSI0MDAiIHk9IjIzNSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IkFyaWFsLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNDgiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSJ3aGl0ZSIgb3BhY2l0eT0iMC45Ij5WUzwvdGV4dD48L3N2Zz4=",
+            "width": 800,
+            "height": 450
           },
           "labels": [
             {
@@ -1023,15 +1023,15 @@
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-14-newcastle-united-vs-afc-l0",
+                          "id": "gv-14-newcastle-united-vs-afc-lnk0",
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
-                          "url": "https://giovang.vin/truc-tiep-newcastle-united-vs-afc-bournemouth-1804-vwf1vln3sh2n/",
+                          "url": "https://giovang.vin/truc-tiep-newcastle-united-vs-afc-bournemouth-18-04-vwf1vln3sh2n/",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://giovang.vin/truc-tiep-newcastle-united-vs-afc-bournemouth-1804-vwf1vln3sh2n/"
+                              "value": "https://giovang.vin/"
                             },
                             {
                               "key": "User-Agent",
@@ -1055,12 +1055,12 @@
           "display": "thumbnail-only",
           "enable_detail": false,
           "image": {
-            "padding": 2,
+            "padding": 0,
             "background_color": "#071a2e",
             "display": "contain",
-            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIm48SMc8FL90tTc4JbPmTGywIvfPGUu2iLA&s",
-            "width": 1600,
-            "height": 1200
+            "url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjQ1MCIgdmlld0JveD0iMCAwIDgwMCA0NTAiPjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNDUwIiBmaWxsPSIjMDcxYTJlIi8+PGltYWdlIGhyZWY9Imh0dHBzOi8vZW5jcnlwdGVkLXRibjAuZ3N0YXRpYy5jb20vaW1hZ2VzP3E9dGJuOkFOZDlHY1RJbTQ4U01jOEZMOTB0VGM0SmJQbVRHeXdJdmZQR1V1MmlMQSZzIiB4PSI4MCIgeT0iMTI1IiB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCIvPjxpbWFnZSBocmVmPSJodHRwczovL3VwbG9hZC53aWtpbWVkaWEub3JnL3dpa2lwZWRpYS9lbi90aHVtYi9jL2M5L1dvbHZlcmhhbXB0b25fV2FuZGVyZXJzX0ZDX2NyZXN0LnN2Zy8xMjgwcHgtV29sdmVyaGFtcHRvbl9XYW5kZXJlcnNfRkNfY3Jlc3Quc3ZnLnBuZyIgeD0iNTIwIiB5PSIxMjUiIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCBtZWV0Ii8+PHRleHQgeD0iNDAwIiB5PSIyMzUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCxzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ4IiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0id2hpdGUiIG9wYWNpdHk9IjAuOSI+VlM8L3RleHQ+PC9zdmc+",
+            "width": 800,
+            "height": 450
           },
           "labels": [
             {
@@ -1096,15 +1096,15 @@
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-15-leeds-united-vs-wolverha-l0",
+                          "id": "gv-15-leeds-united-vs-wolverha-lnk0",
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
-                          "url": "https://giovang.vin/truc-tiep-leeds-united-vs-wolverhampton-wanderers-1804-t0sojpi9a0yb/",
+                          "url": "https://giovang.vin/truc-tiep-leeds-united-vs-wolverhampton-wanderers-18-04-t0sojpi9a0yb/",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://giovang.vin/truc-tiep-leeds-united-vs-wolverhampton-wanderers-1804-t0sojpi9a0yb/"
+                              "value": "https://giovang.vin/"
                             },
                             {
                               "key": "User-Agent",
@@ -1128,12 +1128,12 @@
           "display": "thumbnail-only",
           "enable_detail": false,
           "image": {
-            "padding": 2,
+            "padding": 0,
             "background_color": "#071a2e",
             "display": "contain",
-            "url": "https://upload.wikimedia.org/wikipedia/en/4/4c/FC_Lorient_logo.svg",
-            "width": 1600,
-            "height": 1200
+            "url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjQ1MCIgdmlld0JveD0iMCAwIDgwMCA0NTAiPjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNDUwIiBmaWxsPSIjMDcxYTJlIi8+PGltYWdlIGhyZWY9Imh0dHBzOi8vdXBsb2FkLndpa2ltZWRpYS5vcmcvd2lraXBlZGlhL2VuLzQvNGMvRkNfTG9yaWVudF9sb2dvLnN2ZyIgeD0iODAiIHk9IjEyNSIgd2lkdGg9IjIwMCIgaGVpZ2h0PSIyMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIG1lZXQiLz48aW1hZ2UgaHJlZj0iaHR0cHM6Ly91cGxvYWQud2lraW1lZGlhLm9yZy93aWtpcGVkaWEvY29tbW9ucy90aHVtYi9kL2Q4L09seW1waXF1ZV9NYXJzZWlsbGVfbG9nby5zdmcvMjUwcHgtT2x5bXBpcXVlX01hcnNlaWxsZV9sb2dvLnN2Zy5wbmciIHg9IjUyMCIgeT0iMTI1IiB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCIvPjx0ZXh0IHg9IjQwMCIgeT0iMjM1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsc2Fucy1zZXJpZiIgZm9udC1zaXplPSI0OCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjkiPlZTPC90ZXh0Pjwvc3ZnPg==",
+            "width": 800,
+            "height": 450
           },
           "labels": [
             {
@@ -1169,15 +1169,15 @@
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-16-lorient-vs-olympique-mar-l0",
+                          "id": "gv-16-lorient-vs-olympique-mar-lnk0",
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
-                          "url": "https://giovang.vin/truc-tiep-lorient-vs-olympique-marseille-1804-6u5g4z5raswn/",
+                          "url": "https://giovang.vin/truc-tiep-lorient-vs-olympique-marseille-18-04-6u5g4z5raswn/",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://giovang.vin/truc-tiep-lorient-vs-olympique-marseille-1804-6u5g4z5raswn/"
+                              "value": "https://giovang.vin/"
                             },
                             {
                               "key": "User-Agent",
@@ -1201,12 +1201,12 @@
           "display": "thumbnail-only",
           "enable_detail": false,
           "image": {
-            "padding": 2,
+            "padding": 0,
             "background_color": "#071a2e",
             "display": "contain",
-            "url": "https://images.keovip88.net/images/teams/napoli.png",
-            "width": 1600,
-            "height": 1200
+            "url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjQ1MCIgdmlld0JveD0iMCAwIDgwMCA0NTAiPjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNDUwIiBmaWxsPSIjMDcxYTJlIi8+PGltYWdlIGhyZWY9Imh0dHBzOi8vaW1hZ2VzLmtlb3ZpcDg4Lm5ldC9pbWFnZXMvdGVhbXMvbmFwb2xpLnBuZyIgeD0iODAiIHk9IjEyNSIgd2lkdGg9IjIwMCIgaGVpZ2h0PSIyMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIG1lZXQiLz48aW1hZ2UgaHJlZj0iaHR0cHM6Ly9pbWFnZXMua2VvdmlwODgubmV0L2ltYWdlcy90ZWFtcy9sYXppby5wbmciIHg9IjUyMCIgeT0iMTI1IiB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCIvPjx0ZXh0IHg9IjQwMCIgeT0iMjM1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsc2Fucy1zZXJpZiIgZm9udC1zaXplPSI0OCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjkiPlZTPC90ZXh0Pjwvc3ZnPg==",
+            "width": 800,
+            "height": 450
           },
           "labels": [
             {
@@ -1242,15 +1242,15 @@
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-17-napoli-vs-lazio-l0",
+                          "id": "gv-17-napoli-vs-lazio-lnk0",
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
-                          "url": "https://giovang.vin/truc-tiep-napoli-vs-lazio-1804-688ddbb65e48f4040e0a095f/",
+                          "url": "https://giovang.vin/truc-tiep-napoli-vs-lazio-18-04-688ddbb65e48f4040e0a095f/",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://giovang.vin/truc-tiep-napoli-vs-lazio-1804-688ddbb65e48f4040e0a095f/"
+                              "value": "https://giovang.vin/"
                             },
                             {
                               "key": "User-Agent",
@@ -1274,12 +1274,12 @@
           "display": "thumbnail-only",
           "enable_detail": false,
           "image": {
-            "padding": 2,
+            "padding": 0,
             "background_color": "#071a2e",
             "display": "contain",
-            "url": "https://images.keovip88.net/images/teams/tottenham-hotspur.png",
-            "width": 1600,
-            "height": 1200
+            "url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjQ1MCIgdmlld0JveD0iMCAwIDgwMCA0NTAiPjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNDUwIiBmaWxsPSIjMDcxYTJlIi8+PGltYWdlIGhyZWY9Imh0dHBzOi8vaW1hZ2VzLmtlb3ZpcDg4Lm5ldC9pbWFnZXMvdGVhbXMvdG90dGVuaGFtLWhvdHNwdXIucG5nIiB4PSI4MCIgeT0iMTI1IiB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCIvPjxpbWFnZSBocmVmPSJodHRwczovL2ltYWdlcy5rZW92aXA4OC5uZXQvaW1hZ2VzL3RlYW1zL2JyaWdodG9uLWhvdmUtYWxiaW9uLnBuZyIgeD0iNTIwIiB5PSIxMjUiIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCBtZWV0Ii8+PHRleHQgeD0iNDAwIiB5PSIyMzUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCxzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ4IiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0id2hpdGUiIG9wYWNpdHk9IjAuOSI+VlM8L3RleHQ+PC9zdmc+",
+            "width": 800,
+            "height": 450
           },
           "labels": [
             {
@@ -1315,15 +1315,15 @@
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-18-tottenham-hotspur-vs-bri-l0",
+                          "id": "gv-18-tottenham-hotspur-vs-bri-lnk0",
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
-                          "url": "https://giovang.vin/truc-tiep-tottenham-hotspur-vs-brighton-hove-albion-1804-6981818b975855c86b063037/",
+                          "url": "https://giovang.vin/truc-tiep-tottenham-hotspur-vs-brighton-hove-albion-18-04-6981818b975855c86b063037/",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://giovang.vin/truc-tiep-tottenham-hotspur-vs-brighton-hove-albion-1804-6981818b975855c86b063037/"
+                              "value": "https://giovang.vin/"
                             },
                             {
                               "key": "User-Agent",
@@ -1347,12 +1347,12 @@
           "display": "thumbnail-only",
           "enable_detail": false,
           "image": {
-            "padding": 2,
+            "padding": 0,
             "background_color": "#071a2e",
             "display": "contain",
-            "url": "https://images.keovip88.net/images/teams/as-roma.png",
-            "width": 1600,
-            "height": 1200
+            "url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjQ1MCIgdmlld0JveD0iMCAwIDgwMCA0NTAiPjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNDUwIiBmaWxsPSIjMDcxYTJlIi8+PGltYWdlIGhyZWY9Imh0dHBzOi8vaW1hZ2VzLmtlb3ZpcDg4Lm5ldC9pbWFnZXMvdGVhbXMvYXMtcm9tYS5wbmciIHg9IjgwIiB5PSIxMjUiIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCBtZWV0Ii8+PGltYWdlIGhyZWY9Imh0dHBzOi8vaW1hZ2VzLmtlb3ZpcDg4Lm5ldC9pbWFnZXMvdGVhbXMvYXRhbGFudGEucG5nIiB4PSI1MjAiIHk9IjEyNSIgd2lkdGg9IjIwMCIgaGVpZ2h0PSIyMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIG1lZXQiLz48dGV4dCB4PSI0MDAiIHk9IjIzNSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IkFyaWFsLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNDgiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSJ3aGl0ZSIgb3BhY2l0eT0iMC45Ij5WUzwvdGV4dD48L3N2Zz4=",
+            "width": 800,
+            "height": 450
           },
           "labels": [
             {
@@ -1388,15 +1388,15 @@
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-19-as-roma-vs-atalanta-l0",
+                          "id": "gv-19-as-roma-vs-atalanta-lnk0",
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
-                          "url": "https://giovang.vin/truc-tiep-as-roma-vs-atalanta-1904-688ddbb65e48f4040e0a0960/",
+                          "url": "https://giovang.vin/truc-tiep-as-roma-vs-atalanta-19-04-688ddbb65e48f4040e0a0960/",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://giovang.vin/truc-tiep-as-roma-vs-atalanta-1904-688ddbb65e48f4040e0a0960/"
+                              "value": "https://giovang.vin/"
                             },
                             {
                               "key": "User-Agent",
@@ -1420,12 +1420,12 @@
           "display": "thumbnail-only",
           "enable_detail": false,
           "image": {
-            "padding": 2,
+            "padding": 0,
             "background_color": "#071a2e",
             "display": "contain",
-            "url": "https://images.keovip88.net/images/teams/chelsea.png",
-            "width": 1600,
-            "height": 1200
+            "url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjQ1MCIgdmlld0JveD0iMCAwIDgwMCA0NTAiPjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNDUwIiBmaWxsPSIjMDcxYTJlIi8+PGltYWdlIGhyZWY9Imh0dHBzOi8vaW1hZ2VzLmtlb3ZpcDg4Lm5ldC9pbWFnZXMvdGVhbXMvY2hlbHNlYS5wbmciIHg9IjgwIiB5PSIxMjUiIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCBtZWV0Ii8+PGltYWdlIGhyZWY9Imh0dHBzOi8vaW1hZ2VzLmtlb3ZpcDg4Lm5ldC9pbWFnZXMvdGVhbXMvbWFuY2hlc3Rlci11bml0ZWQucG5nIiB4PSI1MjAiIHk9IjEyNSIgd2lkdGg9IjIwMCIgaGVpZ2h0PSIyMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIG1lZXQiLz48dGV4dCB4PSI0MDAiIHk9IjIzNSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IkFyaWFsLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNDgiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSJ3aGl0ZSIgb3BhY2l0eT0iMC45Ij5WUzwvdGV4dD48L3N2Zz4=",
+            "width": 800,
+            "height": 450
           },
           "labels": [
             {
@@ -1461,15 +1461,15 @@
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-20-chelsea-fc-vs-manchester-l0",
+                          "id": "gv-20-chelsea-fc-vs-manchester-lnk0",
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
-                          "url": "https://giovang.vin/truc-tiep-chelsea-fc-vs-manchester-united-1904-6981818b975855c86b063034/",
+                          "url": "https://giovang.vin/truc-tiep-chelsea-fc-vs-manchester-united-19-04-6981818b975855c86b063034/",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://giovang.vin/truc-tiep-chelsea-fc-vs-manchester-united-1904-6981818b975855c86b063034/"
+                              "value": "https://giovang.vin/"
                             },
                             {
                               "key": "User-Agent",
@@ -1493,12 +1493,12 @@
           "display": "thumbnail-only",
           "enable_detail": false,
           "image": {
-            "padding": 2,
+            "padding": 0,
             "background_color": "#071a2e",
             "display": "contain",
-            "url": "https://images.keovip88.net/images/teams/atletico-madrid.png",
-            "width": 1600,
-            "height": 1200
+            "url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjQ1MCIgdmlld0JveD0iMCAwIDgwMCA0NTAiPjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNDUwIiBmaWxsPSIjMDcxYTJlIi8+PGltYWdlIGhyZWY9Imh0dHBzOi8vaW1hZ2VzLmtlb3ZpcDg4Lm5ldC9pbWFnZXMvdGVhbXMvYXRsZXRpY28tbWFkcmlkLnBuZyIgeD0iODAiIHk9IjEyNSIgd2lkdGg9IjIwMCIgaGVpZ2h0PSIyMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIG1lZXQiLz48aW1hZ2UgaHJlZj0iaHR0cHM6Ly9pbWFnZXMua2VvdmlwODgubmV0L2ltYWdlcy90ZWFtcy9yZWFsLXNvY2llZGFkLnBuZyIgeD0iNTIwIiB5PSIxMjUiIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCBtZWV0Ii8+PHRleHQgeD0iNDAwIiB5PSIyMzUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCxzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ4IiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0id2hpdGUiIG9wYWNpdHk9IjAuOSI+VlM8L3RleHQ+PC9zdmc+",
+            "width": 800,
+            "height": 450
           },
           "labels": [
             {
@@ -1534,15 +1534,15 @@
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-21-atletico-madrid-vs-real-l0",
+                          "id": "gv-21-atletico-madrid-vs-real-lnk0",
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
-                          "url": "https://giovang.vin/truc-tiep-atletico-madrid-vs-real-sociedad-1904-69aa1afd9ade21dce30116b6/",
+                          "url": "https://giovang.vin/truc-tiep-atletico-madrid-vs-real-sociedad-19-04-69aa1afd9ade21dce30116b6/",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://giovang.vin/truc-tiep-atletico-madrid-vs-real-sociedad-1904-69aa1afd9ade21dce30116b6/"
+                              "value": "https://giovang.vin/"
                             },
                             {
                               "key": "User-Agent",
@@ -1566,12 +1566,12 @@
           "display": "thumbnail-only",
           "enable_detail": false,
           "image": {
-            "padding": 2,
+            "padding": 0,
             "background_color": "#071a2e",
             "display": "contain",
-            "url": "https://images.keovip88.net/images/teams/lille.png",
-            "width": 1600,
-            "height": 1200
+            "url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjQ1MCIgdmlld0JveD0iMCAwIDgwMCA0NTAiPjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNDUwIiBmaWxsPSIjMDcxYTJlIi8+PGltYWdlIGhyZWY9Imh0dHBzOi8vaW1hZ2VzLmtlb3ZpcDg4Lm5ldC9pbWFnZXMvdGVhbXMvbGlsbGUucG5nIiB4PSI4MCIgeT0iMTI1IiB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCIvPjxpbWFnZSBocmVmPSJodHRwczovL2ltYWdlcy5rZW92aXA4OC5uZXQvaW1hZ2VzL3RlYW1zL25pY2UucG5nIiB4PSI1MjAiIHk9IjEyNSIgd2lkdGg9IjIwMCIgaGVpZ2h0PSIyMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIG1lZXQiLz48dGV4dCB4PSI0MDAiIHk9IjIzNSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IkFyaWFsLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNDgiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSJ3aGl0ZSIgb3BhY2l0eT0iMC45Ij5WUzwvdGV4dD48L3N2Zz4=",
+            "width": 800,
+            "height": 450
           },
           "labels": [
             {
@@ -1607,15 +1607,15 @@
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-22-lille-osc-vs-nice-l0",
+                          "id": "gv-22-lille-osc-vs-nice-lnk0",
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
-                          "url": "https://giovang.vin/truc-tiep-lille-osc-vs-nice-1904-69d98f4e24d46db870c71a88/",
+                          "url": "https://giovang.vin/truc-tiep-lille-osc-vs-nice-19-04-69d98f4e24d46db870c71a88/",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://giovang.vin/truc-tiep-lille-osc-vs-nice-1904-69d98f4e24d46db870c71a88/"
+                              "value": "https://giovang.vin/"
                             },
                             {
                               "key": "User-Agent",
@@ -1639,12 +1639,12 @@
           "display": "thumbnail-only",
           "enable_detail": false,
           "image": {
-            "padding": 2,
+            "padding": 0,
             "background_color": "#071a2e",
             "display": "contain",
-            "url": "https://images.keovip88.net/images/teams/colorado-rapids.png",
-            "width": 1600,
-            "height": 1200
+            "url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjQ1MCIgdmlld0JveD0iMCAwIDgwMCA0NTAiPjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNDUwIiBmaWxsPSIjMDcxYTJlIi8+PGltYWdlIGhyZWY9Imh0dHBzOi8vaW1hZ2VzLmtlb3ZpcDg4Lm5ldC9pbWFnZXMvdGVhbXMvY29sb3JhZG8tcmFwaWRzLnBuZyIgeD0iODAiIHk9IjEyNSIgd2lkdGg9IjIwMCIgaGVpZ2h0PSIyMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIG1lZXQiLz48aW1hZ2UgaHJlZj0iaHR0cHM6Ly9pbWFnZXMua2VvdmlwODgubmV0L2ltYWdlcy90ZWFtcy9pbnRlci1taWFtaS1jZi5wbmciIHg9IjUyMCIgeT0iMTI1IiB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCIvPjx0ZXh0IHg9IjQwMCIgeT0iMjM1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsc2Fucy1zZXJpZiIgZm9udC1zaXplPSI0OCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjkiPlZTPC90ZXh0Pjwvc3ZnPg==",
+            "width": 800,
+            "height": 450
           },
           "labels": [
             {
@@ -1680,15 +1680,15 @@
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-23-colorado-rapids-vs-inter-l0",
+                          "id": "gv-23-colorado-rapids-vs-inter-lnk0",
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
-                          "url": "https://giovang.vin/truc-tiep-colorado-rapids-vs-inter-miami-1904-69d98f4f24d46db870c721e0/",
+                          "url": "https://giovang.vin/truc-tiep-colorado-rapids-vs-inter-miami-19-04-69d98f4f24d46db870c721e0/",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://giovang.vin/truc-tiep-colorado-rapids-vs-inter-miami-1904-69d98f4f24d46db870c721e0/"
+                              "value": "https://giovang.vin/"
                             },
                             {
                               "key": "User-Agent",
@@ -1712,12 +1712,12 @@
           "display": "thumbnail-only",
           "enable_detail": false,
           "image": {
-            "padding": 2,
+            "padding": 0,
             "background_color": "#071a2e",
             "display": "contain",
-            "url": "https://images.keovip88.net/images/teams/chapecoense-sc.png",
-            "width": 1600,
-            "height": 1200
+            "url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjQ1MCIgdmlld0JveD0iMCAwIDgwMCA0NTAiPjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNDUwIiBmaWxsPSIjMDcxYTJlIi8+PGltYWdlIGhyZWY9Imh0dHBzOi8vaW1hZ2VzLmtlb3ZpcDg4Lm5ldC9pbWFnZXMvdGVhbXMvY2hhcGVjb2Vuc2Utc2MucG5nIiB4PSI4MCIgeT0iMTI1IiB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCIvPjxpbWFnZSBocmVmPSJodHRwczovL2ltYWdlcy5rZW92aXA4OC5uZXQvaW1hZ2VzL3RlYW1zL2JvdGFmb2dvLXJqLnBuZyIgeD0iNTIwIiB5PSIxMjUiIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCBtZWV0Ii8+PHRleHQgeD0iNDAwIiB5PSIyMzUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCxzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ4IiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0id2hpdGUiIG9wYWNpdHk9IjAuOSI+VlM8L3RleHQ+PC9zdmc+",
+            "width": 800,
+            "height": 450
           },
           "labels": [
             {
@@ -1753,15 +1753,15 @@
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-24-chapecoense-sc-vs-botafo-l0",
+                          "id": "gv-24-chapecoense-sc-vs-botafo-lnk0",
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
-                          "url": "https://giovang.vin/truc-tiep-chapecoense-sc-vs-botafogo-rj-1904-69d98f5024d46db870c722cd/",
+                          "url": "https://giovang.vin/truc-tiep-chapecoense-sc-vs-botafogo-rj-19-04-69d98f5024d46db870c722cd/",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://giovang.vin/truc-tiep-chapecoense-sc-vs-botafogo-rj-1904-69d98f5024d46db870c722cd/"
+                              "value": "https://giovang.vin/"
                             },
                             {
                               "key": "User-Agent",
@@ -1785,12 +1785,12 @@
           "display": "thumbnail-only",
           "enable_detail": false,
           "image": {
-            "padding": 2,
+            "padding": 0,
             "background_color": "#071a2e",
             "display": "contain",
-            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c0/Colorado_Rockies_full_logo.svg/1280px-Colorado_Rockies_full_logo.svg.png",
-            "width": 1600,
-            "height": 1200
+            "url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjQ1MCIgdmlld0JveD0iMCAwIDgwMCA0NTAiPjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNDUwIiBmaWxsPSIjMDcxYTJlIi8+PGltYWdlIGhyZWY9Imh0dHBzOi8vdXBsb2FkLndpa2ltZWRpYS5vcmcvd2lraXBlZGlhL2VuL3RodW1iL2MvYzAvQ29sb3JhZG9fUm9ja2llc19mdWxsX2xvZ28uc3ZnLzEyODBweC1Db2xvcmFkb19Sb2NraWVzX2Z1bGxfbG9nby5zdmcucG5nIiB4PSI4MCIgeT0iMTI1IiB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCIvPjxpbWFnZSBocmVmPSJodHRwczovL3VwbG9hZC53aWtpbWVkaWEub3JnL3dpa2lwZWRpYS9jb21tb25zL3RodW1iLzAvMGUvTG9zX0FuZ2VsZXNfRG9kZ2Vyc19Mb2dvLnN2Zy8zODQwcHgtTG9zX0FuZ2VsZXNfRG9kZ2Vyc19Mb2dvLnN2Zy5wbmciIHg9IjUyMCIgeT0iMTI1IiB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCIvPjx0ZXh0IHg9IjQwMCIgeT0iMjM1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsc2Fucy1zZXJpZiIgZm9udC1zaXplPSI0OCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjkiPlZTPC90ZXh0Pjwvc3ZnPg==",
+            "width": 800,
+            "height": 450
           },
           "labels": [
             {
@@ -1826,15 +1826,15 @@
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-25-colorado-rockies-vs-los-l0",
+                          "id": "gv-25-colorado-rockies-vs-los-lnk0",
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
-                          "url": "https://giovang.vin/truc-tiep-colorado-rockies-vs-los-angeles-dodgers-1904-qhv91nsfovt7/",
+                          "url": "https://giovang.vin/truc-tiep-colorado-rockies-vs-los-angeles-dodgers-19-04-qhv91nsfovt7/",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://giovang.vin/truc-tiep-colorado-rockies-vs-los-angeles-dodgers-1904-qhv91nsfovt7/"
+                              "value": "https://giovang.vin/"
                             },
                             {
                               "key": "User-Agent",
@@ -1858,12 +1858,12 @@
           "display": "thumbnail-only",
           "enable_detail": false,
           "image": {
-            "padding": 2,
+            "padding": 0,
             "background_color": "#071a2e",
             "display": "contain",
-            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Los_Angeles_Lakers_logo.svg/1280px-Los_Angeles_Lakers_logo.svg.png",
-            "width": 1600,
-            "height": 1200
+            "url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjQ1MCIgdmlld0JveD0iMCAwIDgwMCA0NTAiPjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNDUwIiBmaWxsPSIjMDcxYTJlIi8+PGltYWdlIGhyZWY9Imh0dHBzOi8vdXBsb2FkLndpa2ltZWRpYS5vcmcvd2lraXBlZGlhL2NvbW1vbnMvdGh1bWIvMy8zYy9Mb3NfQW5nZWxlc19MYWtlcnNfbG9nby5zdmcvMTI4MHB4LUxvc19BbmdlbGVzX0xha2Vyc19sb2dvLnN2Zy5wbmciIHg9IjgwIiB5PSIxMjUiIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCBtZWV0Ii8+PGltYWdlIGhyZWY9Imh0dHBzOi8vdXBsb2FkLndpa2ltZWRpYS5vcmcvd2lraXBlZGlhL3ZlYy9iL2I5L0hvdXN0b25fUm9ja2V0c19sb2dvLnBuZyIgeD0iNTIwIiB5PSIxMjUiIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCBtZWV0Ii8+PHRleHQgeD0iNDAwIiB5PSIyMzUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCxzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ4IiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0id2hpdGUiIG9wYWNpdHk9IjAuOSI+VlM8L3RleHQ+PC9zdmc+",
+            "width": 800,
+            "height": 450
           },
           "labels": [
             {
@@ -1899,15 +1899,15 @@
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-26-los-angeles-lakers-vs-ho-l0",
+                          "id": "gv-26-los-angeles-lakers-vs-ho-lnk0",
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
-                          "url": "https://giovang.vin/truc-tiep-los-angeles-lakers-vs-houston-rockets-1904-8oxdwfhxbsil/",
+                          "url": "https://giovang.vin/truc-tiep-los-angeles-lakers-vs-houston-rockets-19-04-8oxdwfhxbsil/",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://giovang.vin/truc-tiep-los-angeles-lakers-vs-houston-rockets-1904-8oxdwfhxbsil/"
+                              "value": "https://giovang.vin/"
                             },
                             {
                               "key": "User-Agent",
@@ -1931,12 +1931,12 @@
           "display": "thumbnail-only",
           "enable_detail": false,
           "image": {
-            "padding": 2,
+            "padding": 0,
             "background_color": "#071a2e",
             "display": "contain",
-            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f4/Canterbury_Rams_logo.jpg/250px-Canterbury_Rams_logo.jpg",
-            "width": 1600,
-            "height": 1200
+            "url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjQ1MCIgdmlld0JveD0iMCAwIDgwMCA0NTAiPjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNDUwIiBmaWxsPSIjMDcxYTJlIi8+PGltYWdlIGhyZWY9Imh0dHBzOi8vdXBsb2FkLndpa2ltZWRpYS5vcmcvd2lraXBlZGlhL2VuL3RodW1iL2YvZjQvQ2FudGVyYnVyeV9SYW1zX2xvZ28uanBnLzI1MHB4LUNhbnRlcmJ1cnlfUmFtc19sb2dvLmpwZyIgeD0iODAiIHk9IjEyNSIgd2lkdGg9IjIwMCIgaGVpZ2h0PSIyMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIG1lZXQiLz48aW1hZ2UgaHJlZj0iaHR0cHM6Ly93d3cucHJvYmFsbGVycy5jb20vYXBpL2dldFRlYW1Mb2dvP2lkPTI2MzImd2lkdGg9MzAwIiB4PSI1MjAiIHk9IjEyNSIgd2lkdGg9IjIwMCIgaGVpZ2h0PSIyMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIG1lZXQiLz48dGV4dCB4PSI0MDAiIHk9IjIzNSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IkFyaWFsLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNDgiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSJ3aGl0ZSIgb3BhY2l0eT0iMC45Ij5WUzwvdGV4dD48L3N2Zz4=",
+            "width": 800,
+            "height": 450
           },
           "labels": [
             {
@@ -1972,15 +1972,15 @@
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-27-canterbury-rams-vs-welli-l0",
+                          "id": "gv-27-canterbury-rams-vs-welli-lnk0",
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
-                          "url": "https://giovang.vin/truc-tiep-canterbury-rams-vs-wellington-saints-1904-0pui65pb9a0x/",
+                          "url": "https://giovang.vin/truc-tiep-canterbury-rams-vs-wellington-saints-19-04-0pui65pb9a0x/",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://giovang.vin/truc-tiep-canterbury-rams-vs-wellington-saints-1904-0pui65pb9a0x/"
+                              "value": "https://giovang.vin/"
                             },
                             {
                               "key": "User-Agent",
@@ -2004,12 +2004,12 @@
           "display": "thumbnail-only",
           "enable_detail": false,
           "image": {
-            "padding": 2,
+            "padding": 0,
             "background_color": "#071a2e",
             "display": "contain",
-            "url": "https://images.keovip88.net/images/teams/pohang-steelers.png",
-            "width": 1600,
-            "height": 1200
+            "url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjQ1MCIgdmlld0JveD0iMCAwIDgwMCA0NTAiPjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNDUwIiBmaWxsPSIjMDcxYTJlIi8+PGltYWdlIGhyZWY9Imh0dHBzOi8vaW1hZ2VzLmtlb3ZpcDg4Lm5ldC9pbWFnZXMvdGVhbXMvcG9oYW5nLXN0ZWVsZXJzLnBuZyIgeD0iODAiIHk9IjEyNSIgd2lkdGg9IjIwMCIgaGVpZ2h0PSIyMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIG1lZXQiLz48aW1hZ2UgaHJlZj0iaHR0cHM6Ly9pbWFnZXMua2VvdmlwODgubmV0L2ltYWdlcy90ZWFtcy9mYy1hbnlhbmcucG5nIiB4PSI1MjAiIHk9IjEyNSIgd2lkdGg9IjIwMCIgaGVpZ2h0PSIyMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIG1lZXQiLz48dGV4dCB4PSI0MDAiIHk9IjIzNSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IkFyaWFsLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNDgiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSJ3aGl0ZSIgb3BhY2l0eT0iMC45Ij5WUzwvdGV4dD48L3N2Zz4=",
+            "width": 800,
+            "height": 450
           },
           "labels": [
             {
@@ -2045,15 +2045,15 @@
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-28-pohang-steelers-vs-fc-an-l0",
+                          "id": "gv-28-pohang-steelers-vs-fc-an-lnk0",
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
-                          "url": "https://giovang.vin/truc-tiep-pohang-steelers-vs-fc-anyang-1904-69dae0c624d46db87098917e/",
+                          "url": "https://giovang.vin/truc-tiep-pohang-steelers-vs-fc-anyang-19-04-69dae0c624d46db87098917e/",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://giovang.vin/truc-tiep-pohang-steelers-vs-fc-anyang-1904-69dae0c624d46db87098917e/"
+                              "value": "https://giovang.vin/"
                             },
                             {
                               "key": "User-Agent",
@@ -2077,12 +2077,12 @@
           "display": "thumbnail-only",
           "enable_detail": false,
           "image": {
-            "padding": 2,
+            "padding": 0,
             "background_color": "#071a2e",
             "display": "contain",
-            "url": "https://images.keovip88.net/images/teams/manchester-city.png",
-            "width": 1600,
-            "height": 1200
+            "url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjQ1MCIgdmlld0JveD0iMCAwIDgwMCA0NTAiPjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNDUwIiBmaWxsPSIjMDcxYTJlIi8+PGltYWdlIGhyZWY9Imh0dHBzOi8vaW1hZ2VzLmtlb3ZpcDg4Lm5ldC9pbWFnZXMvdGVhbXMvbWFuY2hlc3Rlci1jaXR5LnBuZyIgeD0iODAiIHk9IjEyNSIgd2lkdGg9IjIwMCIgaGVpZ2h0PSIyMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIG1lZXQiLz48aW1hZ2UgaHJlZj0iaHR0cHM6Ly9pbWFnZXMua2VvdmlwODgubmV0L2ltYWdlcy90ZWFtcy9hcnNlbmFsLnBuZyIgeD0iNTIwIiB5PSIxMjUiIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCBtZWV0Ii8+PHRleHQgeD0iNDAwIiB5PSIyMzUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCxzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ4IiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0id2hpdGUiIG9wYWNpdHk9IjAuOSI+VlM8L3RleHQ+PC9zdmc+",
+            "width": 800,
+            "height": 450
           },
           "labels": [
             {
@@ -2118,15 +2118,15 @@
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-29-manchester-city-vs-arsen-l0",
+                          "id": "gv-29-manchester-city-vs-arsen-lnk0",
                           "name": "Xem trực tiếp",
                           "type": "iframe",
                           "default": true,
-                          "url": "https://giovang.vin/truc-tiep-manchester-city-vs-arsenal-1904-6981818b975855c86b063035/",
+                          "url": "https://giovang.vin/truc-tiep-manchester-city-vs-arsenal-19-04-6981818b975855c86b063035/",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://giovang.vin/truc-tiep-manchester-city-vs-arsenal-1904-6981818b975855c86b063035/"
+                              "value": "https://giovang.vin/"
                             },
                             {
                               "key": "User-Agent",
