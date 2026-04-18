@@ -2,7 +2,7 @@
   "id": "giovang-iptv",
   "name": "GioVang TV",
   "url": "https://giovang.vin/",
-  "description": "Trực tiếp bóng đá — 2 đang live, 27 sắp tới. Cập nhật 19/04/2026 00:06 ICT",
+  "description": "Trực tiếp bóng đá — 2 đang live, 27 sắp tới. Cập nhật 19/04/2026 01:03 ICT",
   "disable_ads": true,
   "color": "#f5a623",
   "grid_number": 3,
@@ -21,8 +21,8 @@
       "channels": [
         {
           "id": "gv-1-tottenham-hotspur-vs-bri",
-          "name": "Tottenham Hotspur 0-0 Brighton   Hove Albion  🔴 37'",
-          "description": "Ngoại hạng Anh | 23:30 | 18/04 | 🔴 LIVE 37' | 0-0 | 🎙 BLV Dần | BLV Chè",
+          "name": "Tottenham Hotspur 1-1 Brighton   Hove Albion  🔴 74'",
+          "description": "Ngoại hạng Anh | 23:30 | 18/04 | 🔴 LIVE 74' | 1-1 | 🎙 BLV Dần | BLV Chè",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -48,7 +48,7 @@
               "position": "top-right"
             },
             {
-              "text": "0-0  37'",
+              "text": "1-1  74'",
               "color": "#B71C1C",
               "text_color": "#ffffff",
               "position": "bottom-right"
@@ -67,7 +67,7 @@
               "contents": [
                 {
                   "id": "gv-1-tottenham-hotspur-vs-bri-ct",
-                  "name": "Tottenham Hotspur 0-0 Brighton   Hove Albion  🔴 37' · Ngoại hạng Anh",
+                  "name": "Tottenham Hotspur 1-1 Brighton   Hove Albion  🔴 74' · Ngoại hạng Anh",
                   "streams": [
                     {
                       "id": "gv-1-tottenham-hotspur-vs-bri-st",
@@ -1092,7 +1092,7 @@
         {
           "id": "gv-12-los-angeles-lakers-vs-ho",
           "name": "Los Angeles Lakers vs Houston Rockets  🕐 07:30 | 19/04",
-          "description": "NBA | 07:30 | 19/04 | 🕐 Sắp diễn ra | 🎙 BLV Perry | BLV Chè",
+          "description": "NBA | 07:30 | 19/04 | 🕐 Sắp diễn ra | 🎙 BLV Perry | BLV Ben",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1173,10 +1173,10 @@
                         },
                         {
                           "id": "gv-12-los-angeles-lakers-vs-ho-l1hd",
-                          "name": "BLV Chè – HD",
+                          "name": "BLV Ben – HD",
                           "type": "hls",
                           "default": false,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1776499923_hd/1776499923_hd@720p.m3u8",
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1776534901_hd/1776534901_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1190,10 +1190,10 @@
                         },
                         {
                           "id": "gv-12-los-angeles-lakers-vs-ho-l1sd",
-                          "name": "BLV Chè – SD",
+                          "name": "BLV Ben – SD",
                           "type": "hls",
                           "default": false,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1776499923_sd/1776499923_hd@480p.m3u8",
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1776534901_sd/1776534901_hd@480p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
