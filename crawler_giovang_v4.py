@@ -252,12 +252,25 @@ def fetch_wp_logos(sc, fid):
     """
     POST admin-ajax.php action=load_live_stream&id={fid}
     Response: { success, data: { home:{name,logo}, away:{name,logo}, ... } }
+    Luôn trả về (dict, dict) — không bao giờ None.
     """
-    resp = post_ajax(sc, {"action": "load_live_stream", "id": fid})
-    if not resp.get("success"):
+    try:
+        resp = post_ajax(sc, {"action": "load_live_stream", "id": fid})
+        if not resp or not isinstance(resp, dict):
+            return {}, {}
+        if not resp.get("success"):
+            return {}, {}
+        d = resp.get("data") or {}
+        if not isinstance(d, dict):
+            return {}, {}
+        home = d.get("home") or {}
+        away = d.get("away") or {}
+        if not isinstance(home, dict): home = {}
+        if not isinstance(away, dict): away = {}
+        return home, away
+    except Exception as e:
+        log(f"     ⚠ WP AJAX lỗi: {e}")
         return {}, {}
-    d = resp.get("data", {})
-    return d.get("home", {}), d.get("away", {})
 
 # ─── Step 3: Stream API → link_stream_hd / sd ────────────────
 def fetch_streams(sc, fid):
@@ -597,19 +610,28 @@ def main():
         streams = []
 
         if not args.no_stream:
-            # WP AJAX → logo chính xác từ flashscore
-            log(f"        📋 WP AJAX logo...")
-            home_wp, away_wp = fetch_wp_logos(sc, m["id"])
-            if home_wp.get("logo"): m["logo_a"] = home_wp["logo"]
-            if away_wp.get("logo"): m["logo_b"] = away_wp["logo"]
-            if m["logo_a"]: log(f"        logo_a ✓ {m['logo_a'][-40:]}")
-            if m["logo_b"]: log(f"        logo_b ✓ {m['logo_b'][-40:]}")
+            try:
+                # WP AJAX → logo chính xác từ flashscore
+                log(f"        📋 WP AJAX logo...")
+                home_wp, away_wp = fetch_wp_logos(sc, m["id"])
+                logo_a = (home_wp or {}).get("logo", "")
+                logo_b = (away_wp or {}).get("logo", "")
+                if logo_a: m["logo_a"] = logo_a
+                if logo_b: m["logo_b"] = logo_b
+                if m.get("logo_a"): log(f"        logo_a ✓ {m['logo_a'][-40:]}")
+                if m.get("logo_b"): log(f"        logo_b ✓ {m['logo_b'][-40:]}")
+            except Exception as e:
+                log(f"        ⚠ WP AJAX lỗi: {e}")
 
-            # Stream API
-            log(f"        🎬 Stream API...")
-            streams = fetch_streams(sc, m["id"])
-            if not streams:
-                log(f"        ⚠ Không có stream (trận chưa live hoặc API lỗi)")
+            try:
+                # Stream API
+                log(f"        🎬 Stream API...")
+                streams = fetch_streams(sc, m["id"])
+                if not streams:
+                    log(f"        ⚠ Không có stream (trận chưa live hoặc API lỗi)")
+            except Exception as e:
+                log(f"        ⚠ Stream API lỗi: {e}")
+                streams = []
 
             time.sleep(0.5)
 
@@ -622,8 +644,11 @@ def main():
 
     live_n = sum(1 for m in matches if m["status"] == "live")
     up_n   = sum(1 for m in matches if m["status"] == "upcoming")
-    streams_ok = sum(1 for c in channels
-                     if c["sources"][0]["contents"][0]["streams"][0]["stream_links"][0]["type"] == "hls")
+    try:
+        streams_ok = sum(1 for c in channels
+                         if c["sources"][0]["contents"][0]["streams"][0]["stream_links"][0]["type"] == "hls")
+    except Exception:
+        streams_ok = 0
 
     log(f"\n{'═'*62}")
     log(f"  ✅  Xong!  →  {args.output}")
