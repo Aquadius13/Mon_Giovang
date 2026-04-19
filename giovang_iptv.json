@@ -2,7 +2,7 @@
   "id": "giovang-iptv",
   "name": "GioVang TV",
   "url": "https://giovang.vin/",
-  "description": "Trực tiếp bóng đá — 2 đang live, 17 sắp tới. Cập nhật 19/04/2026 08:20 ICT",
+  "description": "Trực tiếp bóng đá — 1 đang live, 16 sắp tới. Cập nhật 19/04/2026 10:19 ICT",
   "disable_ads": true,
   "color": "#f5a623",
   "grid_number": 3,
@@ -20,97 +20,7 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-1-colorado-rockies-vs-los",
-          "name": "Colorado Rockies 0-0 Los Angeles Dodgers  🔴",
-          "description": "MLB | 07:10 | 19/04 | 🔴 LIVE | 0-0 | 🎙 BLV Cầy",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 0,
-            "background_color": "#0a1628",
-            "display": "contain",
-            "url": "data:image/webp;base64,UklGRgIrAABXRUJQVlA4IPYqAAAw5ACdASogA8IBPm02mEkkIyKhIZYJUIANiWVu4XXjvmALn13H3nnccj9xXyr7t5rPBvtDzYuf/0N7Xf+F/yfZJ+svYA/X7pY/u16gP2f/a73bv9p+6vul/u/+l/Jn5AP5//jPTR9jX9t///7hf7N/+z13/2/+Ez+zf8r9wvbD///sAf//1AOpn6nf3Tth/u/5X+gPji9ie1P95/YD5LcnfYlqffLfuL+J/wv7mf4f5s/x/+s/MLzb+Vn+j6gX5V/N/8Z+ZH9s4Y63voEe6n1r/k/4b8jPhr+b/0/ot9f/9x7gH8u/sf+99fv934JnovsA/zX+0f9b/A/5v9ovkY/3f9b+Uvtr+nv/F/pvgK/m39d/5/+C9tD//+5D92///7on7U//8TTth7ZeU2dUklG42w9svKbOqSSjcbYe2XlNnVJJRuNsPbLymzqkko3G2Htl5TZ1SSUbjbD2y8ps6pJKNxth7ZeU2dUklG42w9svKbOqSSjcbYejj4Hc6pJKNxth7ZeU2dUklG42w9svKbONUXlNnVJJRuNsPbLzDl8hy+Q5fIcvkOXyHL3un6mtlL5FJC7ILN8u5dN80k9svKbOqSSjcbYem98n8gp7ZeU2ONFaLgccZKP9rsOMFBZf4Hdc6o/p/ptgaUvz51m3IKP0pfgFtf/PaKnR3ANi6L+8QXQdsEg+XU/0DSRIO7Yj0ByA3CjRtHspEX5CM9BJIYeHyqcQi2+hs28oXAyP7v9/fDToJmFw9/0hy+Q5ZnXjdgp/Fy2jxd/q25p2X+t/Zd0aDyskOXyHL5Dda8G4Cg52FHMvCpPHvEEIQoAxrObitsbnXNp27mMp/gVaKdP4pPn/YCTuNNHMVDB50DecUAkPTKXqp5AC10SdWknzjjfvCj/2ce1jucKJQ0FPbLkNpUqcJ/OBbTDtN4ZCcrP2CYii3tbXwZ0OqiKDSUbjbDeTcDaeFhNehyFKpoBYUH99GSTaag46BBpAFYqwmRYI1UNU2XLN2ZPsPNsEdCLsxNPQ5ND6i2hSHB+yb/GU7JLJpiyzzv9jowWWIOZbIBla/ZcQfx9/vlab6Rkl4Eusko3Gzwx+yDFJvQLInQ6XD3ZkBcJzCAkassUPEPkFPaqFROZlyZxVFQO3wD9rRkxACB8abNSFhokmzgXSB0utfRSQ7IKBK74Ls58KjRlMG3pQPJcktdklEdjiEKDAliqKq1UwsI6EgEhp79N5J820aZKJb1U+2K3BOXggRpxi2eXolAKe2XMSvYBbumfXDt+jmtNXZqkjpNBJcWaQmoyr8Zz4ESlzCBQ6UNuy8B2zp64havCDk/OZvLSCWHVpACmP11lVOXJQGyZeXsrUkcWETh8fXdJNqt+PkpFerFqzcWfT7vdo1y9TS2aO+FA6wnv/eoP12xhs5sRuDg4DP1ibHSA9UzMJ5Og3TgEQb4oZdqKYWapxyu/Mr9N5+3nbcrMMFosNnEUnxbJCC+C1Mw0wUZ4nHkktQpEC1wolMKmUH3eKAzNuh2WxTVJJRvT+/TMXEBKrqoX/DX1g8Fbzqkko3PegXLBUNjE/WLxnjGrXJLvvO51SSUbjbD2y8ps6pI8WYlG42w9suQg0k28CmP2EaNXU2I587q1glXNwyo377hZ2h5WhqoEIgSSUbjbD2p6oZeU2dUklJ6lqm8feQZS6gH0MbjbD0rH+w3/hQ/wfYFMMcPNl5NClrO6v98Uh1IoddiiunkN4C+tmYmJODRXHXVnO2Ip7/8dZeivBTiUJqfTM+MbDmusK4zy+K5lWPOjWTuzPVqHediigXNa/RMYHGswI4nHmElhNnsTDGfCg5MUQpQKZPgYgYi2h+7yh9U/wgo66TXlwMvvt6QGgas/+yQO/9RE0NFcg9hasMXd2aqKf8DudUklG42vlXn+wjRuNsaND1JcSSh4Gx8DY+BsfA2PgbHwM5yjae/kOXyHL5Dl8hy+Q5fE2dUklG42w9svKbOJObECX8gp7ZeU2dUklGsvsIcEYdyxOYo5FacxRyK05ijkVpzFHIrTmKORWm60citOYo5FacxRyK05ijkVpzFHIrTmKORWnMR0itOYo5FacxRyK05ijkVpzFHIrTmKORWnMUcitOYo5FacxRyK05ijkVpzFHIrTmKORWnMUck7tl5TZ1SSUbjbD2y8ps6pJKNxth7ZeUzZTjpJpKExwZOCWXD2jSkB+QU9svKbOqSSjcbYe2XlM2VFKuxUaSy4DG2JDFS8qjBDErRlVXFLJ6NvGaslkLnvnjXweBtPLsvUjRdxNLGzVJJRuNsPbLymzqkko3GzYvmjm5rj4WIuRsdNMM8nUh3CcgVyMZY0cDBdCKGLsPMzDxM0OqSSjcbYe2XlNnVJJRuNsPbLymzqkko3G2Htl5TZ1SSUbjbD2y8ps6pJKNxth7ZeU2dUklG42w9svKbOqSSjcbYe2XlCAAP7/orz+Iz/ZWFeei2AAAAAAAAAAAAAAKm9f4A5/LkBAAAAIScBeGWDAGJEOaIc0Q5ohzHAAACFq2XLCzA4MTX4X1ssvNwqJ8bi5nxqD2C9Wfy3gkKgljpF4QRZ1QQH5g4Wm1u7zT/7JJ8iwpoiFkrjcudO3JgpZQzXCfYrWp7BasQcaNjNOGj+JHwjAQGBzd5BKfN0VeyKpkA000xILJ4T5G0Lfcdn+vjmQEh68HEQu08QC3eZu3lb5xprV6huoi5H4Kj/7Xrsn1ENs+9KvFVBR0hL2bCFxz3wBz8cwZoCUhpq/7TdOqFW8sVgIyU2gEwqMKTtfFw0FE8dJbG+7nH1KKCM5xTdHwJtl6YDIEHNePVpPPgDn30wp99MKffTCn30wp99MKffTCn30wp95ye+DYD3wbAe+DYD3wbAe+DYD3wbAe+DYD3wbAevjZDe1bfyaQ0SSiWAeP88l6XvDsH6wM1Dnmq7lMbmkSx2LjhZwbPtQ7sn8ALzobjMFjeOURFyDwebu3jBW1CAKTkYeJkkyypSIv/lBe9GjmT1giur4QBYsDp2GJChqh1FOmtgeAjzXEqS367gjLLlvXkfxWY+mbGsTJ2IhaKca9qTlvFTvrNxYc1uLEm9dXZ1y2DVe+vWWcNmdSTB0o1OgdX0HjNPh2fLHsdnPzaX3TzIwqdfek6ujXkLKG8/64Y8Aw0TbnoAfClTKYZ+5/LCGu70WDtGHb6DJ3oY5qmxa38qumwN1I7+3Njo+8X8xM5HHrdtVLwu6xF6cLqvXn5es3w0H0BJq+N4EtUnciE2ba7lCZxo74NeDzDz9e280+8Etc17XoRp+I16MxwYxCPybkOODlFB2ZL03mQ7upSr8U92YmlmmhQFXvKZoeGkt2rnd50jrnmvh4JHJhzDbftby14bx8QFr2Nf/FP6Lrt/7BrxHru3ZOwx1lnPaqcgBErUThj4Sd9gn158tiBYztZkuuNVe9S5X0iJakXy/ZPUIrX0DjNj3z7laEFuxvRm85l9PZwE1P+ASTVV3fxIfbTphXqIMN7lYHnfxHBifUxhe4sdOv5XFb2Decs1iZlJz10l3qt2tc2lefA1h58UU9pTr2eDfvPJVuz1xKl+MPL27UDQxcg/6za+56TBzgJvEbsFN/bO8YSmK3dcfEg8+ZcFcePWVmIKNDeyF4j4j/BaFgkB3q8wUeypJtRY4zvDZXe0aTQABBzp8mbor3pVP+UydCv6KxnWj718+iuU31wP+HZtpeEob97Lb1EpawUHzjbiR/3EVLN7mnsfTm+CAy+vndQ9+vtaU89yJX3ddtHPbUZrFXJ7UAMEyTwpkRxz3kX2R5W5UPWm2GnYf6//1EFAZ1juPFAN2pV4oAMSefczol69xuJzyLtqUKb2xMk3nXmrj73RUsx/N7ceOxnTdwuF4NVObCPTqUVP/kKHpGPK2HoEm2ZkyaXS/j0082KGDGO9ACCC9BmwB/jqOxI2Mz19U0e+Kh2gXh2lAIHIPivUpbF0+6PUMFH+cGbfTcgY0iXJlKMHwWLwH62M/a1mzsMa/O2wlIh57NTV6nkGYV/ca6GbWlrOL4y2p/mz9Psa+LpHWf66D1dd8d+ZJfQHnQDk3UxCaq9l7I+1Er1TQ87iNqX72wuKm4fUXzbiXQ5yTPs4mXO5hPHlM0ddAryGf57oKrpLuQM2TjH4XO+Qx9orZL8U7hMi3pS1Z+b5DiSd6bjf0kZ4jmLZJfDQ41r/9GxvluKY2hfkkNzUFlRbxY8zryuC3pq60SmYwqmfXJaAB0p5IxEFLj9z2xbrHv4l7kUufXXX1REqZk7pRUfMCbSU8g1j0I+DKyTfeTDZ/TNgoZvX/HxVrzPelIZQO2JIMOCnUzIr6InYPN8PgYkeb8sOozsD/cYhdcxCiKpbfpz5Vu74oZ7vnY+iVaMQ4s5OBbAVE/NZ5YMXph3qVKLhdiDQW/s6Jjng4B/E6ZiZ5NbaJSOAZ5rgWShm8dbIAkkm4jms/zU1wXZ3Yer/LmozborjV92jxMqiLYrSsJmM2PrrzR7C9aBc/xfqo6iYJLsDxTY08JMkekrC8AXPQZnoyQ5xXH3Mlkh6HwleCyCI0/HVRWE6Zm6M1fmMPMdLCl3dOoT9dqD+SSgt4WOLgkFuCsIem1zdtCGLHeYQU/gqIoDUjMNfqkEuQ75F+cH53Cp7/Wjk8H+yZBLd27reqy/i2pPaIc+abFaU2n2LkAbNvbrqfPEn/YlqueGInUsQJ0QzpvA4JCViJr+n0kdiV6nskiv+ewRc2C6o+bKzL7S3lSvstjwyp9c/l3TQwBsHUzShyTGCrprOrugwXBmRNiN0+fGBRxSDJouh0cDbxQtAmPIaRKK7VjWeRZ03Cjm6EUM2bOgEyNbycmbEdc0d5phFr9hHaX1pv+sP0ekz9OvhCdM+e6WQqix4hPX2DP3vvEJD9tToefpqe9k0EsZoWsNehd/+CgtFr3l/ys5UBGg9+seIUfcjFLn23pAatq0lNfXXwBUKqN5u9BpDaa+j1zP9qiVP6EQsa1njXfGZfsKqFrgihj/ciBcj+ZfD5a3M363Jaj+AO7Z9nnVSzp1WxlJF4Z7ho6r0zBbOhfLpqkyLrAw4WxVdYtOLGF0+gjJpSDThnpkdZO/p4gDiPuygrEqjqWFla4ekD+RtGKivKJsN/3fNwTw0SF9e2y9ETP6EfhI6XyWYlH8If0brDdCyJIgqlZsJtKJlUTFIN4J/xLadfiROA9BrqZEZSSg1plXz1sHtKg//aQfYet8wRQj/bJ5yqmU424DHrWkS8ALOwx2LdLH/37ozqzxAEm0tyb/0BwMG1HNF0PpDXAe9yZtcEt2EmvoS6Y7aB/DhSLsuMDR/0AvRidnuBe1G96PJ0NgVbrUkQ2WhOcPRr+PptoxRsbYvRjsxBJhvmPirzvh9z0Zi5XGrJQzFFHYzlwJM4yjdjpq1vCf2hcatDuqqj8Y+eUufkF70fPw8Mal3u6dEkP9/0/t0udT6dsdqCD4ArAPqtJ2Y6PhW7C0KFRkg5ZpmYkAwpxH2A6g9XZ0d/Iwftfej+YSuMnc6TepLKTK982nPQzvVo4B3q9AMh1EA4SJNFbBQpUSR94Zk2ckMYJesg9H00hEhwrkmIsjRfrbPMSdm/zlJziU3Wo5Bu1P9tRkgHmSsX3NWb0DZTmoCTUlVTljrd/WRPGBmP8tPbdA2hcelw9ctI0KLi6CNEVmvQXp2PIdT/ZAxs+Pw4BsCqqX03akVVTAdPPhfycWuGrNr06XAWqI3sjd+1+XByqUkeBprjGIV3Q2hAi48ehxLBrYuR0GHVWRfNIj77tAL9abwp3LN9KZoox0N7uBAy4ZgLpyv83oMs5e1PwKto5JGQYsyPv9f1+hche/+J/+odC92zpVEfIjYuTkju19ByFu0a6ZbplZSBZuIE2Yg7VM4HMJcY870l1v0FV0J0modacY08jHDVrkYQPg+Tm6DlMubumb/cLR4ye18Rbrdq+tfDQdal5iFuNiAjhXco3rSKMShVQm+0LzUxYtijKEpCgC9uTrubY7neBwl/ayEQdQ6MVG8Zg5z00qkc9OUC58U7JcOtc0B2kKWs8Ic47l+0nfUsV5frXjRnHBdGu6D3EhKDaLv5kVJl1T6seyekzfU+jYy/D6+Y5h3FEVCifyLfzqmv0dIaB7SQxMaXOxTXEUAj5vvVOCmMx14u9kKwLZ7SoRnezT0a0KEonfoOKyt9TlhFJdfxmHiCANlhNPi2LBjydfmJ9Xo27YU4bWgjlAqbJ3x2M+DjICcoHEVYexdpOkCJmwc0O6N1g1mGAt58WAn9JY461HLYUrF6ZfytcIe4MLs63vDugxLSjpjuGSx8k5cmhrccV4Gqc/YnKGBOFmpvx1z1e5OUF0Ho1Qr7JIJUkRBxRv8OlE+TkAOijr4DupZu/+uGwfi0cwBwIhL+Fh9jNNhomCCPtaSWvGOS8813ucjP9C5/eL49STBDiozkg9QmojP06gAqwqOTkqrl/XXdimc28oOUZY+jHUu8TAuP9lVMNB44NSKLXSCJtp5/+r/Fgw7pmJ1vmgNzCDjRYtyodeVp/dsMd1ZvQBslTvMNT/WecXfkc5a8iOxzPsEJ7sCGz1aCs+Q+NFvqlCBqz3RYlSZgGeKQ0UVGGIcgsR8uf64NjrEg3paycyQ05Vyr7JnNxZ9kBvFcGUqzewlxNpSt7D8/ri0bLb82n4s9mPZ7nIHi3iUMyAeVpDRuVMtWEaKpR+QR2foa9ktSvQe4SaXr8X80LM5sDQaI/S+kgFLJe/K5APgrwcoMgadMxMhS58d+bZUduLDOfnB6lj+XYnawrzaF5Q82r5+x1CVtYN6gNKqKSdzCanUCdrap1gKXHVFX2g8SAyCH2D6S96F4mZ2L9TWA3fkBFUX7gN1fp8d7h8Zsm12TKWqMDI0SYvHljWuqPF+pbp36vzIzctk4Bm3P8hwnVzfxjsyja7JbWJHcyyDLNmIEc3PiaVxAHNSoBnbbQCFUeW8/hu2yXmkD4eFOO/2EfLig74C9nWcwdO2vVoSIf45oVpWUsDIB38C5LhcLpxWjnyVDFtGCpcQxIL01/p8GojkojWa/0p4hB6j2gjSvbRuCsgnyRqlPfoAPCq7TwaN/dmXFNDk5F4wXLgVhEBQqkAxqkN8CXhhmGDskyoiRLr29m5pPymiMoxVzHuLF7/YaO/e8kvtKPVq1cam85XaKTFg3+iyn4sYlhjWQNC+OT9qX6oC5Sjurem0kQWKQguhCzbqZtYndCVYhxNW8ADwUu241OUuAW6U2E7g2DKDtf2R3EAHlm5hVCiHiEOJ6rI/5/2B78OtjpXoLHSLlq6CWRQRkPblLDh+I9U+bqKUdiZNx40dRmMY0bkI67/wmSa2EPxEtorAnUqYjCCboQ5NvGred1x5VZEk3vh/UEnE8934ss+6tYG5pOqe1/GBEmxuxxrW8WMLNt1nw57z8uW4ke/7hVS6JBTxq91irO+PBDBiA2hCvG2uJunAt6ilxbZJWR89blakcFGU3E3Tdc3BqJX1RjhqolPab7QYhMBOxDFbR2ciNZmX1+ikHTJJ7aTpaRgc9AlcdVLWhFnApAB105xN79LdrMCsCKenUZhnytHAraEi4R6CXfq3dk77y+9ze4DXgVx61JcuLNOhybbN8POB1955Q9Epm4UE6wuZ13OSCSWwXIjah4kN4mhBpNWwXYiwHbci/iKWcmj7ufDCiofst2oqNpCtvs/cW/H5+l1I1OGBGGV6VjDLuX422UBbkZf+4rnl/NQm/FEwerwFlF4A1ivIog76UlHytx9LoKhgsQluBwZRzEAz20353yzk6rGGWcUdBy8rlQdte8gj8dd2nLffWPGUUZ2hFkAxQ1gMINj9javzrTK/KQ/G3mh8QohHqcAMcE/qXM1HxT0FEsvlCwbVHAC3a0pWrSPGIT7eMdmR9mVm3Ej2WPQ49567eRMjyV5ipK+G9CjWa70zIQOIADtW5IP8XJD1BBI6w360EzUi7W01eZ8sxWDCMQgl+ceUw4+J2XRXtJyb2jJEh0OrhN4Jh/rntyxk+vomcaRouUd+rC1/6sU6Vg1AihSuof/Ttwt0rGhHE1BVfso7IZ1RG8AYG8XWRDipdcCEVi9GWsr8nn0hRfwEk6XqkhaLQRcylgADGLkQKNI3fRgkaKYv9X+05V5YdjXCu4sk+nRo3Y05SorWel7JbHO5FrYVteuX1Wg+9uehBwQZoXGOagxUntzrGV/xc6gXI4T8FNJdWrhF11cVIkeHHgHUJ21gQBB+xMJ8gCxrkgrJRj4GNW9gi6HB7rnk1FjXWBKUR8E2j0aV8iUF/B9gwBC8LIbQa4StyEbtE8hmHHEQhcbNRrtpt899nB7n4ILIs3SdBTVekW6V9sU2ZyeQdiXN/pp/B1/zTyp71BVxSsKOEdrmJdD7qL4OmUK6Kje0Dfzc/eHPC/lntoIniSyS0DyTu+wFEVLmP6VbNaYtVvakoREzS4HgYJirLxq74zh99ASrGHcF3iL1zYkQset/iMg4kwstG+GgAQusvFSlD+CyW6h8pxhBbshMSA+1WQLXp+prVIMsMyu2TW6syXi/o8GxSAIiKpGiGRXNCA9GxV/YEbL0HgseJ5IPhMH+2cr1l/3fRtnnBh9QdBXNBuZFwb4nL7XVgNZFK+BOwt9jxEfj6Ijcx18yDm0SzYs71kou0Ix9oPflaoKOX346KX9VCwUcSjaeZCqdx4P1swIasnnv6NbNn6Q5RqUlyNpt3wbGym6UUqBrSDOHFzLDzMIRRn/T3IrggH3Ndax0axC1fJtMIXBXke6wvZ0l2uyrOeNuISD8EqyVppj/gAav4hXGqjP6ckW5Vn+ZUtSdWg6ecqmmoetLv+R+Pg3/6v66+0fgG1LwQcAetbQbPapGN2U9gZnROxy7fKaPBXmtgB3s7MJfSae/89NZHFI2NM7dDsS5DXT7bb8lFgCqc+MnD4OoLv0fPjEzLgBFqy9WVM8cTtiolHUNI4urxYNAh0TsiYhE/2FpFJfwwWh1hQjw7J/2AoJmtZyZIRDfawa3IG+my/8Vf0BjpwoBwunAQjU0LILM+fwJCaLoteE6ZUfweZsan4pEiIdxwvJxeeIf7OM5WjKNcei5IuksPbZ+yCP3pSqa92Cz+vCLw3WAUOXWyFpGpOfuersqCF2MY7jfBYRvTb044VZPG4Wny+kWn7/8bw2F6ilSqM1RMm/25SgjxCFC5wgdbD5ctrJ/pxjPi1DaEMjIuWTXhaqAHr4N4Mwrj1lhhaY75PPDdKi5DACm6jZy1PzVnzh7eyrqN9XV0uchjl5VtOnYZBdfgyfSRfsaOzpKTW9AKfVNyTPLYq5jCSc+gim55lfEApq1IgZ3bK4h+JymPkMPeYpvqdrCVf8FA9vZIAcJwMYnbeoVGIL39mUEtNlxBXEwZSruIKT4K8UD5aeLtYm6fgM1Dd2CDhRVFJXeJLVXv0C5n5uN1IZEssukIeJMKArhIcKzkzYyq18Wi4i0O1ii35yOZYp4omdefRDS5cdiTdC73ojoe0dfNU1EQlS+CpDKDUD0AFrtKtm2htOSBj2cyZ4WOM+H2VrkeuJ+P2+c+Cy4yOF3CYkvsmmEyky0gE+eHSnE7bfm4zKLN0OoFH6f44z+94mU0cNiFAlvAGCDFWuCSphIikL3t2XK6Nv6syhoqm5/luGU8F9wiRxO/0sX3uUEQwo2rkvE7MoI4xXMAdDSL6TkIRrCJnB/jVAxuaw+t6Nl6SBDOWts+niGzMZ+l/nf+jtbgYvcMxRKFhpI3ysA1lWjr5zYSouEYhploR8uKBbRWyxAc/UyKHo/LcINxYqieqkeOgdRRpgA8GnHAg3tKKKWUDBDf75zpZK00tt3RRUg9WmrBEBOYGt9wiM3nEwUpoAui/obn0v2r7DDEOXdwlWF+BPIzPK9vR3j5SkBaHs+2EVfia+9rWe8QFlQovSeWegduWHjiXWKkFkxuEnnj9AP8A9oEiADJSmqD9+LjJZXbP8cEm7b3ayzEJJKaYR0f2JzyCyzLnv/t+tU3wpEGkrfy4ZdI1JQluZ6QVtsFo1SE+/6PDOCowIPHGBWwp7/x4pym4FgP6PZc0s8ts2HNPQE9sSRIVuc6Rl2bfFjAP8vhxPIv/j+0cBU/BIqJ1ZzqrvDWtnUbdosRGn8tjY8XGwUSbp6kzxW+i4C7PchVe6SDh1rEdlK7H4SoDt/Mfiol6Ma+snCw6gHmKCNJSNuCGKZzOU+V++HGkcnG8Ktil+sRgqapg69slQhH6VYHkzcUJbmb7hRzJJHH0Kj4uQaD1VokrI3AVPDgxhYghX8Ttda+s6KMaWDmIe3b/30zP9ziePEw0+a1ax/Otmhg2SlqJV/0/JZkmvTQFRN3Er1wKl8+eFKQVg4D8ZdwW/5j73sddxCXTDgcijBw6jIU+O90ApPRfDaoIRWgsYfr3ycPXpWKX2BTGzUGoVHl3P+DPz1WX2VBK4E/kxz7U3KPmBtdcEZCgWfw8enJiAAt5tEpW+inGE29Pe4cf0QpgAkfmBjL5/UypdA+D7w2LpY8/Ckt5Z7Tpt4gQbwxKCzhsDNh28++lWz5LGEBW6ZZWTfD6G8W96/aDvd+HvSN8OomI05cWyVT01bnH35DaIxscm0+VKvDH2/FQoHp09VDkuJSRhrgt2n58pJb2k6wIjOMWzQ243gDkr760geubF2E7PGNRZkg+f7Wn+uwf+hoJiAurcAAAO5QFi3lsjwtH5sEiRMsjoW2w5cqK0u4/asCOIQcWbxJh/yzpFz7i2SvJDmPuN/O9KIJKnD6br/3D1HGIwIGD2Gf5WrRU+JSMqtJWvU7XndKW1FQwvWT8KPEOcqmvllvqoMWGOK3UGOD2+6bnrY3PjQcZTdXXujs/DryrdTeVoxGsWi/nrJi/up13ktyj2Y5BMtqMKJ81sjzCAo9MtcBTKjzoiOFZe42PwD8Ir1vL2Pv2gWoR717XC61Hd4yT9oCD0QvIY0JKSjszDbsFOBk/xKM9j//NI5xYG40tuphqhIyH74Qez2AQj4bFw1qEFq6zd4mXrzc+ECf43bstpt9wuKS3l/A15Vk7Y3GYuPuYXSbsfJkTiLf5cGeWh8WG2uFIUAkfwfHHkVSkNrQpcDTAoeMBtAftBvVTF1piyI/wJtPZRgLzaAZCcVk/BaVbrksD123ovV00L8v/AX1CnhnX/NOK4WYzEs5Go1g93oixve72Dc2TJp4QIYEh2wVyOCl7DtanEretC1YwFUwEDsxfoTyGvbGMFc7HYhQ4hv+cmSYn6qSzOHlWR93fblq4ZYKfW/tAQeiF5DGhJSUdmYbdgrYWfHz4Dtrz2kdNgynQOXQMLtVp4wCQaCgL8v5p/lvja0M3wC7avUlsQ2olZ6dfBDF3c/8VYYPe+F8nvEvpZPuBvBmrESeqoSP/VnRqgV11UdKe1xAOnX5++Hy5CDWL00/x04P0bCjwXUGdkr/0bOfx8sZB+xrdN5v+bVtgMyez+mO8zcUv63CNdgfB4jMvkPe0tpRpvmASDgUrAoHyRQZA3anOID2+pCLscNSLfceosG79VCh8IpBth6DlOwa4QwZ5rNnGWJC16g4B4Le4Z7pimX+s27ZCuqOCb+khdAwlyRl/KKLZzuig79iss2c0Bx1MmmMMQpKSj394ixYytMQCChl1vANhddZW1vXX7xWZWhsySFgz6Vzc3vuqbjkD9qTUSj1L7oSY+NmHRk36sLGjsWasLviyAAAAAeahNX7O051Q7zjpXcOnJceMok4yHBInaLaLCg3IbpyxN5ExSuWrin1b3263nneDkRekdJls4hn6kyoBsqi35IeomdaYv442MEAenozsppfH9mGNhoRDBJmF70P9Gxg4fIsJkpY9Bno72k+5FHPtPW/3bqq/ZZ28YlThyXWrk+V61HXAEx8bMOjJwyQXUBD5j4Pc5P26azJeJ00bxEjg+x1y+xMO25c73vtb97gU/e3HTjnmoPf7QnJiL4StxAXX3ahHk6omiTV3fPaPPVeP+68ltF4yFyFQhPEbFjAbqmdkS/ouPpWgE46T7yxPF3ySbvnehIKcq7srQw9Gnn9Yuf9MzmlFL6ahJbxu8E+nmOhngxT453RVcGJHw0eLM3NmUbBi9Kep6PJNK+GtBxf1X5m3xE/1vWUXZxaw1e9K1VdU/Hb4wZgJf+BYA+dQnP+etRXs0ZDeFip/+LrihkZId9NfwYVVm9yyt/KC8Iy72xwmruKJIh4u3wv+EiILhsuHA9yYsjxu4ZMklvCqOfjLYdsAxe7y9wtQ5x7VyUEiU2pZzM/d7WFvm5J8n1+YLqLkwzKevtPRHIqH/31A8s3ktvyirLiWHgDbH8EPKLeSUMjMcGgRQaglY6bDh0Z7A2CMCE2yhR7PzA5d2TaEm0JNoSbQk2iHWso4o1R/Oj+dH+lTZNlLLzHncEvlq/W/zLF0pZjgiACkHOSBbPVikFLypdJofasjfsOZzBQ7cVn4GhpD6hfQBbeQrYI7NKCtJHLiErDBrOKEwSo0zLVIBGbfWfbcv3cNZlCL6+qk9EfmUyk8ipgL7Af45rfm+wU75mhJHQcdiBh+GF+nbYZAS/VsLiylEU9YAgfIitay74o4D60YiC12w5YAy9z7msOelcmiGmWN92A8tlG6Zey3PMA+E/jc8fTebzXp1swXHwbswe1s0eAhNM0JOTcjx6yNQkn/C6/qUs18Ben7yM5esCAzr81eGYgPF+uzdvTSF7v0/YU/ysD/0AKnffuthbk95RS2Hz7/WTRdTw8KC/70pBuBq5f22wgXmQqoB+kQ3klUFmke1FPpXCWHwLW19UQ3KEIJLPYO+3LB7BZBf+9lrr0n1SEvv5IFSSe9DOgUPOmzUb9/vC22+QUvTveObV0a5t4eJxZonIgFt8VmQLV5nHc6aMyvHPj/sy2j7qMKAzZJvH27msNMq9YGGCSGLR0AEuwAvWigAAAAAssXHusS9APel1sNgAxHbwrUSV3/b34zsSm9ex/xnYlN6H8dKITqXIX1M1Kpna13S2jT5EQiLHAhEWOBCIscCERY4EIixwIRFjgQiLHAhEWOBCIscCERZLf+DjfV5seBVYwAAAAAAAAAAAABXgTKAYU9thPKFi31tSYDQgBxcrWH+6f1SNn3oR50VLUqyKm9LYJni32dynCBC415T8JpAreYX1FvR7hcQHTP/83/irTKGEEuLr8anfqGdictW45/HKE00S4kcEfJF1QlPPfOEFuDIJmnFhAlVdbcw3/sXFBwUcTG8xupKFAUFfpec2Jkxk9dMC536yKaXoDnmaf+sCNKhE2Su5Gia14V+1ygz2G6JkKrRZWvC7ouf6MKtARRDcXRL+TRlnbC8gdhasv4RNOpZcX188SHOi3bfphnor4P13IAAPpuvmo5CnK9fv+jcWvlYiciKV7yQ7Cwsr5h6WmRKHddXnpwkKFl/VjYQzjw5QCPkpETT7ocv5G4OchJaT6SH6DiGN43EfXImpkhpxmFYBQNt04uBEL7e/Y7s20sSJjLnyMk+loU1Z02TZEP6trcLF0OZCSnJxRSK6jvdafzDmiXxQ5QWQQU26lG/BgpHeNW97+i0CqnJ13e4BE5CjNxjrjiM31X7k5kTP95JdmZPdvGLZKUZ5Pr0htJ7yRW7e2i3IfwbX3wzE3tjskqCYzLo4g3tTFr1hq9nxkc3490yVhwstoM90EcUXBz1lyUS3UbrepBGrAaaW+owx0lQtqvmTp8I5i0YfEm0TXNSJbbkH+CeIlc0BU1jfSBftdrE8HrxOF9peYuowem9nRpdh9Sr86TfVfuTmRNEOE9PFPeAdssq92cQtkPTIlDuurz04SFCy/qxsHm0DCtNrj+OiyiCpixhnlh4gVW8y8Ug2wPi+/MkyZgCorlXyPML5QrIoUZBFwtHaVxZj+4HV66x7SGthYqseMT/2bfagimku7kAHdYVmmk5Y8WseY5TzKEChn7XQYTeFeDA/y+MXKgQwHHKwkrpby6/4w3fHyAXz4h1Cmm7jBWK/noqwLuhTJtD1B0MAWjwKHM1dbah/35ZnHpj3KMgBvCxY+w9Tz8nYO0noSkWvsrYJ9x2EMVLkcHRSDRZG8JdWch770+OU9V1zRsH4Q9DmTx6NwBqTS4Vwl4CGlLXLDNRjgm6vpIvvs7OXQ/kUWoZQABCN2wWroTN9iTQRKujVOmwlucAbT/xVL+2FbW0BlXaVp374LlDCLG/lRjqq/BJn1Hr5oqbmAwut6G6zjwbf0aWFxicyF4aOGmOnjqjWsUWvrJqiHoWs7F2fM6+q7FHXnAfj+kOhGxgPD5jTu0zuNj8uXLNH9os10032QEkrzJOqefXCNRXD/fYHSbH+NFx+hcJ9E6TVB8ssawICWRzxm/sJbm/gC1ini+AEz97ytqkRP1i1Kk2CAblKcpvBPsVSER7aOMOFcVzVtQg3IC+z2t8AASWlcsofmMFmmF31GpGgYruzBWpaMqwG8xxD5ivnI9v2yjOcsA+XwsPkJdEg6QXFNm6sHw/7uWdDbOtINBgfS0gfHM1pW//hQU6EP3PTZN9ycbx3/E5pKxm3SnFivsO9rLMMLQKP46NkR13mPsao8iQyAZYaQWMRx5EIo+vNaHrPsmA9N2z/e2/JoxDMLeZZ7Vwf1lGApzJ1JU4HscxOMWUHmqJbUiUp3PFmezIAAAAAAAAAAAAAAAAA=",
-            "width": 800,
-            "height": 450
-          },
-          "labels": [
-            {
-              "text": "● LIVE",
-              "color": "#C62828",
-              "text_color": "#ffffff",
-              "position": "top-left"
-            },
-            {
-              "text": "0-0",
-              "color": "#B71C1C",
-              "text_color": "#ffffff",
-              "position": "bottom-right"
-            },
-            {
-              "text": "🎙 BLV Cầy",
-              "color": "#1B5E20",
-              "text_color": "#ffffff",
-              "position": "bottom-left"
-            }
-          ],
-          "sources": [
-            {
-              "id": "gv-1-colorado-rockies-vs-los-src",
-              "name": "GioVang Live",
-              "contents": [
-                {
-                  "id": "gv-1-colorado-rockies-vs-los-ct",
-                  "name": "Colorado Rockies 0-0 Los Angeles Dodgers  🔴 · MLB",
-                  "streams": [
-                    {
-                      "id": "gv-1-colorado-rockies-vs-los-st",
-                      "name": "Trực tiếp",
-                      "stream_links": [
-                        {
-                          "id": "gv-1-colorado-rockies-vs-los-l0hd",
-                          "name": "HD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1776537694_hd/1776537694_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.vin/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "gv-1-colorado-rockies-vs-los-l0sd",
-                          "name": "SD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1776537694_sd/1776537694_hd@480p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.vin/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "gv-2-los-angeles-lakers-vs-ho",
+          "id": "gv-1-los-angeles-lakers-vs-ho",
           "name": "Los Angeles Lakers 0-0 Houston Rockets  🔴",
           "description": "NBA | 07:30 | 19/04 | 🔴 LIVE | 0-0 | 🎙 BLV Perry | BLV Ben",
           "type": "single",
@@ -146,19 +56,19 @@
           ],
           "sources": [
             {
-              "id": "gv-2-los-angeles-lakers-vs-ho-src",
+              "id": "gv-1-los-angeles-lakers-vs-ho-src",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-2-los-angeles-lakers-vs-ho-ct",
+                  "id": "gv-1-los-angeles-lakers-vs-ho-ct",
                   "name": "Los Angeles Lakers 0-0 Houston Rockets  🔴 · NBA",
                   "streams": [
                     {
-                      "id": "gv-2-los-angeles-lakers-vs-ho-st",
+                      "id": "gv-1-los-angeles-lakers-vs-ho-st",
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-2-los-angeles-lakers-vs-ho-l0hd",
+                          "id": "gv-1-los-angeles-lakers-vs-ho-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -175,7 +85,7 @@
                           ]
                         },
                         {
-                          "id": "gv-2-los-angeles-lakers-vs-ho-l0sd",
+                          "id": "gv-1-los-angeles-lakers-vs-ho-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
@@ -192,7 +102,7 @@
                           ]
                         },
                         {
-                          "id": "gv-2-los-angeles-lakers-vs-ho-l1hd",
+                          "id": "gv-1-los-angeles-lakers-vs-ho-l1hd",
                           "name": "HD 2",
                           "type": "hls",
                           "default": false,
@@ -209,7 +119,7 @@
                           ]
                         },
                         {
-                          "id": "gv-2-los-angeles-lakers-vs-ho-l1sd",
+                          "id": "gv-1-los-angeles-lakers-vs-ho-l1sd",
                           "name": "SD 2",
                           "type": "hls",
                           "default": false,
@@ -234,91 +144,7 @@
           ]
         },
         {
-          "id": "gv-3-canterbury-rams-vs-welli",
-          "name": "Canterbury Rams vs Wellington Saints  🕐 10:00 | 19/04",
-          "description": "NBL | 10:00 | 19/04 | 🕐 Sắp diễn ra | 🎙 BLV Perry",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 0,
-            "background_color": "#0a1628",
-            "display": "contain",
-            "url": "data:image/webp;base64,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",
-            "width": 800,
-            "height": 450
-          },
-          "labels": [
-            {
-              "text": "🕐 Sắp diễn ra",
-              "color": "#1565C0",
-              "text_color": "#ffffff",
-              "position": "top-left"
-            },
-            {
-              "text": "🎙 BLV Perry",
-              "color": "#1B5E20",
-              "text_color": "#ffffff",
-              "position": "bottom-left"
-            }
-          ],
-          "sources": [
-            {
-              "id": "gv-3-canterbury-rams-vs-welli-src",
-              "name": "GioVang Live",
-              "contents": [
-                {
-                  "id": "gv-3-canterbury-rams-vs-welli-ct",
-                  "name": "Canterbury Rams vs Wellington Saints  🕐 10:00 | 19/04 · NBL",
-                  "streams": [
-                    {
-                      "id": "gv-3-canterbury-rams-vs-welli-st",
-                      "name": "Trực tiếp",
-                      "stream_links": [
-                        {
-                          "id": "gv-3-canterbury-rams-vs-welli-l0hd",
-                          "name": "HD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1776500104_hd/1776500104_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.vin/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "gv-3-canterbury-rams-vs-welli-l0sd",
-                          "name": "SD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1776500104_sd/1776500104_hd@480p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.vin/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "gv-4-pohang-steelers-vs-fc-an",
+          "id": "gv-2-pohang-steelers-vs-fc-an",
           "name": "Pohang Steelers vs FC Anyang  🕐 14:30 | 19/04",
           "description": "K-League Hàn Quốc | 14:30 | 19/04 | 🕐 Sắp diễn ra | 🎙 BLV Tí",
           "type": "single",
@@ -348,19 +174,19 @@
           ],
           "sources": [
             {
-              "id": "gv-4-pohang-steelers-vs-fc-an-src",
+              "id": "gv-2-pohang-steelers-vs-fc-an-src",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-4-pohang-steelers-vs-fc-an-ct",
+                  "id": "gv-2-pohang-steelers-vs-fc-an-ct",
                   "name": "Pohang Steelers vs FC Anyang  🕐 14:30 | 19/04 · K-League Hàn Quốc",
                   "streams": [
                     {
-                      "id": "gv-4-pohang-steelers-vs-fc-an-st",
+                      "id": "gv-2-pohang-steelers-vs-fc-an-st",
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-4-pohang-steelers-vs-fc-an-l0hd",
+                          "id": "gv-2-pohang-steelers-vs-fc-an-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -377,7 +203,7 @@
                           ]
                         },
                         {
-                          "id": "gv-4-pohang-steelers-vs-fc-an-l0sd",
+                          "id": "gv-2-pohang-steelers-vs-fc-an-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
@@ -402,7 +228,7 @@
           ]
         },
         {
-          "id": "gv-5-bro-vs-ns",
+          "id": "gv-3-bro-vs-ns",
           "name": "BRO  vs NS  🕐 15:00 | 19/04",
           "description": "LCK | 15:00 | 19/04 | 🕐 Sắp diễn ra | 🎙 BLV Tôm",
           "type": "single",
@@ -432,19 +258,19 @@
           ],
           "sources": [
             {
-              "id": "gv-5-bro-vs-ns-src",
+              "id": "gv-3-bro-vs-ns-src",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-5-bro-vs-ns-ct",
+                  "id": "gv-3-bro-vs-ns-ct",
                   "name": "BRO  vs NS  🕐 15:00 | 19/04 · LCK",
                   "streams": [
                     {
-                      "id": "gv-5-bro-vs-ns-st",
+                      "id": "gv-3-bro-vs-ns-st",
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-5-bro-vs-ns-l0hd",
+                          "id": "gv-3-bro-vs-ns-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -461,7 +287,7 @@
                           ]
                         },
                         {
-                          "id": "gv-5-bro-vs-ns-l0sd",
+                          "id": "gv-3-bro-vs-ns-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
@@ -486,7 +312,7 @@
           ]
         },
         {
-          "id": "gv-6-forca-lleida-vs-barcelon",
+          "id": "gv-4-forca-lleida-vs-barcelon",
           "name": "Forca Lleida  vs Barcelona  🕐 17:00 | 19/04",
           "description": "ACB | 17:00 | 19/04 | 🕐 Sắp diễn ra | 🎙 BLV Tôm",
           "type": "single",
@@ -516,19 +342,19 @@
           ],
           "sources": [
             {
-              "id": "gv-6-forca-lleida-vs-barcelon-src",
+              "id": "gv-4-forca-lleida-vs-barcelon-src",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-6-forca-lleida-vs-barcelon-ct",
+                  "id": "gv-4-forca-lleida-vs-barcelon-ct",
                   "name": "Forca Lleida  vs Barcelona  🕐 17:00 | 19/04 · ACB",
                   "streams": [
                     {
-                      "id": "gv-6-forca-lleida-vs-barcelon-st",
+                      "id": "gv-4-forca-lleida-vs-barcelon-st",
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-6-forca-lleida-vs-barcelon-l0hd",
+                          "id": "gv-4-forca-lleida-vs-barcelon-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -545,7 +371,7 @@
                           ]
                         },
                         {
-                          "id": "gv-6-forca-lleida-vs-barcelon-l0sd",
+                          "id": "gv-4-forca-lleida-vs-barcelon-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
@@ -570,7 +396,7 @@
           ]
         },
         {
-          "id": "gv-7-thanh-hoa-vs-song-lam-ng",
+          "id": "gv-5-thanh-hoa-vs-song-lam-ng",
           "name": "Thanh Hóa vs Sông Lam Nghệ An  🕐 18:00 | 19/04",
           "description": "V-League | 18:00 | 19/04 | 🕐 Sắp diễn ra | 🎙 BLV Băng",
           "type": "single",
@@ -600,19 +426,19 @@
           ],
           "sources": [
             {
-              "id": "gv-7-thanh-hoa-vs-song-lam-ng-src",
+              "id": "gv-5-thanh-hoa-vs-song-lam-ng-src",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-7-thanh-hoa-vs-song-lam-ng-ct",
+                  "id": "gv-5-thanh-hoa-vs-song-lam-ng-ct",
                   "name": "Thanh Hóa vs Sông Lam Nghệ An  🕐 18:00 | 19/04 · V-League",
                   "streams": [
                     {
-                      "id": "gv-7-thanh-hoa-vs-song-lam-ng-st",
+                      "id": "gv-5-thanh-hoa-vs-song-lam-ng-st",
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-7-thanh-hoa-vs-song-lam-ng-l0hd",
+                          "id": "gv-5-thanh-hoa-vs-song-lam-ng-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -629,7 +455,7 @@
                           ]
                         },
                         {
-                          "id": "gv-7-thanh-hoa-vs-song-lam-ng-l0sd",
+                          "id": "gv-5-thanh-hoa-vs-song-lam-ng-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
@@ -654,7 +480,7 @@
           ]
         },
         {
-          "id": "gv-8-shb-da-nang-vs-thep-xanh",
+          "id": "gv-6-shb-da-nang-vs-thep-xanh",
           "name": "SHB Đà Nẵng vs Thép Xanh Nam Định  🕐 18:00 | 19/04",
           "description": "V-League | 18:00 | 19/04 | 🕐 Sắp diễn ra | 🎙 BLV Tí",
           "type": "single",
@@ -684,19 +510,19 @@
           ],
           "sources": [
             {
-              "id": "gv-8-shb-da-nang-vs-thep-xanh-src",
+              "id": "gv-6-shb-da-nang-vs-thep-xanh-src",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-8-shb-da-nang-vs-thep-xanh-ct",
+                  "id": "gv-6-shb-da-nang-vs-thep-xanh-ct",
                   "name": "SHB Đà Nẵng vs Thép Xanh Nam Định  🕐 18:00 | 19/04 · V-League",
                   "streams": [
                     {
-                      "id": "gv-8-shb-da-nang-vs-thep-xanh-st",
+                      "id": "gv-6-shb-da-nang-vs-thep-xanh-st",
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-8-shb-da-nang-vs-thep-xanh-l0hd",
+                          "id": "gv-6-shb-da-nang-vs-thep-xanh-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -713,7 +539,7 @@
                           ]
                         },
                         {
-                          "id": "gv-8-shb-da-nang-vs-thep-xanh-l0sd",
+                          "id": "gv-6-shb-da-nang-vs-thep-xanh-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
@@ -738,7 +564,7 @@
           ]
         },
         {
-          "id": "gv-9-tp-ho-chi-minh-vs-cong-a",
+          "id": "gv-7-tp-ho-chi-minh-vs-cong-a",
           "name": "TP Hồ Chí Minh vs Công An Hà Nội  🕐 18:00 | 19/04",
           "description": "V-League | 18:00 | 19/04 | 🕐 Sắp diễn ra | 🎙 BLV Chanh",
           "type": "single",
@@ -768,19 +594,19 @@
           ],
           "sources": [
             {
-              "id": "gv-9-tp-ho-chi-minh-vs-cong-a-src",
+              "id": "gv-7-tp-ho-chi-minh-vs-cong-a-src",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-9-tp-ho-chi-minh-vs-cong-a-ct",
+                  "id": "gv-7-tp-ho-chi-minh-vs-cong-a-ct",
                   "name": "TP Hồ Chí Minh vs Công An Hà Nội  🕐 18:00 | 19/04 · V-League",
                   "streams": [
                     {
-                      "id": "gv-9-tp-ho-chi-minh-vs-cong-a-st",
+                      "id": "gv-7-tp-ho-chi-minh-vs-cong-a-st",
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-9-tp-ho-chi-minh-vs-cong-a-l0hd",
+                          "id": "gv-7-tp-ho-chi-minh-vs-cong-a-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -797,7 +623,7 @@
                           ]
                         },
                         {
-                          "id": "gv-9-tp-ho-chi-minh-vs-cong-a-l0sd",
+                          "id": "gv-7-tp-ho-chi-minh-vs-cong-a-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
@@ -822,7 +648,7 @@
           ]
         },
         {
-          "id": "gv-10-xinjiang-vs-nanjing-tong",
+          "id": "gv-8-xinjiang-vs-nanjing-tong",
           "name": "Xinjiang  vs Nanjing Tongxi  🕐 19:00 | 19/04",
           "description": "CBA | 19:00 | 19/04 | 🕐 Sắp diễn ra | 🎙 BLV Tôm",
           "type": "single",
@@ -852,19 +678,19 @@
           ],
           "sources": [
             {
-              "id": "gv-10-xinjiang-vs-nanjing-tong-src",
+              "id": "gv-8-xinjiang-vs-nanjing-tong-src",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-10-xinjiang-vs-nanjing-tong-ct",
+                  "id": "gv-8-xinjiang-vs-nanjing-tong-ct",
                   "name": "Xinjiang  vs Nanjing Tongxi  🕐 19:00 | 19/04 · CBA",
                   "streams": [
                     {
-                      "id": "gv-10-xinjiang-vs-nanjing-tong-st",
+                      "id": "gv-8-xinjiang-vs-nanjing-tong-st",
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-10-xinjiang-vs-nanjing-tong-l0hd",
+                          "id": "gv-8-xinjiang-vs-nanjing-tong-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -881,7 +707,7 @@
                           ]
                         },
                         {
-                          "id": "gv-10-xinjiang-vs-nanjing-tong-l0sd",
+                          "id": "gv-8-xinjiang-vs-nanjing-tong-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
@@ -906,7 +732,7 @@
           ]
         },
         {
-          "id": "gv-11-the-cong-viettel-vs-hoan",
+          "id": "gv-9-the-cong-viettel-vs-hoan",
           "name": "Thể Công Viettel vs Hoàng Anh Gia Lai  🕐 19:15 | 19/04",
           "description": "V-League | 19:15 | 19/04 | 🕐 Sắp diễn ra | 🎙 BLV Dory",
           "type": "single",
@@ -936,19 +762,19 @@
           ],
           "sources": [
             {
-              "id": "gv-11-the-cong-viettel-vs-hoan-src",
+              "id": "gv-9-the-cong-viettel-vs-hoan-src",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-11-the-cong-viettel-vs-hoan-ct",
+                  "id": "gv-9-the-cong-viettel-vs-hoan-ct",
                   "name": "Thể Công Viettel vs Hoàng Anh Gia Lai  🕐 19:15 | 19/04 · V-League",
                   "streams": [
                     {
-                      "id": "gv-11-the-cong-viettel-vs-hoan-st",
+                      "id": "gv-9-the-cong-viettel-vs-hoan-st",
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-11-the-cong-viettel-vs-hoan-l0hd",
+                          "id": "gv-9-the-cong-viettel-vs-hoan-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -965,7 +791,7 @@
                           ]
                         },
                         {
-                          "id": "gv-11-the-cong-viettel-vs-hoan-l0sd",
+                          "id": "gv-9-the-cong-viettel-vs-hoan-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
@@ -990,7 +816,7 @@
           ]
         },
         {
-          "id": "gv-12-everton-vs-liverpool",
+          "id": "gv-10-everton-vs-liverpool",
           "name": "Everton vs Liverpool  🕐 20:00 | 19/04",
           "description": "Ngoại hạng Anh | 20:00 | 19/04 | 🕐 Sắp diễn ra | 🎙 BLV Thìn | BLV Dần",
           "type": "single",
@@ -1020,19 +846,19 @@
           ],
           "sources": [
             {
-              "id": "gv-12-everton-vs-liverpool-src",
+              "id": "gv-10-everton-vs-liverpool-src",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-12-everton-vs-liverpool-ct",
+                  "id": "gv-10-everton-vs-liverpool-ct",
                   "name": "Everton vs Liverpool  🕐 20:00 | 19/04 · Ngoại hạng Anh",
                   "streams": [
                     {
-                      "id": "gv-12-everton-vs-liverpool-st",
+                      "id": "gv-10-everton-vs-liverpool-st",
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-12-everton-vs-liverpool-l0hd",
+                          "id": "gv-10-everton-vs-liverpool-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -1049,7 +875,7 @@
                           ]
                         },
                         {
-                          "id": "gv-12-everton-vs-liverpool-l0sd",
+                          "id": "gv-10-everton-vs-liverpool-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
@@ -1066,7 +892,7 @@
                           ]
                         },
                         {
-                          "id": "gv-12-everton-vs-liverpool-l1hd",
+                          "id": "gv-10-everton-vs-liverpool-l1hd",
                           "name": "HD 2",
                           "type": "hls",
                           "default": false,
@@ -1083,7 +909,7 @@
                           ]
                         },
                         {
-                          "id": "gv-12-everton-vs-liverpool-l1sd",
+                          "id": "gv-10-everton-vs-liverpool-l1sd",
                           "name": "SD 2",
                           "type": "hls",
                           "default": false,
@@ -1108,7 +934,7 @@
           ]
         },
         {
-          "id": "gv-13-aston-villa-vs-sunderlan",
+          "id": "gv-11-aston-villa-vs-sunderlan",
           "name": "Aston Villa vs Sunderland  🕐 20:00 | 19/04",
           "description": "Ngoại hạng Anh | 20:00 | 19/04 | 🕐 Sắp diễn ra | 🎙 BLV Tí",
           "type": "single",
@@ -1138,19 +964,19 @@
           ],
           "sources": [
             {
-              "id": "gv-13-aston-villa-vs-sunderlan-src",
+              "id": "gv-11-aston-villa-vs-sunderlan-src",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-13-aston-villa-vs-sunderlan-ct",
+                  "id": "gv-11-aston-villa-vs-sunderlan-ct",
                   "name": "Aston Villa vs Sunderland  🕐 20:00 | 19/04 · Ngoại hạng Anh",
                   "streams": [
                     {
-                      "id": "gv-13-aston-villa-vs-sunderlan-st",
+                      "id": "gv-11-aston-villa-vs-sunderlan-st",
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-13-aston-villa-vs-sunderlan-l0hd",
+                          "id": "gv-11-aston-villa-vs-sunderlan-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -1167,7 +993,7 @@
                           ]
                         },
                         {
-                          "id": "gv-13-aston-villa-vs-sunderlan-l0sd",
+                          "id": "gv-11-aston-villa-vs-sunderlan-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
@@ -1192,7 +1018,7 @@
           ]
         },
         {
-          "id": "gv-14-as-monaco-vs-auxerre",
+          "id": "gv-12-as-monaco-vs-auxerre",
           "name": "AS Monaco vs Auxerre  🕐 20:00 | 19/04",
           "description": "Ligue 1 | 20:00 | 19/04 | 🕐 Sắp diễn ra | 🎙 BLV Thỏ",
           "type": "single",
@@ -1222,19 +1048,19 @@
           ],
           "sources": [
             {
-              "id": "gv-14-as-monaco-vs-auxerre-src",
+              "id": "gv-12-as-monaco-vs-auxerre-src",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-14-as-monaco-vs-auxerre-ct",
+                  "id": "gv-12-as-monaco-vs-auxerre-ct",
                   "name": "AS Monaco vs Auxerre  🕐 20:00 | 19/04 · Ligue 1",
                   "streams": [
                     {
-                      "id": "gv-14-as-monaco-vs-auxerre-st",
+                      "id": "gv-12-as-monaco-vs-auxerre-st",
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-14-as-monaco-vs-auxerre-l0hd",
+                          "id": "gv-12-as-monaco-vs-auxerre-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -1251,7 +1077,7 @@
                           ]
                         },
                         {
-                          "id": "gv-14-as-monaco-vs-auxerre-l0sd",
+                          "id": "gv-12-as-monaco-vs-auxerre-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
@@ -1276,7 +1102,7 @@
           ]
         },
         {
-          "id": "gv-15-hellas-verona-vs-ac-mila",
+          "id": "gv-13-hellas-verona-vs-ac-mila",
           "name": "Hellas Verona vs AC Milan  🕐 20:00 | 19/04",
           "description": "Seria A | 20:00 | 19/04 | 🕐 Sắp diễn ra | 🎙 BLV Nến",
           "type": "single",
@@ -1306,19 +1132,19 @@
           ],
           "sources": [
             {
-              "id": "gv-15-hellas-verona-vs-ac-mila-src",
+              "id": "gv-13-hellas-verona-vs-ac-mila-src",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-15-hellas-verona-vs-ac-mila-ct",
+                  "id": "gv-13-hellas-verona-vs-ac-mila-ct",
                   "name": "Hellas Verona vs AC Milan  🕐 20:00 | 19/04 · Seria A",
                   "streams": [
                     {
-                      "id": "gv-15-hellas-verona-vs-ac-mila-st",
+                      "id": "gv-13-hellas-verona-vs-ac-mila-st",
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-15-hellas-verona-vs-ac-mila-l0hd",
+                          "id": "gv-13-hellas-verona-vs-ac-mila-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -1335,7 +1161,7 @@
                           ]
                         },
                         {
-                          "id": "gv-15-hellas-verona-vs-ac-mila-l0sd",
+                          "id": "gv-13-hellas-verona-vs-ac-mila-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
@@ -1360,7 +1186,7 @@
           ]
         },
         {
-          "id": "gv-16-metz-vs-paris-fc",
+          "id": "gv-14-metz-vs-paris-fc",
           "name": "Metz vs Paris FC  🕐 22:15 | 19/04",
           "description": "Ligue 1 | 22:15 | 19/04 | 🕐 Sắp diễn ra | 🎙 BLV Dory",
           "type": "single",
@@ -1390,19 +1216,19 @@
           ],
           "sources": [
             {
-              "id": "gv-16-metz-vs-paris-fc-src",
+              "id": "gv-14-metz-vs-paris-fc-src",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-16-metz-vs-paris-fc-ct",
+                  "id": "gv-14-metz-vs-paris-fc-ct",
                   "name": "Metz vs Paris FC  🕐 22:15 | 19/04 · Ligue 1",
                   "streams": [
                     {
-                      "id": "gv-16-metz-vs-paris-fc-st",
+                      "id": "gv-14-metz-vs-paris-fc-st",
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-16-metz-vs-paris-fc-l0hd",
+                          "id": "gv-14-metz-vs-paris-fc-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -1419,7 +1245,7 @@
                           ]
                         },
                         {
-                          "id": "gv-16-metz-vs-paris-fc-l0sd",
+                          "id": "gv-14-metz-vs-paris-fc-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
@@ -1444,7 +1270,7 @@
           ]
         },
         {
-          "id": "gv-17-nantes-vs-stade-brestois",
+          "id": "gv-15-nantes-vs-stade-brestois",
           "name": "Nantes vs Stade Brestois  🕐 22:15 | 19/04",
           "description": "Ligue 1 | 22:15 | 19/04 | 🕐 Sắp diễn ra | 🎙 BLV Thìn",
           "type": "single",
@@ -1474,19 +1300,19 @@
           ],
           "sources": [
             {
-              "id": "gv-17-nantes-vs-stade-brestois-src",
+              "id": "gv-15-nantes-vs-stade-brestois-src",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-17-nantes-vs-stade-brestois-ct",
+                  "id": "gv-15-nantes-vs-stade-brestois-ct",
                   "name": "Nantes vs Stade Brestois  🕐 22:15 | 19/04 · Ligue 1",
                   "streams": [
                     {
-                      "id": "gv-17-nantes-vs-stade-brestois-st",
+                      "id": "gv-15-nantes-vs-stade-brestois-st",
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-17-nantes-vs-stade-brestois-l0hd",
+                          "id": "gv-15-nantes-vs-stade-brestois-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -1503,7 +1329,7 @@
                           ]
                         },
                         {
-                          "id": "gv-17-nantes-vs-stade-brestois-l0sd",
+                          "id": "gv-15-nantes-vs-stade-brestois-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
@@ -1528,7 +1354,7 @@
           ]
         },
         {
-          "id": "gv-18-manchester-city-vs-arsen",
+          "id": "gv-16-manchester-city-vs-arsen",
           "name": "Manchester City vs Arsenal  🕐 22:30 | 19/04",
           "description": "Ngoại hạng Anh | 22:30 | 19/04 | 🕐 Sắp diễn ra | 🎙 fan-mc-cam-ben | fan-ars-nen-dau | dau-cau-trung-lap-bang",
           "type": "single",
@@ -1558,19 +1384,19 @@
           ],
           "sources": [
             {
-              "id": "gv-18-manchester-city-vs-arsen-src",
+              "id": "gv-16-manchester-city-vs-arsen-src",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-18-manchester-city-vs-arsen-ct",
+                  "id": "gv-16-manchester-city-vs-arsen-ct",
                   "name": "Manchester City vs Arsenal  🕐 22:30 | 19/04 · Ngoại hạng Anh",
                   "streams": [
                     {
-                      "id": "gv-18-manchester-city-vs-arsen-st",
+                      "id": "gv-16-manchester-city-vs-arsen-st",
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-18-manchester-city-vs-arsen-l0hd",
+                          "id": "gv-16-manchester-city-vs-arsen-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -1587,7 +1413,7 @@
                           ]
                         },
                         {
-                          "id": "gv-18-manchester-city-vs-arsen-l0sd",
+                          "id": "gv-16-manchester-city-vs-arsen-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
@@ -1604,7 +1430,7 @@
                           ]
                         },
                         {
-                          "id": "gv-18-manchester-city-vs-arsen-l1hd",
+                          "id": "gv-16-manchester-city-vs-arsen-l1hd",
                           "name": "HD 2",
                           "type": "hls",
                           "default": false,
@@ -1621,7 +1447,7 @@
                           ]
                         },
                         {
-                          "id": "gv-18-manchester-city-vs-arsen-l1sd",
+                          "id": "gv-16-manchester-city-vs-arsen-l1sd",
                           "name": "SD 2",
                           "type": "hls",
                           "default": false,
@@ -1638,7 +1464,7 @@
                           ]
                         },
                         {
-                          "id": "gv-18-manchester-city-vs-arsen-l2hd",
+                          "id": "gv-16-manchester-city-vs-arsen-l2hd",
                           "name": "HD 3",
                           "type": "hls",
                           "default": false,
@@ -1655,7 +1481,7 @@
                           ]
                         },
                         {
-                          "id": "gv-18-manchester-city-vs-arsen-l2sd",
+                          "id": "gv-16-manchester-city-vs-arsen-l2sd",
                           "name": "SD 3",
                           "type": "hls",
                           "default": false,
@@ -1680,7 +1506,7 @@
           ]
         },
         {
-          "id": "gv-19-bayern-munich-vs-vfb-stu",
+          "id": "gv-17-bayern-munich-vs-vfb-stu",
           "name": "Bayern Munich vs VfB Stuttgart  🕐 22:30 | 19/04",
           "description": "Bundesliga | 22:30 | 19/04 | 🕐 Sắp diễn ra | 🎙 BLV Chanh",
           "type": "single",
@@ -1710,19 +1536,19 @@
           ],
           "sources": [
             {
-              "id": "gv-19-bayern-munich-vs-vfb-stu-src",
+              "id": "gv-17-bayern-munich-vs-vfb-stu-src",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-19-bayern-munich-vs-vfb-stu-ct",
+                  "id": "gv-17-bayern-munich-vs-vfb-stu-ct",
                   "name": "Bayern Munich vs VfB Stuttgart  🕐 22:30 | 19/04 · Bundesliga",
                   "streams": [
                     {
-                      "id": "gv-19-bayern-munich-vs-vfb-stu-st",
+                      "id": "gv-17-bayern-munich-vs-vfb-stu-st",
                       "name": "Trực tiếp",
                       "stream_links": [
                         {
-                          "id": "gv-19-bayern-munich-vs-vfb-stu-l0hd",
+                          "id": "gv-17-bayern-munich-vs-vfb-stu-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -1739,7 +1565,7 @@
                           ]
                         },
                         {
-                          "id": "gv-19-bayern-munich-vs-vfb-stu-l0sd",
+                          "id": "gv-17-bayern-munich-vs-vfb-stu-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
