@@ -20,97 +20,7 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-1-flamengo-vs-bahiaba",
-          "name": "Flamengo 2-0 Bahia(BA)  🔴 90'",
-          "description": "VĐQG Brazil | 05:30 | 20/04 | 🔴 LIVE 90' | 2-0 | 🎙 BLV Dần",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 0,
-            "background_color": "#F5F8FF",
-            "display": "contain",
-            "url": "data:image/webp;base64,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",
-            "width": 800,
-            "height": 450
-          },
-          "labels": [
-            {
-              "text": "● LIVE",
-              "color": "#C62828",
-              "text_color": "#ffffff",
-              "position": "top-left"
-            },
-            {
-              "text": "2-0  90'",
-              "color": "#B71C1C",
-              "text_color": "#ffffff",
-              "position": "bottom-right"
-            },
-            {
-              "text": "🎙 BLV Dần",
-              "color": "#1B5E20",
-              "text_color": "#ffffff",
-              "position": "bottom-left"
-            }
-          ],
-          "sources": [
-            {
-              "id": "gv-1-flamengo-vs-bahiaba-src0",
-              "name": "GioVang Live",
-              "contents": [
-                {
-                  "id": "gv-1-flamengo-vs-bahiaba-ct0",
-                  "name": "Trực tiếp",
-                  "streams": [
-                    {
-                      "id": "gv-1-flamengo-vs-bahiaba-st0",
-                      "name": "BLV Dần",
-                      "stream_links": [
-                        {
-                          "id": "gv-1-flamengo-vs-bahiaba-l0hd",
-                          "name": "HD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1776590659_hd/1776590659_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.vin/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "gv-1-flamengo-vs-bahiaba-l0sd",
-                          "name": "SD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1776590659_sd/1776590659_hd@480p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.vin/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "gv-2-pistons-vs-magic",
+          "id": "gv-1-pistons-vs-magic",
           "name": "Pistons 0-0 Magic  🔴",
           "description": "NBA | 05:30 | 20/04 | 🔴 LIVE | 0-0 | 🎙 BLV Nến",
           "type": "single",
@@ -146,19 +56,19 @@
           ],
           "sources": [
             {
-              "id": "gv-2-pistons-vs-magic-src0",
+              "id": "gv-1-pistons-vs-magic-src0",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-2-pistons-vs-magic-ct0",
+                  "id": "gv-1-pistons-vs-magic-ct0",
                   "name": "Trực tiếp",
                   "streams": [
                     {
-                      "id": "gv-2-pistons-vs-magic-st0",
+                      "id": "gv-1-pistons-vs-magic-st0",
                       "name": "BLV Nến",
                       "stream_links": [
                         {
-                          "id": "gv-2-pistons-vs-magic-l0hd",
+                          "id": "gv-1-pistons-vs-magic-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -175,7 +85,7 @@
                           ]
                         },
                         {
-                          "id": "gv-2-pistons-vs-magic-l0sd",
+                          "id": "gv-1-pistons-vs-magic-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
@@ -200,9 +110,9 @@
           ]
         },
         {
-          "id": "gv-3-spurs-vs-blazers",
-          "name": "Spurs  vs Blazers  🕐 08:00 | 20/04",
-          "description": "NBA | 08:00 | 20/04 | 🕐 Sắp diễn ra | 🎙 BLV Nến | BLV Perry",
+          "id": "gv-2-spurs-vs-blazers",
+          "name": "Spurs  0-0 Blazers  🔴",
+          "description": "NBA | 08:00 | 20/04 | 🔴 LIVE | 0-0 | 🎙 BLV Perry | BLV Nến",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": true,
@@ -210,16 +120,22 @@
             "padding": 0,
             "background_color": "#F5F8FF",
             "display": "contain",
-            "url": "data:image/webp;base64,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",
+            "url": "data:image/webp;base64,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",
             "width": 800,
             "height": 450
           },
           "labels": [
             {
-              "text": "🕐 Sắp diễn ra",
-              "color": "#1565C0",
+              "text": "● LIVE",
+              "color": "#C62828",
               "text_color": "#ffffff",
               "position": "top-left"
+            },
+            {
+              "text": "0-0",
+              "color": "#B71C1C",
+              "text_color": "#ffffff",
+              "position": "bottom-right"
             },
             {
               "text": "🎙 2 BLV",
@@ -230,59 +146,19 @@
           ],
           "sources": [
             {
-              "id": "gv-3-spurs-vs-blazers-src0",
+              "id": "gv-2-spurs-vs-blazers-src0",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-3-spurs-vs-blazers-ct0",
+                  "id": "gv-2-spurs-vs-blazers-ct0",
                   "name": "Trực tiếp",
                   "streams": [
                     {
-                      "id": "gv-3-spurs-vs-blazers-st0",
-                      "name": "BLV Nến",
-                      "stream_links": [
-                        {
-                          "id": "gv-3-spurs-vs-blazers-l0hd",
-                          "name": "HD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1776619766_hd/1776619766_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.vin/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "gv-3-spurs-vs-blazers-l0sd",
-                          "name": "SD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1776619766_sd/1776619766_hd@480p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.vin/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "id": "gv-3-spurs-vs-blazers-st1",
+                      "id": "gv-2-spurs-vs-blazers-st0",
                       "name": "BLV Perry",
                       "stream_links": [
                         {
-                          "id": "gv-3-spurs-vs-blazers-l1hd",
+                          "id": "gv-2-spurs-vs-blazers-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -299,11 +175,51 @@
                           ]
                         },
                         {
-                          "id": "gv-3-spurs-vs-blazers-l1sd",
+                          "id": "gv-2-spurs-vs-blazers-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
                           "url": "https://sgtdrxtdjeliv.vcdn.cloud/1776619776_sd/1776619776_hd@480p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.vin/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "gv-2-spurs-vs-blazers-st1",
+                      "name": "BLV Nến",
+                      "stream_links": [
+                        {
+                          "id": "gv-2-spurs-vs-blazers-l1hd",
+                          "name": "HD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1776619766_hd/1776619766_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.vin/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "gv-2-spurs-vs-blazers-l1sd",
+                          "name": "SD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1776619766_sd/1776619766_hd@480p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -324,7 +240,7 @@
           ]
         },
         {
-          "id": "gv-4-bacolod-masskara-vs-sara",
+          "id": "gv-3-bacolod-masskara-vs-sara",
           "name": "Bacolod Masskara vs Saragani Marlins  🕐 15:00 | 20/04",
           "description": "MPBL | 15:00 | 20/04 | 🕐 Sắp diễn ra | 🎙 BLV Tôm",
           "type": "single",
@@ -354,19 +270,19 @@
           ],
           "sources": [
             {
-              "id": "gv-4-bacolod-masskara-vs-sara-src0",
+              "id": "gv-3-bacolod-masskara-vs-sara-src0",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-4-bacolod-masskara-vs-sara-ct0",
+                  "id": "gv-3-bacolod-masskara-vs-sara-ct0",
                   "name": "Trực tiếp",
                   "streams": [
                     {
-                      "id": "gv-4-bacolod-masskara-vs-sara-st0",
+                      "id": "gv-3-bacolod-masskara-vs-sara-st0",
                       "name": "BLV Tôm",
                       "stream_links": [
                         {
-                          "id": "gv-4-bacolod-masskara-vs-sara-l0hd",
+                          "id": "gv-3-bacolod-masskara-vs-sara-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -383,7 +299,7 @@
                           ]
                         },
                         {
-                          "id": "gv-4-bacolod-masskara-vs-sara-l0sd",
+                          "id": "gv-3-bacolod-masskara-vs-sara-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
@@ -408,7 +324,7 @@
           ]
         },
         {
-          "id": "gv-5-semen-padang-vs-persijap",
+          "id": "gv-4-semen-padang-vs-persijap",
           "name": "Semen Padang vs Persijap Jepara  🕐 15:30 | 20/04",
           "description": "VĐQG Indonesia | 15:30 | 20/04 | 🕐 Sắp diễn ra | 🎙 BLV Tí",
           "type": "single",
@@ -438,19 +354,19 @@
           ],
           "sources": [
             {
-              "id": "gv-5-semen-padang-vs-persijap-src0",
+              "id": "gv-4-semen-padang-vs-persijap-src0",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-5-semen-padang-vs-persijap-ct0",
+                  "id": "gv-4-semen-padang-vs-persijap-ct0",
                   "name": "Trực tiếp",
                   "streams": [
                     {
-                      "id": "gv-5-semen-padang-vs-persijap-st0",
+                      "id": "gv-4-semen-padang-vs-persijap-st0",
                       "name": "BLV Tí",
                       "stream_links": [
                         {
-                          "id": "gv-5-semen-padang-vs-persijap-l0hd",
+                          "id": "gv-4-semen-padang-vs-persijap-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -467,7 +383,7 @@
                           ]
                         },
                         {
-                          "id": "gv-5-semen-padang-vs-persijap-l0sd",
+                          "id": "gv-4-semen-padang-vs-persijap-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
@@ -492,7 +408,7 @@
           ]
         },
         {
-          "id": "gv-6-san-juan-knights-vs-riza",
+          "id": "gv-5-san-juan-knights-vs-riza",
           "name": "San Juan Knights vs Rizal Golden Coolers  🕐 17:00 | 20/04",
           "description": "MPBL | 17:00 | 20/04 | 🕐 Sắp diễn ra | 🎙 BLV Tôm",
           "type": "single",
@@ -522,19 +438,19 @@
           ],
           "sources": [
             {
-              "id": "gv-6-san-juan-knights-vs-riza-src0",
+              "id": "gv-5-san-juan-knights-vs-riza-src0",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-6-san-juan-knights-vs-riza-ct0",
+                  "id": "gv-5-san-juan-knights-vs-riza-ct0",
                   "name": "Trực tiếp",
                   "streams": [
                     {
-                      "id": "gv-6-san-juan-knights-vs-riza-st0",
+                      "id": "gv-5-san-juan-knights-vs-riza-st0",
                       "name": "BLV Tôm",
                       "stream_links": [
                         {
-                          "id": "gv-6-san-juan-knights-vs-riza-l0hd",
+                          "id": "gv-5-san-juan-knights-vs-riza-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -551,7 +467,7 @@
                           ]
                         },
                         {
-                          "id": "gv-6-san-juan-knights-vs-riza-l0sd",
+                          "id": "gv-5-san-juan-knights-vs-riza-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
@@ -576,7 +492,7 @@
           ]
         },
         {
-          "id": "gv-7-pfc-oleksandria-vs-veres",
+          "id": "gv-6-pfc-oleksandria-vs-veres",
           "name": "PFC Oleksandria vs Veres  🕐 17:00 | 20/04",
           "description": "VĐQG Ukraine | 17:00 | 20/04 | 🕐 Sắp diễn ra | 🎙 BLV Thỏ",
           "type": "single",
@@ -606,19 +522,19 @@
           ],
           "sources": [
             {
-              "id": "gv-7-pfc-oleksandria-vs-veres-src0",
+              "id": "gv-6-pfc-oleksandria-vs-veres-src0",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-7-pfc-oleksandria-vs-veres-ct0",
+                  "id": "gv-6-pfc-oleksandria-vs-veres-ct0",
                   "name": "Trực tiếp",
                   "streams": [
                     {
-                      "id": "gv-7-pfc-oleksandria-vs-veres-st0",
+                      "id": "gv-6-pfc-oleksandria-vs-veres-st0",
                       "name": "BLV Thỏ",
                       "stream_links": [
                         {
-                          "id": "gv-7-pfc-oleksandria-vs-veres-l0hd",
+                          "id": "gv-6-pfc-oleksandria-vs-veres-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -635,7 +551,7 @@
                           ]
                         },
                         {
-                          "id": "gv-7-pfc-oleksandria-vs-veres-l0sd",
+                          "id": "gv-6-pfc-oleksandria-vs-veres-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
@@ -660,7 +576,7 @@
           ]
         },
         {
-          "id": "gv-8-hisamitsu-springs-nu-vs",
+          "id": "gv-7-hisamitsu-springs-nu-vs",
           "name": "Hisamitsu Springs Nữ vs PFU Blue Cats Nữ  🕐 17:05 | 20/04",
           "description": "SV.League Nữ - Play Offs - Bán kết | 17:05 | 20/04 | 🕐 Sắp diễn ra | 🎙 BLV Băng",
           "type": "single",
@@ -690,19 +606,19 @@
           ],
           "sources": [
             {
-              "id": "gv-8-hisamitsu-springs-nu-vs-src0",
+              "id": "gv-7-hisamitsu-springs-nu-vs-src0",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-8-hisamitsu-springs-nu-vs-ct0",
+                  "id": "gv-7-hisamitsu-springs-nu-vs-ct0",
                   "name": "Trực tiếp",
                   "streams": [
                     {
-                      "id": "gv-8-hisamitsu-springs-nu-vs-st0",
+                      "id": "gv-7-hisamitsu-springs-nu-vs-st0",
                       "name": "BLV Băng",
                       "stream_links": [
                         {
-                          "id": "gv-8-hisamitsu-springs-nu-vs-l0hd",
+                          "id": "gv-7-hisamitsu-springs-nu-vs-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -719,7 +635,7 @@
                           ]
                         },
                         {
-                          "id": "gv-8-hisamitsu-springs-nu-vs-l0sd",
+                          "id": "gv-7-hisamitsu-springs-nu-vs-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
@@ -744,7 +660,7 @@
           ]
         },
         {
-          "id": "gv-9-lion-city-sailors-vs-you",
+          "id": "gv-8-lion-city-sailors-vs-you",
           "name": "Lion City Sailors vs Young Lions  🕐 18:30 | 20/04",
           "description": "VĐQG  Singapore | 18:30 | 20/04 | 🕐 Sắp diễn ra | 🎙 BLV Tí",
           "type": "single",
@@ -774,19 +690,19 @@
           ],
           "sources": [
             {
-              "id": "gv-9-lion-city-sailors-vs-you-src0",
+              "id": "gv-8-lion-city-sailors-vs-you-src0",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-9-lion-city-sailors-vs-you-ct0",
+                  "id": "gv-8-lion-city-sailors-vs-you-ct0",
                   "name": "Trực tiếp",
                   "streams": [
                     {
-                      "id": "gv-9-lion-city-sailors-vs-you-st0",
+                      "id": "gv-8-lion-city-sailors-vs-you-st0",
                       "name": "BLV Tí",
                       "stream_links": [
                         {
-                          "id": "gv-9-lion-city-sailors-vs-you-l0hd",
+                          "id": "gv-8-lion-city-sailors-vs-you-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -803,7 +719,7 @@
                           ]
                         },
                         {
-                          "id": "gv-9-lion-city-sailors-vs-you-l0sd",
+                          "id": "gv-8-lion-city-sailors-vs-you-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
@@ -828,7 +744,7 @@
           ]
         },
         {
-          "id": "gv-10-guangzhou-vs-fujian",
+          "id": "gv-9-guangzhou-vs-fujian",
           "name": "Guangzhou vs Fujian  🕐 18:35 | 20/04",
           "description": "CBA | 18:35 | 20/04 | 🕐 Sắp diễn ra | 🎙 BLV Nến",
           "type": "single",
@@ -858,19 +774,19 @@
           ],
           "sources": [
             {
-              "id": "gv-10-guangzhou-vs-fujian-src0",
+              "id": "gv-9-guangzhou-vs-fujian-src0",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-10-guangzhou-vs-fujian-ct0",
+                  "id": "gv-9-guangzhou-vs-fujian-ct0",
                   "name": "Trực tiếp",
                   "streams": [
                     {
-                      "id": "gv-10-guangzhou-vs-fujian-st0",
+                      "id": "gv-9-guangzhou-vs-fujian-st0",
                       "name": "BLV Nến",
                       "stream_links": [
                         {
-                          "id": "gv-10-guangzhou-vs-fujian-l0hd",
+                          "id": "gv-9-guangzhou-vs-fujian-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -887,7 +803,7 @@
                           ]
                         },
                         {
-                          "id": "gv-10-guangzhou-vs-fujian-l0sd",
+                          "id": "gv-9-guangzhou-vs-fujian-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
@@ -912,7 +828,7 @@
           ]
         },
         {
-          "id": "gv-11-ningbo-rockets-vs-jilin",
+          "id": "gv-10-ningbo-rockets-vs-jilin",
           "name": "Ningbo Rockets  vs Jilin  🕐 18:35 | 20/04",
           "description": "CBA | 18:35 | 20/04 | 🕐 Sắp diễn ra | 🎙 BLV Cầy",
           "type": "single",
@@ -942,19 +858,19 @@
           ],
           "sources": [
             {
-              "id": "gv-11-ningbo-rockets-vs-jilin-src0",
+              "id": "gv-10-ningbo-rockets-vs-jilin-src0",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-11-ningbo-rockets-vs-jilin-ct0",
+                  "id": "gv-10-ningbo-rockets-vs-jilin-ct0",
                   "name": "Trực tiếp",
                   "streams": [
                     {
-                      "id": "gv-11-ningbo-rockets-vs-jilin-st0",
+                      "id": "gv-10-ningbo-rockets-vs-jilin-st0",
                       "name": "BLV Cầy",
                       "stream_links": [
                         {
-                          "id": "gv-11-ningbo-rockets-vs-jilin-l0hd",
+                          "id": "gv-10-ningbo-rockets-vs-jilin-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -971,7 +887,7 @@
                           ]
                         },
                         {
-                          "id": "gv-11-ningbo-rockets-vs-jilin-l0sd",
+                          "id": "gv-10-ningbo-rockets-vs-jilin-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
@@ -996,7 +912,7 @@
           ]
         },
         {
-          "id": "gv-12-dewa-united-fc-vs-persib",
+          "id": "gv-11-dewa-united-fc-vs-persib",
           "name": "Dewa United FC vs Persib Bandung  🕐 19:00 | 20/04",
           "description": "VĐQG Indonesia | 19:00 | 20/04 | 🕐 Sắp diễn ra | 🎙 BLV Tỵ",
           "type": "single",
@@ -1026,19 +942,19 @@
           ],
           "sources": [
             {
-              "id": "gv-12-dewa-united-fc-vs-persib-src0",
+              "id": "gv-11-dewa-united-fc-vs-persib-src0",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-12-dewa-united-fc-vs-persib-ct0",
+                  "id": "gv-11-dewa-united-fc-vs-persib-ct0",
                   "name": "Trực tiếp",
                   "streams": [
                     {
-                      "id": "gv-12-dewa-united-fc-vs-persib-st0",
+                      "id": "gv-11-dewa-united-fc-vs-persib-st0",
                       "name": "BLV Tỵ",
                       "stream_links": [
                         {
-                          "id": "gv-12-dewa-united-fc-vs-persib-l0hd",
+                          "id": "gv-11-dewa-united-fc-vs-persib-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -1055,7 +971,7 @@
                           ]
                         },
                         {
-                          "id": "gv-12-dewa-united-fc-vs-persib-l0sd",
+                          "id": "gv-11-dewa-united-fc-vs-persib-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
@@ -1080,7 +996,7 @@
           ]
         },
         {
-          "id": "gv-13-boston-red-sox-vs-detroi",
+          "id": "gv-12-boston-red-sox-vs-detroi",
           "name": "Boston Red Sox vs Detroit Tigers  🕐 22:10 | 20/04",
           "description": "MLB | 22:10 | 20/04 | 🕐 Sắp diễn ra | 🎙 BLV Chanh",
           "type": "single",
@@ -1110,19 +1026,19 @@
           ],
           "sources": [
             {
-              "id": "gv-13-boston-red-sox-vs-detroi-src0",
+              "id": "gv-12-boston-red-sox-vs-detroi-src0",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-13-boston-red-sox-vs-detroi-ct0",
+                  "id": "gv-12-boston-red-sox-vs-detroi-ct0",
                   "name": "Trực tiếp",
                   "streams": [
                     {
-                      "id": "gv-13-boston-red-sox-vs-detroi-st0",
+                      "id": "gv-12-boston-red-sox-vs-detroi-st0",
                       "name": "BLV Chanh",
                       "stream_links": [
                         {
-                          "id": "gv-13-boston-red-sox-vs-detroi-l0hd",
+                          "id": "gv-12-boston-red-sox-vs-detroi-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -1139,7 +1055,7 @@
                           ]
                         },
                         {
-                          "id": "gv-13-boston-red-sox-vs-detroi-l0sd",
+                          "id": "gv-12-boston-red-sox-vs-detroi-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
@@ -1164,7 +1080,7 @@
           ]
         },
         {
-          "id": "gv-14-al-adalh-vs-al-jndal",
+          "id": "gv-13-al-adalh-vs-al-jndal",
           "name": "Al-Adalh vs Al-Jndal  🕐 22:45 | 20/04",
           "description": "Saudi Arabia - Division 1 | 22:45 | 20/04 | 🕐 Sắp diễn ra | 🎙 BLV Thỏ",
           "type": "single",
@@ -1194,19 +1110,19 @@
           ],
           "sources": [
             {
-              "id": "gv-14-al-adalh-vs-al-jndal-src0",
+              "id": "gv-13-al-adalh-vs-al-jndal-src0",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-14-al-adalh-vs-al-jndal-ct0",
+                  "id": "gv-13-al-adalh-vs-al-jndal-ct0",
                   "name": "Trực tiếp",
                   "streams": [
                     {
-                      "id": "gv-14-al-adalh-vs-al-jndal-st0",
+                      "id": "gv-13-al-adalh-vs-al-jndal-st0",
                       "name": "BLV Thỏ",
                       "stream_links": [
                         {
-                          "id": "gv-14-al-adalh-vs-al-jndal-l0hd",
+                          "id": "gv-13-al-adalh-vs-al-jndal-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -1223,11 +1139,95 @@
                           ]
                         },
                         {
-                          "id": "gv-14-al-adalh-vs-al-jndal-l0sd",
+                          "id": "gv-13-al-adalh-vs-al-jndal-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
                           "url": "https://sgtdrxtdjeliv.vcdn.cloud/1776638338_sd/1776638338_hd@480p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.vin/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gv-14-knicks-vs-hawks",
+          "name": "Knicks  vs Hawks  🕐 07:00 | 21/04",
+          "description": "NBA | 07:00 | 21/04 | 🕐 Sắp diễn ra | 🎙 BLV Ben",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 0,
+            "background_color": "#F5F8FF",
+            "display": "contain",
+            "url": "data:image/webp;base64,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",
+            "width": 800,
+            "height": 450
+          },
+          "labels": [
+            {
+              "text": "🕐 Sắp diễn ra",
+              "color": "#1565C0",
+              "text_color": "#ffffff",
+              "position": "top-left"
+            },
+            {
+              "text": "🎙 BLV Ben",
+              "color": "#1B5E20",
+              "text_color": "#ffffff",
+              "position": "bottom-left"
+            }
+          ],
+          "sources": [
+            {
+              "id": "gv-14-knicks-vs-hawks-src0",
+              "name": "GioVang Live",
+              "contents": [
+                {
+                  "id": "gv-14-knicks-vs-hawks-ct0",
+                  "name": "Trực tiếp",
+                  "streams": [
+                    {
+                      "id": "gv-14-knicks-vs-hawks-st0",
+                      "name": "BLV Ben",
+                      "stream_links": [
+                        {
+                          "id": "gv-14-knicks-vs-hawks-l0hd",
+                          "name": "HD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1776646933_hd/1776646933_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.vin/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "gv-14-knicks-vs-hawks-l0sd",
+                          "name": "SD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1776646933_sd/1776646933_hd@480p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
