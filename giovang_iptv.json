@@ -201,8 +201,8 @@
         },
         {
           "id": "gv-3-vissel-kobe-vs-al-ahli-j",
-          "name": "Vissel Kobe 1-0 Al Ahli Jeddah  🔴",
-          "description": "AFC Champions League | 23:15 | 20/04 | 🔴 LIVE | 1-0 | 🎙 BLV Dần",
+          "name": "Vissel Kobe 1-2 Al Ahli Jeddah  🔴 90+7'",
+          "description": "AFC Champions League | 23:15 | 20/04 | 🔴 LIVE 90+7' | 1-2 | 🎙 BLV Dần",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -222,7 +222,7 @@
               "position": "top-left"
             },
             {
-              "text": "1-0",
+              "text": "1-2  90+7'",
               "color": "#B71C1C",
               "text_color": "#ffffff",
               "position": "bottom-right"
@@ -291,8 +291,8 @@
         },
         {
           "id": "gv-4-club-brugge-u19-vs-u19-r",
-          "name": "Club Brugge U19 0-1 U19 Real Madrid  🔴 26'",
-          "description": "UEFA Youth League | 23:45 | 20/04 | 🔴 LIVE 26' | 0-1 | 🎙 BLV Câm",
+          "name": "Club Brugge U19 1-1 U19 Real Madrid  🔴 68'",
+          "description": "UEFA Youth League | 23:45 | 20/04 | 🔴 LIVE 68' | 1-1 | 🎙 BLV Câm",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -312,7 +312,7 @@
               "position": "top-left"
             },
             {
-              "text": "0-1  26'",
+              "text": "1-1  68'",
               "color": "#B71C1C",
               "text_color": "#ffffff",
               "position": "bottom-right"
@@ -381,8 +381,8 @@
         },
         {
           "id": "gv-5-bb-gaziantep-vs-kayseris",
-          "name": "B.B. Gaziantep 0-0 Kayserispor  🔴 11'",
-          "description": "VĐQG Thổ Nhĩ Kỳ | 00:00 | 21/04 | 🔴 LIVE 11' | 0-0 | 🎙 BLV Dory",
+          "name": "B.B. Gaziantep 2-0 Kayserispor  🔴 52'",
+          "description": "VĐQG Thổ Nhĩ Kỳ | 00:00 | 21/04 | 🔴 LIVE 52' | 2-0 | 🎙 BLV Dory",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -402,7 +402,7 @@
               "position": "top-left"
             },
             {
-              "text": "0-0  11'",
+              "text": "2-0  52'",
               "color": "#B71C1C",
               "text_color": "#ffffff",
               "position": "bottom-right"
@@ -471,8 +471,8 @@
         },
         {
           "id": "gv-6-barracas-central-vs-belg",
-          "name": "Barracas Central vs Belgrano  🕐 01:00 | 21/04",
-          "description": "VĐQG Argentina | 01:00 | 21/04 | 🕐 Sắp diễn ra | 🎙 BLV Dậu",
+          "name": "Barracas Central 0-0 Belgrano  🔴 10'",
+          "description": "VĐQG Argentina | 01:00 | 21/04 | 🔴 LIVE 10' | 0-0 | 🎙 BLV Dậu",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -485,6 +485,18 @@
             "height": 450
           },
           "labels": [
+            {
+              "text": "● LIVE",
+              "color": "#C62828",
+              "text_color": "#ffffff",
+              "position": "top-left"
+            },
+            {
+              "text": "0-0  10'",
+              "color": "#B71C1C",
+              "text_color": "#ffffff",
+              "position": "bottom-right"
+            },
             {
               "text": "🎙 BLV Dậu",
               "color": "#1B5E20",
@@ -549,8 +561,8 @@
         },
         {
           "id": "gv-7-deportivo-la-coruna-vs-c",
-          "name": "Deportivo La Coruna vs CD Mirandes  🕐 01:30 | 21/04",
-          "description": "Hạng 2 Tây Ban Nha | 01:30 | 21/04 | 🕐 Sắp diễn ra | 🎙 BLV Hợi",
+          "name": "Deportivo La Coruna 0-0 CD Mirandes  🔴",
+          "description": "Hạng 2 Tây Ban Nha | 01:30 | 21/04 | 🔴 LIVE | 0-0 | 🎙 BLV Hợi",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -563,6 +575,18 @@
             "height": 450
           },
           "labels": [
+            {
+              "text": "● LIVE",
+              "color": "#C62828",
+              "text_color": "#ffffff",
+              "position": "top-left"
+            },
+            {
+              "text": "0-0",
+              "color": "#B71C1C",
+              "text_color": "#ffffff",
+              "position": "bottom-right"
+            },
             {
               "text": "🎙 BLV Hợi",
               "color": "#1B5E20",
@@ -627,8 +651,8 @@
         },
         {
           "id": "gv-8-lecce-vs-fiorentina",
-          "name": "Lecce vs Fiorentina  🕐 01:45 | 21/04",
-          "description": "Seria A | 01:45 | 21/04 | 🕐 Sắp diễn ra | 🎙 BLV Thìn",
+          "name": "Lecce 0-0 Fiorentina  🔴",
+          "description": "Seria A | 01:45 | 21/04 | 🔴 LIVE | 0-0 | 🎙 BLV Thìn",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -641,6 +665,18 @@
             "height": 450
           },
           "labels": [
+            {
+              "text": "● LIVE",
+              "color": "#C62828",
+              "text_color": "#ffffff",
+              "position": "top-left"
+            },
+            {
+              "text": "0-0",
+              "color": "#B71C1C",
+              "text_color": "#ffffff",
+              "position": "bottom-right"
+            },
             {
               "text": "🎙 BLV Thìn",
               "color": "#1B5E20",
