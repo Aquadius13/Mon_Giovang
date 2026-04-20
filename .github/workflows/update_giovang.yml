@@ -54,7 +54,7 @@ jobs:
           if [ "${{ github.event.inputs.all_matches }}" = "true" ]; then
             FLAGS="$FLAGS --all"
           fi
-          python crawler_giovang_v4.py --output giovang_iptv.json $FLAGS
+          python crawler_giovang.py --output giovang_iptv.json $FLAGS
 
       - name: Validate JSON
         run: |
