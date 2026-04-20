@@ -21,8 +21,8 @@
       "channels": [
         {
           "id": "gv-1-boston-red-sox-vs-detroi",
-          "name": "Boston Red Sox vs Detroit Tigers  🕐 22:10 | 20/04",
-          "description": "MLB | 22:10 | 20/04 | 🕐 Sắp diễn ra | 🎙 BLV Chanh",
+          "name": "Boston Red Sox 0-0 Detroit Tigers  🔴",
+          "description": "MLB | 22:10 | 20/04 | 🔴 LIVE | 0-0 | 🎙 BLV Chanh",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -35,6 +35,18 @@
             "height": 450
           },
           "labels": [
+            {
+              "text": "● LIVE",
+              "color": "#C62828",
+              "text_color": "#ffffff",
+              "position": "top-left"
+            },
+            {
+              "text": "0-0",
+              "color": "#B71C1C",
+              "text_color": "#ffffff",
+              "position": "bottom-right"
+            },
             {
               "text": "🎙 BLV Chanh",
               "color": "#1B5E20",
@@ -99,8 +111,8 @@
         },
         {
           "id": "gv-2-al-adalh-vs-al-jndal",
-          "name": "Al-Adalh vs Al-Jndal  🕐 22:45 | 20/04",
-          "description": "Saudi Arabia - Division 1 | 22:45 | 20/04 | 🕐 Sắp diễn ra | 🎙 BLV Thỏ",
+          "name": "Al-Adalh 0-0 Al-Jndal  🔴",
+          "description": "Saudi Arabia - Division 1 | 22:45 | 20/04 | 🔴 LIVE | 0-0 | 🎙 BLV Thỏ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -113,6 +125,18 @@
             "height": 450
           },
           "labels": [
+            {
+              "text": "● LIVE",
+              "color": "#C62828",
+              "text_color": "#ffffff",
+              "position": "top-left"
+            },
+            {
+              "text": "0-0",
+              "color": "#B71C1C",
+              "text_color": "#ffffff",
+              "position": "bottom-right"
+            },
             {
               "text": "🎙 BLV Thỏ",
               "color": "#1B5E20",
