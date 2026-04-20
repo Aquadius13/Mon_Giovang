@@ -111,8 +111,8 @@
         },
         {
           "id": "gv-2-cavaliers-vs-raptors",
-          "name": "Cavaliers  vs Raptors  🕐 06:00 | 21/04",
-          "description": "NBA | 06:00 | 21/04 | 🕐 Sắp diễn ra | 🎙 BLV Nến",
+          "name": "Cavaliers  0-0 Raptors  🔴",
+          "description": "NBA | 06:00 | 21/04 | 🔴 LIVE | 0-0 | 🎙 BLV Nến",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -125,6 +125,18 @@
             "height": 450
           },
           "labels": [
+            {
+              "text": "● LIVE",
+              "color": "#C62828",
+              "text_color": "#ffffff",
+              "position": "top-left"
+            },
+            {
+              "text": "0-0",
+              "color": "#B71C1C",
+              "text_color": "#ffffff",
+              "position": "bottom-right"
+            },
             {
               "text": "🎙 BLV Nến",
               "color": "#1B5E20",
