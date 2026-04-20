@@ -47,7 +47,7 @@ BLV_MAP = {
     "blv-nen":  "BLV Nến",
 }
 
-S = 1.15  # scale +15%
+S = 1.265  # scale +26.5% (tích lũy: +15% rồi +10%)
 
 def sc(v: int) -> int:
     return int(v * S)
@@ -552,13 +552,10 @@ def build_channel(m: dict, streams: list, thumb_url: str, idx: int) -> dict:
     multi_blv = len(streams) > 1
 
     labels = []
-    st_map = {
-        "live":     ("\u25cf LIVE",         "#C62828"),
-        "upcoming": ("\U0001f550 Sắp diễn ra", "#1565C0"),
-        "finished": ("\u2705 Kết thúc",     "#424242"),
-    }
-    st_t, st_c = st_map.get(m["status"], ("\u25cf LIVE", "#C62828"))
-    labels.append({"text": st_t, "color": st_c, "text_color": "#ffffff", "position": "top-left"})
+    # Chỉ hiển thị label khi đang live
+    if m["status"] == "live":
+        labels.append({"text": "\u25cf LIVE", "color": "#C62828",
+                        "text_color": "#ffffff", "position": "top-left"})
 
     if score and m["status"] == "live":
         lt  = m["live_time"]
