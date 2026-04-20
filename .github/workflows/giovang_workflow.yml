@@ -53,7 +53,7 @@ jobs:
           GITHUB_REPOSITORY: ${{ github.repository }}
           GITHUB_REF_NAME:   ${{ github.ref_name }}
         run: |
-          cat > crawler_giovang.py << 'CRAWLER_EOF'
+          cat > crawler_giovang_v4.py << 'CRAWLER_EOF'
           #!/usr/bin/env python3
           """
           Crawler giovang.vin v9 — CDN WEBP via GitHub commit
@@ -557,12 +557,12 @@ jobs:
           # Bỏ indent (heredoc thêm spaces)
           python3 -c "
           import re
-          code = open('crawler_giovang.py').read()
+          code = open('crawler_giovang_v4.py').read()
           # Bỏ 10 spaces indent đầu mỗi dòng (từ heredoc)
           lines = code.split('\n')
           fixed = [l[10:] if l.startswith(' '*10) else l for l in lines]
-          open('crawler_giovang.py','w').write('\n'.join(fixed))
-          print('✅ crawler_giovang.py ready')
+          open('crawler_giovang_v4.py','w').write('\n'.join(fixed))
+          print('✅ crawler_giovang_v4.py ready')
           "
 
       # ── 5. Crawl ─────────────────────────────────────────────
@@ -575,7 +575,7 @@ jobs:
           FLAGS=""
           [ "${{ github.event.inputs.no_stream }}"  = "true" ] && FLAGS="$FLAGS --no-stream"
           [ "${{ github.event.inputs.all_matches }}" = "true" ] && FLAGS="$FLAGS --all"
-          python crawler_giovang.py --output giovang_iptv.json $FLAGS
+          python crawler_giovang_v4.py --output giovang_iptv.json $FLAGS
 
       # ── 6. Validate JSON ─────────────────────────────────────
       - name: ✅ Validate JSON
