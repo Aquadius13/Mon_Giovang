@@ -111,8 +111,8 @@
         },
         {
           "id": "gv-2-barracas-central-vs-belg",
-          "name": "Barracas Central 0-0 Belgrano  🔴 78'",
-          "description": "VĐQG Argentina | 01:00 | 21/04 | 🔴 LIVE 78' | 0-0 | 🎙 BLV Dậu",
+          "name": "Barracas Central 0-0 Belgrano  🔴",
+          "description": "VĐQG Argentina | 01:00 | 21/04 | 🔴 LIVE | 0-0 | 🎙 BLV Dậu",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -132,7 +132,7 @@
               "position": "top-left"
             },
             {
-              "text": "0-0  78'",
+              "text": "0-0",
               "color": "#B71C1C",
               "text_color": "#ffffff",
               "position": "bottom-right"
@@ -201,8 +201,8 @@
         },
         {
           "id": "gv-3-deportivo-la-coruna-vs-c",
-          "name": "Deportivo La Coruna 0-1 CD Mirandes  🔴 47'",
-          "description": "Hạng 2 Tây Ban Nha | 01:30 | 21/04 | 🔴 LIVE 47' | 0-1 | 🎙 BLV Hợi",
+          "name": "Deportivo La Coruna 3-0 CD Mirandes  🔴",
+          "description": "Hạng 2 Tây Ban Nha | 01:30 | 21/04 | 🔴 LIVE | 3-0 | 🎙 BLV Hợi",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -222,7 +222,7 @@
               "position": "top-left"
             },
             {
-              "text": "0-1  47'",
+              "text": "3-0",
               "color": "#B71C1C",
               "text_color": "#ffffff",
               "position": "bottom-right"
@@ -291,8 +291,8 @@
         },
         {
           "id": "gv-4-lecce-vs-fiorentina",
-          "name": "Lecce 0-1 Fiorentina  🔴 45+3'",
-          "description": "Seria A | 01:45 | 21/04 | 🔴 LIVE 45+3' | 0-1 | 🎙 BLV Thìn",
+          "name": "Lecce 1-1 Fiorentina  🔴 80'",
+          "description": "Seria A | 01:45 | 21/04 | 🔴 LIVE 80' | 1-1 | 🎙 BLV Thìn",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -312,7 +312,7 @@
               "position": "top-left"
             },
             {
-              "text": "0-1  45+3'",
+              "text": "1-1  80'",
               "color": "#B71C1C",
               "text_color": "#ffffff",
               "position": "bottom-right"
@@ -381,8 +381,8 @@
         },
         {
           "id": "gv-5-crystal-palace-vs-west-h",
-          "name": "Crystal Palace 0-0 West Ham United  🔴 35'",
-          "description": "Ngoại hạng Anh | 02:00 | 21/04 | 🔴 LIVE 35' | 0-0 | 🎙 BLV Dần",
+          "name": "Crystal Palace 0-0 West Ham United  🔴 71'",
+          "description": "Ngoại hạng Anh | 02:00 | 21/04 | 🔴 LIVE 71' | 0-0 | 🎙 BLV Dần",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -402,7 +402,7 @@
               "position": "top-left"
             },
             {
-              "text": "0-0  35'",
+              "text": "0-0  71'",
               "color": "#B71C1C",
               "text_color": "#ffffff",
               "position": "bottom-right"
