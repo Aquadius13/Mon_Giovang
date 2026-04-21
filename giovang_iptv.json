@@ -111,8 +111,8 @@
         },
         {
           "id": "gv-2-paranaque-patriots-vs-ab",
-          "name": "Paranaque Patriots  vs Abra Weavers  🕐 17:00 | 21/04",
-          "description": "MPBL | 17:00 | 21/04 | 🕐 Sắp diễn ra | 🎙 BLV Tôm",
+          "name": "Paranaque Patriots  0-0 Abra Weavers  🔴",
+          "description": "MPBL | 17:00 | 21/04 | 🔴 LIVE | 0-0 | 🎙 BLV Tôm",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -125,6 +125,18 @@
             "height": 450
           },
           "labels": [
+            {
+              "text": "● LIVE",
+              "color": "#C62828",
+              "text_color": "#ffffff",
+              "position": "top-left"
+            },
+            {
+              "text": "0-0",
+              "color": "#B71C1C",
+              "text_color": "#ffffff",
+              "position": "bottom-right"
+            },
             {
               "text": "🎙 BLV Tôm",
               "color": "#1B5E20",
