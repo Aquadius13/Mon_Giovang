@@ -21,8 +21,8 @@
       "channels": [
         {
           "id": "gv-1-binan-tatak-gel-vs-quezo",
-          "name": "Binan Tatak Gel vs Quezon Huskers  🕐 15:00 | 21/04",
-          "description": "MPBL | 15:00 | 21/04 | 🕐 Sắp diễn ra | 🎙 BLV Cầy",
+          "name": "Binan Tatak Gel 0-0 Quezon Huskers  🔴",
+          "description": "MPBL | 15:00 | 21/04 | 🔴 LIVE | 0-0 | 🎙 BLV Cầy",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -35,6 +35,18 @@
             "height": 450
           },
           "labels": [
+            {
+              "text": "● LIVE",
+              "color": "#C62828",
+              "text_color": "#ffffff",
+              "position": "top-left"
+            },
+            {
+              "text": "0-0",
+              "color": "#B71C1C",
+              "text_color": "#ffffff",
+              "position": "bottom-right"
+            },
             {
               "text": "🎙 BLV Cầy",
               "color": "#1B5E20",
@@ -568,10 +580,10 @@
         {
           "id": "gv-8-shanghai-port-vs-chongqi",
           "name": "Shanghai Port vs Chongqing Tonglianglong  🕐 19:00 | 21/04",
-          "description": "VĐQG Trung Quốc | 19:00 | 21/04 | 🕐 Sắp diễn ra | 🎙 BLV Tí | BLV Cầy",
+          "description": "VĐQG Trung Quốc | 19:00 | 21/04 | 🕐 Sắp diễn ra | 🎙 BLV Tí",
           "type": "single",
           "display": "thumbnail-only",
-          "enable_detail": true,
+          "enable_detail": false,
           "image": {
             "padding": 0,
             "background_color": "#F5F8FF",
@@ -582,7 +594,7 @@
           },
           "labels": [
             {
-              "text": "🎙 2 BLV",
+              "text": "🎙 BLV Tí",
               "color": "#1B5E20",
               "text_color": "#ffffff",
               "position": "bottom-left"
@@ -624,46 +636,6 @@
                           "type": "hls",
                           "default": false,
                           "url": "https://sgtdrxtdjeliv.vcdn.cloud/1776728996_sd/1776728996_hd@480p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.vin/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "id": "gv-8-shanghai-port-vs-chongqi-st1",
-                      "name": "BLV Cầy",
-                      "stream_links": [
-                        {
-                          "id": "gv-8-shanghai-port-vs-chongqi-l1hd",
-                          "name": "HD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1776729002_hd/1776729002_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.vin/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "gv-8-shanghai-port-vs-chongqi-l1sd",
-                          "name": "SD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1776729002_sd/1776729002_hd@480p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
