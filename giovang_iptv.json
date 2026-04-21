@@ -21,8 +21,8 @@
       "channels": [
         {
           "id": "gv-1-coventry-vs-portsmouth",
-          "name": "Coventry 1-0 Portsmouth  🔴 36'",
-          "description": "Hạng Nhất Anh | 01:45 | 22/04 | 🔴 LIVE 36' | 1-0 | 🎙 BLV Băng",
+          "name": "Coventry 4-1 Portsmouth  🔴 85'",
+          "description": "Hạng Nhất Anh | 01:45 | 22/04 | 🔴 LIVE 85' | 4-1 | 🎙 BLV Băng",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -42,7 +42,7 @@
               "position": "top-left"
             },
             {
-              "text": "1-0  36'",
+              "text": "4-1  85'",
               "color": "#B71C1C",
               "text_color": "#ffffff",
               "position": "bottom-right"
@@ -201,8 +201,8 @@
         },
         {
           "id": "gv-3-brighton-hove-albion-vs",
-          "name": "Brighton   Hove Albion 1-0 Chelsea FC  🔴 21'",
-          "description": "Ngoại hạng Anh | 02:00 | 22/04 | 🔴 LIVE 21' | 1-0 | 🎙 BLV Dần",
+          "name": "Brighton   Hove Albion 2-0 Chelsea FC  🔴 71'",
+          "description": "Ngoại hạng Anh | 02:00 | 22/04 | 🔴 LIVE 71' | 2-0 | 🎙 BLV Dần",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -222,7 +222,7 @@
               "position": "top-left"
             },
             {
-              "text": "1-0  21'",
+              "text": "2-0  71'",
               "color": "#B71C1C",
               "text_color": "#ffffff",
               "position": "bottom-right"
@@ -291,8 +291,8 @@
         },
         {
           "id": "gv-4-inter-milan-vs-como",
-          "name": "Inter Milan 0-0 Como  🔴 20'",
-          "description": "Cúp Ý | 02:00 | 22/04 | 🔴 LIVE 20' | 0-0 | 🎙 BLV Chanh",
+          "name": "Inter Milan 0-2 Como  🔴 69'",
+          "description": "Cúp Ý | 02:00 | 22/04 | 🔴 LIVE 69' | 0-2 | 🎙 BLV Chanh",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -312,7 +312,7 @@
               "position": "top-left"
             },
             {
-              "text": "0-0  20'",
+              "text": "0-2  69'",
               "color": "#B71C1C",
               "text_color": "#ffffff",
               "position": "bottom-right"
@@ -381,8 +381,8 @@
         },
         {
           "id": "gv-5-lens-vs-toulouse",
-          "name": "Lens 1-0 Toulouse  🔴 11'",
-          "description": "Cúp Pháp | 02:10 | 22/04 | 🔴 LIVE 11' | 1-0 | 🎙 BLV Hợi",
+          "name": "Lens 3-1 Toulouse  🔴 56'",
+          "description": "Cúp Pháp | 02:10 | 22/04 | 🔴 LIVE 56' | 3-1 | 🎙 BLV Hợi",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -402,7 +402,7 @@
               "position": "top-left"
             },
             {
-              "text": "1-0  11'",
+              "text": "3-1  56'",
               "color": "#B71C1C",
               "text_color": "#ffffff",
               "position": "bottom-right"
@@ -471,8 +471,8 @@
         },
         {
           "id": "gv-6-girona-vs-real-betis",
-          "name": "Girona 0-0 Real Betis  🔴",
-          "description": "La Liga | 02:30 | 22/04 | 🔴 LIVE | 0-0 | 🎙 BLV Dậu",
+          "name": "Girona 1-1 Real Betis  🔴",
+          "description": "La Liga | 02:30 | 22/04 | 🔴 LIVE | 1-1 | 🎙 BLV Dậu",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -492,7 +492,7 @@
               "position": "top-left"
             },
             {
-              "text": "0-0",
+              "text": "1-1",
               "color": "#B71C1C",
               "text_color": "#ffffff",
               "position": "bottom-right"
@@ -561,8 +561,8 @@
         },
         {
           "id": "gv-7-real-madrid-vs-alaves",
-          "name": "Real Madrid 0-0 Alaves  🔴",
-          "description": "La Liga | 02:30 | 22/04 | 🔴 LIVE | 0-0 | 🎙 BLV Mason",
+          "name": "Real Madrid 1-0 Alaves  🔴 45+8'",
+          "description": "La Liga | 02:30 | 22/04 | 🔴 LIVE 45+8' | 1-0 | 🎙 BLV Mason",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -582,7 +582,7 @@
               "position": "top-left"
             },
             {
-              "text": "0-0",
+              "text": "1-0  45+8'",
               "color": "#B71C1C",
               "text_color": "#ffffff",
               "position": "bottom-right"
