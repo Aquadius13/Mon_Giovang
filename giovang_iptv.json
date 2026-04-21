@@ -21,8 +21,8 @@
       "channels": [
         {
           "id": "gv-1-sao-paulo-vs-juventude",
-          "name": "Sao Paulo 1-0 Juventude  🔴 44'",
-          "description": "Cúp Brazil | 05:15 | 22/04 | 🔴 LIVE 44' | 1-0 | 🎙 BLV Dậu",
+          "name": "Sao Paulo 1-0 Juventude  🔴 78'",
+          "description": "Cúp Brazil | 05:15 | 22/04 | 🔴 LIVE 78' | 1-0 | 🎙 BLV Dậu",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -42,7 +42,7 @@
               "position": "top-left"
             },
             {
-              "text": "1-0  44'",
+              "text": "1-0  78'",
               "color": "#B71C1C",
               "text_color": "#ffffff",
               "position": "bottom-right"
@@ -201,8 +201,8 @@
         },
         {
           "id": "gv-3-spurs-vs-blazers",
-          "name": "Spurs vs Blazers  🕐 07:00 | 22/04",
-          "description": "NBA | 07:00 | 22/04 | 🕐 Sắp diễn ra | 🎙 BLV Perry | BLV Ben",
+          "name": "Spurs 0-0 Blazers  🔴",
+          "description": "NBA | 07:00 | 22/04 | 🔴 LIVE | 0-0 | 🎙 BLV Perry | BLV Ben",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": true,
@@ -215,6 +215,18 @@
             "height": 450
           },
           "labels": [
+            {
+              "text": "● LIVE",
+              "color": "#C62828",
+              "text_color": "#ffffff",
+              "position": "top-left"
+            },
+            {
+              "text": "0-0",
+              "color": "#B71C1C",
+              "text_color": "#ffffff",
+              "position": "bottom-right"
+            },
             {
               "text": "🎙 2 BLV",
               "color": "#1B5E20",
