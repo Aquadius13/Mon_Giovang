@@ -47,7 +47,7 @@ BLV_MAP = {
     "blv-nen":  "BLV Nến",
 }
 
-S = 1.15  # scale +15%
+S = 1.265  # scale +26.5% (tích lũy: +15% rồi +10%)
 
 def sc(v: int) -> int:
     return int(v * S)
@@ -335,16 +335,24 @@ def make_thumbnail_bytes(
     status: str = "upcoming", score: str = "", live_time: str = "",
 ) -> bytes:
     W, H      = 800, 450
-    LOGO_SZ   = sc(130)
+    LOGO_SZ   = 221          # logo +35% (164 × 1.35)
     LOGO_CY   = 205
     MID_X     = W // 2
-    INFO_HALF = sc(100)
-    GAP       = sc(12)
+    INFO_HALF = sc(100)      # vùng info giữa — giữ nguyên
+    GAP       = sc(12)       # khoảng cách logo↔info — giữ nguyên
     LX        = MID_X - INFO_HALF - GAP - LOGO_SZ // 2
     RX        = MID_X + INFO_HALF + GAP + LOGO_SZ // 2
     NAME_Y    = LOGO_CY + LOGO_SZ // 2 + sc(18)
     DATE_Y    = NAME_Y + sc(28)
     LEAGUE_Y  = 112
+    # Font sizes text +20%
+    F_LEAGUE  = 29           # 24 × 1.20
+    F_NAME    = 29           # 24 × 1.20
+    F_TIME    = 54           # 45 × 1.20
+    F_SUB     = 20           # 17 × 1.20
+    F_DATE    = 20           # 17 × 1.20
+    F_INIT    = 51           # 43 × 1.20
+    LINE_LEN  = 144          # 120 × 1.20
 
     # Nền sáng trắng → xanh nhạt
     img  = Image.new("RGB", (W, H))
@@ -355,19 +363,19 @@ def make_thumbnail_bytes(
     draw.rectangle([(0, 0),   (W, 8)], fill=(255, 140, 0))
     draw.rectangle([(0, H-8), (W, H)], fill=(255, 140, 0))
 
-    # Tên giải + đường kẻ
+    # Tên giải + đường kẻ  (+20%)
     if league:
         draw.text(
             (MID_X, LEAGUE_Y), league[:26],
-            fill=(55, 80, 160), font=_font(sc(17), False), anchor="mm"
+            fill=(55, 80, 160), font=_font(F_LEAGUE, False), anchor="mm"
         )
-        ll = sc(95)
         draw.line(
-            [(MID_X - ll, LEAGUE_Y + sc(14)), (MID_X + ll, LEAGUE_Y + sc(14))],
+            [(MID_X - LINE_LEN, LEAGUE_Y + sc(14)),
+             (MID_X + LINE_LEN, LEAGUE_Y + sc(14))],
             fill=(195, 210, 235), width=2
         )
 
-    # Giờ / Tỉ số
+    # Giờ / Tỉ số  (+20%)
     if status == "live" and score:
         main_txt = score.replace("-", " : ")
         main_col = (190, 20, 20)
@@ -387,15 +395,15 @@ def make_thumbnail_bytes(
     has_sub = bool(sub_txt)
     draw.text(
         (MID_X, LOGO_CY - (sc(13) if has_sub else 0)),
-        main_txt, fill=main_col, font=_font(sc(36)), anchor="mm"
+        main_txt, fill=main_col, font=_font(F_TIME), anchor="mm"
     )
     if has_sub:
         draw.text(
             (MID_X, LOGO_CY + sc(24)),
-            sub_txt, fill=sub_col, font=_font(sc(14), False), anchor="mm"
+            sub_txt, fill=sub_col, font=_font(F_SUB, False), anchor="mm"
         )
 
-    # Logo
+    # Logo  (+35%)
     def paste_logo(cx, cy, logo_img, name, col):
         nonlocal img, draw
         if logo_img:
@@ -414,36 +422,24 @@ def make_thumbnail_bytes(
             draw.ellipse([(cx-r2+3, cy-r2+3), (cx+r2+3, cy+r2+3)], fill=(185, 195, 220))
             draw.ellipse([(cx-r2, cy-r2), (cx+r2, cy+r2)], fill=col)
             init = "".join(w[0].upper() for w in name.split()[:2]) or "?"
-            draw.text((cx, cy), init, fill="white", font=_font(sc(34)), anchor="mm")
+            draw.text((cx, cy), init, fill="white", font=_font(F_INIT), anchor="mm")
 
     paste_logo(LX, LOGO_CY, logo_a, home_name, (25, 70, 175))
     paste_logo(RX, LOGO_CY, logo_b, away_name, (175, 30, 55))
 
-    # Tên đội
+    # Tên đội: 1 hàng, F_NAME pt, không đậm  (+20%)
     def draw_name(cx, name):
-        words = name.split()
-        col   = (25, 50, 125)
-        if len(name) <= 12 or len(words) <= 1:
-            draw.text((cx, NAME_Y), name[:16], fill=col, font=_font(sc(17)), anchor="mm")
-        else:
-            mid = max(1, len(words) // 2)
-            draw.text(
-                (cx, NAME_Y - sc(9)), " ".join(words[:mid])[:16],
-                fill=col, font=_font(sc(15)), anchor="mm"
-            )
-            draw.text(
-                (cx, NAME_Y + sc(9)), " ".join(words[mid:])[:16],
-                fill=col, font=_font(sc(13), False), anchor="mm"
-            )
+        col = (25, 50, 125)
+        draw.text((cx, NAME_Y), name[:18], fill=col, font=_font(F_NAME, False), anchor="mm")
 
     draw_name(LX, home_name)
     draw_name(RX, away_name)
 
-    # Ngày
+    # Ngày  (+20%)
     if date_str:
         draw.text(
             (MID_X, DATE_Y), f"\U0001f4c5  {date_str}",
-            fill=(75, 100, 170), font=_font(sc(14), False), anchor="mm"
+            fill=(75, 100, 170), font=_font(F_DATE, False), anchor="mm"
         )
 
     draw.text((W-12, H-14), "giovang.vin", fill=(155, 170, 205), font=_font(10, False), anchor="rm")
@@ -552,13 +548,10 @@ def build_channel(m: dict, streams: list, thumb_url: str, idx: int) -> dict:
     multi_blv = len(streams) > 1
 
     labels = []
-    st_map = {
-        "live":     ("\u25cf LIVE",         "#C62828"),
-        "upcoming": ("\U0001f550 Sắp diễn ra", "#1565C0"),
-        "finished": ("\u2705 Kết thúc",     "#424242"),
-    }
-    st_t, st_c = st_map.get(m["status"], ("\u25cf LIVE", "#C62828"))
-    labels.append({"text": st_t, "color": st_c, "text_color": "#ffffff", "position": "top-left"})
+    # Chỉ hiển thị label khi đang live
+    if m["status"] == "live":
+        labels.append({"text": "\u25cf LIVE", "color": "#C62828",
+                        "text_color": "#ffffff", "position": "top-left"})
 
     if score and m["status"] == "live":
         lt  = m["live_time"]
