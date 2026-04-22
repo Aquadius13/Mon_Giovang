@@ -335,24 +335,40 @@ def make_thumbnail_bytes(
     status: str = "upcoming", score: str = "", live_time: str = "",
 ) -> bytes:
     W, H      = 800, 450
-    LOGO_SZ   = 221          # logo +35% (164 × 1.35)
-    LOGO_CY   = 205
     MID_X     = W // 2
-    INFO_HALF = sc(100)      # vùng info giữa — giữ nguyên
-    GAP       = sc(12)       # khoảng cách logo↔info — giữ nguyên
+
+    # ── Logo -10% ──────────────────────────────────────────────
+    LOGO_SZ   = 199          # 221 × 0.90
+
+    # ── Tên giải: sát top, +10% ────────────────────────────────
+    LEAGUE_Y  = 30           # sát dải cam (Y=8), căn giữa vùng 8..50
+    LINE_Y    = LEAGUE_Y + 18
+
+    # ── Căn giữa trục ngang: logo + tên đội + ngày ─────────────
+    # Zone nội dung: Y=52 (sau đường kẻ) .. Y=420 (trước watermark)
+    # center_Y = (52 + 420) // 2 = 236
+    GAP_NAME  = 8            # logo bottom → tên đội (sát logo)
+    GAP_DATE  = 12           # tên đội → ngày
+    F_NAME    = 29
+    F_DATE    = 20
+    GROUP_H   = LOGO_SZ + GAP_NAME + F_NAME + GAP_DATE + F_DATE   # 268
+    GROUP_TOP = 236 - GROUP_H // 2                                  # 102
+    LOGO_CY   = GROUP_TOP + LOGO_SZ // 2                           # 201
+    NAME_Y    = GROUP_TOP + LOGO_SZ + GAP_NAME + F_NAME // 2      # 323
+    DATE_Y    = GROUP_TOP + LOGO_SZ + GAP_NAME + F_NAME + GAP_DATE + F_DATE // 2  # 360
+
+    # ── Vùng info giữa (giờ/VS) ────────────────────────────────
+    INFO_HALF = sc(100)
+    GAP       = sc(12)
     LX        = MID_X - INFO_HALF - GAP - LOGO_SZ // 2
     RX        = MID_X + INFO_HALF + GAP + LOGO_SZ // 2
-    NAME_Y    = LOGO_CY + LOGO_SZ // 2 + sc(18)
-    DATE_Y    = NAME_Y + sc(28)
-    LEAGUE_Y  = 112
-    # Font sizes text +20%
-    F_LEAGUE  = 29           # 24 × 1.20
-    F_NAME    = 29           # 24 × 1.20
-    F_TIME    = 54           # 45 × 1.20
-    F_SUB     = 20           # 17 × 1.20
-    F_DATE    = 20           # 17 × 1.20
-    F_INIT    = 51           # 43 × 1.20
-    LINE_LEN  = 144          # 120 × 1.20
+
+    # ── Font sizes ─────────────────────────────────────────────
+    F_LEAGUE  = 32           # 29 × 1.10  (+10%)
+    F_TIME    = 54
+    F_SUB     = 20
+    F_INIT    = 51
+    LINE_LEN  = 144
 
     # Nền sáng trắng → xanh nhạt
     img  = Image.new("RGB", (W, H))
@@ -363,15 +379,14 @@ def make_thumbnail_bytes(
     draw.rectangle([(0, 0),   (W, 8)], fill=(255, 140, 0))
     draw.rectangle([(0, H-8), (W, H)], fill=(255, 140, 0))
 
-    # Tên giải + đường kẻ  (+20%)
+    # Tên giải: sát top, F_LEAGUE pt, +10%
     if league:
         draw.text(
             (MID_X, LEAGUE_Y), league[:26],
             fill=(55, 80, 160), font=_font(F_LEAGUE, False), anchor="mm"
         )
         draw.line(
-            [(MID_X - LINE_LEN, LEAGUE_Y + sc(14)),
-             (MID_X + LINE_LEN, LEAGUE_Y + sc(14))],
+            [(MID_X - LINE_LEN, LINE_Y), (MID_X + LINE_LEN, LINE_Y)],
             fill=(195, 210, 235), width=2
         )
 
@@ -392,14 +407,15 @@ def make_thumbnail_bytes(
         sub_txt  = "VS" if time_str else ""
         sub_col  = (90, 115, 195)
 
+    # Giờ / Tỉ số — cùng trục Y với logo (LOGO_CY)
     has_sub = bool(sub_txt)
     draw.text(
-        (MID_X, LOGO_CY - (sc(13) if has_sub else 0)),
+        (MID_X, LOGO_CY - (F_TIME // 4 if has_sub else 0)),
         main_txt, fill=main_col, font=_font(F_TIME), anchor="mm"
     )
     if has_sub:
         draw.text(
-            (MID_X, LOGO_CY + sc(24)),
+            (MID_X, LOGO_CY + F_TIME // 2 + 6),
             sub_txt, fill=sub_col, font=_font(F_SUB, False), anchor="mm"
         )
 
