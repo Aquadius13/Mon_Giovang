@@ -20,137 +20,7 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-1-lakers-vs-rockets",
-          "name": "Lakers  0-0 Rockets  🔴",
-          "description": "NBA | 09:30 | 22/04 | 🔴 LIVE | 0-0 | 🎙 BLV Cầy | BLV Perry",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": true,
-          "image": {
-            "padding": 0,
-            "background_color": "#F5F8FF",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-1-lakers-vs-rockets.webp",
-            "width": 800,
-            "height": 450
-          },
-          "labels": [
-            {
-              "text": "● LIVE",
-              "color": "#C62828",
-              "text_color": "#ffffff",
-              "position": "top-left"
-            },
-            {
-              "text": "0-0",
-              "color": "#B71C1C",
-              "text_color": "#ffffff",
-              "position": "bottom-right"
-            },
-            {
-              "text": "🎙 2 BLV",
-              "color": "#1B5E20",
-              "text_color": "#ffffff",
-              "position": "bottom-left"
-            }
-          ],
-          "sources": [
-            {
-              "id": "gv-1-lakers-vs-rockets-src0",
-              "name": "GioVang Live",
-              "contents": [
-                {
-                  "id": "gv-1-lakers-vs-rockets-ct0",
-                  "name": "Trực tiếp",
-                  "streams": [
-                    {
-                      "id": "gv-1-lakers-vs-rockets-st0",
-                      "name": "BLV Cầy",
-                      "stream_links": [
-                        {
-                          "id": "gv-1-lakers-vs-rockets-l0hd",
-                          "name": "HD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1776780241_hd/1776780241_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.vin/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "gv-1-lakers-vs-rockets-l0sd",
-                          "name": "SD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1776780241_sd/1776780241_hd@480p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.vin/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "id": "gv-1-lakers-vs-rockets-st1",
-                      "name": "BLV Perry",
-                      "stream_links": [
-                        {
-                          "id": "gv-1-lakers-vs-rockets-l1hd",
-                          "name": "HD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1776780236_hd/1776780236_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.vin/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "gv-1-lakers-vs-rockets-l1sd",
-                          "name": "SD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1776780236_sd/1776780236_hd@480p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.vin/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "gv-2-kt-rolster-vs-drx",
+          "id": "gv-1-kt-rolster-vs-drx",
           "name": "KT Rolster vs DRX  🕐 15:00 | 22/04",
           "description": "LCK | 15:00 | 22/04 | 🕐 Sắp diễn ra | 🎙 BLV Chanh",
           "type": "single",
@@ -160,11 +30,17 @@
             "padding": 0,
             "background_color": "#F5F8FF",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-2-kt-rolster-vs-drx.webp",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-1-kt-rolster-vs-drx.webp",
             "width": 800,
             "height": 450
           },
           "labels": [
+            {
+              "text": "🕐 Sắp diễn ra",
+              "color": "#1565C0",
+              "text_color": "#ffffff",
+              "position": "top-left"
+            },
             {
               "text": "🎙 BLV Chanh",
               "color": "#1B5E20",
@@ -174,19 +50,19 @@
           ],
           "sources": [
             {
-              "id": "gv-2-kt-rolster-vs-drx-src0",
+              "id": "gv-1-kt-rolster-vs-drx-src0",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-2-kt-rolster-vs-drx-ct0",
+                  "id": "gv-1-kt-rolster-vs-drx-ct0",
                   "name": "Trực tiếp",
                   "streams": [
                     {
-                      "id": "gv-2-kt-rolster-vs-drx-st0",
+                      "id": "gv-1-kt-rolster-vs-drx-st0",
                       "name": "BLV Chanh",
                       "stream_links": [
                         {
-                          "id": "gv-2-kt-rolster-vs-drx-l0hd",
+                          "id": "gv-1-kt-rolster-vs-drx-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -203,7 +79,7 @@
                           ]
                         },
                         {
-                          "id": "gv-2-kt-rolster-vs-drx-l0sd",
+                          "id": "gv-1-kt-rolster-vs-drx-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
@@ -228,7 +104,7 @@
           ]
         },
         {
-          "id": "gv-3-quezon-city-vs-meycauaya",
+          "id": "gv-2-quezon-city-vs-meycauaya",
           "name": "Quezon City vs Meycauayan  🕐 15:00 | 22/04",
           "description": "MPBL | 15:00 | 22/04 | 🕐 Sắp diễn ra | 🎙 BLV Ben",
           "type": "single",
@@ -238,11 +114,17 @@
             "padding": 0,
             "background_color": "#F5F8FF",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-3-quezon-city-vs-meycauaya.webp",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-2-quezon-city-vs-meycauaya.webp",
             "width": 800,
             "height": 450
           },
           "labels": [
+            {
+              "text": "🕐 Sắp diễn ra",
+              "color": "#1565C0",
+              "text_color": "#ffffff",
+              "position": "top-left"
+            },
             {
               "text": "🎙 BLV Ben",
               "color": "#1B5E20",
@@ -252,19 +134,19 @@
           ],
           "sources": [
             {
-              "id": "gv-3-quezon-city-vs-meycauaya-src0",
+              "id": "gv-2-quezon-city-vs-meycauaya-src0",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-3-quezon-city-vs-meycauaya-ct0",
+                  "id": "gv-2-quezon-city-vs-meycauaya-ct0",
                   "name": "Trực tiếp",
                   "streams": [
                     {
-                      "id": "gv-3-quezon-city-vs-meycauaya-st0",
+                      "id": "gv-2-quezon-city-vs-meycauaya-st0",
                       "name": "BLV Ben",
                       "stream_links": [
                         {
-                          "id": "gv-3-quezon-city-vs-meycauaya-l0hd",
+                          "id": "gv-2-quezon-city-vs-meycauaya-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -281,7 +163,7 @@
                           ]
                         },
                         {
-                          "id": "gv-3-quezon-city-vs-meycauaya-l0sd",
+                          "id": "gv-2-quezon-city-vs-meycauaya-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
@@ -306,7 +188,7 @@
           ]
         },
         {
-          "id": "gv-4-lao-vs-malaysia",
+          "id": "gv-3-lao-vs-malaysia",
           "name": "Lào  vs Malaysia  🕐 15:30 | 22/04",
           "description": "U17 Đông Nam Á - bán kết 1 | 15:30 | 22/04 | 🕐 Sắp diễn ra | 🎙 BLV Băng",
           "type": "single",
@@ -316,11 +198,17 @@
             "padding": 0,
             "background_color": "#F5F8FF",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-4-lao-vs-malaysia.webp",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-3-lao-vs-malaysia.webp",
             "width": 800,
             "height": 450
           },
           "labels": [
+            {
+              "text": "🕐 Sắp diễn ra",
+              "color": "#1565C0",
+              "text_color": "#ffffff",
+              "position": "top-left"
+            },
             {
               "text": "🎙 BLV Băng",
               "color": "#1B5E20",
@@ -330,19 +218,19 @@
           ],
           "sources": [
             {
-              "id": "gv-4-lao-vs-malaysia-src0",
+              "id": "gv-3-lao-vs-malaysia-src0",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-4-lao-vs-malaysia-ct0",
+                  "id": "gv-3-lao-vs-malaysia-ct0",
                   "name": "Trực tiếp",
                   "streams": [
                     {
-                      "id": "gv-4-lao-vs-malaysia-st0",
+                      "id": "gv-3-lao-vs-malaysia-st0",
                       "name": "BLV Băng",
                       "stream_links": [
                         {
-                          "id": "gv-4-lao-vs-malaysia-l0hd",
+                          "id": "gv-3-lao-vs-malaysia-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -359,7 +247,7 @@
                           ]
                         },
                         {
-                          "id": "gv-4-lao-vs-malaysia-l0sd",
+                          "id": "gv-3-lao-vs-malaysia-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
@@ -384,7 +272,7 @@
           ]
         },
         {
-          "id": "gv-5-psim-yogyakarta-vs-persi",
+          "id": "gv-4-psim-yogyakarta-vs-persi",
           "name": "PSIM Yogyakarta vs Persija Jakarta  🕐 15:30 | 22/04",
           "description": "VĐQG Indonesia | 15:30 | 22/04 | 🕐 Sắp diễn ra | 🎙 BLV Thìn",
           "type": "single",
@@ -394,11 +282,17 @@
             "padding": 0,
             "background_color": "#F5F8FF",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-5-psim-yogyakarta-vs-persi.webp",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-4-psim-yogyakarta-vs-persi.webp",
             "width": 800,
             "height": 450
           },
           "labels": [
+            {
+              "text": "🕐 Sắp diễn ra",
+              "color": "#1565C0",
+              "text_color": "#ffffff",
+              "position": "top-left"
+            },
             {
               "text": "🎙 BLV Thìn",
               "color": "#1B5E20",
@@ -408,19 +302,19 @@
           ],
           "sources": [
             {
-              "id": "gv-5-psim-yogyakarta-vs-persi-src0",
+              "id": "gv-4-psim-yogyakarta-vs-persi-src0",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-5-psim-yogyakarta-vs-persi-ct0",
+                  "id": "gv-4-psim-yogyakarta-vs-persi-ct0",
                   "name": "Trực tiếp",
                   "streams": [
                     {
-                      "id": "gv-5-psim-yogyakarta-vs-persi-st0",
+                      "id": "gv-4-psim-yogyakarta-vs-persi-st0",
                       "name": "BLV Thìn",
                       "stream_links": [
                         {
-                          "id": "gv-5-psim-yogyakarta-vs-persi-l0hd",
+                          "id": "gv-4-psim-yogyakarta-vs-persi-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -437,7 +331,7 @@
                           ]
                         },
                         {
-                          "id": "gv-5-psim-yogyakarta-vs-persi-l0sd",
+                          "id": "gv-4-psim-yogyakarta-vs-persi-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
@@ -462,7 +356,7 @@
           ]
         },
         {
-          "id": "gv-6-hanwha-life-vs-ns",
+          "id": "gv-5-hanwha-life-vs-ns",
           "name": "Hanwha Life vs NS  🕐 17:00 | 22/04",
           "description": "LCK | 17:00 | 22/04 | 🕐 Sắp diễn ra | 🎙 BLV Chanh",
           "type": "single",
@@ -472,11 +366,17 @@
             "padding": 0,
             "background_color": "#F5F8FF",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-6-hanwha-life-vs-ns.webp",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-5-hanwha-life-vs-ns.webp",
             "width": 800,
             "height": 450
           },
           "labels": [
+            {
+              "text": "🕐 Sắp diễn ra",
+              "color": "#1565C0",
+              "text_color": "#ffffff",
+              "position": "top-left"
+            },
             {
               "text": "🎙 BLV Chanh",
               "color": "#1B5E20",
@@ -486,19 +386,19 @@
           ],
           "sources": [
             {
-              "id": "gv-6-hanwha-life-vs-ns-src0",
+              "id": "gv-5-hanwha-life-vs-ns-src0",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-6-hanwha-life-vs-ns-ct0",
+                  "id": "gv-5-hanwha-life-vs-ns-ct0",
                   "name": "Trực tiếp",
                   "streams": [
                     {
-                      "id": "gv-6-hanwha-life-vs-ns-st0",
+                      "id": "gv-5-hanwha-life-vs-ns-st0",
                       "name": "BLV Chanh",
                       "stream_links": [
                         {
-                          "id": "gv-6-hanwha-life-vs-ns-l0hd",
+                          "id": "gv-5-hanwha-life-vs-ns-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -515,7 +415,7 @@
                           ]
                         },
                         {
-                          "id": "gv-6-hanwha-life-vs-ns-l0sd",
+                          "id": "gv-5-hanwha-life-vs-ns-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
@@ -540,7 +440,7 @@
           ]
         },
         {
-          "id": "gv-7-cebu-greats-vs-batangas",
+          "id": "gv-6-cebu-greats-vs-batangas",
           "name": "Cebu Greats vs Batangas City  🕐 17:00 | 22/04",
           "description": "MPBL | 17:00 | 22/04 | 🕐 Sắp diễn ra | 🎙 BLV Tôm",
           "type": "single",
@@ -550,11 +450,17 @@
             "padding": 0,
             "background_color": "#F5F8FF",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-7-cebu-greats-vs-batangas.webp",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-6-cebu-greats-vs-batangas.webp",
             "width": 800,
             "height": 450
           },
           "labels": [
+            {
+              "text": "🕐 Sắp diễn ra",
+              "color": "#1565C0",
+              "text_color": "#ffffff",
+              "position": "top-left"
+            },
             {
               "text": "🎙 BLV Tôm",
               "color": "#1B5E20",
@@ -564,19 +470,19 @@
           ],
           "sources": [
             {
-              "id": "gv-7-cebu-greats-vs-batangas-src0",
+              "id": "gv-6-cebu-greats-vs-batangas-src0",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-7-cebu-greats-vs-batangas-ct0",
+                  "id": "gv-6-cebu-greats-vs-batangas-ct0",
                   "name": "Trực tiếp",
                   "streams": [
                     {
-                      "id": "gv-7-cebu-greats-vs-batangas-st0",
+                      "id": "gv-6-cebu-greats-vs-batangas-st0",
                       "name": "BLV Tôm",
                       "stream_links": [
                         {
-                          "id": "gv-7-cebu-greats-vs-batangas-l0hd",
+                          "id": "gv-6-cebu-greats-vs-batangas-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -593,7 +499,7 @@
                           ]
                         },
                         {
-                          "id": "gv-7-cebu-greats-vs-batangas-l0sd",
+                          "id": "gv-6-cebu-greats-vs-batangas-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
@@ -618,7 +524,7 @@
           ]
         },
         {
-          "id": "gv-8-gamba-osaka-vs-avispa-fu",
+          "id": "gv-7-gamba-osaka-vs-avispa-fu",
           "name": "Gamba Osaka vs Avispa Fukuoka  🕐 17:00 | 22/04",
           "description": "VĐQG Nhật Bản | 17:00 | 22/04 | 🕐 Sắp diễn ra | 🎙 BLV Dory",
           "type": "single",
@@ -628,11 +534,17 @@
             "padding": 0,
             "background_color": "#F5F8FF",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-8-gamba-osaka-vs-avispa-fu.webp",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-7-gamba-osaka-vs-avispa-fu.webp",
             "width": 800,
             "height": 450
           },
           "labels": [
+            {
+              "text": "🕐 Sắp diễn ra",
+              "color": "#1565C0",
+              "text_color": "#ffffff",
+              "position": "top-left"
+            },
             {
               "text": "🎙 BLV Dory",
               "color": "#1B5E20",
@@ -642,19 +554,19 @@
           ],
           "sources": [
             {
-              "id": "gv-8-gamba-osaka-vs-avispa-fu-src0",
+              "id": "gv-7-gamba-osaka-vs-avispa-fu-src0",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-8-gamba-osaka-vs-avispa-fu-ct0",
+                  "id": "gv-7-gamba-osaka-vs-avispa-fu-ct0",
                   "name": "Trực tiếp",
                   "streams": [
                     {
-                      "id": "gv-8-gamba-osaka-vs-avispa-fu-st0",
+                      "id": "gv-7-gamba-osaka-vs-avispa-fu-st0",
                       "name": "BLV Dory",
                       "stream_links": [
                         {
-                          "id": "gv-8-gamba-osaka-vs-avispa-fu-l0hd",
+                          "id": "gv-7-gamba-osaka-vs-avispa-fu-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -671,7 +583,7 @@
                           ]
                         },
                         {
-                          "id": "gv-8-gamba-osaka-vs-avispa-fu-l0sd",
+                          "id": "gv-7-gamba-osaka-vs-avispa-fu-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
@@ -696,7 +608,7 @@
           ]
         },
         {
-          "id": "gv-9-pohang-steelers-vs-gwang",
+          "id": "gv-8-pohang-steelers-vs-gwang",
           "name": "Pohang Steelers vs Gwangju FC  🕐 17:30 | 22/04",
           "description": "K-League Hàn Quốc | 17:30 | 22/04 | 🕐 Sắp diễn ra | 🎙 BLV Thỏ",
           "type": "single",
@@ -706,11 +618,17 @@
             "padding": 0,
             "background_color": "#F5F8FF",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-9-pohang-steelers-vs-gwang.webp",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-8-pohang-steelers-vs-gwang.webp",
             "width": 800,
             "height": 450
           },
           "labels": [
+            {
+              "text": "🕐 Sắp diễn ra",
+              "color": "#1565C0",
+              "text_color": "#ffffff",
+              "position": "top-left"
+            },
             {
               "text": "🎙 BLV Thỏ",
               "color": "#1B5E20",
@@ -720,19 +638,19 @@
           ],
           "sources": [
             {
-              "id": "gv-9-pohang-steelers-vs-gwang-src0",
+              "id": "gv-8-pohang-steelers-vs-gwang-src0",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-9-pohang-steelers-vs-gwang-ct0",
+                  "id": "gv-8-pohang-steelers-vs-gwang-ct0",
                   "name": "Trực tiếp",
                   "streams": [
                     {
-                      "id": "gv-9-pohang-steelers-vs-gwang-st0",
+                      "id": "gv-8-pohang-steelers-vs-gwang-st0",
                       "name": "BLV Thỏ",
                       "stream_links": [
                         {
-                          "id": "gv-9-pohang-steelers-vs-gwang-l0hd",
+                          "id": "gv-8-pohang-steelers-vs-gwang-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -749,7 +667,7 @@
                           ]
                         },
                         {
-                          "id": "gv-9-pohang-steelers-vs-gwang-l0sd",
+                          "id": "gv-8-pohang-steelers-vs-gwang-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
@@ -774,7 +692,7 @@
           ]
         },
         {
-          "id": "gv-10-fc-anyang-vs-ulsan-hyund",
+          "id": "gv-9-fc-anyang-vs-ulsan-hyund",
           "name": "FC Anyang vs Ulsan Hyundai  🕐 17:30 | 22/04",
           "description": "K-League Hàn Quốc | 17:30 | 22/04 | 🕐 Sắp diễn ra | 🎙 BLV Tí",
           "type": "single",
@@ -784,11 +702,17 @@
             "padding": 0,
             "background_color": "#F5F8FF",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-10-fc-anyang-vs-ulsan-hyund.webp",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-9-fc-anyang-vs-ulsan-hyund.webp",
             "width": 800,
             "height": 450
           },
           "labels": [
+            {
+              "text": "🕐 Sắp diễn ra",
+              "color": "#1565C0",
+              "text_color": "#ffffff",
+              "position": "top-left"
+            },
             {
               "text": "🎙 BLV Tí",
               "color": "#1B5E20",
@@ -798,19 +722,19 @@
           ],
           "sources": [
             {
-              "id": "gv-10-fc-anyang-vs-ulsan-hyund-src0",
+              "id": "gv-9-fc-anyang-vs-ulsan-hyund-src0",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-10-fc-anyang-vs-ulsan-hyund-ct0",
+                  "id": "gv-9-fc-anyang-vs-ulsan-hyund-ct0",
                   "name": "Trực tiếp",
                   "streams": [
                     {
-                      "id": "gv-10-fc-anyang-vs-ulsan-hyund-st0",
+                      "id": "gv-9-fc-anyang-vs-ulsan-hyund-st0",
                       "name": "BLV Tí",
                       "stream_links": [
                         {
-                          "id": "gv-10-fc-anyang-vs-ulsan-hyund-l0hd",
+                          "id": "gv-9-fc-anyang-vs-ulsan-hyund-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -827,7 +751,7 @@
                           ]
                         },
                         {
-                          "id": "gv-10-fc-anyang-vs-ulsan-hyund-l0sd",
+                          "id": "gv-9-fc-anyang-vs-ulsan-hyund-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
@@ -852,7 +776,7 @@
           ]
         },
         {
-          "id": "gv-11-liaoning-tieren-vs-dalia",
+          "id": "gv-10-liaoning-tieren-vs-dalia",
           "name": "Liaoning Tieren vs Dalian Yingbo  🕐 18:35 | 22/04",
           "description": "VĐQG Trung Quốc | 18:35 | 22/04 | 🕐 Sắp diễn ra | 🎙 BLV Tỵ",
           "type": "single",
@@ -862,11 +786,17 @@
             "padding": 0,
             "background_color": "#F5F8FF",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-11-liaoning-tieren-vs-dalia.webp",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-10-liaoning-tieren-vs-dalia.webp",
             "width": 800,
             "height": 450
           },
           "labels": [
+            {
+              "text": "🕐 Sắp diễn ra",
+              "color": "#1565C0",
+              "text_color": "#ffffff",
+              "position": "top-left"
+            },
             {
               "text": "🎙 BLV Tỵ",
               "color": "#1B5E20",
@@ -876,19 +806,19 @@
           ],
           "sources": [
             {
-              "id": "gv-11-liaoning-tieren-vs-dalia-src0",
+              "id": "gv-10-liaoning-tieren-vs-dalia-src0",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-11-liaoning-tieren-vs-dalia-ct0",
+                  "id": "gv-10-liaoning-tieren-vs-dalia-ct0",
                   "name": "Trực tiếp",
                   "streams": [
                     {
-                      "id": "gv-11-liaoning-tieren-vs-dalia-st0",
+                      "id": "gv-10-liaoning-tieren-vs-dalia-st0",
                       "name": "BLV Tỵ",
                       "stream_links": [
                         {
-                          "id": "gv-11-liaoning-tieren-vs-dalia-l0hd",
+                          "id": "gv-10-liaoning-tieren-vs-dalia-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -905,7 +835,7 @@
                           ]
                         },
                         {
-                          "id": "gv-11-liaoning-tieren-vs-dalia-l0sd",
+                          "id": "gv-10-liaoning-tieren-vs-dalia-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
@@ -930,7 +860,7 @@
           ]
         },
         {
-          "id": "gv-12-pasay-voyagers-vs-basila",
+          "id": "gv-11-pasay-voyagers-vs-basila",
           "name": "Pasay Voyagers vs Basilan Steel  🕐 19:00 | 22/04",
           "description": "MPBL | 19:00 | 22/04 | 🕐 Sắp diễn ra | 🎙 BLV Cầy",
           "type": "single",
@@ -940,11 +870,17 @@
             "padding": 0,
             "background_color": "#F5F8FF",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-12-pasay-voyagers-vs-basila.webp",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-11-pasay-voyagers-vs-basila.webp",
             "width": 800,
             "height": 450
           },
           "labels": [
+            {
+              "text": "🕐 Sắp diễn ra",
+              "color": "#1565C0",
+              "text_color": "#ffffff",
+              "position": "top-left"
+            },
             {
               "text": "🎙 BLV Cầy",
               "color": "#1B5E20",
@@ -954,19 +890,19 @@
           ],
           "sources": [
             {
-              "id": "gv-12-pasay-voyagers-vs-basila-src0",
+              "id": "gv-11-pasay-voyagers-vs-basila-src0",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-12-pasay-voyagers-vs-basila-ct0",
+                  "id": "gv-11-pasay-voyagers-vs-basila-ct0",
                   "name": "Trực tiếp",
                   "streams": [
                     {
-                      "id": "gv-12-pasay-voyagers-vs-basila-st0",
+                      "id": "gv-11-pasay-voyagers-vs-basila-st0",
                       "name": "BLV Cầy",
                       "stream_links": [
                         {
-                          "id": "gv-12-pasay-voyagers-vs-basila-l0hd",
+                          "id": "gv-11-pasay-voyagers-vs-basila-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -983,7 +919,7 @@
                           ]
                         },
                         {
-                          "id": "gv-12-pasay-voyagers-vs-basila-l0sd",
+                          "id": "gv-11-pasay-voyagers-vs-basila-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
@@ -1008,7 +944,7 @@
           ]
         },
         {
-          "id": "gv-13-viet-nam-vs-uc",
+          "id": "gv-12-viet-nam-vs-uc",
           "name": "Việt Nam vs Úc  🕐 19:30 | 22/04",
           "description": "U17 Đông Nam Á - bán kết 2 | 19:30 | 22/04 | 🕐 Sắp diễn ra | 🎙 BLV Băng | BLV Tí",
           "type": "single",
@@ -1018,11 +954,17 @@
             "padding": 0,
             "background_color": "#F5F8FF",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-13-viet-nam-vs-uc.webp",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-12-viet-nam-vs-uc.webp",
             "width": 800,
             "height": 450
           },
           "labels": [
+            {
+              "text": "🕐 Sắp diễn ra",
+              "color": "#1565C0",
+              "text_color": "#ffffff",
+              "position": "top-left"
+            },
             {
               "text": "🎙 2 BLV",
               "color": "#1B5E20",
@@ -1032,19 +974,19 @@
           ],
           "sources": [
             {
-              "id": "gv-13-viet-nam-vs-uc-src0",
+              "id": "gv-12-viet-nam-vs-uc-src0",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-13-viet-nam-vs-uc-ct0",
+                  "id": "gv-12-viet-nam-vs-uc-ct0",
                   "name": "Trực tiếp",
                   "streams": [
                     {
-                      "id": "gv-13-viet-nam-vs-uc-st0",
+                      "id": "gv-12-viet-nam-vs-uc-st0",
                       "name": "BLV Băng",
                       "stream_links": [
                         {
-                          "id": "gv-13-viet-nam-vs-uc-l0hd",
+                          "id": "gv-12-viet-nam-vs-uc-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -1061,7 +1003,7 @@
                           ]
                         },
                         {
-                          "id": "gv-13-viet-nam-vs-uc-l0sd",
+                          "id": "gv-12-viet-nam-vs-uc-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
@@ -1080,11 +1022,11 @@
                       ]
                     },
                     {
-                      "id": "gv-13-viet-nam-vs-uc-st1",
+                      "id": "gv-12-viet-nam-vs-uc-st1",
                       "name": "BLV Tí",
                       "stream_links": [
                         {
-                          "id": "gv-13-viet-nam-vs-uc-l1hd",
+                          "id": "gv-12-viet-nam-vs-uc-l1hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -1101,7 +1043,7 @@
                           ]
                         },
                         {
-                          "id": "gv-13-viet-nam-vs-uc-l1sd",
+                          "id": "gv-12-viet-nam-vs-uc-l1sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
@@ -1126,7 +1068,7 @@
           ]
         },
         {
-          "id": "gv-14-fc-ufa-vs-kamaz",
+          "id": "gv-13-fc-ufa-vs-kamaz",
           "name": "FC Ufa vs KamAZ  🕐 21:00 | 22/04",
           "description": "VĐQG Nga | 21:00 | 22/04 | 🕐 Sắp diễn ra | 🎙 BLV Mason",
           "type": "single",
@@ -1136,11 +1078,17 @@
             "padding": 0,
             "background_color": "#F5F8FF",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-14-fc-ufa-vs-kamaz.webp",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-13-fc-ufa-vs-kamaz.webp",
             "width": 800,
             "height": 450
           },
           "labels": [
+            {
+              "text": "🕐 Sắp diễn ra",
+              "color": "#1565C0",
+              "text_color": "#ffffff",
+              "position": "top-left"
+            },
             {
               "text": "🎙 BLV Mason",
               "color": "#1B5E20",
@@ -1150,19 +1098,19 @@
           ],
           "sources": [
             {
-              "id": "gv-14-fc-ufa-vs-kamaz-src0",
+              "id": "gv-13-fc-ufa-vs-kamaz-src0",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-14-fc-ufa-vs-kamaz-ct0",
+                  "id": "gv-13-fc-ufa-vs-kamaz-ct0",
                   "name": "Trực tiếp",
                   "streams": [
                     {
-                      "id": "gv-14-fc-ufa-vs-kamaz-st0",
+                      "id": "gv-13-fc-ufa-vs-kamaz-st0",
                       "name": "BLV Mason",
                       "stream_links": [
                         {
-                          "id": "gv-14-fc-ufa-vs-kamaz-l0hd",
+                          "id": "gv-13-fc-ufa-vs-kamaz-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -1179,7 +1127,7 @@
                           ]
                         },
                         {
-                          "id": "gv-14-fc-ufa-vs-kamaz-l0sd",
+                          "id": "gv-13-fc-ufa-vs-kamaz-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
@@ -1204,7 +1152,7 @@
           ]
         },
         {
-          "id": "gv-15-al-masry-vs-enppi",
+          "id": "gv-14-al-masry-vs-enppi",
           "name": "Al Masry vs Enppi  🕐 22:00 | 22/04",
           "description": "VĐQG Ai Cập | 22:00 | 22/04 | 🕐 Sắp diễn ra | 🎙 BLV Thỏ",
           "type": "single",
@@ -1214,11 +1162,17 @@
             "padding": 0,
             "background_color": "#F5F8FF",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-15-al-masry-vs-enppi.webp",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-14-al-masry-vs-enppi.webp",
             "width": 800,
             "height": 450
           },
           "labels": [
+            {
+              "text": "🕐 Sắp diễn ra",
+              "color": "#1565C0",
+              "text_color": "#ffffff",
+              "position": "top-left"
+            },
             {
               "text": "🎙 BLV Thỏ",
               "color": "#1B5E20",
@@ -1228,19 +1182,19 @@
           ],
           "sources": [
             {
-              "id": "gv-15-al-masry-vs-enppi-src0",
+              "id": "gv-14-al-masry-vs-enppi-src0",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-15-al-masry-vs-enppi-ct0",
+                  "id": "gv-14-al-masry-vs-enppi-ct0",
                   "name": "Trực tiếp",
                   "streams": [
                     {
-                      "id": "gv-15-al-masry-vs-enppi-st0",
+                      "id": "gv-14-al-masry-vs-enppi-st0",
                       "name": "BLV Thỏ",
                       "stream_links": [
                         {
-                          "id": "gv-15-al-masry-vs-enppi-l0hd",
+                          "id": "gv-14-al-masry-vs-enppi-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -1257,7 +1211,7 @@
                           ]
                         },
                         {
-                          "id": "gv-15-al-masry-vs-enppi-l0sd",
+                          "id": "gv-14-al-masry-vs-enppi-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
