@@ -291,8 +291,8 @@
         },
         {
           "id": "gv-4-gamba-osaka-vs-avispa-fu",
-          "name": "Gamba Osaka 1-0 Avispa Fukuoka  🔴 37'",
-          "description": "VĐQG Nhật Bản | 17:00 | 22/04 | 🔴 LIVE 37' | 1-0 | 🎙 BLV Dory",
+          "name": "Gamba Osaka 1-2 Avispa Fukuoka  🔴 81'",
+          "description": "VĐQG Nhật Bản | 17:00 | 22/04 | 🔴 LIVE 81' | 1-2 | 🎙 BLV Dory",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -312,7 +312,7 @@
               "position": "top-left"
             },
             {
-              "text": "1-0  37'",
+              "text": "1-2  81'",
               "color": "#B71C1C",
               "text_color": "#ffffff",
               "position": "bottom-right"
@@ -381,8 +381,8 @@
         },
         {
           "id": "gv-5-fc-anyang-vs-ulsan-hyund",
-          "name": "FC Anyang 1-0 Ulsan Hyundai  🔴 10'",
-          "description": "K-League Hàn Quốc | 17:30 | 22/04 | 🔴 LIVE 10' | 1-0 | 🎙 BLV Tí",
+          "name": "FC Anyang 1-0 Ulsan Hyundai  🔴 56'",
+          "description": "K-League Hàn Quốc | 17:30 | 22/04 | 🔴 LIVE 56' | 1-0 | 🎙 BLV Tí",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -402,7 +402,7 @@
               "position": "top-left"
             },
             {
-              "text": "1-0  10'",
+              "text": "1-0  56'",
               "color": "#B71C1C",
               "text_color": "#ffffff",
               "position": "bottom-right"
@@ -471,8 +471,8 @@
         },
         {
           "id": "gv-6-liaoning-tieren-vs-dalia",
-          "name": "Liaoning Tieren 0-0 Dalian Yingbo  🔴",
-          "description": "VĐQG Trung Quốc | 18:35 | 22/04 | 🔴 LIVE | 0-0 | 🎙 BLV Tỵ",
+          "name": "Liaoning Tieren 0-0 Dalian Yingbo  🔴 9'",
+          "description": "VĐQG Trung Quốc | 18:35 | 22/04 | 🔴 LIVE 9' | 0-0 | 🎙 BLV Tỵ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -492,7 +492,7 @@
               "position": "top-left"
             },
             {
-              "text": "0-0",
+              "text": "0-0  9'",
               "color": "#B71C1C",
               "text_color": "#ffffff",
               "position": "bottom-right"
@@ -561,8 +561,8 @@
         },
         {
           "id": "gv-7-pasay-voyagers-vs-basila",
-          "name": "Pasay Voyagers vs Basilan Steel  🕐 19:00 | 22/04",
-          "description": "MPBL | 19:00 | 22/04 | 🕐 Sắp diễn ra | 🎙 BLV Cầy",
+          "name": "Pasay Voyagers 0-0 Basilan Steel  🔴",
+          "description": "MPBL | 19:00 | 22/04 | 🔴 LIVE | 0-0 | 🎙 BLV Perry",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -576,13 +576,19 @@
           },
           "labels": [
             {
-              "text": "🕐 Sắp diễn ra",
-              "color": "#1565C0",
+              "text": "● LIVE",
+              "color": "#C62828",
               "text_color": "#ffffff",
               "position": "top-left"
             },
             {
-              "text": "🎙 BLV Cầy",
+              "text": "0-0",
+              "color": "#B71C1C",
+              "text_color": "#ffffff",
+              "position": "bottom-right"
+            },
+            {
+              "text": "🎙 BLV Perry",
               "color": "#1B5E20",
               "text_color": "#ffffff",
               "position": "bottom-left"
@@ -599,14 +605,14 @@
                   "streams": [
                     {
                       "id": "gv-7-pasay-voyagers-vs-basila-st0",
-                      "name": "BLV Cầy",
+                      "name": "BLV Perry",
                       "stream_links": [
                         {
                           "id": "gv-7-pasay-voyagers-vs-basila-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1776782746_hd/1776782746_hd@720p.m3u8",
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1776857845_hd/1776857845_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -623,7 +629,7 @@
                           "name": "SD",
                           "type": "hls",
                           "default": false,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1776782746_sd/1776782746_hd@480p.m3u8",
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1776857845_sd/1776857845_hd@480p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1274,7 +1280,7 @@
         {
           "id": "gv-15-paris-saint-germain-vs-n",
           "name": "Paris Saint Germain vs Nantes  🕐 00:00 | 23/04",
-          "description": "Ligue 1 | 00:00 | 23/04 | 🕐 Sắp diễn ra | 🎙 BLV Dậu",
+          "description": "Ligue 1 | 00:00 | 23/04 | 🕐 Sắp diễn ra | 🎙 BLV Tí",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1294,7 +1300,7 @@
               "position": "top-left"
             },
             {
-              "text": "🎙 BLV Dậu",
+              "text": "🎙 BLV Tí",
               "color": "#1B5E20",
               "text_color": "#ffffff",
               "position": "bottom-left"
@@ -1311,14 +1317,14 @@
                   "streams": [
                     {
                       "id": "gv-15-paris-saint-germain-vs-n-st0",
-                      "name": "BLV Dậu",
+                      "name": "BLV Tí",
                       "stream_links": [
                         {
                           "id": "gv-15-paris-saint-germain-vs-n-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1776841572_hd/1776841572_hd@720p.m3u8",
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1776855074_hd/1776855074_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1335,7 +1341,7 @@
                           "name": "SD",
                           "type": "hls",
                           "default": false,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1776841572_sd/1776841572_hd@480p.m3u8",
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1776855074_sd/1776855074_hd@480p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1356,7 +1362,91 @@
           ]
         },
         {
-          "id": "gv-16-bayer-leverkusen-vs-baye",
+          "id": "gv-16-vero-volley-nu-vs-conegl",
+          "name": "Vero Volley nữ  vs Conegliano nữ  🕐 01:30 | 23/04",
+          "description": "Serie A1 Nữ - Play Offs - Chung kết | 01:30 | 23/04 | 🕐 Sắp diễn ra | 🎙 BLV Băng",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 0,
+            "background_color": "#F5F8FF",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-16-vero-volley-nu-vs-conegl.webp",
+            "width": 800,
+            "height": 450
+          },
+          "labels": [
+            {
+              "text": "🕐 Sắp diễn ra",
+              "color": "#1565C0",
+              "text_color": "#ffffff",
+              "position": "top-left"
+            },
+            {
+              "text": "🎙 BLV Băng",
+              "color": "#1B5E20",
+              "text_color": "#ffffff",
+              "position": "bottom-left"
+            }
+          ],
+          "sources": [
+            {
+              "id": "gv-16-vero-volley-nu-vs-conegl-src0",
+              "name": "GioVang Live",
+              "contents": [
+                {
+                  "id": "gv-16-vero-volley-nu-vs-conegl-ct0",
+                  "name": "Trực tiếp",
+                  "streams": [
+                    {
+                      "id": "gv-16-vero-volley-nu-vs-conegl-st0",
+                      "name": "BLV Băng",
+                      "stream_links": [
+                        {
+                          "id": "gv-16-vero-volley-nu-vs-conegl-l0hd",
+                          "name": "HD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1776855718_hd/1776855718_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.vin/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "gv-16-vero-volley-nu-vs-conegl-l0sd",
+                          "name": "SD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1776855718_sd/1776855718_hd@480p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.vin/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gv-17-bayer-leverkusen-vs-baye",
           "name": "Bayer Leverkusen vs Bayern Munich  🕐 01:45 | 23/04",
           "description": "Cúp Quốc Gia Đức | 01:45 | 23/04 | 🕐 Sắp diễn ra | 🎙 BLV Dần",
           "type": "single",
@@ -1366,7 +1456,7 @@
             "padding": 0,
             "background_color": "#F5F8FF",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-16-bayer-leverkusen-vs-baye.webp",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-17-bayer-leverkusen-vs-baye.webp",
             "width": 800,
             "height": 450
           },
@@ -1386,19 +1476,19 @@
           ],
           "sources": [
             {
-              "id": "gv-16-bayer-leverkusen-vs-baye-src0",
+              "id": "gv-17-bayer-leverkusen-vs-baye-src0",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-16-bayer-leverkusen-vs-baye-ct0",
+                  "id": "gv-17-bayer-leverkusen-vs-baye-ct0",
                   "name": "Trực tiếp",
                   "streams": [
                     {
-                      "id": "gv-16-bayer-leverkusen-vs-baye-st0",
+                      "id": "gv-17-bayer-leverkusen-vs-baye-st0",
                       "name": "BLV Dần",
                       "stream_links": [
                         {
-                          "id": "gv-16-bayer-leverkusen-vs-baye-l0hd",
+                          "id": "gv-17-bayer-leverkusen-vs-baye-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -1415,7 +1505,7 @@
                           ]
                         },
                         {
-                          "id": "gv-16-bayer-leverkusen-vs-baye-l0sd",
+                          "id": "gv-17-bayer-leverkusen-vs-baye-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
@@ -1440,9 +1530,9 @@
           ]
         },
         {
-          "id": "gv-17-burnley-vs-manchester-ci",
+          "id": "gv-18-burnley-vs-manchester-ci",
           "name": "Burnley vs Manchester City  🕐 02:00 | 23/04",
-          "description": "Ngoại hạng Anh | 02:00 | 23/04 | 🕐 Sắp diễn ra | 🎙 fan-mc-cam-ben | fan-ars-nen-dau",
+          "description": "Ngoại hạng Anh | 02:00 | 23/04 | 🕐 Sắp diễn ra | 🎙 fan-mc-cam-ben | BLV Dậu",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": true,
@@ -1450,7 +1540,7 @@
             "padding": 0,
             "background_color": "#F5F8FF",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-17-burnley-vs-manchester-ci.webp",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-18-burnley-vs-manchester-ci.webp",
             "width": 800,
             "height": 450
           },
@@ -1470,19 +1560,19 @@
           ],
           "sources": [
             {
-              "id": "gv-17-burnley-vs-manchester-ci-src0",
+              "id": "gv-18-burnley-vs-manchester-ci-src0",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-17-burnley-vs-manchester-ci-ct0",
+                  "id": "gv-18-burnley-vs-manchester-ci-ct0",
                   "name": "Trực tiếp",
                   "streams": [
                     {
-                      "id": "gv-17-burnley-vs-manchester-ci-st0",
+                      "id": "gv-18-burnley-vs-manchester-ci-st0",
                       "name": "Fan MC: Câm vs Ben",
                       "stream_links": [
                         {
-                          "id": "gv-17-burnley-vs-manchester-ci-l0hd",
+                          "id": "gv-18-burnley-vs-manchester-ci-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -1499,7 +1589,7 @@
                           ]
                         },
                         {
-                          "id": "gv-17-burnley-vs-manchester-ci-l0sd",
+                          "id": "gv-18-burnley-vs-manchester-ci-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
@@ -1518,15 +1608,15 @@
                       ]
                     },
                     {
-                      "id": "gv-17-burnley-vs-manchester-ci-st1",
-                      "name": "Fan ARS: Nến vs Dậu",
+                      "id": "gv-18-burnley-vs-manchester-ci-st1",
+                      "name": "BLV Dậu",
                       "stream_links": [
                         {
-                          "id": "gv-17-burnley-vs-manchester-ci-l1hd",
+                          "id": "gv-18-burnley-vs-manchester-ci-l1hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1776853162_hd/1776853162_hd@720p.m3u8",
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1776854873_hd/1776854873_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1539,11 +1629,11 @@
                           ]
                         },
                         {
-                          "id": "gv-17-burnley-vs-manchester-ci-l1sd",
+                          "id": "gv-18-burnley-vs-manchester-ci-l1sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1776853162_sd/1776853162_hd@480p.m3u8",
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1776854873_sd/1776854873_hd@480p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1564,7 +1654,7 @@
           ]
         },
         {
-          "id": "gv-18-afc-bournemouth-vs-leeds",
+          "id": "gv-19-afc-bournemouth-vs-leeds",
           "name": "AFC Bournemouth vs Leeds United  🕐 02:00 | 23/04",
           "description": "Ngoại hạng Anh | 02:00 | 23/04 | 🕐 Sắp diễn ra | 🎙 BLV Mason",
           "type": "single",
@@ -1574,7 +1664,7 @@
             "padding": 0,
             "background_color": "#F5F8FF",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-18-afc-bournemouth-vs-leeds.webp",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-19-afc-bournemouth-vs-leeds.webp",
             "width": 800,
             "height": 450
           },
@@ -1594,19 +1684,19 @@
           ],
           "sources": [
             {
-              "id": "gv-18-afc-bournemouth-vs-leeds-src0",
+              "id": "gv-19-afc-bournemouth-vs-leeds-src0",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-18-afc-bournemouth-vs-leeds-ct0",
+                  "id": "gv-19-afc-bournemouth-vs-leeds-ct0",
                   "name": "Trực tiếp",
                   "streams": [
                     {
-                      "id": "gv-18-afc-bournemouth-vs-leeds-st0",
+                      "id": "gv-19-afc-bournemouth-vs-leeds-st0",
                       "name": "BLV Mason",
                       "stream_links": [
                         {
-                          "id": "gv-18-afc-bournemouth-vs-leeds-l0hd",
+                          "id": "gv-19-afc-bournemouth-vs-leeds-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -1623,7 +1713,7 @@
                           ]
                         },
                         {
-                          "id": "gv-18-afc-bournemouth-vs-leeds-l0sd",
+                          "id": "gv-19-afc-bournemouth-vs-leeds-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
@@ -1648,7 +1738,7 @@
           ]
         },
         {
-          "id": "gv-19-barcelona-vs-celta-vigo",
+          "id": "gv-20-barcelona-vs-celta-vigo",
           "name": "Barcelona vs Celta Vigo  🕐 02:30 | 23/04",
           "description": "La Liga | 02:30 | 23/04 | 🕐 Sắp diễn ra | 🎙 BLV Dory | BLV Hợi",
           "type": "single",
@@ -1658,7 +1748,7 @@
             "padding": 0,
             "background_color": "#F5F8FF",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-19-barcelona-vs-celta-vigo.webp",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-20-barcelona-vs-celta-vigo.webp",
             "width": 800,
             "height": 450
           },
@@ -1678,19 +1768,19 @@
           ],
           "sources": [
             {
-              "id": "gv-19-barcelona-vs-celta-vigo-src0",
+              "id": "gv-20-barcelona-vs-celta-vigo-src0",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-19-barcelona-vs-celta-vigo-ct0",
+                  "id": "gv-20-barcelona-vs-celta-vigo-ct0",
                   "name": "Trực tiếp",
                   "streams": [
                     {
-                      "id": "gv-19-barcelona-vs-celta-vigo-st0",
+                      "id": "gv-20-barcelona-vs-celta-vigo-st0",
                       "name": "BLV Dory",
                       "stream_links": [
                         {
-                          "id": "gv-19-barcelona-vs-celta-vigo-l0hd",
+                          "id": "gv-20-barcelona-vs-celta-vigo-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -1707,7 +1797,7 @@
                           ]
                         },
                         {
-                          "id": "gv-19-barcelona-vs-celta-vigo-l0sd",
+                          "id": "gv-20-barcelona-vs-celta-vigo-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
@@ -1726,11 +1816,11 @@
                       ]
                     },
                     {
-                      "id": "gv-19-barcelona-vs-celta-vigo-st1",
+                      "id": "gv-20-barcelona-vs-celta-vigo-st1",
                       "name": "BLV Hợi",
                       "stream_links": [
                         {
-                          "id": "gv-19-barcelona-vs-celta-vigo-l1hd",
+                          "id": "gv-20-barcelona-vs-celta-vigo-l1hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -1747,7 +1837,7 @@
                           ]
                         },
                         {
-                          "id": "gv-19-barcelona-vs-celta-vigo-l1sd",
+                          "id": "gv-20-barcelona-vs-celta-vigo-l1sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
@@ -1772,7 +1862,7 @@
           ]
         },
         {
-          "id": "gv-20-fc-porto-vs-sporting-cp",
+          "id": "gv-21-fc-porto-vs-sporting-cp",
           "name": "FC Porto vs Sporting CP  🕐 02:45 | 23/04",
           "description": "Taça de Portugal | 02:45 | 23/04 | 🕐 Sắp diễn ra | 🎙 BLV Dậu",
           "type": "single",
@@ -1782,7 +1872,7 @@
             "padding": 0,
             "background_color": "#F5F8FF",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-20-fc-porto-vs-sporting-cp.webp",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-21-fc-porto-vs-sporting-cp.webp",
             "width": 800,
             "height": 450
           },
@@ -1802,19 +1892,19 @@
           ],
           "sources": [
             {
-              "id": "gv-20-fc-porto-vs-sporting-cp-src0",
+              "id": "gv-21-fc-porto-vs-sporting-cp-src0",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-20-fc-porto-vs-sporting-cp-ct0",
+                  "id": "gv-21-fc-porto-vs-sporting-cp-ct0",
                   "name": "Trực tiếp",
                   "streams": [
                     {
-                      "id": "gv-20-fc-porto-vs-sporting-cp-st0",
+                      "id": "gv-21-fc-porto-vs-sporting-cp-st0",
                       "name": "BLV Dậu",
                       "stream_links": [
                         {
-                          "id": "gv-20-fc-porto-vs-sporting-cp-l0hd",
+                          "id": "gv-21-fc-porto-vs-sporting-cp-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -1831,7 +1921,7 @@
                           ]
                         },
                         {
-                          "id": "gv-20-fc-porto-vs-sporting-cp-l0sd",
+                          "id": "gv-21-fc-porto-vs-sporting-cp-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
@@ -1856,7 +1946,7 @@
           ]
         },
         {
-          "id": "gv-21-pistons-vs-magic",
+          "id": "gv-22-pistons-vs-magic",
           "name": "Pistons vs Magic  🕐 06:00 | 23/04",
           "description": "NBA | 06:00 | 23/04 | 🕐 Sắp diễn ra | 🎙 BLV Nến | BLV Ben",
           "type": "single",
@@ -1866,7 +1956,7 @@
             "padding": 0,
             "background_color": "#F5F8FF",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-21-pistons-vs-magic.webp",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-22-pistons-vs-magic.webp",
             "width": 800,
             "height": 450
           },
@@ -1886,19 +1976,19 @@
           ],
           "sources": [
             {
-              "id": "gv-21-pistons-vs-magic-src0",
+              "id": "gv-22-pistons-vs-magic-src0",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-21-pistons-vs-magic-ct0",
+                  "id": "gv-22-pistons-vs-magic-ct0",
                   "name": "Trực tiếp",
                   "streams": [
                     {
-                      "id": "gv-21-pistons-vs-magic-st0",
+                      "id": "gv-22-pistons-vs-magic-st0",
                       "name": "BLV Nến",
                       "stream_links": [
                         {
-                          "id": "gv-21-pistons-vs-magic-l0hd",
+                          "id": "gv-22-pistons-vs-magic-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -1915,7 +2005,7 @@
                           ]
                         },
                         {
-                          "id": "gv-21-pistons-vs-magic-l0sd",
+                          "id": "gv-22-pistons-vs-magic-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
@@ -1934,11 +2024,11 @@
                       ]
                     },
                     {
-                      "id": "gv-21-pistons-vs-magic-st1",
+                      "id": "gv-22-pistons-vs-magic-st1",
                       "name": "BLV Ben",
                       "stream_links": [
                         {
-                          "id": "gv-21-pistons-vs-magic-l1hd",
+                          "id": "gv-22-pistons-vs-magic-l1hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -1955,7 +2045,7 @@
                           ]
                         },
                         {
-                          "id": "gv-21-pistons-vs-magic-l1sd",
+                          "id": "gv-22-pistons-vs-magic-l1sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
