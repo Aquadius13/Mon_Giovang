@@ -21,8 +21,8 @@
       "channels": [
         {
           "id": "gv-1-pistons-vs-magic",
-          "name": "Pistons vs Magic  🕐 06:00 | 23/04",
-          "description": "NBA | 06:00 | 23/04 | 🕐 Sắp diễn ra | 🎙 BLV Nến | BLV Ben",
+          "name": "Pistons 0-0 Magic  🔴",
+          "description": "NBA | 06:00 | 23/04 | 🔴 LIVE | 0-0 | 🎙 BLV Nến | BLV Ben",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": true,
@@ -36,10 +36,16 @@
           },
           "labels": [
             {
-              "text": "🕐 Sắp diễn ra",
-              "color": "#1565C0",
+              "text": "● LIVE",
+              "color": "#C62828",
               "text_color": "#ffffff",
               "position": "top-left"
+            },
+            {
+              "text": "0-0",
+              "color": "#B71C1C",
+              "text_color": "#ffffff",
+              "position": "bottom-right"
             },
             {
               "text": "🎙 2 BLV",
@@ -145,8 +151,8 @@
         },
         {
           "id": "gv-2-columbus-crew-vs-los-ang",
-          "name": "Columbus Crew vs Los Angeles Galaxy  🕐 06:30 | 23/04",
-          "description": "MLS Mỹ | 06:30 | 23/04 | 🕐 Sắp diễn ra | 🎙 BLV Dậu",
+          "name": "Columbus Crew 0-0 Los Angeles Galaxy  🔴",
+          "description": "MLS Mỹ | 06:30 | 23/04 | 🔴 LIVE | 0-0 | 🎙 BLV Dậu",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -160,10 +166,16 @@
           },
           "labels": [
             {
-              "text": "🕐 Sắp diễn ra",
-              "color": "#1565C0",
+              "text": "● LIVE",
+              "color": "#C62828",
               "text_color": "#ffffff",
               "position": "top-left"
+            },
+            {
+              "text": "0-0",
+              "color": "#B71C1C",
+              "text_color": "#ffffff",
+              "position": "bottom-right"
             },
             {
               "text": "🎙 BLV Dậu",
@@ -229,8 +241,8 @@
         },
         {
           "id": "gv-3-new-york-red-bulls-vs-wa",
-          "name": "New York Red Bulls vs Washington D.C. United  🕐 06:30 | 23/04",
-          "description": "MLS Mỹ | 06:30 | 23/04 | 🕐 Sắp diễn ra | 🎙 BLV Thìn",
+          "name": "New York Red Bulls 0-0 Washington D.C. United  🔴",
+          "description": "MLS Mỹ | 06:30 | 23/04 | 🔴 LIVE | 0-0 | 🎙 BLV Thìn",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -244,10 +256,16 @@
           },
           "labels": [
             {
-              "text": "🕐 Sắp diễn ra",
-              "color": "#1565C0",
+              "text": "● LIVE",
+              "color": "#C62828",
               "text_color": "#ffffff",
               "position": "top-left"
+            },
+            {
+              "text": "0-0",
+              "color": "#B71C1C",
+              "text_color": "#ffffff",
+              "position": "bottom-right"
             },
             {
               "text": "🎙 BLV Thìn",
