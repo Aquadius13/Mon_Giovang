@@ -111,8 +111,8 @@
         },
         {
           "id": "gv-2-al-nassr-fc-vs-al-ahli-d",
-          "name": "Al-Nassr FC 3-1 Al-Ahli Doha  🔴 52'",
-          "description": "AFC Cup | 23:00 | 22/04 | 🔴 LIVE 52' | 3-1 | 🎙 BLV Tỵ",
+          "name": "Al-Nassr FC 3-1 Al-Ahli Doha  🔴 62'",
+          "description": "AFC Cup | 23:00 | 22/04 | 🔴 LIVE 62' | 3-1 | 🎙 BLV Tỵ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -132,7 +132,7 @@
               "position": "top-left"
             },
             {
-              "text": "3-1  52'",
+              "text": "3-1  62'",
               "color": "#B71C1C",
               "text_color": "#ffffff",
               "position": "bottom-right"
@@ -381,8 +381,8 @@
         },
         {
           "id": "gv-5-lokomotiv-moscow-vs-zeni",
-          "name": "Lokomotiv Moscow 0-0 Zenit St.Petersburg  🔴 29'",
-          "description": "VĐQG Nga | 23:45 | 22/04 | 🔴 LIVE 29' | 0-0 | 🎙 BLV Hợi",
+          "name": "Lokomotiv Moscow 0-0 Zenit St.Petersburg  🔴 39'",
+          "description": "VĐQG Nga | 23:45 | 22/04 | 🔴 LIVE 39' | 0-0 | 🎙 BLV Hợi",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -402,7 +402,7 @@
               "position": "top-left"
             },
             {
-              "text": "0-0  29'",
+              "text": "0-0  39'",
               "color": "#B71C1C",
               "text_color": "#ffffff",
               "position": "bottom-right"
@@ -471,8 +471,8 @@
         },
         {
           "id": "gv-6-elche-vs-atletico-madrid",
-          "name": "Elche 0-1 Atletico Madrid  🔴 11'",
-          "description": "La Liga | 00:00 | 23/04 | 🔴 LIVE 11' | 0-1 | 🎙 BLV Dory | BLV Dần",
+          "name": "Elche 1-1 Atletico Madrid  🔴 21'",
+          "description": "La Liga | 00:00 | 23/04 | 🔴 LIVE 21' | 1-1 | 🎙 BLV Dory | BLV Dần",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": true,
@@ -492,7 +492,7 @@
               "position": "top-left"
             },
             {
-              "text": "0-1  11'",
+              "text": "1-1  21'",
               "color": "#B71C1C",
               "text_color": "#ffffff",
               "position": "bottom-right"
@@ -601,8 +601,8 @@
         },
         {
           "id": "gv-7-paris-saint-germain-vs-n",
-          "name": "Paris Saint Germain 1-0 Nantes  🔴 17'",
-          "description": "Ligue 1 | 00:00 | 23/04 | 🔴 LIVE 17' | 1-0 | 🎙 BLV Tí",
+          "name": "Paris Saint Germain 1-0 Nantes  🔴 27'",
+          "description": "Ligue 1 | 00:00 | 23/04 | 🔴 LIVE 27' | 1-0 | 🎙 BLV Tí",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -622,7 +622,7 @@
               "position": "top-left"
             },
             {
-              "text": "1-0  17'",
+              "text": "1-0  27'",
               "color": "#B71C1C",
               "text_color": "#ffffff",
               "position": "bottom-right"
@@ -706,6 +706,12 @@
           },
           "labels": [
             {
+              "text": "🕐 Sắp diễn ra",
+              "color": "#1565C0",
+              "text_color": "#ffffff",
+              "position": "top-left"
+            },
+            {
               "text": "🎙 BLV Băng",
               "color": "#1B5E20",
               "text_color": "#ffffff",
@@ -784,6 +790,12 @@
           },
           "labels": [
             {
+              "text": "🕐 Sắp diễn ra",
+              "color": "#1565C0",
+              "text_color": "#ffffff",
+              "position": "top-left"
+            },
+            {
               "text": "🎙 BLV Chanh",
               "color": "#1B5E20",
               "text_color": "#ffffff",
@@ -861,6 +873,12 @@
             "height": 450
           },
           "labels": [
+            {
+              "text": "🕐 Sắp diễn ra",
+              "color": "#1565C0",
+              "text_color": "#ffffff",
+              "position": "top-left"
+            },
             {
               "text": "🎙 2 BLV",
               "color": "#1B5E20",
@@ -980,6 +998,12 @@
           },
           "labels": [
             {
+              "text": "🕐 Sắp diễn ra",
+              "color": "#1565C0",
+              "text_color": "#ffffff",
+              "position": "top-left"
+            },
+            {
               "text": "🎙 2 BLV",
               "color": "#1B5E20",
               "text_color": "#ffffff",
@@ -1097,6 +1121,12 @@
             "height": 450
           },
           "labels": [
+            {
+              "text": "🕐 Sắp diễn ra",
+              "color": "#1565C0",
+              "text_color": "#ffffff",
+              "position": "top-left"
+            },
             {
               "text": "🎙 2 BLV",
               "color": "#1B5E20",
@@ -1216,6 +1246,12 @@
           },
           "labels": [
             {
+              "text": "🕐 Sắp diễn ra",
+              "color": "#1565C0",
+              "text_color": "#ffffff",
+              "position": "top-left"
+            },
+            {
               "text": "🎙 BLV Dậu",
               "color": "#1B5E20",
               "text_color": "#ffffff",
@@ -1293,6 +1329,12 @@
             "height": 450
           },
           "labels": [
+            {
+              "text": "🕐 Sắp diễn ra",
+              "color": "#1565C0",
+              "text_color": "#ffffff",
+              "position": "top-left"
+            },
             {
               "text": "🎙 2 BLV",
               "color": "#1B5E20",
@@ -1412,6 +1454,12 @@
           },
           "labels": [
             {
+              "text": "🕐 Sắp diễn ra",
+              "color": "#1565C0",
+              "text_color": "#ffffff",
+              "position": "top-left"
+            },
+            {
               "text": "🎙 BLV Dậu",
               "color": "#1B5E20",
               "text_color": "#ffffff",
@@ -1489,6 +1537,12 @@
             "height": 450
           },
           "labels": [
+            {
+              "text": "🕐 Sắp diễn ra",
+              "color": "#1565C0",
+              "text_color": "#ffffff",
+              "position": "top-left"
+            },
             {
               "text": "🎙 BLV Thìn",
               "color": "#1B5E20",
@@ -1568,6 +1622,12 @@
           },
           "labels": [
             {
+              "text": "🕐 Sắp diễn ra",
+              "color": "#1565C0",
+              "text_color": "#ffffff",
+              "position": "top-left"
+            },
+            {
               "text": "🎙 BLV Perry",
               "color": "#1B5E20",
               "text_color": "#ffffff",
@@ -1645,6 +1705,12 @@
             "height": 450
           },
           "labels": [
+            {
+              "text": "🕐 Sắp diễn ra",
+              "color": "#1565C0",
+              "text_color": "#ffffff",
+              "position": "top-left"
+            },
             {
               "text": "🎙 BLV Mason",
               "color": "#1B5E20",
@@ -1724,6 +1790,12 @@
           },
           "labels": [
             {
+              "text": "🕐 Sắp diễn ra",
+              "color": "#1565C0",
+              "text_color": "#ffffff",
+              "position": "top-left"
+            },
+            {
               "text": "🎙 BLV Hợi",
               "color": "#1B5E20",
               "text_color": "#ffffff",
@@ -1801,6 +1873,12 @@
             "height": 450
           },
           "labels": [
+            {
+              "text": "🕐 Sắp diễn ra",
+              "color": "#1565C0",
+              "text_color": "#ffffff",
+              "position": "top-left"
+            },
             {
               "text": "🎙 BLV Nến",
               "color": "#1B5E20",
@@ -1880,6 +1958,12 @@
           },
           "labels": [
             {
+              "text": "🕐 Sắp diễn ra",
+              "color": "#1565C0",
+              "text_color": "#ffffff",
+              "position": "top-left"
+            },
+            {
               "text": "🎙 BLV Thìn",
               "color": "#1B5E20",
               "text_color": "#ffffff",
@@ -1958,6 +2042,12 @@
           },
           "labels": [
             {
+              "text": "🕐 Sắp diễn ra",
+              "color": "#1565C0",
+              "text_color": "#ffffff",
+              "position": "top-left"
+            },
+            {
               "text": "🎙 BLV Mason",
               "color": "#1B5E20",
               "text_color": "#ffffff",
@@ -2035,6 +2125,12 @@
             "height": 450
           },
           "labels": [
+            {
+              "text": "🕐 Sắp diễn ra",
+              "color": "#1565C0",
+              "text_color": "#ffffff",
+              "position": "top-left"
+            },
             {
               "text": "🎙 BLV Cầy",
               "color": "#1B5E20",
