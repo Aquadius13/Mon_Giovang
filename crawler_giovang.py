@@ -47,7 +47,7 @@ BLV_MAP = {
     "blv-nen":  "BLV Nến",
 }
 
-S = 1.265  # scale +26.5% (tích lũy: +15% rồi +10%)
+S = 1.15  # scale +15%
 
 def sc(v: int) -> int:
     return int(v * S)
@@ -359,7 +359,7 @@ def make_thumbnail_bytes(
     if league:
         draw.text(
             (MID_X, LEAGUE_Y), league[:26],
-            fill=(55, 80, 160), font=_font(24, False), anchor="mm"
+            fill=(55, 80, 160), font=_font(sc(17), False), anchor="mm"
         )
         ll = sc(95)
         draw.line(
@@ -419,10 +419,22 @@ def make_thumbnail_bytes(
     paste_logo(LX, LOGO_CY, logo_a, home_name, (25, 70, 175))
     paste_logo(RX, LOGO_CY, logo_b, away_name, (175, 30, 55))
 
-    # Tên đội: 1 hàng, 24pt, không đậm (not bold)
+    # Tên đội
     def draw_name(cx, name):
-        col = (25, 50, 125)
-        draw.text((cx, NAME_Y), name[:18], fill=col, font=_font(24, False), anchor="mm")
+        words = name.split()
+        col   = (25, 50, 125)
+        if len(name) <= 12 or len(words) <= 1:
+            draw.text((cx, NAME_Y), name[:16], fill=col, font=_font(sc(17)), anchor="mm")
+        else:
+            mid = max(1, len(words) // 2)
+            draw.text(
+                (cx, NAME_Y - sc(9)), " ".join(words[:mid])[:16],
+                fill=col, font=_font(sc(15)), anchor="mm"
+            )
+            draw.text(
+                (cx, NAME_Y + sc(9)), " ".join(words[mid:])[:16],
+                fill=col, font=_font(sc(13), False), anchor="mm"
+            )
 
     draw_name(LX, home_name)
     draw_name(RX, away_name)
@@ -540,10 +552,13 @@ def build_channel(m: dict, streams: list, thumb_url: str, idx: int) -> dict:
     multi_blv = len(streams) > 1
 
     labels = []
-    # Chỉ hiển thị label khi đang live
-    if m["status"] == "live":
-        labels.append({"text": "\u25cf LIVE", "color": "#C62828",
-                        "text_color": "#ffffff", "position": "top-left"})
+    st_map = {
+        "live":     ("\u25cf LIVE",         "#C62828"),
+        "upcoming": ("\U0001f550 Sắp diễn ra", "#1565C0"),
+        "finished": ("\u2705 Kết thúc",     "#424242"),
+    }
+    st_t, st_c = st_map.get(m["status"], ("\u25cf LIVE", "#C62828"))
+    labels.append({"text": st_t, "color": st_c, "text_color": "#ffffff", "position": "top-left"})
 
     if score and m["status"] == "live":
         lt  = m["live_time"]
