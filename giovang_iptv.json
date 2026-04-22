@@ -1234,6 +1234,466 @@
               ]
             }
           ]
+        },
+        {
+          "id": "gv-15-al-nassr-fc-vs-al-ahli-d",
+          "name": "Al-Nassr FC vs Al-Ahli Doha  🕐 23:00 | 22/04",
+          "description": "AFC Cup | 23:00 | 22/04 | 🕐 Sắp diễn ra | 🎙 BLV Tỵ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 0,
+            "background_color": "#F5F8FF",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-15-al-nassr-fc-vs-al-ahli-d.webp",
+            "width": 800,
+            "height": 450
+          },
+          "labels": [
+            {
+              "text": "🕐 Sắp diễn ra",
+              "color": "#1565C0",
+              "text_color": "#ffffff",
+              "position": "top-left"
+            },
+            {
+              "text": "🎙 BLV Tỵ",
+              "color": "#1B5E20",
+              "text_color": "#ffffff",
+              "position": "bottom-left"
+            }
+          ],
+          "sources": [
+            {
+              "id": "gv-15-al-nassr-fc-vs-al-ahli-d-src0",
+              "name": "GioVang Live",
+              "contents": [
+                {
+                  "id": "gv-15-al-nassr-fc-vs-al-ahli-d-ct0",
+                  "name": "Trực tiếp",
+                  "streams": [
+                    {
+                      "id": "gv-15-al-nassr-fc-vs-al-ahli-d-st0",
+                      "name": "BLV Tỵ",
+                      "stream_links": [
+                        {
+                          "id": "gv-15-al-nassr-fc-vs-al-ahli-d-l0hd",
+                          "name": "HD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1776839330_hd/1776839330_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.vin/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "gv-15-al-nassr-fc-vs-al-ahli-d-l0sd",
+                          "name": "SD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1776839330_sd/1776839330_hd@480p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.vin/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gv-16-lokomotiv-moscow-vs-zeni",
+          "name": "Lokomotiv Moscow vs Zenit St.Petersburg  🕐 23:45 | 22/04",
+          "description": "VĐQG Nga | 23:45 | 22/04 | 🕐 Sắp diễn ra | 🎙 BLV Hợi",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 0,
+            "background_color": "#F5F8FF",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-16-lokomotiv-moscow-vs-zeni.webp",
+            "width": 800,
+            "height": 450
+          },
+          "labels": [
+            {
+              "text": "🕐 Sắp diễn ra",
+              "color": "#1565C0",
+              "text_color": "#ffffff",
+              "position": "top-left"
+            },
+            {
+              "text": "🎙 BLV Hợi",
+              "color": "#1B5E20",
+              "text_color": "#ffffff",
+              "position": "bottom-left"
+            }
+          ],
+          "sources": [
+            {
+              "id": "gv-16-lokomotiv-moscow-vs-zeni-src0",
+              "name": "GioVang Live",
+              "contents": [
+                {
+                  "id": "gv-16-lokomotiv-moscow-vs-zeni-ct0",
+                  "name": "Trực tiếp",
+                  "streams": [
+                    {
+                      "id": "gv-16-lokomotiv-moscow-vs-zeni-st0",
+                      "name": "BLV Hợi",
+                      "stream_links": [
+                        {
+                          "id": "gv-16-lokomotiv-moscow-vs-zeni-l0hd",
+                          "name": "HD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1776841448_hd/1776841448_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.vin/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "gv-16-lokomotiv-moscow-vs-zeni-l0sd",
+                          "name": "SD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1776841448_sd/1776841448_hd@480p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.vin/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gv-17-elche-vs-atletico-madrid",
+          "name": "Elche vs Atletico Madrid  🕐 00:00 | 23/04",
+          "description": "La Liga | 00:00 | 23/04 | 🕐 Sắp diễn ra | 🎙 BLV Dory | BLV Dần",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": true,
+          "image": {
+            "padding": 0,
+            "background_color": "#F5F8FF",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-17-elche-vs-atletico-madrid.webp",
+            "width": 800,
+            "height": 450
+          },
+          "labels": [
+            {
+              "text": "🕐 Sắp diễn ra",
+              "color": "#1565C0",
+              "text_color": "#ffffff",
+              "position": "top-left"
+            },
+            {
+              "text": "🎙 2 BLV",
+              "color": "#1B5E20",
+              "text_color": "#ffffff",
+              "position": "bottom-left"
+            }
+          ],
+          "sources": [
+            {
+              "id": "gv-17-elche-vs-atletico-madrid-src0",
+              "name": "GioVang Live",
+              "contents": [
+                {
+                  "id": "gv-17-elche-vs-atletico-madrid-ct0",
+                  "name": "Trực tiếp",
+                  "streams": [
+                    {
+                      "id": "gv-17-elche-vs-atletico-madrid-st0",
+                      "name": "BLV Dory",
+                      "stream_links": [
+                        {
+                          "id": "gv-17-elche-vs-atletico-madrid-l0hd",
+                          "name": "HD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1776839745_hd/1776839745_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.vin/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "gv-17-elche-vs-atletico-madrid-l0sd",
+                          "name": "SD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1776839745_sd/1776839745_hd@480p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.vin/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "gv-17-elche-vs-atletico-madrid-st1",
+                      "name": "BLV Dần",
+                      "stream_links": [
+                        {
+                          "id": "gv-17-elche-vs-atletico-madrid-l1hd",
+                          "name": "HD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1776839874_hd/1776839874_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.vin/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "gv-17-elche-vs-atletico-madrid-l1sd",
+                          "name": "SD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1776839874_sd/1776839874_hd@480p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.vin/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gv-18-paris-saint-germain-vs-n",
+          "name": "Paris Saint Germain vs Nantes  🕐 00:00 | 23/04",
+          "description": "Ligue 1 | 00:00 | 23/04 | 🕐 Sắp diễn ra | 🎙 BLV Dậu",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 0,
+            "background_color": "#F5F8FF",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-18-paris-saint-germain-vs-n.webp",
+            "width": 800,
+            "height": 450
+          },
+          "labels": [
+            {
+              "text": "🕐 Sắp diễn ra",
+              "color": "#1565C0",
+              "text_color": "#ffffff",
+              "position": "top-left"
+            },
+            {
+              "text": "🎙 BLV Dậu",
+              "color": "#1B5E20",
+              "text_color": "#ffffff",
+              "position": "bottom-left"
+            }
+          ],
+          "sources": [
+            {
+              "id": "gv-18-paris-saint-germain-vs-n-src0",
+              "name": "GioVang Live",
+              "contents": [
+                {
+                  "id": "gv-18-paris-saint-germain-vs-n-ct0",
+                  "name": "Trực tiếp",
+                  "streams": [
+                    {
+                      "id": "gv-18-paris-saint-germain-vs-n-st0",
+                      "name": "BLV Dậu",
+                      "stream_links": [
+                        {
+                          "id": "gv-18-paris-saint-germain-vs-n-l0hd",
+                          "name": "HD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1776841572_hd/1776841572_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.vin/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "gv-18-paris-saint-germain-vs-n-l0sd",
+                          "name": "SD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1776841572_sd/1776841572_hd@480p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.vin/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gv-19-bayer-leverkusen-vs-baye",
+          "name": "Bayer Leverkusen vs Bayern Munich  🕐 01:45 | 23/04",
+          "description": "Cúp Quốc Gia Đức | 01:45 | 23/04 | 🕐 Sắp diễn ra | 🎙 BLV Câm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 0,
+            "background_color": "#F5F8FF",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-19-bayer-leverkusen-vs-baye.webp",
+            "width": 800,
+            "height": 450
+          },
+          "labels": [
+            {
+              "text": "🕐 Sắp diễn ra",
+              "color": "#1565C0",
+              "text_color": "#ffffff",
+              "position": "top-left"
+            },
+            {
+              "text": "🎙 BLV Câm",
+              "color": "#1B5E20",
+              "text_color": "#ffffff",
+              "position": "bottom-left"
+            }
+          ],
+          "sources": [
+            {
+              "id": "gv-19-bayer-leverkusen-vs-baye-src0",
+              "name": "GioVang Live",
+              "contents": [
+                {
+                  "id": "gv-19-bayer-leverkusen-vs-baye-ct0",
+                  "name": "Trực tiếp",
+                  "streams": [
+                    {
+                      "id": "gv-19-bayer-leverkusen-vs-baye-st0",
+                      "name": "BLV Câm",
+                      "stream_links": [
+                        {
+                          "id": "gv-19-bayer-leverkusen-vs-baye-l0hd",
+                          "name": "HD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1776841675_hd/1776841675_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.vin/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "gv-19-bayer-leverkusen-vs-baye-l0sd",
+                          "name": "SD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1776841675_sd/1776841675_hd@480p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.vin/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
