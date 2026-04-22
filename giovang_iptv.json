@@ -111,8 +111,8 @@
         },
         {
           "id": "gv-2-liaoning-tieren-vs-dalia",
-          "name": "Liaoning Tieren 0-0 Dalian Yingbo  🔴",
-          "description": "VĐQG Trung Quốc | 18:35 | 22/04 | 🔴 LIVE | 0-0 | 🎙 BLV Tỵ",
+          "name": "Liaoning Tieren 0-0 Dalian Yingbo  🔴 51'",
+          "description": "VĐQG Trung Quốc | 18:35 | 22/04 | 🔴 LIVE 51' | 0-0 | 🎙 BLV Tỵ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -132,7 +132,7 @@
               "position": "top-left"
             },
             {
-              "text": "0-0",
+              "text": "0-0  51'",
               "color": "#B71C1C",
               "text_color": "#ffffff",
               "position": "bottom-right"
