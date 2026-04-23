@@ -21,8 +21,8 @@
       "channels": [
         {
           "id": "gv-1-hawks-vs-knicks",
-          "name": "Hawks  vs Knicks  🕐 06:00 | 24/04",
-          "description": "NBA | 06:00 | 24/04 | 🕐 Sắp diễn ra | 🎙 BLV Cầy",
+          "name": "Hawks  0-0 Knicks  🔴",
+          "description": "NBA | 06:00 | 24/04 | 🔴 LIVE | 0-0 | 🎙 BLV Cầy",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -36,10 +36,16 @@
           },
           "labels": [
             {
-              "text": "🕐 Sắp diễn ra",
-              "color": "#1565C0",
+              "text": "● LIVE",
+              "color": "#C62828",
               "text_color": "#ffffff",
               "position": "top-left"
+            },
+            {
+              "text": "0-0",
+              "color": "#B71C1C",
+              "text_color": "#ffffff",
+              "position": "bottom-right"
             },
             {
               "text": "🎙 BLV Cầy",
@@ -105,8 +111,8 @@
         },
         {
           "id": "gv-2-defensa-y-justicia-vs-bo",
-          "name": "Defensa Y Justicia vs Boca Juniors  🕐 06:00 | 24/04",
-          "description": "VĐQG Argentina | 06:00 | 24/04 | 🕐 Sắp diễn ra | 🎙 BLV Hợi",
+          "name": "Defensa Y Justicia 0-1 Boca Juniors  🔴 26'",
+          "description": "VĐQG Argentina | 06:00 | 24/04 | 🔴 LIVE 26' | 0-1 | 🎙 BLV Hợi",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -120,10 +126,16 @@
           },
           "labels": [
             {
-              "text": "🕐 Sắp diễn ra",
-              "color": "#1565C0",
+              "text": "● LIVE",
+              "color": "#C62828",
               "text_color": "#ffffff",
               "position": "top-left"
+            },
+            {
+              "text": "0-1  26'",
+              "color": "#B71C1C",
+              "text_color": "#ffffff",
+              "position": "bottom-right"
             },
             {
               "text": "🎙 BLV Hợi",
@@ -189,8 +201,8 @@
         },
         {
           "id": "gv-3-raptors-vs-cavaliers",
-          "name": "Raptors  vs Cavaliers  🕐 07:00 | 24/04",
-          "description": "NBA | 07:00 | 24/04 | 🕐 Sắp diễn ra | 🎙 BLV Ben",
+          "name": "Raptors  0-0 Cavaliers  🔴",
+          "description": "NBA | 07:00 | 24/04 | 🔴 LIVE | 0-0 | 🎙 BLV Ben",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -204,10 +216,16 @@
           },
           "labels": [
             {
-              "text": "🕐 Sắp diễn ra",
-              "color": "#1565C0",
+              "text": "● LIVE",
+              "color": "#C62828",
               "text_color": "#ffffff",
               "position": "top-left"
+            },
+            {
+              "text": "0-0",
+              "color": "#B71C1C",
+              "text_color": "#ffffff",
+              "position": "bottom-right"
             },
             {
               "text": "🎙 BLV Ben",
