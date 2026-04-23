@@ -111,8 +111,8 @@
         },
         {
           "id": "gv-2-defensa-y-justicia-vs-bo",
-          "name": "Defensa Y Justicia 0-0 Boca Juniors  🔴 45+1'",
-          "description": "VĐQG Argentina | 06:00 | 24/04 | 🔴 LIVE 45+1' | 0-0 | 🎙 BLV Hợi",
+          "name": "Defensa Y Justicia 0-1 Boca Juniors  🔴 45+6'",
+          "description": "VĐQG Argentina | 06:00 | 24/04 | 🔴 LIVE 45+6' | 0-1 | 🎙 BLV Hợi",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -132,7 +132,7 @@
               "position": "top-left"
             },
             {
-              "text": "0-0  45+1'",
+              "text": "0-1  45+6'",
               "color": "#B71C1C",
               "text_color": "#ffffff",
               "position": "bottom-right"
