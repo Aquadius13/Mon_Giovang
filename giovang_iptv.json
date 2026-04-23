@@ -150,9 +150,9 @@
           ]
         },
         {
-          "id": "gv-2-columbus-crew-vs-los-ang",
-          "name": "Columbus Crew 0-0 Los Angeles Galaxy  🔴",
-          "description": "MLS Mỹ | 06:30 | 23/04 | 🔴 LIVE | 0-0 | 🎙 BLV Dậu",
+          "id": "gv-2-new-york-red-bulls-vs-wa",
+          "name": "New York Red Bulls 2-0 Washington D.C. United  🔴 24'",
+          "description": "MLS Mỹ | 06:30 | 23/04 | 🔴 LIVE 24' | 2-0 | 🎙 BLV Thìn",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -160,7 +160,7 @@
             "padding": 0,
             "background_color": "#F5F8FF",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-2-columbus-crew-vs-los-ang.webp",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-2-new-york-red-bulls-vs-wa.webp",
             "width": 800,
             "height": 450
           },
@@ -172,13 +172,13 @@
               "position": "top-left"
             },
             {
-              "text": "0-0",
+              "text": "2-0  24'",
               "color": "#B71C1C",
               "text_color": "#ffffff",
               "position": "bottom-right"
             },
             {
-              "text": "🎙 BLV Dậu",
+              "text": "🎙 BLV Thìn",
               "color": "#1B5E20",
               "text_color": "#ffffff",
               "position": "bottom-left"
@@ -186,23 +186,23 @@
           ],
           "sources": [
             {
-              "id": "gv-2-columbus-crew-vs-los-ang-src0",
+              "id": "gv-2-new-york-red-bulls-vs-wa-src0",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-2-columbus-crew-vs-los-ang-ct0",
+                  "id": "gv-2-new-york-red-bulls-vs-wa-ct0",
                   "name": "Trực tiếp",
                   "streams": [
                     {
-                      "id": "gv-2-columbus-crew-vs-los-ang-st0",
-                      "name": "BLV Dậu",
+                      "id": "gv-2-new-york-red-bulls-vs-wa-st0",
+                      "name": "BLV Thìn",
                       "stream_links": [
                         {
-                          "id": "gv-2-columbus-crew-vs-los-ang-l0hd",
+                          "id": "gv-2-new-york-red-bulls-vs-wa-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1776871898_hd/1776871898_hd@720p.m3u8",
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1776871956_hd/1776871956_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -215,11 +215,11 @@
                           ]
                         },
                         {
-                          "id": "gv-2-columbus-crew-vs-los-ang-l0sd",
+                          "id": "gv-2-new-york-red-bulls-vs-wa-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1776871898_sd/1776871898_hd@480p.m3u8",
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1776871956_sd/1776871956_hd@480p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -240,9 +240,9 @@
           ]
         },
         {
-          "id": "gv-3-new-york-red-bulls-vs-wa",
-          "name": "New York Red Bulls 0-0 Washington D.C. United  🔴",
-          "description": "MLS Mỹ | 06:30 | 23/04 | 🔴 LIVE | 0-0 | 🎙 BLV Thìn",
+          "id": "gv-3-columbus-crew-vs-los-ang",
+          "name": "Columbus Crew vs Los Angeles Galaxy  🕐 06:30 | 23/04",
+          "description": "MLS Mỹ | 06:30 | 23/04 | 🕐 Sắp diễn ra | 🎙 BLV Dậu",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -250,25 +250,19 @@
             "padding": 0,
             "background_color": "#F5F8FF",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-3-new-york-red-bulls-vs-wa.webp",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-3-columbus-crew-vs-los-ang.webp",
             "width": 800,
             "height": 450
           },
           "labels": [
             {
-              "text": "● LIVE",
-              "color": "#C62828",
+              "text": "🕐 Sắp diễn ra",
+              "color": "#1565C0",
               "text_color": "#ffffff",
               "position": "top-left"
             },
             {
-              "text": "0-0",
-              "color": "#B71C1C",
-              "text_color": "#ffffff",
-              "position": "bottom-right"
-            },
-            {
-              "text": "🎙 BLV Thìn",
+              "text": "🎙 BLV Dậu",
               "color": "#1B5E20",
               "text_color": "#ffffff",
               "position": "bottom-left"
@@ -276,23 +270,23 @@
           ],
           "sources": [
             {
-              "id": "gv-3-new-york-red-bulls-vs-wa-src0",
+              "id": "gv-3-columbus-crew-vs-los-ang-src0",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-3-new-york-red-bulls-vs-wa-ct0",
+                  "id": "gv-3-columbus-crew-vs-los-ang-ct0",
                   "name": "Trực tiếp",
                   "streams": [
                     {
-                      "id": "gv-3-new-york-red-bulls-vs-wa-st0",
-                      "name": "BLV Thìn",
+                      "id": "gv-3-columbus-crew-vs-los-ang-st0",
+                      "name": "BLV Dậu",
                       "stream_links": [
                         {
-                          "id": "gv-3-new-york-red-bulls-vs-wa-l0hd",
+                          "id": "gv-3-columbus-crew-vs-los-ang-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1776871956_hd/1776871956_hd@720p.m3u8",
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1776871898_hd/1776871898_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -305,11 +299,11 @@
                           ]
                         },
                         {
-                          "id": "gv-3-new-york-red-bulls-vs-wa-l0sd",
+                          "id": "gv-3-columbus-crew-vs-los-ang-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1776871956_sd/1776871956_hd@480p.m3u8",
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1776871898_sd/1776871898_hd@480p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
