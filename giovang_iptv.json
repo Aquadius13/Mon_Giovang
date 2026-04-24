@@ -111,8 +111,8 @@
         },
         {
           "id": "gv-2-76ers-vs-celtics",
-          "name": "76ers vs Celtics  🕐 06:00 | 25/04",
-          "description": "NBA | 06:00 | 25/04 | 🕐 Sắp diễn ra | 🎙 BLV Tôm",
+          "name": "76ers 0-0 Celtics  🔴",
+          "description": "NBA | 06:00 | 25/04 | 🔴 LIVE | 0-0 | 🎙 BLV Tôm",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -126,10 +126,16 @@
           },
           "labels": [
             {
-              "text": "🕐 Sắp diễn ra",
-              "color": "#1565C0",
+              "text": "● LIVE",
+              "color": "#C62828",
               "text_color": "#ffffff",
               "position": "top-left"
+            },
+            {
+              "text": "0-0",
+              "color": "#B71C1C",
+              "text_color": "#ffffff",
+              "position": "bottom-right"
             },
             {
               "text": "🎙 BLV Tôm",
