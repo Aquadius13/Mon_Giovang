@@ -1,8 +1,14 @@
 #!/usr/bin/env python3
 """
-Crawler giovang.vin v9
+Crawler giovang.vin v10
 CDN WEBP: lưu thumbnails/*.webp → commit GitHub → CDN URL
 pip install cloudscraper requests pillow
+
+Thay đổi v10:
+- Thay nguồn API từ keovip88.net → mitomtv.net (fallback: cakhia.tv)
+- Bỏ label "Sắp diễn ra" ở góc phải trên (top-right)
+- Tên giải đấu đưa lên trên cùng thumbnail
+- Logo +25%, tên đội/giải/ngày/giờ +10%
 """
 import argparse, base64, hashlib, io, json, os, re, sys, time
 from datetime import datetime, timezone, timedelta
@@ -12,9 +18,15 @@ import cloudscraper, requests
 from PIL import Image, ImageDraw, ImageFont
 
 BASE_URL    = "https://giovang.vin"
-API_LIVE    = "https://live-api.keovip88.net/storage/livestream/live.json"
-API_ALL     = "https://live-api.keovip88.net/storage/livestream/all.json"
-API_STREAM  = "https://live-api.keovip88.net/api/fixtures/{fid}"
+# ─── Nguồn API mới (thay keovip88.net) ───────────────────────
+API_LIVE    = "https://live-api.mitomtv.net/storage/livestream/live.json"
+API_ALL     = "https://live-api.mitomtv.net/storage/livestream/all.json"
+API_STREAM  = "https://live-api.mitomtv.net/api/fixtures/{fid}"
+# Fallback nếu mitomtv.net lỗi
+API_LIVE_FB = "https://api.cakhia.tv/storage/livestream/live.json"
+API_ALL_FB  = "https://api.cakhia.tv/storage/livestream/all.json"
+API_STREAM_FB = "https://api.cakhia.tv/api/fixtures/{fid}"
+# ─────────────────────────────────────────────────────────────
 WP_AJAX     = "https://giovang.vin/wp-admin/admin-ajax.php"
 THUMB_DIR   = "thumbnails"
 OUTPUT_FILE = "giovang_iptv.json"
@@ -47,10 +59,18 @@ BLV_MAP = {
     "blv-nen":  "BLV Nến",
 }
 
-S = 1.15  # scale +15%
+S = 1.15  # scale +15% (base)
 
 def sc(v: int) -> int:
     return int(v * S)
+
+# Scale +10% cho text (tên đội, tên giải, ngày giờ)
+def sc_text(v: int) -> int:
+    return int(v * S * 1.10)
+
+# Scale +25% cho logo
+def sc_logo(v: int) -> int:
+    return int(v * S * 1.25)
 
 # ─── CDN ─────────────────────────────────────────────────────
 def _cdn_base() -> str:
@@ -116,18 +136,35 @@ def init_session(sc):
     except Exception as e:
         log(f"  ⚠ Session: {e}")
 
-def _get(url: str, sc, label: str = "", params: dict = None) -> dict:
+def _get(url: str, sc, label: str = "", params: dict = None,
+         fallback_url: str = None) -> dict:
+    """Fetch JSON với tối đa 3 lần thử, tự động fallback nếu lỗi."""
     for i in range(3):
         try:
             r = sc.get(url, timeout=20, params=params)
             r.raise_for_status()
             data = r.json()
             n = len(data.get("response", [])) if isinstance(data, dict) else "?"
-            log(f"  ✓ {label} → {n} items")
+            log(f"  ✓ {label} → {n} items ({url.split('/')[2]})")
             return data
         except Exception as e:
+            log(f"  ⚠ {label} lần {i+1}: {e}")
             if i < 2:
                 time.sleep(2 ** i)
+    # Thử fallback URL
+    if fallback_url:
+        log(f"  🔄 Fallback: {fallback_url}")
+        for i in range(2):
+            try:
+                r = sc.get(fallback_url, timeout=20, params=params)
+                r.raise_for_status()
+                data = r.json()
+                n = len(data.get("response", [])) if isinstance(data, dict) else "?"
+                log(f"  ✓ {label} (fallback) → {n} items")
+                return data
+            except Exception as e:
+                if i < 1:
+                    time.sleep(2)
     return {}
 
 def _post(sc, payload: dict) -> dict:
@@ -241,8 +278,8 @@ def parse_fixture(f: dict) -> dict:
 def fetch_matches(sc, only_hot: bool) -> list:
     log("\n📡 Bước 1: Fetch live.json + all.json...")
     ts   = int(time.time() * 1000)
-    live = _get(API_LIVE, sc, "live.json", {"t": ts})
-    all_ = _get(API_ALL,  sc, "all.json",  {"t": ts})
+    live = _get(API_LIVE, sc, "live.json", {"t": ts}, fallback_url=API_LIVE_FB)
+    all_ = _get(API_ALL,  sc, "all.json",  {"t": ts}, fallback_url=API_ALL_FB)
     out, seen = [], set()
 
     for f in (live.get("response") or []):
@@ -296,35 +333,42 @@ def fetch_wp_logos(sc, fid: str) -> tuple:
 
 # ─── Stream API ──────────────────────────────────────────────
 def fetch_streams(sc, fid: str) -> list:
-    url = API_STREAM.format(fid=fid)
-    for attempt in range(3):
-        try:
-            r = sc.get(url, timeout=15, headers={
-                "Accept":  "application/json, */*",
-                "Referer": BASE_URL + "/",
-                "Origin":  BASE_URL,
-            })
-            if r.status_code != 200 or not r.content:
-                time.sleep(1)
-                continue
-            data     = r.json()
-            if data.get("code", -1) != 0:
-                return []
-            blv_list = (data.get("response") or {}).get("blv") or []
-            result   = []
-            for blv in blv_list:
-                key  = blv.get("blv_key", "")
-                name = blv.get("blv_name") or BLV_MAP.get(key, key)
-                hd   = blv.get("link_stream_hd", "")
-                sd   = blv.get("link_stream_sd", "")
-                if hd or sd:
-                    result.append({"blv_key": key, "blv_name": name, "url_hd": hd, "url_sd": sd})
-                    log(f"     🎙 {name}: {(hd or sd)[-45:]}")
-            return result
-        except Exception as e:
-            log(f"     ⚠ stream {attempt+1}: {e}")
-            if attempt < 2:
-                time.sleep(2)
+    """Thử nguồn chính trước, fallback nếu lỗi."""
+    urls = [
+        API_STREAM.format(fid=fid),
+        API_STREAM_FB.format(fid=fid),
+    ]
+    for url in urls:
+        for attempt in range(2):
+            try:
+                r = sc.get(url, timeout=15, headers={
+                    "Accept":  "application/json, */*",
+                    "Referer": BASE_URL + "/",
+                    "Origin":  BASE_URL,
+                })
+                if r.status_code != 200 or not r.content:
+                    time.sleep(1)
+                    continue
+                data     = r.json()
+                if data.get("code", -1) != 0:
+                    break  # thử URL tiếp theo
+                blv_list = (data.get("response") or {}).get("blv") or []
+                result   = []
+                for blv in blv_list:
+                    key  = blv.get("blv_key", "")
+                    name = blv.get("blv_name") or BLV_MAP.get(key, key)
+                    hd   = blv.get("link_stream_hd", "")
+                    sd   = blv.get("link_stream_sd", "")
+                    if hd or sd:
+                        result.append({"blv_key": key, "blv_name": name, "url_hd": hd, "url_sd": sd})
+                        log(f"     🎙 {name}: {(hd or sd)[-45:]}")
+                if result:
+                    return result
+                break
+            except Exception as e:
+                log(f"     ⚠ stream {url.split('/')[2]} attempt {attempt+1}: {e}")
+                if attempt < 1:
+                    time.sleep(2)
     return []
 
 # ─── Thumbnail WEBP ──────────────────────────────────────────
@@ -334,17 +378,23 @@ def make_thumbnail_bytes(
     time_str: str, date_str: str, league: str,
     status: str = "upcoming", score: str = "", live_time: str = "",
 ) -> bytes:
-    W, H      = 800, 450
-    LOGO_SZ   = sc(130)
-    LOGO_CY   = 205
+    W, H = 800, 450
+
+    # Logo tăng 25% (sc_logo thay vì sc)
+    LOGO_SZ   = sc_logo(130)
+    LOGO_CY   = 215   # hạ xuống chút vì league đã lên top
     MID_X     = W // 2
     INFO_HALF = sc(100)
     GAP       = sc(12)
     LX        = MID_X - INFO_HALF - GAP - LOGO_SZ // 2
     RX        = MID_X + INFO_HALF + GAP + LOGO_SZ // 2
-    NAME_Y    = LOGO_CY + LOGO_SZ // 2 + sc(18)
-    DATE_Y    = NAME_Y + sc(28)
-    LEAGUE_Y  = 112
+
+    # Tên đội: +10%
+    NAME_Y    = LOGO_CY + LOGO_SZ // 2 + sc_text(18)
+    DATE_Y    = NAME_Y + sc_text(28)
+
+    # Tên giải đấu lên trên cùng (+10%)
+    LEAGUE_Y  = 38   # rất gần top
 
     # Nền sáng trắng → xanh nhạt
     img  = Image.new("RGB", (W, H))
@@ -355,19 +405,19 @@ def make_thumbnail_bytes(
     draw.rectangle([(0, 0),   (W, 8)], fill=(255, 140, 0))
     draw.rectangle([(0, H-8), (W, H)], fill=(255, 140, 0))
 
-    # Tên giải + đường kẻ
+    # Tên giải ở TRÊN CÙNG với font +10%
     if league:
         draw.text(
-            (MID_X, LEAGUE_Y), league[:26],
-            fill=(55, 80, 160), font=_font(sc(17), False), anchor="mm"
+            (MID_X, LEAGUE_Y), league[:28],
+            fill=(55, 80, 160), font=_font(sc_text(17), False), anchor="mm"
         )
-        ll = sc(95)
+        ll = sc(100)
         draw.line(
-            [(MID_X - ll, LEAGUE_Y + sc(14)), (MID_X + ll, LEAGUE_Y + sc(14))],
+            [(MID_X - ll, LEAGUE_Y + sc_text(14)), (MID_X + ll, LEAGUE_Y + sc_text(14))],
             fill=(195, 210, 235), width=2
         )
 
-    # Giờ / Tỉ số
+    # Giờ / Tỉ số (font giờ +10%)
     if status == "live" and score:
         main_txt = score.replace("-", " : ")
         main_col = (190, 20, 20)
@@ -386,16 +436,16 @@ def make_thumbnail_bytes(
 
     has_sub = bool(sub_txt)
     draw.text(
-        (MID_X, LOGO_CY - (sc(13) if has_sub else 0)),
-        main_txt, fill=main_col, font=_font(sc(36)), anchor="mm"
+        (MID_X, LOGO_CY - (sc_text(13) if has_sub else 0)),
+        main_txt, fill=main_col, font=_font(sc_text(36)), anchor="mm"
     )
     if has_sub:
         draw.text(
-            (MID_X, LOGO_CY + sc(24)),
-            sub_txt, fill=sub_col, font=_font(sc(14), False), anchor="mm"
+            (MID_X, LOGO_CY + sc_text(24)),
+            sub_txt, fill=sub_col, font=_font(sc_text(14), False), anchor="mm"
         )
 
-    # Logo
+    # Logo (+25%)
     def paste_logo(cx, cy, logo_img, name, col):
         nonlocal img, draw
         if logo_img:
@@ -414,36 +464,36 @@ def make_thumbnail_bytes(
             draw.ellipse([(cx-r2+3, cy-r2+3), (cx+r2+3, cy+r2+3)], fill=(185, 195, 220))
             draw.ellipse([(cx-r2, cy-r2), (cx+r2, cy+r2)], fill=col)
             init = "".join(w[0].upper() for w in name.split()[:2]) or "?"
-            draw.text((cx, cy), init, fill="white", font=_font(sc(34)), anchor="mm")
+            draw.text((cx, cy), init, fill="white", font=_font(sc_text(34)), anchor="mm")
 
     paste_logo(LX, LOGO_CY, logo_a, home_name, (25, 70, 175))
     paste_logo(RX, LOGO_CY, logo_b, away_name, (175, 30, 55))
 
-    # Tên đội
+    # Tên đội (+10%)
     def draw_name(cx, name):
         words = name.split()
         col   = (25, 50, 125)
         if len(name) <= 12 or len(words) <= 1:
-            draw.text((cx, NAME_Y), name[:16], fill=col, font=_font(sc(17)), anchor="mm")
+            draw.text((cx, NAME_Y), name[:16], fill=col, font=_font(sc_text(17)), anchor="mm")
         else:
             mid = max(1, len(words) // 2)
             draw.text(
-                (cx, NAME_Y - sc(9)), " ".join(words[:mid])[:16],
-                fill=col, font=_font(sc(15)), anchor="mm"
+                (cx, NAME_Y - sc_text(9)), " ".join(words[:mid])[:16],
+                fill=col, font=_font(sc_text(15)), anchor="mm"
             )
             draw.text(
-                (cx, NAME_Y + sc(9)), " ".join(words[mid:])[:16],
-                fill=col, font=_font(sc(13), False), anchor="mm"
+                (cx, NAME_Y + sc_text(9)), " ".join(words[mid:])[:16],
+                fill=col, font=_font(sc_text(13), False), anchor="mm"
             )
 
     draw_name(LX, home_name)
     draw_name(RX, away_name)
 
-    # Ngày
+    # Ngày (+10%)
     if date_str:
         draw.text(
             (MID_X, DATE_Y), f"\U0001f4c5  {date_str}",
-            fill=(75, 100, 170), font=_font(sc(14), False), anchor="mm"
+            fill=(75, 100, 170), font=_font(sc_text(14), False), anchor="mm"
         )
 
     draw.text((W-12, H-14), "giovang.vin", fill=(155, 170, 205), font=_font(10, False), anchor="rm")
@@ -558,6 +608,9 @@ def build_channel(m: dict, streams: list, thumb_url: str, idx: int) -> dict:
         "finished": ("\u2705 Kết thúc",     "#424242"),
     }
     st_t, st_c = st_map.get(m["status"], ("\u25cf LIVE", "#C62828"))
+
+    # ── Label trạng thái: chỉ đặt ở top-left ──────────────────
+    # Label "Sắp diễn ra" KHÔNG đặt ở top-right nữa (đã bỏ)
     labels.append({"text": st_t, "color": st_c, "text_color": "#ffffff", "position": "top-left"})
 
     if score and m["status"] == "live":
@@ -630,14 +683,15 @@ def build_iptv_json(channels: list, now_str: str) -> dict:
 
 # ─── Main ────────────────────────────────────────────────────
 def main():
-    ap = argparse.ArgumentParser(description="Crawler giovang.vin v9")
+    ap = argparse.ArgumentParser(description="Crawler giovang.vin v10")
     ap.add_argument("--no-stream", action="store_true")
     ap.add_argument("--all",       action="store_true")
     ap.add_argument("--output",    default=OUTPUT_FILE)
     args = ap.parse_args()
 
     log(f"\n{'='*62}")
-    log(f"  CRAWLER giovang.vin v9  |  CDN: {_cdn_base() or 'base64 local'}")
+    log(f"  CRAWLER giovang.vin v10  |  CDN: {_cdn_base() or 'base64 local'}")
+    log(f"  Nguồn API: mitomtv.net (fallback: cakhia.tv)")
     log(f"{'='*62}\n")
 
     now_str = datetime.now(VN_TZ).strftime("%d/%m/%Y %H:%M ICT")
