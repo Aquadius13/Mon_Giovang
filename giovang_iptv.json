@@ -111,8 +111,8 @@
         },
         {
           "id": "gv-2-defensa-y-justicia-vs-bo",
-          "name": "Defensa Y Justicia 0-1 Boca Juniors  🔴 47'",
-          "description": "VĐQG Argentina | 06:00 | 24/04 | 🔴 LIVE 47' | 0-1 | 🎙 BLV Hợi",
+          "name": "Defensa Y Justicia 0-3 Boca Juniors  🔴",
+          "description": "VĐQG Argentina | 06:00 | 24/04 | 🔴 LIVE | 0-3 | 🎙 BLV Hợi",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -132,7 +132,7 @@
               "position": "top-left"
             },
             {
-              "text": "0-1  47'",
+              "text": "0-3",
               "color": "#B71C1C",
               "text_color": "#ffffff",
               "position": "bottom-right"
@@ -291,8 +291,8 @@
         },
         {
           "id": "gv-4-operario-ferroviario-pr",
-          "name": "Operario Ferroviario PR vs Fluminense (RJ)  🕐 07:30 | 24/04",
-          "description": "Cúp Brazil | 07:30 | 24/04 | 🕐 Sắp diễn ra | 🎙 BLV Thìn",
+          "name": "Operario Ferroviario PR 0-0 Fluminense (RJ)  🔴 42'",
+          "description": "Cúp Brazil | 07:30 | 24/04 | 🔴 LIVE 42' | 0-0 | 🎙 BLV Thìn",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -306,10 +306,16 @@
           },
           "labels": [
             {
-              "text": "🕐 Sắp diễn ra",
-              "color": "#1565C0",
+              "text": "● LIVE",
+              "color": "#C62828",
               "text_color": "#ffffff",
               "position": "top-left"
+            },
+            {
+              "text": "0-0  42'",
+              "color": "#B71C1C",
+              "text_color": "#ffffff",
+              "position": "bottom-right"
             },
             {
               "text": "🎙 BLV Thìn",
