@@ -20,97 +20,7 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-1-newcastle-jets-fc-vs-cen",
-          "name": "Newcastle Jets FC 3-0 Central Coast Mariners FC 🔴",
-          "description": "VĐQG Úc | 14:00 | 25/04 | 🔴 LIVE | 3-0 | 🎙 BLV Dory",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 0,
-            "background_color": "#F5F8FF",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-1-newcastle-jets-fc-vs-cen.webp",
-            "width": 800,
-            "height": 450
-          },
-          "labels": [
-            {
-              "text": "● LIVE",
-              "color": "#C62828",
-              "text_color": "#ffffff",
-              "position": "top-left"
-            },
-            {
-              "text": "3-0",
-              "color": "#B71C1C",
-              "text_color": "#ffffff",
-              "position": "bottom-right"
-            },
-            {
-              "text": "🎙 BLV Dory",
-              "color": "#1B5E20",
-              "text_color": "#ffffff",
-              "position": "bottom-left"
-            }
-          ],
-          "sources": [
-            {
-              "id": "gv-1-newcastle-jets-fc-vs-cen-src0",
-              "name": "GioVang Live",
-              "contents": [
-                {
-                  "id": "gv-1-newcastle-jets-fc-vs-cen-ct0",
-                  "name": "Trực tiếp",
-                  "streams": [
-                    {
-                      "id": "gv-1-newcastle-jets-fc-vs-cen-st0",
-                      "name": "BLV Dory",
-                      "stream_links": [
-                        {
-                          "id": "gv-1-newcastle-jets-fc-vs-cen-l0hd",
-                          "name": "HD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777047519_hd/1777047519_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.vin/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "gv-1-newcastle-jets-fc-vs-cen-l0sd",
-                          "name": "SD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777047519_sd/1777047519_hd@480p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.vin/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "gv-2-t1-vs-oksavingsbank-brio",
+          "id": "gv-1-t1-vs-oksavingsbank-brio",
           "name": "T1  0-0 OKSavingsBank Brion 🔴",
           "description": "LCK | 15:00 | 25/04 | 🔴 LIVE | 0-0 | 🎙 BLV Chanh",
           "type": "single",
@@ -120,7 +30,7 @@
             "padding": 0,
             "background_color": "#F5F8FF",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-2-t1-vs-oksavingsbank-brio.webp",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-1-t1-vs-oksavingsbank-brio.webp",
             "width": 800,
             "height": 450
           },
@@ -146,23 +56,23 @@
           ],
           "sources": [
             {
-              "id": "gv-2-t1-vs-oksavingsbank-brio-src0",
+              "id": "gv-1-t1-vs-oksavingsbank-brio-src0",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-2-t1-vs-oksavingsbank-brio-ct0",
+                  "id": "gv-1-t1-vs-oksavingsbank-brio-ct0",
                   "name": "Trực tiếp",
                   "streams": [
                     {
-                      "id": "gv-2-t1-vs-oksavingsbank-brio-st0",
+                      "id": "gv-1-t1-vs-oksavingsbank-brio-st0",
                       "name": "BLV Chanh",
                       "stream_links": [
                         {
-                          "id": "gv-2-t1-vs-oksavingsbank-brio-l0hd",
+                          "id": "gv-1-t1-vs-oksavingsbank-brio-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777104040_hd/1777104040_hd@720p.m3u8",
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777104834_hd/1777104834_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -175,11 +85,11 @@
                           ]
                         },
                         {
-                          "id": "gv-2-t1-vs-oksavingsbank-brio-l0sd",
+                          "id": "gv-1-t1-vs-oksavingsbank-brio-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777104040_sd/1777104040_hd@480p.m3u8",
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777104834_sd/1777104834_hd@480p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -200,86 +110,8 @@
           ]
         },
         {
-          "id": "gv-3-western-sydney-wanderers",
-          "name": "Western Sydney Wanderers vs Melbourne Victory FC 🕐 16:35 | 25/04",
-          "description": "VĐQG Úc | 16:35 | 25/04 | 🎙 BLV Mason",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 0,
-            "background_color": "#F5F8FF",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-3-western-sydney-wanderers.webp",
-            "width": 800,
-            "height": 450
-          },
-          "labels": [
-            {
-              "text": "🎙 BLV Mason",
-              "color": "#1B5E20",
-              "text_color": "#ffffff",
-              "position": "bottom-left"
-            }
-          ],
-          "sources": [
-            {
-              "id": "gv-3-western-sydney-wanderers-src0",
-              "name": "GioVang Live",
-              "contents": [
-                {
-                  "id": "gv-3-western-sydney-wanderers-ct0",
-                  "name": "Trực tiếp",
-                  "streams": [
-                    {
-                      "id": "gv-3-western-sydney-wanderers-st0",
-                      "name": "BLV Mason",
-                      "stream_links": [
-                        {
-                          "id": "gv-3-western-sydney-wanderers-l0hd",
-                          "name": "HD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777018855_hd/1777018855_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.vin/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "gv-3-western-sydney-wanderers-l0sd",
-                          "name": "SD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777018855_sd/1777018855_hd@480p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.vin/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "gv-4-dplus-kia-vs-dns",
-          "name": "Dplus Kia vs DNS 🕐 17:00 | 25/04",
+          "id": "gv-2-dplus-kia-vs-dns",
+          "name": "Dplus Kia  vs DNS 🕐 17:00 | 25/04",
           "description": "LCK | 17:00 | 25/04 | 🎙 BLV Tôm",
           "type": "single",
           "display": "thumbnail-only",
@@ -288,7 +120,7 @@
             "padding": 0,
             "background_color": "#F5F8FF",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-4-dplus-kia-vs-dns.webp",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-2-dplus-kia-vs-dns.webp",
             "width": 800,
             "height": 450
           },
@@ -302,19 +134,97 @@
           ],
           "sources": [
             {
-              "id": "gv-4-dplus-kia-vs-dns-src0",
+              "id": "gv-2-dplus-kia-vs-dns-src0",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-4-dplus-kia-vs-dns-ct0",
+                  "id": "gv-2-dplus-kia-vs-dns-ct0",
                   "name": "Trực tiếp",
                   "streams": [
                     {
-                      "id": "gv-4-dplus-kia-vs-dns-st0",
+                      "id": "gv-2-dplus-kia-vs-dns-st0",
                       "name": "BLV Tôm",
                       "stream_links": [
                         {
-                          "id": "gv-4-dplus-kia-vs-dns-l0hd",
+                          "id": "gv-2-dplus-kia-vs-dns-l0hd",
+                          "name": "HD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777107560_hd/1777107560_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.vin/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "gv-2-dplus-kia-vs-dns-l0sd",
+                          "name": "SD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777107560_sd/1777107560_hd@480p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.vin/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gv-3-dplus-kia-vs-dns",
+          "name": "Dplus Kia vs DNS 🕐 17:00 | 25/04",
+          "description": "LCK | 17:00 | 25/04 | 🎙 BLV Tôm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 0,
+            "background_color": "#F5F8FF",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-3-dplus-kia-vs-dns.webp",
+            "width": 800,
+            "height": 450
+          },
+          "labels": [
+            {
+              "text": "🎙 BLV Tôm",
+              "color": "#1B5E20",
+              "text_color": "#ffffff",
+              "position": "bottom-left"
+            }
+          ],
+          "sources": [
+            {
+              "id": "gv-3-dplus-kia-vs-dns-src0",
+              "name": "GioVang Live",
+              "contents": [
+                {
+                  "id": "gv-3-dplus-kia-vs-dns-ct0",
+                  "name": "Trực tiếp",
+                  "streams": [
+                    {
+                      "id": "gv-3-dplus-kia-vs-dns-st0",
+                      "name": "BLV Tôm",
+                      "stream_links": [
+                        {
+                          "id": "gv-3-dplus-kia-vs-dns-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -331,7 +241,7 @@
                           ]
                         },
                         {
-                          "id": "gv-4-dplus-kia-vs-dns-l0sd",
+                          "id": "gv-3-dplus-kia-vs-dns-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
@@ -356,7 +266,7 @@
           ]
         },
         {
-          "id": "gv-5-chengdu-rongcheng-vs-zhe",
+          "id": "gv-4-chengdu-rongcheng-vs-zhe",
           "name": "Chengdu Rongcheng vs Zhejiang FC 🕐 18:00 | 25/04",
           "description": "VĐQG Trung Quốc | 18:00 | 25/04 | 🎙 BLV Tí",
           "type": "single",
@@ -366,7 +276,7 @@
             "padding": 0,
             "background_color": "#F5F8FF",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-5-chengdu-rongcheng-vs-zhe.webp",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-4-chengdu-rongcheng-vs-zhe.webp",
             "width": 800,
             "height": 450
           },
@@ -380,19 +290,19 @@
           ],
           "sources": [
             {
-              "id": "gv-5-chengdu-rongcheng-vs-zhe-src0",
+              "id": "gv-4-chengdu-rongcheng-vs-zhe-src0",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-5-chengdu-rongcheng-vs-zhe-ct0",
+                  "id": "gv-4-chengdu-rongcheng-vs-zhe-ct0",
                   "name": "Trực tiếp",
                   "streams": [
                     {
-                      "id": "gv-5-chengdu-rongcheng-vs-zhe-st0",
+                      "id": "gv-4-chengdu-rongcheng-vs-zhe-st0",
                       "name": "BLV Tí",
                       "stream_links": [
                         {
-                          "id": "gv-5-chengdu-rongcheng-vs-zhe-l0hd",
+                          "id": "gv-4-chengdu-rongcheng-vs-zhe-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -409,7 +319,7 @@
                           ]
                         },
                         {
-                          "id": "gv-5-chengdu-rongcheng-vs-zhe-l0sd",
+                          "id": "gv-4-chengdu-rongcheng-vs-zhe-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
@@ -434,7 +344,7 @@
           ]
         },
         {
-          "id": "gv-6-becamex-binh-duong-vs-th",
+          "id": "gv-5-becamex-binh-duong-vs-th",
           "name": "Becamex Bình Dương vs Thép Xanh Nam Định 🕐 18:00 | 25/04",
           "description": "V-League | 18:00 | 25/04 | 🎙 BLV Thìn",
           "type": "single",
@@ -444,7 +354,7 @@
             "padding": 0,
             "background_color": "#F5F8FF",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-6-becamex-binh-duong-vs-th.webp",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-5-becamex-binh-duong-vs-th.webp",
             "width": 800,
             "height": 450
           },
@@ -458,19 +368,19 @@
           ],
           "sources": [
             {
-              "id": "gv-6-becamex-binh-duong-vs-th-src0",
+              "id": "gv-5-becamex-binh-duong-vs-th-src0",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-6-becamex-binh-duong-vs-th-ct0",
+                  "id": "gv-5-becamex-binh-duong-vs-th-ct0",
                   "name": "Trực tiếp",
                   "streams": [
                     {
-                      "id": "gv-6-becamex-binh-duong-vs-th-st0",
+                      "id": "gv-5-becamex-binh-duong-vs-th-st0",
                       "name": "BLV Thìn",
                       "stream_links": [
                         {
-                          "id": "gv-6-becamex-binh-duong-vs-th-l0hd",
+                          "id": "gv-5-becamex-binh-duong-vs-th-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -487,7 +397,7 @@
                           ]
                         },
                         {
-                          "id": "gv-6-becamex-binh-duong-vs-th-l0sd",
+                          "id": "gv-5-becamex-binh-duong-vs-th-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
@@ -512,7 +422,7 @@
           ]
         },
         {
-          "id": "gv-7-thanh-hoa-vs-pvf-cand",
+          "id": "gv-6-thanh-hoa-vs-pvf-cand",
           "name": "Thanh Hóa vs PVF-CAND 🕐 18:00 | 25/04",
           "description": "V-League | 18:00 | 25/04 | 🎙 BLV Chanh",
           "type": "single",
@@ -522,7 +432,7 @@
             "padding": 0,
             "background_color": "#F5F8FF",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-7-thanh-hoa-vs-pvf-cand.webp",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-6-thanh-hoa-vs-pvf-cand.webp",
             "width": 800,
             "height": 450
           },
@@ -536,19 +446,19 @@
           ],
           "sources": [
             {
-              "id": "gv-7-thanh-hoa-vs-pvf-cand-src0",
+              "id": "gv-6-thanh-hoa-vs-pvf-cand-src0",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-7-thanh-hoa-vs-pvf-cand-ct0",
+                  "id": "gv-6-thanh-hoa-vs-pvf-cand-ct0",
                   "name": "Trực tiếp",
                   "streams": [
                     {
-                      "id": "gv-7-thanh-hoa-vs-pvf-cand-st0",
+                      "id": "gv-6-thanh-hoa-vs-pvf-cand-st0",
                       "name": "BLV Chanh",
                       "stream_links": [
                         {
-                          "id": "gv-7-thanh-hoa-vs-pvf-cand-l0hd",
+                          "id": "gv-6-thanh-hoa-vs-pvf-cand-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -565,7 +475,7 @@
                           ]
                         },
                         {
-                          "id": "gv-7-thanh-hoa-vs-pvf-cand-l0sd",
+                          "id": "gv-6-thanh-hoa-vs-pvf-cand-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
@@ -590,7 +500,7 @@
           ]
         },
         {
-          "id": "gv-8-fulham-vs-aston-villa",
+          "id": "gv-7-fulham-vs-aston-villa",
           "name": "Fulham vs Aston Villa 🕐 18:30 | 25/04",
           "description": "Ngoại hạng Anh | 18:30 | 25/04 | 🎙 BLV Dory",
           "type": "single",
@@ -600,7 +510,7 @@
             "padding": 0,
             "background_color": "#F5F8FF",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-8-fulham-vs-aston-villa.webp",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-7-fulham-vs-aston-villa.webp",
             "width": 800,
             "height": 450
           },
@@ -614,19 +524,19 @@
           ],
           "sources": [
             {
-              "id": "gv-8-fulham-vs-aston-villa-src0",
+              "id": "gv-7-fulham-vs-aston-villa-src0",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-8-fulham-vs-aston-villa-ct0",
+                  "id": "gv-7-fulham-vs-aston-villa-ct0",
                   "name": "Trực tiếp",
                   "streams": [
                     {
-                      "id": "gv-8-fulham-vs-aston-villa-st0",
+                      "id": "gv-7-fulham-vs-aston-villa-st0",
                       "name": "BLV Dory",
                       "stream_links": [
                         {
-                          "id": "gv-8-fulham-vs-aston-villa-l0hd",
+                          "id": "gv-7-fulham-vs-aston-villa-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -643,7 +553,7 @@
                           ]
                         },
                         {
-                          "id": "gv-8-fulham-vs-aston-villa-l0sd",
+                          "id": "gv-7-fulham-vs-aston-villa-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
@@ -668,7 +578,7 @@
           ]
         },
         {
-          "id": "gv-9-perth-glory-fc-vs-brisba",
+          "id": "gv-8-perth-glory-fc-vs-brisba",
           "name": "Perth Glory FC vs Brisbane Roar FC 🕐 18:45 | 25/04",
           "description": "VĐQG Úc | 18:45 | 25/04 | 🎙 BLV Mason",
           "type": "single",
@@ -678,7 +588,7 @@
             "padding": 0,
             "background_color": "#F5F8FF",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-9-perth-glory-fc-vs-brisba.webp",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-8-perth-glory-fc-vs-brisba.webp",
             "width": 800,
             "height": 450
           },
@@ -692,19 +602,19 @@
           ],
           "sources": [
             {
-              "id": "gv-9-perth-glory-fc-vs-brisba-src0",
+              "id": "gv-8-perth-glory-fc-vs-brisba-src0",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-9-perth-glory-fc-vs-brisba-ct0",
+                  "id": "gv-8-perth-glory-fc-vs-brisba-ct0",
                   "name": "Trực tiếp",
                   "streams": [
                     {
-                      "id": "gv-9-perth-glory-fc-vs-brisba-st0",
+                      "id": "gv-8-perth-glory-fc-vs-brisba-st0",
                       "name": "BLV Mason",
                       "stream_links": [
                         {
-                          "id": "gv-9-perth-glory-fc-vs-brisba-l0hd",
+                          "id": "gv-8-perth-glory-fc-vs-brisba-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -721,7 +631,7 @@
                           ]
                         },
                         {
-                          "id": "gv-9-perth-glory-fc-vs-brisba-l0sd",
+                          "id": "gv-8-perth-glory-fc-vs-brisba-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
@@ -746,7 +656,7 @@
           ]
         },
         {
-          "id": "gv-10-mainz-vs-bayern-munich",
+          "id": "gv-9-mainz-vs-bayern-munich",
           "name": "Mainz vs Bayern Munich 🕐 20:30 | 25/04",
           "description": "Bundesliga | 20:30 | 25/04 | 🎙 BLV Chanh",
           "type": "single",
@@ -756,7 +666,7 @@
             "padding": 0,
             "background_color": "#F5F8FF",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-10-mainz-vs-bayern-munich.webp",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-9-mainz-vs-bayern-munich.webp",
             "width": 800,
             "height": 450
           },
@@ -770,19 +680,19 @@
           ],
           "sources": [
             {
-              "id": "gv-10-mainz-vs-bayern-munich-src0",
+              "id": "gv-9-mainz-vs-bayern-munich-src0",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-10-mainz-vs-bayern-munich-ct0",
+                  "id": "gv-9-mainz-vs-bayern-munich-ct0",
                   "name": "Trực tiếp",
                   "streams": [
                     {
-                      "id": "gv-10-mainz-vs-bayern-munich-st0",
+                      "id": "gv-9-mainz-vs-bayern-munich-st0",
                       "name": "BLV Chanh",
                       "stream_links": [
                         {
-                          "id": "gv-10-mainz-vs-bayern-munich-l0hd",
+                          "id": "gv-9-mainz-vs-bayern-munich-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -799,7 +709,7 @@
                           ]
                         },
                         {
-                          "id": "gv-10-mainz-vs-bayern-munich-l0sd",
+                          "id": "gv-9-mainz-vs-bayern-munich-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
@@ -824,7 +734,7 @@
           ]
         },
         {
-          "id": "gv-11-wolfsburg-vs-monchenglad",
+          "id": "gv-10-wolfsburg-vs-monchenglad",
           "name": "Wolfsburg vs Monchengladbach 🕐 20:30 | 25/04",
           "description": "Bundesliga | 20:30 | 25/04 | 🎙 BLV Dory",
           "type": "single",
@@ -834,7 +744,7 @@
             "padding": 0,
             "background_color": "#F5F8FF",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-11-wolfsburg-vs-monchenglad.webp",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-10-wolfsburg-vs-monchenglad.webp",
             "width": 800,
             "height": 450
           },
@@ -848,19 +758,19 @@
           ],
           "sources": [
             {
-              "id": "gv-11-wolfsburg-vs-monchenglad-src0",
+              "id": "gv-10-wolfsburg-vs-monchenglad-src0",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-11-wolfsburg-vs-monchenglad-ct0",
+                  "id": "gv-10-wolfsburg-vs-monchenglad-ct0",
                   "name": "Trực tiếp",
                   "streams": [
                     {
-                      "id": "gv-11-wolfsburg-vs-monchenglad-st0",
+                      "id": "gv-10-wolfsburg-vs-monchenglad-st0",
                       "name": "BLV Dory",
                       "stream_links": [
                         {
-                          "id": "gv-11-wolfsburg-vs-monchenglad-l0hd",
+                          "id": "gv-10-wolfsburg-vs-monchenglad-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -877,7 +787,7 @@
                           ]
                         },
                         {
-                          "id": "gv-11-wolfsburg-vs-monchenglad-l0sd",
+                          "id": "gv-10-wolfsburg-vs-monchenglad-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
@@ -902,7 +812,7 @@
           ]
         },
         {
-          "id": "gv-12-augsburg-vs-eintracht-fr",
+          "id": "gv-11-augsburg-vs-eintracht-fr",
           "name": "Augsburg vs Eintracht Frankfurt 🕐 20:30 | 25/04",
           "description": "Bundesliga | 20:30 | 25/04 | 🎙 BLV Băng",
           "type": "single",
@@ -912,7 +822,7 @@
             "padding": 0,
             "background_color": "#F5F8FF",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-12-augsburg-vs-eintracht-fr.webp",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-11-augsburg-vs-eintracht-fr.webp",
             "width": 800,
             "height": 450
           },
@@ -926,19 +836,19 @@
           ],
           "sources": [
             {
-              "id": "gv-12-augsburg-vs-eintracht-fr-src0",
+              "id": "gv-11-augsburg-vs-eintracht-fr-src0",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-12-augsburg-vs-eintracht-fr-ct0",
+                  "id": "gv-11-augsburg-vs-eintracht-fr-ct0",
                   "name": "Trực tiếp",
                   "streams": [
                     {
-                      "id": "gv-12-augsburg-vs-eintracht-fr-st0",
+                      "id": "gv-11-augsburg-vs-eintracht-fr-st0",
                       "name": "BLV Băng",
                       "stream_links": [
                         {
-                          "id": "gv-12-augsburg-vs-eintracht-fr-l0hd",
+                          "id": "gv-11-augsburg-vs-eintracht-fr-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -955,7 +865,7 @@
                           ]
                         },
                         {
-                          "id": "gv-12-augsburg-vs-eintracht-fr-l0sd",
+                          "id": "gv-11-augsburg-vs-eintracht-fr-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
@@ -980,7 +890,7 @@
           ]
         },
         {
-          "id": "gv-13-koln-vs-bayer-leverkusen",
+          "id": "gv-12-koln-vs-bayer-leverkusen",
           "name": "Koln vs Bayer Leverkusen 🕐 20:30 | 25/04",
           "description": "Bundesliga | 20:30 | 25/04 | 🎙 BLV Tí",
           "type": "single",
@@ -990,7 +900,7 @@
             "padding": 0,
             "background_color": "#F5F8FF",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-13-koln-vs-bayer-leverkusen.webp",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-12-koln-vs-bayer-leverkusen.webp",
             "width": 800,
             "height": 450
           },
@@ -1004,19 +914,19 @@
           ],
           "sources": [
             {
-              "id": "gv-13-koln-vs-bayer-leverkusen-src0",
+              "id": "gv-12-koln-vs-bayer-leverkusen-src0",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-13-koln-vs-bayer-leverkusen-ct0",
+                  "id": "gv-12-koln-vs-bayer-leverkusen-ct0",
                   "name": "Trực tiếp",
                   "streams": [
                     {
-                      "id": "gv-13-koln-vs-bayer-leverkusen-st0",
+                      "id": "gv-12-koln-vs-bayer-leverkusen-st0",
                       "name": "BLV Tí",
                       "stream_links": [
                         {
-                          "id": "gv-13-koln-vs-bayer-leverkusen-l0hd",
+                          "id": "gv-12-koln-vs-bayer-leverkusen-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -1033,7 +943,7 @@
                           ]
                         },
                         {
-                          "id": "gv-13-koln-vs-bayer-leverkusen-l0sd",
+                          "id": "gv-12-koln-vs-bayer-leverkusen-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
@@ -1058,7 +968,7 @@
           ]
         },
         {
-          "id": "gv-14-west-ham-united-vs-evert",
+          "id": "gv-13-west-ham-united-vs-evert",
           "name": "West Ham United vs Everton 🕐 21:00 | 25/04",
           "description": "Ngoại hạng Anh | 21:00 | 25/04 | 🎙 BLV Mason",
           "type": "single",
@@ -1068,7 +978,7 @@
             "padding": 0,
             "background_color": "#F5F8FF",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-14-west-ham-united-vs-evert.webp",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-13-west-ham-united-vs-evert.webp",
             "width": 800,
             "height": 450
           },
@@ -1082,19 +992,19 @@
           ],
           "sources": [
             {
-              "id": "gv-14-west-ham-united-vs-evert-src0",
+              "id": "gv-13-west-ham-united-vs-evert-src0",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-14-west-ham-united-vs-evert-ct0",
+                  "id": "gv-13-west-ham-united-vs-evert-ct0",
                   "name": "Trực tiếp",
                   "streams": [
                     {
-                      "id": "gv-14-west-ham-united-vs-evert-st0",
+                      "id": "gv-13-west-ham-united-vs-evert-st0",
                       "name": "BLV Mason",
                       "stream_links": [
                         {
-                          "id": "gv-14-west-ham-united-vs-evert-l0hd",
+                          "id": "gv-13-west-ham-united-vs-evert-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -1111,7 +1021,7 @@
                           ]
                         },
                         {
-                          "id": "gv-14-west-ham-united-vs-evert-l0sd",
+                          "id": "gv-13-west-ham-united-vs-evert-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
@@ -1136,7 +1046,7 @@
           ]
         },
         {
-          "id": "gv-15-liverpool-vs-crystal-pal",
+          "id": "gv-14-liverpool-vs-crystal-pal",
           "name": "Liverpool vs Crystal Palace 🕐 21:00 | 25/04",
           "description": "Ngoại hạng Anh | 21:00 | 25/04 | 🎙 BLV Dần | fan-liver-thin-ty",
           "type": "single",
@@ -1146,7 +1056,7 @@
             "padding": 0,
             "background_color": "#F5F8FF",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-15-liverpool-vs-crystal-pal.webp",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-14-liverpool-vs-crystal-pal.webp",
             "width": 800,
             "height": 450
           },
@@ -1160,19 +1070,19 @@
           ],
           "sources": [
             {
-              "id": "gv-15-liverpool-vs-crystal-pal-src0",
+              "id": "gv-14-liverpool-vs-crystal-pal-src0",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-15-liverpool-vs-crystal-pal-ct0",
+                  "id": "gv-14-liverpool-vs-crystal-pal-ct0",
                   "name": "Trực tiếp",
                   "streams": [
                     {
-                      "id": "gv-15-liverpool-vs-crystal-pal-st0",
+                      "id": "gv-14-liverpool-vs-crystal-pal-st0",
                       "name": "BLV Dần",
                       "stream_links": [
                         {
-                          "id": "gv-15-liverpool-vs-crystal-pal-l0hd",
+                          "id": "gv-14-liverpool-vs-crystal-pal-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -1189,7 +1099,7 @@
                           ]
                         },
                         {
-                          "id": "gv-15-liverpool-vs-crystal-pal-l0sd",
+                          "id": "gv-14-liverpool-vs-crystal-pal-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
@@ -1208,11 +1118,11 @@
                       ]
                     },
                     {
-                      "id": "gv-15-liverpool-vs-crystal-pal-st1",
+                      "id": "gv-14-liverpool-vs-crystal-pal-st1",
                       "name": "Fan Liver: Thìn vs Tỵ",
                       "stream_links": [
                         {
-                          "id": "gv-15-liverpool-vs-crystal-pal-l1hd",
+                          "id": "gv-14-liverpool-vs-crystal-pal-l1hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -1229,7 +1139,7 @@
                           ]
                         },
                         {
-                          "id": "gv-15-liverpool-vs-crystal-pal-l1sd",
+                          "id": "gv-14-liverpool-vs-crystal-pal-l1sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
@@ -1254,7 +1164,7 @@
           ]
         },
         {
-          "id": "gv-16-getafe-vs-barcelona",
+          "id": "gv-15-getafe-vs-barcelona",
           "name": "Getafe vs Barcelona 🕐 21:15 | 25/04",
           "description": "La Liga | 21:15 | 25/04 | 🎙 BLV Hợi",
           "type": "single",
@@ -1264,7 +1174,7 @@
             "padding": 0,
             "background_color": "#F5F8FF",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-16-getafe-vs-barcelona.webp",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-15-getafe-vs-barcelona.webp",
             "width": 800,
             "height": 450
           },
@@ -1278,19 +1188,19 @@
           ],
           "sources": [
             {
-              "id": "gv-16-getafe-vs-barcelona-src0",
+              "id": "gv-15-getafe-vs-barcelona-src0",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-16-getafe-vs-barcelona-ct0",
+                  "id": "gv-15-getafe-vs-barcelona-ct0",
                   "name": "Trực tiếp",
                   "streams": [
                     {
-                      "id": "gv-16-getafe-vs-barcelona-st0",
+                      "id": "gv-15-getafe-vs-barcelona-st0",
                       "name": "BLV Hợi",
                       "stream_links": [
                         {
-                          "id": "gv-16-getafe-vs-barcelona-l0hd",
+                          "id": "gv-15-getafe-vs-barcelona-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -1307,7 +1217,7 @@
                           ]
                         },
                         {
-                          "id": "gv-16-getafe-vs-barcelona-l0sd",
+                          "id": "gv-15-getafe-vs-barcelona-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
@@ -1332,7 +1242,7 @@
           ]
         },
         {
-          "id": "gv-17-bologna-vs-as-roma",
+          "id": "gv-16-bologna-vs-as-roma",
           "name": "Bologna vs AS Roma 🕐 23:00 | 25/04",
           "description": "Seria A | 23:00 | 25/04 | 🎙 BLV Băng",
           "type": "single",
@@ -1342,7 +1252,7 @@
             "padding": 0,
             "background_color": "#F5F8FF",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-17-bologna-vs-as-roma.webp",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-16-bologna-vs-as-roma.webp",
             "width": 800,
             "height": 450
           },
@@ -1356,19 +1266,19 @@
           ],
           "sources": [
             {
-              "id": "gv-17-bologna-vs-as-roma-src0",
+              "id": "gv-16-bologna-vs-as-roma-src0",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-17-bologna-vs-as-roma-ct0",
+                  "id": "gv-16-bologna-vs-as-roma-ct0",
                   "name": "Trực tiếp",
                   "streams": [
                     {
-                      "id": "gv-17-bologna-vs-as-roma-st0",
+                      "id": "gv-16-bologna-vs-as-roma-st0",
                       "name": "BLV Băng",
                       "stream_links": [
                         {
-                          "id": "gv-17-bologna-vs-as-roma-l0hd",
+                          "id": "gv-16-bologna-vs-as-roma-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -1385,7 +1295,7 @@
                           ]
                         },
                         {
-                          "id": "gv-17-bologna-vs-as-roma-l0sd",
+                          "id": "gv-16-bologna-vs-as-roma-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
@@ -1410,7 +1320,7 @@
           ]
         },
         {
-          "id": "gv-18-manchester-city-vs-south",
+          "id": "gv-17-manchester-city-vs-south",
           "name": "Manchester City vs Southampton 🕐 23:15 | 25/04",
           "description": "Cúp FA | 23:15 | 25/04 | 🎙 fan-mc-cam-ben",
           "type": "single",
@@ -1420,7 +1330,7 @@
             "padding": 0,
             "background_color": "#F5F8FF",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-18-manchester-city-vs-south.webp",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-17-manchester-city-vs-south.webp",
             "width": 800,
             "height": 450
           },
@@ -1434,19 +1344,19 @@
           ],
           "sources": [
             {
-              "id": "gv-18-manchester-city-vs-south-src0",
+              "id": "gv-17-manchester-city-vs-south-src0",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-18-manchester-city-vs-south-ct0",
+                  "id": "gv-17-manchester-city-vs-south-ct0",
                   "name": "Trực tiếp",
                   "streams": [
                     {
-                      "id": "gv-18-manchester-city-vs-south-st0",
+                      "id": "gv-17-manchester-city-vs-south-st0",
                       "name": "Fan MC: Câm vs Ben",
                       "stream_links": [
                         {
-                          "id": "gv-18-manchester-city-vs-south-l0hd",
+                          "id": "gv-17-manchester-city-vs-south-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -1463,7 +1373,7 @@
                           ]
                         },
                         {
-                          "id": "gv-18-manchester-city-vs-south-l0sd",
+                          "id": "gv-17-manchester-city-vs-south-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
@@ -1488,7 +1398,7 @@
           ]
         },
         {
-          "id": "gv-19-al-ahli-jeddah-vs-fc-mac",
+          "id": "gv-18-al-ahli-jeddah-vs-fc-mac",
           "name": "Al Ahli Jeddah vs FC Machida Zelvia 🕐 23:15 | 25/04",
           "description": "AFC Champions League | 23:15 | 25/04 | 🎙 BLV Tí",
           "type": "single",
@@ -1498,7 +1408,7 @@
             "padding": 0,
             "background_color": "#F5F8FF",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-19-al-ahli-jeddah-vs-fc-mac.webp",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-18-al-ahli-jeddah-vs-fc-mac.webp",
             "width": 800,
             "height": 450
           },
@@ -1512,19 +1422,19 @@
           ],
           "sources": [
             {
-              "id": "gv-19-al-ahli-jeddah-vs-fc-mac-src0",
+              "id": "gv-18-al-ahli-jeddah-vs-fc-mac-src0",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-19-al-ahli-jeddah-vs-fc-mac-ct0",
+                  "id": "gv-18-al-ahli-jeddah-vs-fc-mac-ct0",
                   "name": "Trực tiếp",
                   "streams": [
                     {
-                      "id": "gv-19-al-ahli-jeddah-vs-fc-mac-st0",
+                      "id": "gv-18-al-ahli-jeddah-vs-fc-mac-st0",
                       "name": "BLV Tí",
                       "stream_links": [
                         {
-                          "id": "gv-19-al-ahli-jeddah-vs-fc-mac-l0hd",
+                          "id": "gv-18-al-ahli-jeddah-vs-fc-mac-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -1541,7 +1451,7 @@
                           ]
                         },
                         {
-                          "id": "gv-19-al-ahli-jeddah-vs-fc-mac-l0sd",
+                          "id": "gv-18-al-ahli-jeddah-vs-fc-mac-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
@@ -1566,7 +1476,7 @@
           ]
         },
         {
-          "id": "gv-20-arsenal-vs-newcastle-uni",
+          "id": "gv-19-arsenal-vs-newcastle-uni",
           "name": "Arsenal  vs Newcastle United 🕐 23:30 | 25/04",
           "description": "Ngoại hạng Anh | 23:30 | 25/04 | 🎙 fan-ars-nen-dau",
           "type": "single",
@@ -1576,7 +1486,7 @@
             "padding": 0,
             "background_color": "#F5F8FF",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-20-arsenal-vs-newcastle-uni.webp",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-19-arsenal-vs-newcastle-uni.webp",
             "width": 800,
             "height": 450
           },
@@ -1590,19 +1500,19 @@
           ],
           "sources": [
             {
-              "id": "gv-20-arsenal-vs-newcastle-uni-src0",
+              "id": "gv-19-arsenal-vs-newcastle-uni-src0",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-20-arsenal-vs-newcastle-uni-ct0",
+                  "id": "gv-19-arsenal-vs-newcastle-uni-ct0",
                   "name": "Trực tiếp",
                   "streams": [
                     {
-                      "id": "gv-20-arsenal-vs-newcastle-uni-st0",
+                      "id": "gv-19-arsenal-vs-newcastle-uni-st0",
                       "name": "Fan ARS: Nến vs Dậu",
                       "stream_links": [
                         {
-                          "id": "gv-20-arsenal-vs-newcastle-uni-l0hd",
+                          "id": "gv-19-arsenal-vs-newcastle-uni-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -1619,7 +1529,7 @@
                           ]
                         },
                         {
-                          "id": "gv-20-arsenal-vs-newcastle-uni-l0sd",
+                          "id": "gv-19-arsenal-vs-newcastle-uni-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
@@ -1644,9 +1554,9 @@
           ]
         },
         {
-          "id": "gv-21-fc-juarez-vs-atletico-sa",
-          "name": "FC Juarez vs Atletico San Luis 🕐 10:00 | 26/04",
-          "description": "Mexico Liga MX | 10:00 | 26/04 | 🎙 BLV Thìn",
+          "id": "gv-20-angers-sco-vs-paris-sain",
+          "name": "Angers SCO vs Paris Saint Germain 🕐 00:00 | 26/04",
+          "description": "Ligue 1 | 00:00 | 26/04 | 🎙 BLV Hợi",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1654,7 +1564,241 @@
             "padding": 0,
             "background_color": "#F5F8FF",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-21-fc-juarez-vs-atletico-sa.webp",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-20-angers-sco-vs-paris-sain.webp",
+            "width": 800,
+            "height": 450
+          },
+          "labels": [
+            {
+              "text": "🎙 BLV Hợi",
+              "color": "#1B5E20",
+              "text_color": "#ffffff",
+              "position": "bottom-left"
+            }
+          ],
+          "sources": [
+            {
+              "id": "gv-20-angers-sco-vs-paris-sain-src0",
+              "name": "GioVang Live",
+              "contents": [
+                {
+                  "id": "gv-20-angers-sco-vs-paris-sain-ct0",
+                  "name": "Trực tiếp",
+                  "streams": [
+                    {
+                      "id": "gv-20-angers-sco-vs-paris-sain-st0",
+                      "name": "BLV Hợi",
+                      "stream_links": [
+                        {
+                          "id": "gv-20-angers-sco-vs-paris-sain-l0hd",
+                          "name": "HD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777107766_hd/1777107766_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.vin/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "gv-20-angers-sco-vs-paris-sain-l0sd",
+                          "name": "SD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777107766_sd/1777107766_hd@480p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.vin/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gv-21-hellas-verona-vs-lecce",
+          "name": "Hellas Verona vs Lecce 🕐 01:45 | 26/04",
+          "description": "Seria A | 01:45 | 26/04 | 🎙 BLV Băng",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 0,
+            "background_color": "#F5F8FF",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-21-hellas-verona-vs-lecce.webp",
+            "width": 800,
+            "height": 450
+          },
+          "labels": [
+            {
+              "text": "🎙 BLV Băng",
+              "color": "#1B5E20",
+              "text_color": "#ffffff",
+              "position": "bottom-left"
+            }
+          ],
+          "sources": [
+            {
+              "id": "gv-21-hellas-verona-vs-lecce-src0",
+              "name": "GioVang Live",
+              "contents": [
+                {
+                  "id": "gv-21-hellas-verona-vs-lecce-ct0",
+                  "name": "Trực tiếp",
+                  "streams": [
+                    {
+                      "id": "gv-21-hellas-verona-vs-lecce-st0",
+                      "name": "BLV Băng",
+                      "stream_links": [
+                        {
+                          "id": "gv-21-hellas-verona-vs-lecce-l0hd",
+                          "name": "HD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777107843_hd/1777107843_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.vin/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "gv-21-hellas-verona-vs-lecce-l0sd",
+                          "name": "SD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777107843_sd/1777107843_hd@480p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.vin/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gv-22-toulouse-vs-as-monaco",
+          "name": "Toulouse vs AS Monaco 🕐 02:05 | 26/04",
+          "description": "Ligue 1 | 02:05 | 26/04 | 🎙 BLV Dậu",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 0,
+            "background_color": "#F5F8FF",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-22-toulouse-vs-as-monaco.webp",
+            "width": 800,
+            "height": 450
+          },
+          "labels": [
+            {
+              "text": "🎙 BLV Dậu",
+              "color": "#1B5E20",
+              "text_color": "#ffffff",
+              "position": "bottom-left"
+            }
+          ],
+          "sources": [
+            {
+              "id": "gv-22-toulouse-vs-as-monaco-src0",
+              "name": "GioVang Live",
+              "contents": [
+                {
+                  "id": "gv-22-toulouse-vs-as-monaco-ct0",
+                  "name": "Trực tiếp",
+                  "streams": [
+                    {
+                      "id": "gv-22-toulouse-vs-as-monaco-st0",
+                      "name": "BLV Dậu",
+                      "stream_links": [
+                        {
+                          "id": "gv-22-toulouse-vs-as-monaco-l0hd",
+                          "name": "HD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777107798_hd/1777107798_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.vin/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "gv-22-toulouse-vs-as-monaco-l0sd",
+                          "name": "SD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777107798_sd/1777107798_hd@480p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.vin/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gv-23-minnesota-united-fc-vs-l",
+          "name": "Minnesota United FC vs Los Angeles FC 🕐 03:45 | 26/04",
+          "description": "MLS Mỹ | 03:45 | 26/04 | 🎙 BLV Thìn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 0,
+            "background_color": "#F5F8FF",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-23-minnesota-united-fc-vs-l.webp",
             "width": 800,
             "height": 450
           },
@@ -1668,19 +1812,409 @@
           ],
           "sources": [
             {
-              "id": "gv-21-fc-juarez-vs-atletico-sa-src0",
+              "id": "gv-23-minnesota-united-fc-vs-l-src0",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-21-fc-juarez-vs-atletico-sa-ct0",
+                  "id": "gv-23-minnesota-united-fc-vs-l-ct0",
                   "name": "Trực tiếp",
                   "streams": [
                     {
-                      "id": "gv-21-fc-juarez-vs-atletico-sa-st0",
+                      "id": "gv-23-minnesota-united-fc-vs-l-st0",
                       "name": "BLV Thìn",
                       "stream_links": [
                         {
-                          "id": "gv-21-fc-juarez-vs-atletico-sa-l0hd",
+                          "id": "gv-23-minnesota-united-fc-vs-l-l0hd",
+                          "name": "HD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777107951_hd/1777107951_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.vin/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "gv-23-minnesota-united-fc-vs-l-l0sd",
+                          "name": "SD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777107951_sd/1777107951_hd@480p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.vin/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gv-24-bahiaba-vs-santos",
+          "name": "Bahia(BA) vs Santos 🕐 04:30 | 26/04",
+          "description": "VĐQG Brazil | 04:30 | 26/04 | 🎙 BLV Dần",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 0,
+            "background_color": "#F5F8FF",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-24-bahiaba-vs-santos.webp",
+            "width": 800,
+            "height": 450
+          },
+          "labels": [
+            {
+              "text": "🎙 BLV Dần",
+              "color": "#1B5E20",
+              "text_color": "#ffffff",
+              "position": "bottom-left"
+            }
+          ],
+          "sources": [
+            {
+              "id": "gv-24-bahiaba-vs-santos-src0",
+              "name": "GioVang Live",
+              "contents": [
+                {
+                  "id": "gv-24-bahiaba-vs-santos-ct0",
+                  "name": "Trực tiếp",
+                  "streams": [
+                    {
+                      "id": "gv-24-bahiaba-vs-santos-st0",
+                      "name": "BLV Dần",
+                      "stream_links": [
+                        {
+                          "id": "gv-24-bahiaba-vs-santos-l0hd",
+                          "name": "HD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777107871_hd/1777107871_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.vin/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "gv-24-bahiaba-vs-santos-l0sd",
+                          "name": "SD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777107871_sd/1777107871_hd@480p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.vin/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gv-25-botafogo-rj-vs-internaci",
+          "name": "Botafogo (RJ) vs Internacional (RS) 🕐 04:30 | 26/04",
+          "description": "VĐQG Brazil | 04:30 | 26/04 | 🎙 BLV Dậu",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 0,
+            "background_color": "#F5F8FF",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-25-botafogo-rj-vs-internaci.webp",
+            "width": 800,
+            "height": 450
+          },
+          "labels": [
+            {
+              "text": "🎙 BLV Dậu",
+              "color": "#1B5E20",
+              "text_color": "#ffffff",
+              "position": "bottom-left"
+            }
+          ],
+          "sources": [
+            {
+              "id": "gv-25-botafogo-rj-vs-internaci-src0",
+              "name": "GioVang Live",
+              "contents": [
+                {
+                  "id": "gv-25-botafogo-rj-vs-internaci-ct0",
+                  "name": "Trực tiếp",
+                  "streams": [
+                    {
+                      "id": "gv-25-botafogo-rj-vs-internaci-st0",
+                      "name": "BLV Dậu",
+                      "stream_links": [
+                        {
+                          "id": "gv-25-botafogo-rj-vs-internaci-l0hd",
+                          "name": "HD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777107897_hd/1777107897_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.vin/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "gv-25-botafogo-rj-vs-internaci-l0sd",
+                          "name": "SD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777107897_sd/1777107897_hd@480p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.vin/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gv-26-inter-miami-vs-new-engla",
+          "name": "Inter Miami vs New England Revolution 🕐 06:30 | 26/04",
+          "description": "MLS Mỹ | 06:30 | 26/04 | 🎙 BLV Hợi",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 0,
+            "background_color": "#F5F8FF",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-26-inter-miami-vs-new-engla.webp",
+            "width": 800,
+            "height": 450
+          },
+          "labels": [
+            {
+              "text": "🎙 BLV Hợi",
+              "color": "#1B5E20",
+              "text_color": "#ffffff",
+              "position": "bottom-left"
+            }
+          ],
+          "sources": [
+            {
+              "id": "gv-26-inter-miami-vs-new-engla-src0",
+              "name": "GioVang Live",
+              "contents": [
+                {
+                  "id": "gv-26-inter-miami-vs-new-engla-ct0",
+                  "name": "Trực tiếp",
+                  "streams": [
+                    {
+                      "id": "gv-26-inter-miami-vs-new-engla-st0",
+                      "name": "BLV Hợi",
+                      "stream_links": [
+                        {
+                          "id": "gv-26-inter-miami-vs-new-engla-l0hd",
+                          "name": "HD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777107925_hd/1777107925_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.vin/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "gv-26-inter-miami-vs-new-engla-l0sd",
+                          "name": "SD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777107925_sd/1777107925_hd@480p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.vin/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gv-27-los-angeles-dodgers-vs-c",
+          "name": "Los Angeles Dodgers vs Chicago Cubs 🕐 07:15 | 26/04",
+          "description": "MLB | 07:15 | 26/04 | 🎙 BLV Chanh",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 0,
+            "background_color": "#F5F8FF",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-27-los-angeles-dodgers-vs-c.webp",
+            "width": 800,
+            "height": 450
+          },
+          "labels": [
+            {
+              "text": "🎙 BLV Chanh",
+              "color": "#1B5E20",
+              "text_color": "#ffffff",
+              "position": "bottom-left"
+            }
+          ],
+          "sources": [
+            {
+              "id": "gv-27-los-angeles-dodgers-vs-c-src0",
+              "name": "GioVang Live",
+              "contents": [
+                {
+                  "id": "gv-27-los-angeles-dodgers-vs-c-ct0",
+                  "name": "Trực tiếp",
+                  "streams": [
+                    {
+                      "id": "gv-27-los-angeles-dodgers-vs-c-st0",
+                      "name": "BLV Chanh",
+                      "stream_links": [
+                        {
+                          "id": "gv-27-los-angeles-dodgers-vs-c-l0hd",
+                          "name": "HD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777108068_hd/1777108068_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.vin/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "gv-27-los-angeles-dodgers-vs-c-l0sd",
+                          "name": "SD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777108068_sd/1777108068_hd@480p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.vin/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gv-28-fc-juarez-vs-atletico-sa",
+          "name": "FC Juarez vs Atletico San Luis 🕐 10:00 | 26/04",
+          "description": "Mexico Liga MX | 10:00 | 26/04 | 🎙 BLV Thìn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 0,
+            "background_color": "#F5F8FF",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-28-fc-juarez-vs-atletico-sa.webp",
+            "width": 800,
+            "height": 450
+          },
+          "labels": [
+            {
+              "text": "🎙 BLV Thìn",
+              "color": "#1B5E20",
+              "text_color": "#ffffff",
+              "position": "bottom-left"
+            }
+          ],
+          "sources": [
+            {
+              "id": "gv-28-fc-juarez-vs-atletico-sa-src0",
+              "name": "GioVang Live",
+              "contents": [
+                {
+                  "id": "gv-28-fc-juarez-vs-atletico-sa-ct0",
+                  "name": "Trực tiếp",
+                  "streams": [
+                    {
+                      "id": "gv-28-fc-juarez-vs-atletico-sa-st0",
+                      "name": "BLV Thìn",
+                      "stream_links": [
+                        {
+                          "id": "gv-28-fc-juarez-vs-atletico-sa-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -1697,7 +2231,7 @@
                           ]
                         },
                         {
-                          "id": "gv-21-fc-juarez-vs-atletico-sa-l0sd",
+                          "id": "gv-28-fc-juarez-vs-atletico-sa-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
@@ -1722,7 +2256,7 @@
           ]
         },
         {
-          "id": "gv-22-paris-saint-germain-vs-b",
+          "id": "gv-29-paris-saint-germain-vs-b",
           "name": "Paris Saint Germain vs Bayern Munich 🕐 02:00 | 29/04",
           "description": "C1 | 02:00 | 29/04 | 🎙 BLV Câm",
           "type": "single",
@@ -1732,7 +2266,7 @@
             "padding": 0,
             "background_color": "#F5F8FF",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-22-paris-saint-germain-vs-b.webp",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-29-paris-saint-germain-vs-b.webp",
             "width": 800,
             "height": 450
           },
@@ -1746,19 +2280,19 @@
           ],
           "sources": [
             {
-              "id": "gv-22-paris-saint-germain-vs-b-src0",
+              "id": "gv-29-paris-saint-germain-vs-b-src0",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-22-paris-saint-germain-vs-b-ct0",
+                  "id": "gv-29-paris-saint-germain-vs-b-ct0",
                   "name": "Trực tiếp",
                   "streams": [
                     {
-                      "id": "gv-22-paris-saint-germain-vs-b-st0",
+                      "id": "gv-29-paris-saint-germain-vs-b-st0",
                       "name": "BLV Câm",
                       "stream_links": [
                         {
-                          "id": "gv-22-paris-saint-germain-vs-b-l0hd",
+                          "id": "gv-29-paris-saint-germain-vs-b-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -1775,7 +2309,7 @@
                           ]
                         },
                         {
-                          "id": "gv-22-paris-saint-germain-vs-b-l0sd",
+                          "id": "gv-29-paris-saint-germain-vs-b-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
@@ -1800,7 +2334,7 @@
           ]
         },
         {
-          "id": "gv-23-atletico-madrid-vs-arsen",
+          "id": "gv-30-atletico-madrid-vs-arsen",
           "name": "Atletico Madrid vs Arsenal 🕐 02:00 | 30/04",
           "description": "C1 | 02:00 | 30/04 | 🎙 fan-ars-nen-dau",
           "type": "single",
@@ -1810,7 +2344,7 @@
             "padding": 0,
             "background_color": "#F5F8FF",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-23-atletico-madrid-vs-arsen.webp",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-30-atletico-madrid-vs-arsen.webp",
             "width": 800,
             "height": 450
           },
@@ -1824,19 +2358,19 @@
           ],
           "sources": [
             {
-              "id": "gv-23-atletico-madrid-vs-arsen-src0",
+              "id": "gv-30-atletico-madrid-vs-arsen-src0",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-23-atletico-madrid-vs-arsen-ct0",
+                  "id": "gv-30-atletico-madrid-vs-arsen-ct0",
                   "name": "Trực tiếp",
                   "streams": [
                     {
-                      "id": "gv-23-atletico-madrid-vs-arsen-st0",
+                      "id": "gv-30-atletico-madrid-vs-arsen-st0",
                       "name": "Fan ARS: Nến vs Dậu",
                       "stream_links": [
                         {
-                          "id": "gv-23-atletico-madrid-vs-arsen-l0hd",
+                          "id": "gv-30-atletico-madrid-vs-arsen-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -1853,7 +2387,7 @@
                           ]
                         },
                         {
-                          "id": "gv-23-atletico-madrid-vs-arsen-l0sd",
+                          "id": "gv-30-atletico-madrid-vs-arsen-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
