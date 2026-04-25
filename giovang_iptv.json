@@ -111,8 +111,8 @@
         },
         {
           "id": "gv-2-chengdu-rongcheng-vs-zhe",
-          "name": "Chengdu Rongcheng 0-0 Zhejiang FC  🔴 6'",
-          "description": "VĐQG Trung Quốc | 18:00 | 25/04 | 🔴 LIVE 6' | 0-0 | 🎙 BLV Tí",
+          "name": "Chengdu Rongcheng 3-0 Zhejiang FC  🔴",
+          "description": "VĐQG Trung Quốc | 18:00 | 25/04 | 🔴 LIVE | 3-0 | 🎙 BLV Tí",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -132,7 +132,7 @@
               "position": "top-left"
             },
             {
-              "text": "0-0  6'",
+              "text": "3-0",
               "color": "#B71C1C",
               "text_color": "#ffffff",
               "position": "bottom-right"
@@ -201,8 +201,8 @@
         },
         {
           "id": "gv-3-becamex-binh-duong-vs-th",
-          "name": "Becamex Bình Dương 1-0 Thép Xanh Nam Định  🔴 7'",
-          "description": "V-League | 18:00 | 25/04 | 🔴 LIVE 7' | 1-0 | 🎙 BLV Thìn",
+          "name": "Becamex Bình Dương 1-0 Thép Xanh Nam Định  🔴",
+          "description": "V-League | 18:00 | 25/04 | 🔴 LIVE | 1-0 | 🎙 BLV Thìn",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -222,7 +222,7 @@
               "position": "top-left"
             },
             {
-              "text": "1-0  7'",
+              "text": "1-0",
               "color": "#B71C1C",
               "text_color": "#ffffff",
               "position": "bottom-right"
@@ -291,8 +291,8 @@
         },
         {
           "id": "gv-4-thanh-hoa-vs-pvf-cand",
-          "name": "Thanh Hóa 0-0 PVF-CAND  🔴 5'",
-          "description": "V-League | 18:00 | 25/04 | 🔴 LIVE 5' | 0-0 | 🎙 BLV Chanh",
+          "name": "Thanh Hóa 0-0 PVF-CAND  🔴",
+          "description": "V-League | 18:00 | 25/04 | 🔴 LIVE | 0-0 | 🎙 BLV Chanh",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -312,7 +312,7 @@
               "position": "top-left"
             },
             {
-              "text": "0-0  5'",
+              "text": "0-0",
               "color": "#B71C1C",
               "text_color": "#ffffff",
               "position": "bottom-right"
@@ -381,8 +381,8 @@
         },
         {
           "id": "gv-5-fulham-vs-aston-villa",
-          "name": "Fulham vs Aston Villa  🕐 18:30 | 25/04",
-          "description": "Ngoại hạng Anh | 18:30 | 25/04 | 🕐 Sắp diễn ra | 🎙 BLV Dory",
+          "name": "Fulham 0-0 Aston Villa  🔴 26'",
+          "description": "Ngoại hạng Anh | 18:30 | 25/04 | 🔴 LIVE 26' | 0-0 | 🎙 BLV Dory",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -396,10 +396,16 @@
           },
           "labels": [
             {
-              "text": "🕐 Sắp diễn ra",
-              "color": "#1565C0",
+              "text": "● LIVE",
+              "color": "#C62828",
               "text_color": "#ffffff",
               "position": "top-left"
+            },
+            {
+              "text": "0-0  26'",
+              "color": "#B71C1C",
+              "text_color": "#ffffff",
+              "position": "bottom-right"
             },
             {
               "text": "🎙 BLV Dory",
@@ -465,8 +471,8 @@
         },
         {
           "id": "gv-6-perth-glory-fc-vs-brisba",
-          "name": "Perth Glory FC vs Brisbane Roar FC  🕐 18:45 | 25/04",
-          "description": "VĐQG Úc | 18:45 | 25/04 | 🕐 Sắp diễn ra | 🎙 BLV Mason",
+          "name": "Perth Glory FC 0-0 Brisbane Roar FC  🔴 3'",
+          "description": "VĐQG Úc | 18:45 | 25/04 | 🔴 LIVE 3' | 0-0 | 🎙 BLV Mason",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -480,10 +486,16 @@
           },
           "labels": [
             {
-              "text": "🕐 Sắp diễn ra",
-              "color": "#1565C0",
+              "text": "● LIVE",
+              "color": "#C62828",
               "text_color": "#ffffff",
               "position": "top-left"
+            },
+            {
+              "text": "0-0  3'",
+              "color": "#B71C1C",
+              "text_color": "#ffffff",
+              "position": "bottom-right"
             },
             {
               "text": "🎙 BLV Mason",
@@ -886,7 +898,7 @@
         {
           "id": "gv-11-liverpool-vs-crystal-pal",
           "name": "Liverpool vs Crystal Palace  🕐 21:00 | 25/04",
-          "description": "Ngoại hạng Anh | 21:00 | 25/04 | 🕐 Sắp diễn ra | 🎙 BLV Dần | fan-liver-thin-ty",
+          "description": "Ngoại hạng Anh | 21:00 | 25/04 | 🕐 Sắp diễn ra | 🎙 fan-liver-thin-ty | BLV Dần",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": true,
@@ -923,50 +935,10 @@
                   "streams": [
                     {
                       "id": "gv-11-liverpool-vs-crystal-pal-st0",
-                      "name": "BLV Dần",
-                      "stream_links": [
-                        {
-                          "id": "gv-11-liverpool-vs-crystal-pal-l0hd",
-                          "name": "HD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777021369_hd/1777021369_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.vin/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "gv-11-liverpool-vs-crystal-pal-l0sd",
-                          "name": "SD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777021369_sd/1777021369_hd@480p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.vin/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "id": "gv-11-liverpool-vs-crystal-pal-st1",
                       "name": "Fan Liver: Thìn vs Tỵ",
                       "stream_links": [
                         {
-                          "id": "gv-11-liverpool-vs-crystal-pal-l1hd",
+                          "id": "gv-11-liverpool-vs-crystal-pal-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -983,11 +955,51 @@
                           ]
                         },
                         {
-                          "id": "gv-11-liverpool-vs-crystal-pal-l1sd",
+                          "id": "gv-11-liverpool-vs-crystal-pal-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
                           "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777104381_sd/1777104381_hd@480p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.vin/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "gv-11-liverpool-vs-crystal-pal-st1",
+                      "name": "BLV Dần",
+                      "stream_links": [
+                        {
+                          "id": "gv-11-liverpool-vs-crystal-pal-l1hd",
+                          "name": "HD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777021369_hd/1777021369_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.vin/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "gv-11-liverpool-vs-crystal-pal-l1sd",
+                          "name": "SD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777021369_sd/1777021369_hd@480p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
