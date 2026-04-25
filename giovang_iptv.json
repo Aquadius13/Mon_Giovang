@@ -111,8 +111,8 @@
         },
         {
           "id": "gv-2-chengdu-rongcheng-vs-zhe",
-          "name": "Chengdu Rongcheng vs Zhejiang FC  🕐 18:00 | 25/04",
-          "description": "VĐQG Trung Quốc | 18:00 | 25/04 | 🕐 Sắp diễn ra | 🎙 BLV Tí",
+          "name": "Chengdu Rongcheng 0-0 Zhejiang FC  🔴 6'",
+          "description": "VĐQG Trung Quốc | 18:00 | 25/04 | 🔴 LIVE 6' | 0-0 | 🎙 BLV Tí",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -126,10 +126,16 @@
           },
           "labels": [
             {
-              "text": "🕐 Sắp diễn ra",
-              "color": "#1565C0",
+              "text": "● LIVE",
+              "color": "#C62828",
               "text_color": "#ffffff",
               "position": "top-left"
+            },
+            {
+              "text": "0-0  6'",
+              "color": "#B71C1C",
+              "text_color": "#ffffff",
+              "position": "bottom-right"
             },
             {
               "text": "🎙 BLV Tí",
@@ -195,8 +201,8 @@
         },
         {
           "id": "gv-3-becamex-binh-duong-vs-th",
-          "name": "Becamex Bình Dương vs Thép Xanh Nam Định  🕐 18:00 | 25/04",
-          "description": "V-League | 18:00 | 25/04 | 🕐 Sắp diễn ra | 🎙 BLV Thìn",
+          "name": "Becamex Bình Dương 1-0 Thép Xanh Nam Định  🔴 7'",
+          "description": "V-League | 18:00 | 25/04 | 🔴 LIVE 7' | 1-0 | 🎙 BLV Thìn",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -210,10 +216,16 @@
           },
           "labels": [
             {
-              "text": "🕐 Sắp diễn ra",
-              "color": "#1565C0",
+              "text": "● LIVE",
+              "color": "#C62828",
               "text_color": "#ffffff",
               "position": "top-left"
+            },
+            {
+              "text": "1-0  7'",
+              "color": "#B71C1C",
+              "text_color": "#ffffff",
+              "position": "bottom-right"
             },
             {
               "text": "🎙 BLV Thìn",
@@ -279,8 +291,8 @@
         },
         {
           "id": "gv-4-thanh-hoa-vs-pvf-cand",
-          "name": "Thanh Hóa vs PVF-CAND  🕐 18:00 | 25/04",
-          "description": "V-League | 18:00 | 25/04 | 🕐 Sắp diễn ra | 🎙 BLV Chanh",
+          "name": "Thanh Hóa 0-0 PVF-CAND  🔴 5'",
+          "description": "V-League | 18:00 | 25/04 | 🔴 LIVE 5' | 0-0 | 🎙 BLV Chanh",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -294,10 +306,16 @@
           },
           "labels": [
             {
-              "text": "🕐 Sắp diễn ra",
-              "color": "#1565C0",
+              "text": "● LIVE",
+              "color": "#C62828",
               "text_color": "#ffffff",
               "position": "top-left"
+            },
+            {
+              "text": "0-0  5'",
+              "color": "#B71C1C",
+              "text_color": "#ffffff",
+              "position": "bottom-right"
             },
             {
               "text": "🎙 BLV Chanh",
