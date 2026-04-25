@@ -114,8 +114,8 @@
         },
         {
           "id": "gv-2-hellas-verona-vs-lecce",
-          "name": "Hellas Verona 0-0 Lecce 🔴 54'",
-          "description": "Seria A | 01:45 | 26/04 | 🔴 LIVE 54' | 0-0 | 🎙 BLV Băng",
+          "name": "Hellas Verona 0-0 Lecce 🔴",
+          "description": "Seria A | 01:45 | 26/04 | 🔴 LIVE | 0-0 | 🎙 BLV Băng",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -135,7 +135,7 @@
               "position": "top-left"
             },
             {
-              "text": "0-0 54'",
+              "text": "0-0",
               "color": "#B71C1C",
               "text_color": "#ffffff",
               "position": "bottom-right"
@@ -204,8 +204,8 @@
         },
         {
           "id": "gv-3-atletico-madrid-vs-athle",
-          "name": "Atletico Madrid 0-1 Athletic Bilbao 🔴",
-          "description": "La Liga | 02:00 | 26/04 | 🔴 LIVE | 0-1 | 🎙 BLV Dory",
+          "name": "Atletico Madrid 2-1 Athletic Bilbao 🔴 90+3'",
+          "description": "La Liga | 02:00 | 26/04 | 🔴 LIVE 90+3' | 2-1 | 🎙 BLV Dory",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -225,7 +225,7 @@
               "position": "top-left"
             },
             {
-              "text": "0-1",
+              "text": "2-1 90+3'",
               "color": "#B71C1C",
               "text_color": "#ffffff",
               "position": "bottom-right"
@@ -294,8 +294,8 @@
         },
         {
           "id": "gv-4-toulouse-vs-as-monaco",
-          "name": "Toulouse 0-2 AS Monaco 🔴",
-          "description": "Ligue 1 | 02:05 | 26/04 | 🔴 LIVE | 0-2 | 🎙 BLV Dậu",
+          "name": "Toulouse 1-2 AS Monaco 🔴 89'",
+          "description": "Ligue 1 | 02:05 | 26/04 | 🔴 LIVE 89' | 1-2 | 🎙 BLV Dậu",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -315,7 +315,7 @@
               "position": "top-left"
             },
             {
-              "text": "0-2",
+              "text": "1-2 89'",
               "color": "#B71C1C",
               "text_color": "#ffffff",
               "position": "bottom-right"
