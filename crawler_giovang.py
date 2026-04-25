@@ -454,66 +454,103 @@ def make_thumbnail_bytes(
     time_str: str, date_str: str, league: str,
     status: str = "upcoming", score: str = "", live_time: str = "",
 ) -> bytes:
-    W, H       = 800, 450
-    LOGO_SZ    = sc(130)
-    LOGO_CY    = 205
-    MID_X      = W // 2
-    INFO_HALF  = sc(100)
-    GAP        = sc(12)
-    LX         = MID_X - INFO_HALF - GAP - LOGO_SZ // 2
-    RX         = MID_X + INFO_HALF + GAP + LOGO_SZ // 2
-    NAME_Y     = LOGO_CY + LOGO_SZ // 2 + sc(18)
-    DATE_Y     = NAME_Y + sc(28)
-    LEAGUE_Y   = 112
+    W, H        = 800, 450
+    LOGO_SZ     = sc(130)
+    LOGO_CY     = 218          # dịch xuống chút để nhường chỗ cho league trên cùng
+    MID_X       = W // 2
+    INFO_HALF   = sc(100)
+    GAP         = sc(12)
+    LX          = MID_X - INFO_HALF - GAP - LOGO_SZ // 2
+    RX          = MID_X + INFO_HALF + GAP + LOGO_SZ // 2
+    NAME_Y      = LOGO_CY + LOGO_SZ // 2 + sc(16)
+
+    # ── Font sizes ────────────────────────────────────────────
+    LEAGUE_FS   = sc(19)       # sc(17) × 1.10 ≈ sc(19)  (+10%)
+    DATE_FS     = sc(17)       # sc(14) × 1.20 ≈ sc(17)  (+20%)
+    TIME_FS     = sc(36)       # giờ thi đấu (giữ nguyên)
+
+    # ── League: góc trên cùng ────────────────────────────────
+    LEAGUE_Y    = 30           # sát viền cam trên (was 112)
+    SEP_Y       = LEAGUE_Y + LEAGUE_FS // 2 + 8
 
     img  = Image.new("RGB", (W, H))
     draw = ImageDraw.Draw(img)
 
+    # Nền gradient trắng → xanh nhạt
     for y in range(H):
         t = y / H
         draw.line([(0, y), (W, y)], fill=(int(252 - 8*t), int(254 - 6*t), 255))
 
-    draw.rectangle([(0, 0),    (W, 8)],    fill=(255, 140, 0))
-    draw.rectangle([(0, H-8),  (W, H)],    fill=(255, 140, 0))
+    # Viền cam trên/dưới
+    draw.rectangle([(0, 0),   (W, 8)],  fill=(255, 140, 0))
+    draw.rectangle([(0, H-8), (W, H)],  fill=(255, 140, 0))
 
+    # ── Tên giải đấu: trên cùng, font lớn hơn 10% ────────────
     if league:
         draw.text(
-            (MID_X, LEAGUE_Y), league[:26],
-            fill=(55, 80, 160), font=_font(sc(17), False), anchor="mm"
+            (MID_X, LEAGUE_Y + 8), league[:28],
+            fill=(55, 80, 160), font=_font(LEAGUE_FS, False), anchor="mm"
         )
-        ll = sc(95)
+        ll = sc(110)
         draw.line(
-            [(MID_X - ll, LEAGUE_Y + sc(14)), (MID_X + ll, LEAGUE_Y + sc(14))],
+            [(MID_X - ll, SEP_Y + 8), (MID_X + ll, SEP_Y + 8)],
             fill=(195, 210, 235), width=2
         )
 
+    # ── Vùng trung tâm: giờ / tỉ số / LIVE ──────────────────
     if status == "live" and score:
-        main_txt = score.replace("-", " : ")
-        main_col = (190, 20, 20)
-        sub_txt  = (f"● {live_time}'" if live_time and live_time not in ("", "0") else "● LIVE")
-        sub_col  = (190, 20, 20)
-    elif status == "live":
-        main_txt = "LIVE"
-        main_col = (190, 20, 20)
-        sub_txt  = (f"● {live_time}'" if live_time and live_time not in ("", "0") else "●")
-        sub_col  = (190, 20, 20)
-    else:
-        main_txt = time_str or "VS"
-        main_col = (20, 45, 130)
-        sub_txt  = "VS" if time_str else ""
-        sub_col  = (90, 115, 195)
-
-    has_sub = bool(sub_txt)
-    draw.text(
-        (MID_X, LOGO_CY - (sc(13) if has_sub else 0)),
-        main_txt, fill=main_col, font=_font(sc(36)), anchor="mm"
-    )
-    if has_sub:
+        # Tỉ số + phút thi đấu
+        draw.text(
+            (MID_X, LOGO_CY - sc(13)),
+            score.replace("-", " : "),
+            fill=(190, 20, 20), font=_font(TIME_FS), anchor="mm"
+        )
+        live_lbl = f"● {live_time}'" if live_time and live_time not in ("", "0") else "● LIVE"
         draw.text(
             (MID_X, LOGO_CY + sc(24)),
-            sub_txt, fill=sub_col, font=_font(sc(14), False), anchor="mm"
+            live_lbl, fill=(190, 20, 20), font=_font(sc(14), False), anchor="mm"
         )
 
+    elif status == "live":
+        # Chỉ LIVE (chưa có tỉ số)
+        draw.text(
+            (MID_X, LOGO_CY - sc(8)),
+            "LIVE", fill=(190, 20, 20), font=_font(TIME_FS), anchor="mm"
+        )
+        live_lbl = f"● {live_time}'" if live_time and live_time not in ("", "0") else "●"
+        draw.text(
+            (MID_X, LOGO_CY + sc(22)),
+            live_lbl, fill=(190, 20, 20), font=_font(sc(14), False), anchor="mm"
+        )
+
+    else:
+        # UPCOMING: giờ + ngày gần nhau, KHÔNG có chữ "VS"
+        if time_str and date_str:
+            # Giờ ở trên, ngày sát dưới
+            draw.text(
+                (MID_X, LOGO_CY - sc(14)),
+                time_str,
+                fill=(20, 45, 130), font=_font(TIME_FS), anchor="mm"
+            )
+            draw.text(
+                (MID_X, LOGO_CY + sc(22)),
+                f"📅 {date_str}",
+                fill=(55, 85, 175), font=_font(DATE_FS, False), anchor="mm"
+            )
+        elif time_str:
+            draw.text(
+                (MID_X, LOGO_CY),
+                time_str,
+                fill=(20, 45, 130), font=_font(TIME_FS), anchor="mm"
+            )
+        elif date_str:
+            draw.text(
+                (MID_X, LOGO_CY),
+                f"📅 {date_str}",
+                fill=(55, 85, 175), font=_font(DATE_FS, False), anchor="mm"
+            )
+
+    # ── Logo hai đội ─────────────────────────────────────────
     def paste_logo(cx, cy, logo_img, name, col):
         nonlocal img, draw
         if logo_img:
@@ -537,6 +574,7 @@ def make_thumbnail_bytes(
     paste_logo(LX, LOGO_CY, logo_a, home_name, (25,  70, 175))
     paste_logo(RX, LOGO_CY, logo_b, away_name, (175, 30,  55))
 
+    # ── Tên đội ───────────────────────────────────────────────
     def draw_name(cx, name):
         words = name.split()
         col   = (25, 50, 125)
@@ -556,12 +594,7 @@ def make_thumbnail_bytes(
     draw_name(LX, home_name)
     draw_name(RX, away_name)
 
-    if date_str:
-        draw.text(
-            (MID_X, DATE_Y), f"📅 {date_str}",
-            fill=(75, 100, 170), font=_font(sc(14), False), anchor="mm"
-        )
-
+    # Watermark
     draw.text((W-12, H-14), "giovang.vin", fill=(155, 170, 205), font=_font(10, False), anchor="rm")
 
     buf = io.BytesIO()
