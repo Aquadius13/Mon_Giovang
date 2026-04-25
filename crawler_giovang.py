@@ -448,18 +448,50 @@ def fetch_streams(s, fid: str) -> list:
 
 # ─── Thumbnail WEBP ──────────────────────────────────────────
 
+def _fmt_date(date_str: str) -> str:
+    """Bỏ năm khỏi chuỗi ngày: '26/04/2025' → '26/04', '26-04-2025' → '26/04'."""
+    if not date_str:
+        return ""
+    for sep in ("/", "-"):
+        parts = date_str.split(sep)
+        if len(parts) >= 2:
+            return f"{parts[0].zfill(2)}/{parts[1].zfill(2)}"
+    return date_str
+
+
 def _crop_logo_content(im: "Image.Image") -> "Image.Image":
-    """Cắt bỏ viền trắng / trong suốt xung quanh nội dung thực của logo.
-    Đảm bảo mọi logo có kích thước nội dung đồng đều, không có vùng trắng thừa."""
+    """Cắt viền trong suốt VÀ viền trắng/sáng xung quanh logo.
+    Xử lý cả 2 loại logo: nền trong suốt và nền trắng đục.
+    Đảm bảo mọi logo được scale đồng đều, không có vùng trắng thừa."""
+    from PIL import ImageOps
     im = im.convert("RGBA")
-    # Lấy bounding box vùng có nội dung (alpha > 10 hoặc màu không phải trắng)
+
+    # Bước 1: Cắt viền trong suốt bằng alpha channel
     r, g, b, a = im.split()
-    # Tạo mask: pixel có nội dung = alpha > 10 VÀ không phải trắng hoàn toàn
-    from PIL import ImageChops
-    # Dùng alpha channel để detect nội dung
-    bbox = a.getbbox()  # bounding box của vùng không trong suốt
-    if bbox:
-        im = im.crop(bbox)
+    alpha_bbox = a.getbbox()
+    if alpha_bbox:
+        # Chỉ crop nếu cắt được ít nhất 5% diện tích
+        orig_area  = im.width * im.height
+        crop_area  = (alpha_bbox[2] - alpha_bbox[0]) * (alpha_bbox[3] - alpha_bbox[1])
+        if crop_area < orig_area * 0.95:
+            im = im.crop(alpha_bbox)
+
+    # Bước 2: Cắt viền trắng / sáng (nền trắng đục — alpha=255 nhưng toàn trắng)
+    # Chuyển sang grayscale → invert → nền trắng = 0, nội dung logo = sáng
+    gray        = im.convert("RGB").convert("L")
+    inv         = ImageOps.invert(gray)
+    # Pixel có giá trị invert > 12 → là nội dung thực (ngưỡng thấp để giữ màu sáng)
+    content_msk = inv.point(lambda p: 255 if p > 12 else 0)
+    content_box = content_msk.getbbox()
+    if content_box:
+        x0, y0, x1, y1 = content_box
+        # Thêm 1px padding để tránh cắt sát cạnh
+        x0 = max(0, x0 - 1)
+        y0 = max(0, y0 - 1)
+        x1 = min(im.width,  x1 + 1)
+        y1 = min(im.height, y1 + 1)
+        im = im.crop((x0, y0, x1, y1))
+
     return im
 
 
@@ -476,10 +508,10 @@ def make_thumbnail_bytes(
     LOGO_SZ   = sc(156)        # = 179 px
 
     # ── Font sizes ────────────────────────────────────────────
-    LEAGUE_FS = sc(22)         # +15% so với sc(19) → 25 px
-    TIME_FS   = sc(36)         # giờ thi đấu = 41 px
-    DATE_FS   = sc(16)         # ngày thi đấu +15% từ sc(14) → 18 px
-    NAME_FS   = sc(19)         # tên đội +10% từ sc(17), không đậm → 21 px
+    LEAGUE_FS = sc(26)             # +20% từ sc(22) → 30 px
+    TIME_FS   = sc(36)             # giờ thi đấu = 41 px
+    DATE_FS   = TIME_FS * 2 // 3   # ngày = 2/3 giờ ≈ 27 px, không hiện năm
+    NAME_FS   = sc(19)             # tên đội, không đậm → 21 px
 
     # ── Layout dọc ───────────────────────────────────────────
     # Viền cam: 8px trên + 8px dưới
@@ -503,12 +535,12 @@ def make_thumbnail_bytes(
     LX        = MID_X - INFO_HALF - GAP - LOGO_SZ // 2
     RX        = MID_X + INFO_HALF + GAP + LOGO_SZ // 2
 
-    # ── Vị trí giờ/ngày (TIME và DATE gần nhau) ─────────────
-    # TIME_FS=41px (half≈20), DATE_FS=18px (half≈9), gap 5px giữa hai text
-    # Block height = 20+20+5+9+9 = 63px → center tại LOGO_CY
-    # TIME center = LOGO_CY - (5/2 + 9 + 5/2 + 0) ≈ LOGO_CY - 14
-    TIME_Y    = LOGO_CY - 15
-    DATE_Y    = TIME_Y + 20 + 5 + 9   # = TIME_Y + 34
+    # ── Vị trí giờ/ngày căn giữa cùng nhau tại LOGO_CY ─────
+    # Block: TIME(41px) + gap(4px) + DATE(27px) = 72px tổng
+    # → TIME center tại LOGO_CY - 36 + 20 = LOGO_CY - 16
+    # → DATE center tại LOGO_CY + 36 - 13 = LOGO_CY + 23
+    TIME_Y    = LOGO_CY - 16
+    DATE_Y    = LOGO_CY + 23
 
     # ── Canvas ───────────────────────────────────────────────
     img  = Image.new("RGB", (W, H))
@@ -559,19 +591,26 @@ def make_thumbnail_bytes(
             draw.text((MID_X, TIME_Y), time_str,
                       fill=(20, 45, 130), font=_font(TIME_FS), anchor="mm")
         if date_str:
-            draw.text((MID_X, DATE_Y), f"📅 {date_str}",
+            draw.text((MID_X, DATE_Y), f"📅 {_fmt_date(date_str)}",
                       fill=(50, 85, 175), font=_font(DATE_FS, False), anchor="mm")
         if not time_str and not date_str:
             draw.text((MID_X, LOGO_CY), "—",
                       fill=(160, 170, 200), font=_font(TIME_FS), anchor="mm")
 
-    # ── 3. Logo hai đội (cắt viền trắng → kích thước đồng đều) ─
+    # ── 3. Logo hai đội (crop viền trắng + scale đồng đều) ─────
     def paste_logo(cx: int, cy: int, logo_img, name: str, fallback_col: tuple):
         nonlocal img, draw
         if logo_img:
             try:
-                logo_img = _crop_logo_content(logo_img)  # bỏ viền trắng
-                logo_img.thumbnail((LOGO_SZ, LOGO_SZ), Image.LANCZOS)
+                logo_img = _crop_logo_content(logo_img)   # bỏ viền trắng/trong suốt
+                w, h     = logo_img.size
+                if w > 0 and h > 0:
+                    # Scale theo chiều LỚN NHẤT → luôn điền đầy LOGO_SZ
+                    # (khác thumbnail: thumbnail chỉ thu nhỏ, không phóng to)
+                    scale   = LOGO_SZ / max(w, h)
+                    new_w   = max(1, int(w * scale))
+                    new_h   = max(1, int(h * scale))
+                    logo_img = logo_img.resize((new_w, new_h), Image.LANCZOS)
                 canvas = Image.new("RGBA", (LOGO_SZ, LOGO_SZ), (0, 0, 0, 0))
                 ox = (LOGO_SZ - logo_img.width)  // 2
                 oy = (LOGO_SZ - logo_img.height) // 2
