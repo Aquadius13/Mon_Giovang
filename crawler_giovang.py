@@ -517,28 +517,21 @@ def make_thumbnail_bytes(
     # Viền cam: 8px trên + 8px dưới
     # League: sát viền trên (y=8 → text center tại y=26)
     # Separator: y=42
-    # Logo center: căn giữa phần còn lại
+    # Logo: nâng lên 80px → center tại y=152 (top≈63, bot≈241)
     LEAGUE_CY = 26             # trên cùng, sát viền cam
     SEP_Y     = 42             # đường kẻ bên dưới tên giải
-    # Logo: căn giữa vùng từ SEP_Y đến (H-8-NAME_FS-10)
-    # Vùng hữu dụng: từ y=50 đến y=415 → height=365
-    # Logo 179px + gap 12px + name 21px = 212px → margin = (365-212)/2 = 76
-    # LOGO_CY = 50 + 76 + 89 = 215
-    LOGO_CY   = 232            # center của logo
+    LOGO_CY   = 192            # 152 + 40 = 192  ← hạ xuống 40px
     NAME_Y    = LOGO_CY + LOGO_SZ // 2 + 14  # tên đội bên dưới logo
 
     # ── Vị trí logo trái/phải ────────────────────────────────
-    # Khoảng trống giữa 2 logo: đủ để hiển thị TIME (rộng ~120px)
-    # INFO_HALF: khoảng cách từ center đến mép trong của logo
     INFO_HALF = sc(95)
     GAP       = sc(10)
     LX        = MID_X - INFO_HALF - GAP - LOGO_SZ // 2
     RX        = MID_X + INFO_HALF + GAP + LOGO_SZ // 2
 
     # ── Vị trí giờ/ngày căn giữa cùng nhau tại LOGO_CY ─────
-    # Block: TIME(41px) + gap(4px) + DATE(27px) = 72px tổng
-    # → TIME center tại LOGO_CY - 36 + 20 = LOGO_CY - 16
-    # → DATE center tại LOGO_CY + 36 - 13 = LOGO_CY + 23
+    # TIME center = LOGO_CY - 16  →  152 - 16 = 136
+    # DATE center = LOGO_CY + 23  →  152 + 23 = 175
     TIME_Y    = LOGO_CY - 16
     DATE_Y    = LOGO_CY + 23
 
