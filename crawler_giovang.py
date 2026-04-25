@@ -714,13 +714,17 @@ def build_sources(ch_id: str, streams: list, detail_url: str) -> list:
             })
 
     if not stream_list:
+        # Fallback: KHÔNG dùng iframe vì iframe nhúng giovang.vin sẽ chạy JS
+        # pushState() nhiều lần → WebView app bị kẹt trong history stack của site,
+        # back từ player không về được màn hình chính mà phải reload.
+        # Dùng "link" thay thế → mở trình duyệt ngoài, tránh hoàn toàn vấn đề này.
         stream_list = [{
             "id":   make_id(ch_id, "st0"),
             "name": "Trực tiếp",
             "stream_links": [{
                 "id":      make_id(ch_id, "l0"),
                 "name":    "Xem trực tiếp",
-                "type":    "iframe",
+                "type":    "link",        # mở external browser, không nhúng WebView
                 "default": True,
                 "url":     detail_url,
                 "request_headers": [
@@ -766,12 +770,7 @@ def build_channel(m: dict, streams: list, thumb_url: str, idx: int) -> dict:
             "text": "✅ Kết thúc", "color": "#424242",
             "text_color": "#ffffff", "position": "top-left",
         })
-    elif m["status"] == "upcoming" and m.get("time_str"):
-        # Dùng giờ thi đấu làm label top-left → thay thế "Sắp diễn ra"
-        labels.append({
-            "text": f"🕐 {m['time_str']}", "color": "#1565C0",
-            "text_color": "#ffffff", "position": "top-left",
-        })
+    # upcoming → không hiện label top-left
 
     # ── Score + live time ─────────────────────────────────────
     if score and m["status"] == "live":
@@ -824,14 +823,22 @@ def build_channel(m: dict, streams: list, thumb_url: str, idx: int) -> dict:
 
 def build_iptv_json(channels: list, now_str: str) -> dict:
     return {
-        "id":          "giovang-iptv",
-        "name":        "GioVang TV",
-        "url":         BASE_URL + "/",
-        "description": SITE_DESC,
-        "disable_ads": True,
-        "color":       "#FF8C00",
-        "grid_number": 3,
-        "image":       {"type": "cover", "url": SITE_ICON},
+        "id":              "giovang-iptv",
+        "name":            "GioVang TV",
+        "url":             BASE_URL + "/",
+        "description":     SITE_DESC,
+        "disable_ads":     True,
+        "color":           "#FF8C00",
+        "grid_number":     3,
+        "image":           {"type": "cover", "url": SITE_ICON},
+        # ── Khắc phục lỗi back từ player không load được trang ─────────────
+        # reload_on_resume: app tự reload JSON khi quay lại màn hình chính
+        # auto_refresh:     làm mới danh sách mỗi 5 phút (300 giây)
+        # cache:            tắt cache để tránh phục vụ dữ liệu cũ sau khi back
+        "reload_on_resume": True,
+        "auto_refresh":     300,
+        "cache":            False,
+        # ────────────────────────────────────────────────────────────────────
         "groups": [{
             "id":            "hot-match",
             "name":          "🔥 Hot Match",
