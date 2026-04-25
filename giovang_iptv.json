@@ -10,6 +10,9 @@
     "type": "cover",
     "url": "https://giovang.vin/wp-content/uploads/2025/04/cropped-favicon-giovang-192x192.png"
   },
+  "reload_on_resume": true,
+  "auto_refresh": 300,
+  "cache": false,
   "groups": [
     {
       "id": "hot-match",
@@ -21,8 +24,8 @@
       "channels": [
         {
           "id": "gv-1-manchester-city-vs-south",
-          "name": "Manchester City 0-0 Southampton 🔴",
-          "description": "Cúp FA | 23:15 | 25/04 | 🔴 LIVE | 0-0 | 🎙 fan-mc-cam-ben",
+          "name": "Manchester City 0-0 Southampton 🔴 58'",
+          "description": "Cúp FA | 23:15 | 25/04 | 🔴 LIVE 58' | 0-0 | 🎙 fan-mc-cam-ben",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -42,7 +45,7 @@
               "position": "top-left"
             },
             {
-              "text": "0-0",
+              "text": "0-0 58'",
               "color": "#B71C1C",
               "text_color": "#ffffff",
               "position": "bottom-right"
@@ -111,8 +114,8 @@
         },
         {
           "id": "gv-2-al-ahli-jeddah-vs-fc-mac",
-          "name": "Al Ahli Jeddah 0-0 FC Machida Zelvia 🔴 47'",
-          "description": "AFC Champions League | 23:15 | 25/04 | 🔴 LIVE 47' | 0-0 | 🎙 BLV Tí",
+          "name": "Al Ahli Jeddah 0-0 FC Machida Zelvia 🔴 59'",
+          "description": "AFC Champions League | 23:15 | 25/04 | 🔴 LIVE 59' | 0-0 | 🎙 BLV Tí",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -132,7 +135,7 @@
               "position": "top-left"
             },
             {
-              "text": "0-0 47'",
+              "text": "0-0 59'",
               "color": "#B71C1C",
               "text_color": "#ffffff",
               "position": "bottom-right"
@@ -291,8 +294,8 @@
         },
         {
           "id": "gv-4-angers-sco-vs-paris-sain",
-          "name": "Angers SCO 0-1 Paris Saint Germain 🔴 20'",
-          "description": "Ligue 1 | 00:00 | 26/04 | 🔴 LIVE 20' | 0-1 | 🎙 BLV Hợi",
+          "name": "Angers SCO 0-0 Paris Saint Germain 🔴 31'",
+          "description": "Ligue 1 | 00:00 | 26/04 | 🔴 LIVE 31' | 0-0 | 🎙 BLV Hợi",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -312,7 +315,7 @@
               "position": "top-left"
             },
             {
-              "text": "0-1 20'",
+              "text": "0-0 31'",
               "color": "#B71C1C",
               "text_color": "#ffffff",
               "position": "bottom-right"
@@ -486,12 +489,6 @@
           },
           "labels": [
             {
-              "text": "🕐 01:45",
-              "color": "#1565C0",
-              "text_color": "#ffffff",
-              "position": "top-left"
-            },
-            {
               "text": "🎙 BLV Băng",
               "color": "#1B5E20",
               "text_color": "#ffffff",
@@ -569,12 +566,6 @@
             "height": 450
           },
           "labels": [
-            {
-              "text": "🕐 02:00",
-              "color": "#1565C0",
-              "text_color": "#ffffff",
-              "position": "top-left"
-            },
             {
               "text": "🎙 BLV Dory",
               "color": "#1B5E20",
@@ -654,12 +645,6 @@
           },
           "labels": [
             {
-              "text": "🕐 02:05",
-              "color": "#1565C0",
-              "text_color": "#ffffff",
-              "position": "top-left"
-            },
-            {
               "text": "🎙 BLV Dậu",
               "color": "#1B5E20",
               "text_color": "#ffffff",
@@ -737,12 +722,6 @@
             "height": 450
           },
           "labels": [
-            {
-              "text": "🕐 02:30",
-              "color": "#1565C0",
-              "text_color": "#ffffff",
-              "position": "top-left"
-            },
             {
               "text": "🎙 BLV Ben",
               "color": "#1B5E20",
@@ -822,12 +801,6 @@
           },
           "labels": [
             {
-              "text": "🕐 03:45",
-              "color": "#1565C0",
-              "text_color": "#ffffff",
-              "position": "top-left"
-            },
-            {
               "text": "🎙 BLV Thìn",
               "color": "#1B5E20",
               "text_color": "#ffffff",
@@ -905,12 +878,6 @@
             "height": 450
           },
           "labels": [
-            {
-              "text": "🕐 04:30",
-              "color": "#1565C0",
-              "text_color": "#ffffff",
-              "position": "top-left"
-            },
             {
               "text": "🎙 BLV Dần",
               "color": "#1B5E20",
@@ -990,12 +957,6 @@
           },
           "labels": [
             {
-              "text": "🕐 04:30",
-              "color": "#1565C0",
-              "text_color": "#ffffff",
-              "position": "top-left"
-            },
-            {
               "text": "🎙 BLV Dậu",
               "color": "#1B5E20",
               "text_color": "#ffffff",
@@ -1073,12 +1034,6 @@
             "height": 450
           },
           "labels": [
-            {
-              "text": "🕐 05:00",
-              "color": "#1565C0",
-              "text_color": "#ffffff",
-              "position": "top-left"
-            },
             {
               "text": "🎙 BLV Perry",
               "color": "#1B5E20",
@@ -1158,12 +1113,6 @@
           },
           "labels": [
             {
-              "text": "🕐 06:15",
-              "color": "#1565C0",
-              "text_color": "#ffffff",
-              "position": "top-left"
-            },
-            {
               "text": "🎙 BLV Chanh",
               "color": "#1B5E20",
               "text_color": "#ffffff",
@@ -1242,12 +1191,6 @@
           },
           "labels": [
             {
-              "text": "🕐 06:30",
-              "color": "#1565C0",
-              "text_color": "#ffffff",
-              "position": "top-left"
-            },
-            {
               "text": "🎙 BLV Hợi",
               "color": "#1B5E20",
               "text_color": "#ffffff",
@@ -1325,12 +1268,6 @@
             "height": 450
           },
           "labels": [
-            {
-              "text": "🕐 07:30",
-              "color": "#1565C0",
-              "text_color": "#ffffff",
-              "position": "top-left"
-            },
             {
               "text": "🎙 2 BLV",
               "color": "#1B5E20",
@@ -1450,12 +1387,6 @@
           },
           "labels": [
             {
-              "text": "🕐 10:00",
-              "color": "#1565C0",
-              "text_color": "#ffffff",
-              "position": "top-left"
-            },
-            {
               "text": "🎙 BLV Thìn",
               "color": "#1B5E20",
               "text_color": "#ffffff",
@@ -1533,12 +1464,6 @@
             "height": 450
           },
           "labels": [
-            {
-              "text": "🕐 10:00",
-              "color": "#1565C0",
-              "text_color": "#ffffff",
-              "position": "top-left"
-            },
             {
               "text": "🎙 BLV Thìn",
               "color": "#1B5E20",
@@ -1618,12 +1543,6 @@
           },
           "labels": [
             {
-              "text": "🕐 10:00",
-              "color": "#1565C0",
-              "text_color": "#ffffff",
-              "position": "top-left"
-            },
-            {
               "text": "🎙 BLV Băng",
               "color": "#1B5E20",
               "text_color": "#ffffff",
@@ -1701,12 +1620,6 @@
             "height": 450
           },
           "labels": [
-            {
-              "text": "🕐 12:00",
-              "color": "#1565C0",
-              "text_color": "#ffffff",
-              "position": "top-left"
-            },
             {
               "text": "🎙 BLV Tôm",
               "color": "#1B5E20",
@@ -1786,12 +1699,6 @@
           },
           "labels": [
             {
-              "text": "🕐 12:00",
-              "color": "#1565C0",
-              "text_color": "#ffffff",
-              "position": "top-left"
-            },
-            {
               "text": "🎙 BLV Tỵ",
               "color": "#1B5E20",
               "text_color": "#ffffff",
@@ -1869,12 +1776,6 @@
             "height": 450
           },
           "labels": [
-            {
-              "text": "🕐 12:00",
-              "color": "#1565C0",
-              "text_color": "#ffffff",
-              "position": "top-left"
-            },
             {
               "text": "🎙 BLV Hợi",
               "color": "#1B5E20",
@@ -1954,12 +1855,6 @@
           },
           "labels": [
             {
-              "text": "🕐 14:00",
-              "color": "#1565C0",
-              "text_color": "#ffffff",
-              "position": "top-left"
-            },
-            {
               "text": "🎙 BLV Tí",
               "color": "#1B5E20",
               "text_color": "#ffffff",
@@ -2037,12 +1932,6 @@
             "height": 450
           },
           "labels": [
-            {
-              "text": "🕐 14:05",
-              "color": "#1565C0",
-              "text_color": "#ffffff",
-              "position": "top-left"
-            },
             {
               "text": "🎙 BLV Băng",
               "color": "#1B5E20",
@@ -2122,12 +2011,6 @@
           },
           "labels": [
             {
-              "text": "🕐 14:30",
-              "color": "#1565C0",
-              "text_color": "#ffffff",
-              "position": "top-left"
-            },
-            {
               "text": "🎙 BLV Tỵ",
               "color": "#1B5E20",
               "text_color": "#ffffff",
@@ -2205,12 +2088,6 @@
             "height": 450
           },
           "labels": [
-            {
-              "text": "🕐 14:30",
-              "color": "#1565C0",
-              "text_color": "#ffffff",
-              "position": "top-left"
-            },
             {
               "text": "🎙 BLV Thìn",
               "color": "#1B5E20",
@@ -2290,12 +2167,6 @@
           },
           "labels": [
             {
-              "text": "🕐 02:00",
-              "color": "#1565C0",
-              "text_color": "#ffffff",
-              "position": "top-left"
-            },
-            {
               "text": "🎙 BLV Câm",
               "color": "#1B5E20",
               "text_color": "#ffffff",
@@ -2373,12 +2244,6 @@
             "height": 450
           },
           "labels": [
-            {
-              "text": "🕐 02:00",
-              "color": "#1565C0",
-              "text_color": "#ffffff",
-              "position": "top-left"
-            },
             {
               "text": "🎙 fan-ars-nen-dau",
               "color": "#1B5E20",
