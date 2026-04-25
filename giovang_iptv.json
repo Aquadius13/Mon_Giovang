@@ -24,8 +24,8 @@
       "channels": [
         {
           "id": "gv-1-manchester-city-vs-south",
-          "name": "Manchester City 0-0 Southampton 🔴 58'",
-          "description": "Cúp FA | 23:15 | 25/04 | 🔴 LIVE 58' | 0-0 | 🎙 fan-mc-cam-ben",
+          "name": "Manchester City 0-0 Southampton 🔴 74'",
+          "description": "Cúp FA | 23:15 | 25/04 | 🔴 LIVE 74' | 0-0 | 🎙 fan-mc-cam-ben",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -45,7 +45,7 @@
               "position": "top-left"
             },
             {
-              "text": "0-0 58'",
+              "text": "0-0 74'",
               "color": "#B71C1C",
               "text_color": "#ffffff",
               "position": "bottom-right"
@@ -114,8 +114,8 @@
         },
         {
           "id": "gv-2-al-ahli-jeddah-vs-fc-mac",
-          "name": "Al Ahli Jeddah 0-0 FC Machida Zelvia 🔴 59'",
-          "description": "AFC Champions League | 23:15 | 25/04 | 🔴 LIVE 59' | 0-0 | 🎙 BLV Tí",
+          "name": "Al Ahli Jeddah 0-0 FC Machida Zelvia 🔴 75'",
+          "description": "AFC Champions League | 23:15 | 25/04 | 🔴 LIVE 75' | 0-0 | 🎙 BLV Tí",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -135,7 +135,7 @@
               "position": "top-left"
             },
             {
-              "text": "0-0 59'",
+              "text": "0-0 75'",
               "color": "#B71C1C",
               "text_color": "#ffffff",
               "position": "bottom-right"
@@ -294,8 +294,8 @@
         },
         {
           "id": "gv-4-angers-sco-vs-paris-sain",
-          "name": "Angers SCO 0-0 Paris Saint Germain 🔴 31'",
-          "description": "Ligue 1 | 00:00 | 26/04 | 🔴 LIVE 31' | 0-0 | 🎙 BLV Hợi",
+          "name": "Angers SCO 0-2 Paris Saint Germain 🔴 45+2'",
+          "description": "Ligue 1 | 00:00 | 26/04 | 🔴 LIVE 45+2' | 0-2 | 🎙 BLV Hợi",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -315,7 +315,7 @@
               "position": "top-left"
             },
             {
-              "text": "0-0 31'",
+              "text": "0-2 45+2'",
               "color": "#B71C1C",
               "text_color": "#ffffff",
               "position": "bottom-right"
