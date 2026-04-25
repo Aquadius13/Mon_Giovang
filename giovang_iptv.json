@@ -111,8 +111,8 @@
         },
         {
           "id": "gv-2-chengdu-rongcheng-vs-zhe",
-          "name": "Chengdu Rongcheng 3-0 Zhejiang FC 🔴 52'",
-          "description": "VĐQG Trung Quốc | 18:00 | 25/04 | 🔴 LIVE 52' | 3-0 | 🎙 BLV Tí",
+          "name": "Chengdu Rongcheng 3-0 Zhejiang FC 🔴 57'",
+          "description": "VĐQG Trung Quốc | 18:00 | 25/04 | 🔴 LIVE 57' | 3-0 | 🎙 BLV Tí",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -132,7 +132,7 @@
               "position": "top-left"
             },
             {
-              "text": "3-0 52'",
+              "text": "3-0 57'",
               "color": "#B71C1C",
               "text_color": "#ffffff",
               "position": "bottom-right"
@@ -201,8 +201,8 @@
         },
         {
           "id": "gv-3-becamex-binh-duong-vs-th",
-          "name": "Becamex Bình Dương 1-0 Thép Xanh Nam Định 🔴 56'",
-          "description": "V-League | 18:00 | 25/04 | 🔴 LIVE 56' | 1-0 | 🎙 BLV Thìn",
+          "name": "Becamex Bình Dương 1-0 Thép Xanh Nam Định 🔴 61'",
+          "description": "V-League | 18:00 | 25/04 | 🔴 LIVE 61' | 1-0 | 🎙 BLV Thìn",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -222,7 +222,7 @@
               "position": "top-left"
             },
             {
-              "text": "1-0 56'",
+              "text": "1-0 61'",
               "color": "#B71C1C",
               "text_color": "#ffffff",
               "position": "bottom-right"
@@ -291,8 +291,8 @@
         },
         {
           "id": "gv-4-thanh-hoa-vs-pvf-cand",
-          "name": "Thanh Hóa 0-0 PVF-CAND 🔴 55'",
-          "description": "V-League | 18:00 | 25/04 | 🔴 LIVE 55' | 0-0 | 🎙 BLV Chanh",
+          "name": "Thanh Hóa 0-0 PVF-CAND 🔴 59'",
+          "description": "V-League | 18:00 | 25/04 | 🔴 LIVE 59' | 0-0 | 🎙 BLV Chanh",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -312,7 +312,7 @@
               "position": "top-left"
             },
             {
-              "text": "0-0 55'",
+              "text": "0-0 59'",
               "color": "#B71C1C",
               "text_color": "#ffffff",
               "position": "bottom-right"
@@ -381,8 +381,8 @@
         },
         {
           "id": "gv-5-fulham-vs-aston-villa",
-          "name": "Fulham 0-0 Aston Villa 🔴 42'",
-          "description": "Ngoại hạng Anh | 18:30 | 25/04 | 🔴 LIVE 42' | 0-0 | 🎙 BLV Dory",
+          "name": "Fulham 1-0 Aston Villa 🔴 45+2'",
+          "description": "Ngoại hạng Anh | 18:30 | 25/04 | 🔴 LIVE 45+2' | 1-0 | 🎙 BLV Dory",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -402,7 +402,7 @@
               "position": "top-left"
             },
             {
-              "text": "0-0 42'",
+              "text": "1-0 45+2'",
               "color": "#B71C1C",
               "text_color": "#ffffff",
               "position": "bottom-right"
@@ -471,8 +471,8 @@
         },
         {
           "id": "gv-6-perth-glory-fc-vs-brisba",
-          "name": "Perth Glory FC 1-0 Brisbane Roar FC 🔴 19'",
-          "description": "VĐQG Úc | 18:45 | 25/04 | 🔴 LIVE 19' | 1-0 | 🎙 BLV Mason",
+          "name": "Perth Glory FC 1-0 Brisbane Roar FC 🔴 24'",
+          "description": "VĐQG Úc | 18:45 | 25/04 | 🔴 LIVE 24' | 1-0 | 🎙 BLV Mason",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -492,7 +492,7 @@
               "position": "top-left"
             },
             {
-              "text": "1-0 19'",
+              "text": "1-0 24'",
               "color": "#B71C1C",
               "text_color": "#ffffff",
               "position": "bottom-right"
