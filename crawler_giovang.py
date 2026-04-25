@@ -1,33 +1,28 @@
 #!/usr/bin/env python3
 """
-Crawler giovang.vin v10
+Crawler giovang.vin v9
 CDN WEBP: lưu thumbnails/*.webp → commit GitHub → CDN URL
-Logo: TheSportsDB + ESPN CDN thay thế keovip88.net
 pip install cloudscraper requests pillow
 """
-
 import argparse, base64, hashlib, io, json, os, re, sys, time
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
-from urllib.parse import quote as url_quote
 
 import cloudscraper, requests
 from PIL import Image, ImageDraw, ImageFont
 
-BASE_URL   = "https://giovang.vin"
-API_LIVE   = "https://live-api.keovip88.net/storage/livestream/live.json"
-API_ALL    = "https://live-api.keovip88.net/storage/livestream/all.json"
-API_STREAM = "https://live-api.keovip88.net/api/fixtures/{fid}"
-WP_AJAX    = "https://giovang.vin/wp-admin/admin-ajax.php"
-THUMB_DIR  = "thumbnails"
+BASE_URL    = "https://giovang.vin"
+API_LIVE    = "https://live-api.keovip88.net/storage/livestream/live.json"
+API_ALL     = "https://live-api.keovip88.net/storage/livestream/all.json"
+API_STREAM  = "https://live-api.keovip88.net/api/fixtures/{fid}"
+WP_AJAX     = "https://giovang.vin/wp-admin/admin-ajax.php"
+THUMB_DIR   = "thumbnails"
 OUTPUT_FILE = "giovang_iptv.json"
-VN_TZ = timezone(timedelta(hours=7))
-
-CHROME_UA = (
+VN_TZ       = timezone(timedelta(hours=7))
+CHROME_UA   = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
     "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
 )
-
 SITE_ICON = (
     "https://giovang.vin/wp-content/uploads/2025/04/"
     "cropped-favicon-giovang-192x192.png"
@@ -43,13 +38,13 @@ LIVE_CODES     = {"1H", "2H", "HT", "PEN", "ET", "BT", "LIVE", "INT", "SUSP", "P
 FINISHED_CODES = {"FT", "AET", "AWD", "WO", "ABD", "CANC"}
 
 BLV_MAP = {
-    "nha-dai": "Nhà Đài",  "blv-tho": "BLV Thỏ",   "blv-perry": "BLV Perry",
-    "blv-1":   "BLV Tí",   "blv-3":   "BLV Dần",   "blv-5":     "BLV Thìn",
-    "blv-6":   "BLV Tỵ",   "blv-10":  "BLV Dậu",   "blv-12":    "BLV Hợi",
-    "blv-tom": "BLV Tôm",  "blv-ben": "BLV Ben",   "blv-cay":   "BLV Cầy",
-    "blv-bang":"BLV Băng", "blv-mason":"BLV Mason","blv-che":   "BLV Chè",
-    "blv-cam": "BLV Câm",  "blv-dory": "BLV Dory", "blv-chanh": "BLV Chanh",
-    "blv-nen": "BLV Nến",
+    "nha-dai":  "Nhà Đài",  "blv-tho":   "BLV Thỏ",   "blv-perry": "BLV Perry",
+    "blv-1":    "BLV Tí",   "blv-3":     "BLV Dần",    "blv-5":     "BLV Thìn",
+    "blv-6":    "BLV Tỵ",   "blv-10":    "BLV Dậu",    "blv-12":    "BLV Hợi",
+    "blv-tom":  "BLV Tôm",  "blv-ben":   "BLV Ben",    "blv-cay":   "BLV Cầy",
+    "blv-bang": "BLV Băng", "blv-mason": "BLV Mason",  "blv-che":   "BLV Chè",
+    "blv-cam":  "BLV Câm",  "blv-dory":  "BLV Dory",   "blv-chanh": "BLV Chanh",
+    "blv-nen":  "BLV Nến",
 }
 
 S = 1.15  # scale +15%
@@ -57,99 +52,7 @@ S = 1.15  # scale +15%
 def sc(v: int) -> int:
     return int(v * S)
 
-# ─── Logo Alternative Sources ────────────────────────────────
-
-# Nguồn 1: TheSportsDB – miễn phí, dữ liệu phong phú
-SPORTSDB_SEARCH  = "https://www.thesportsdb.com/api/v1/json/3/searchteams.php"
-# Nguồn 2: ESPN CDN – stable, đầy đủ giải đấu quốc tế
-ESPN_TEAMS_API   = "https://site.api.espn.com/apis/site/v2/sports/soccer/all/teams"
-# Nguồn 3: Sofascore (fallback CDN pattern khi đã có id)
-SOFASCORE_LOGO   = "https://api.sofascore.com/api/v1/team/{team_id}/image"
-
-# Cache tên đội → logo URL để tránh gọi API lặp lại
-_LOGO_CACHE: dict[str, str] = {}
-
-KEOVIP_DOMAINS = ("keovip88.net", "keovip88.com", "live-api.keovip88")
-
-
-def _is_keovip_url(url: str) -> bool:
-    return any(d in url for d in KEOVIP_DOMAINS)
-
-
-def _resolve_logo_sportsdb(team_name: str, session) -> str:
-    """Tìm logo từ TheSportsDB theo tên đội."""
-    try:
-        r = session.get(
-            SPORTSDB_SEARCH,
-            params={"t": team_name},
-            timeout=8,
-            headers={"User-Agent": CHROME_UA},
-        )
-        r.raise_for_status()
-        data = r.json()
-        teams = data.get("teams") or []
-        if teams:
-            badge = teams[0].get("strTeamBadge") or ""
-            if badge:
-                # TheSportsDB trả về URL dạng /medium → lấy bản lớn
-                return badge.replace("/medium", "") if "/medium" in badge else badge
-    except Exception:
-        pass
-    return ""
-
-
-def _resolve_logo_espn(team_name: str, session) -> str:
-    """Tìm logo từ ESPN API theo tên đội (tìm kiếm gần đúng)."""
-    try:
-        r = session.get(
-            ESPN_TEAMS_API,
-            params={"limit": 500},
-            timeout=10,
-            headers={"User-Agent": CHROME_UA},
-        )
-        r.raise_for_status()
-        sports = r.json().get("sports") or []
-        name_lower = team_name.lower()
-        for sport in sports:
-            for league in (sport.get("leagues") or []):
-                for team in (league.get("teams") or []):
-                    t = team.get("team") or {}
-                    if name_lower in (t.get("displayName") or "").lower():
-                        logos = t.get("logos") or []
-                        if logos:
-                            return logos[0].get("href", "")
-    except Exception:
-        pass
-    return ""
-
-
-def resolve_logo(url: str, team_name: str, session) -> str:
-    """
-    Nếu URL logo từ keovip88.net → thay bằng nguồn uy tín hơn.
-    Thứ tự ưu tiên: TheSportsDB → ESPN → giữ nguyên URL gốc.
-    """
-    if not url or not _is_keovip_url(url):
-        return url  # URL đã ổn, giữ nguyên
-
-    cache_key = team_name.strip().lower()
-    if cache_key in _LOGO_CACHE:
-        return _LOGO_CACHE[cache_key] or url
-
-    log(f"    🔄 Resolve logo [{team_name}] ...")
-    alt = _resolve_logo_sportsdb(team_name, session)
-    if not alt:
-        alt = _resolve_logo_espn(team_name, session)
-
-    _LOGO_CACHE[cache_key] = alt
-    if alt:
-        log(f"    ✅ Logo mới: {alt[-60:]}")
-    else:
-        log(f"    ⚠ Không tìm được logo thay thế, giữ URL gốc")
-    return alt if alt else url
-
-
 # ─── CDN ─────────────────────────────────────────────────────
-
 def _cdn_base() -> str:
     if o := os.environ.get("THUMB_CDN_BASE", "").rstrip("/"):
         return o
@@ -159,7 +62,6 @@ def _cdn_base() -> str:
         f"https://raw.githubusercontent.com/{repo}/{branch}/{THUMB_DIR}"
         if repo else ""
     )
-
 
 def save_thumbnail(webp_bytes: bytes, ch_id: str) -> str:
     if not webp_bytes:
@@ -172,12 +74,10 @@ def save_thumbnail(webp_bytes: bytes, ch_id: str) -> str:
         return f"{cdn}/{ch_id}.webp"
     return "data:image/webp;base64," + base64.b64encode(webp_bytes).decode()
 
-
 # ─── Fonts ───────────────────────────────────────────────────
-
 def _font(size: int, bold: bool = True) -> ImageFont.FreeTypeFont:
-    suffix     = "-Bold"  if bold else ""
-    suffix_lib = "Bold"   if bold else "Regular"
+    suffix = "-Bold" if bold else ""
+    suffix_lib = "Bold" if bold else "Regular"
     for p in [
         f"/usr/share/fonts/truetype/dejavu/DejaVuSans{suffix}.ttf",
         f"/usr/share/fonts/truetype/liberation/LiberationSans-{suffix_lib}.ttf",
@@ -190,37 +90,32 @@ def _font(size: int, bold: bool = True) -> ImageFont.FreeTypeFont:
                 pass
     return ImageFont.load_default()
 
-
 def log(msg: str):
     print(msg, flush=True)
 
-
 # ─── HTTP ────────────────────────────────────────────────────
-
 def make_scraper():
-    s = cloudscraper.create_scraper(
+    sc = cloudscraper.create_scraper(
         browser={"browser": "chrome", "platform": "windows", "mobile": False}
     )
-    s.headers.update({
-        "User-Agent": CHROME_UA,
+    sc.headers.update({
+        "User-Agent":      CHROME_UA,
         "Accept-Language": "vi-VN,vi;q=0.9",
-        "Referer": BASE_URL + "/",
+        "Referer":         BASE_URL + "/",
     })
-    return s
+    return sc
 
-
-def init_session(s):
+def init_session(sc):
     try:
-        r = s.get(BASE_URL + "/", timeout=20)
-        log(f"  🍪 Session {r.status_code} | cookies={list(s.cookies.keys())}")
+        r = sc.get(BASE_URL + "/", timeout=20)
+        log(f"  🍪 Session {r.status_code} | cookies={list(sc.cookies.keys())}")
     except Exception as e:
         log(f"  ⚠ Session: {e}")
 
-
-def _get(url: str, s, label: str = "", params: dict = None) -> dict:
+def _get(url: str, sc, label: str = "", params: dict = None) -> dict:
     for i in range(3):
         try:
-            r = s.get(url, timeout=20, params=params)
+            r = sc.get(url, timeout=20, params=params)
             r.raise_for_status()
             data = r.json()
             n = len(data.get("response", [])) if isinstance(data, dict) else "?"
@@ -231,11 +126,10 @@ def _get(url: str, s, label: str = "", params: dict = None) -> dict:
                 time.sleep(2 ** i)
     return {}
 
-
-def _post(s, payload: dict) -> dict:
+def _post(sc, payload: dict) -> dict:
     for i in range(3):
         try:
-            r = s.post(WP_AJAX, data=payload, timeout=15)
+            r = sc.post(WP_AJAX, data=payload, timeout=15)
             r.raise_for_status()
             return r.json()
         except Exception as e:
@@ -243,12 +137,11 @@ def _post(s, payload: dict) -> dict:
                 time.sleep(2 ** i)
     return {}
 
-
-def _dl_logo(url: str, s) -> "Image.Image | None":
+def _dl_logo(url: str, sc) -> "Image.Image | None":
     if not url:
         return None
     try:
-        r = s.get(url, timeout=8, headers={
+        r = sc.get(url, timeout=8, headers={
             "Accept":  "image/webp,image/png,image/*,*/*",
             "Referer": BASE_URL + "/",
         })
@@ -260,12 +153,9 @@ def _dl_logo(url: str, s) -> "Image.Image | None":
     except Exception:
         return None
 
-
 # ─── Slug ────────────────────────────────────────────────────
-
-_FROM = "àáạảãâầấậẩẫăằắặẳẵèéẹẻẽêềếệểễìíịỉĩòóọỏõôồốộổỗơờớợởỡùúụủũưừứựửữỳýỵỷỹđç·/_;,:"
+_FROM = "àáạảãâầấậẩẫăằắặẳẵèéẹẻẽêềếệểễìíịỉĩòóọỏõôồốộổỗơờớợởỡùúụủũưừứựửữỳýỵỷỹđç·/_,:;"
 _TO   = "aaaaaaaaaaaaaaaaaeeeeeeeeeeeiiiiiooooooooooooooooouuuuuuuuuuuyyyyyddc------"
-
 
 def slugify(s: str) -> str:
     s = s.strip().lower()
@@ -275,13 +165,10 @@ def slugify(s: str) -> str:
     s = re.sub(r"\s+", "-", s)
     return re.sub(r"-+", "-", s).strip("-")
 
-
 def build_detail_url(home: str, away: str, dm: str, fid: str) -> str:
     return f"{BASE_URL}/{slugify(f'truc tiep {home} vs {away}-{dm}--{fid}')}/"
 
-
 # ─── Parse ───────────────────────────────────────────────────
-
 def parse_time(f: dict) -> tuple:
     raw_t = f.get("time", "")
     dm    = f.get("day_month", "")
@@ -301,12 +188,12 @@ def parse_time(f: dict) -> tuple:
                 pass
     return ts, dm, sk
 
-
 def get_status(code: str) -> str:
-    if code in LIVE_CODES:     return "live"
-    if code in FINISHED_CODES: return "finished"
+    if code in LIVE_CODES:
+        return "live"
+    if code in FINISHED_CODES:
+        return "finished"
     return "upcoming"
-
 
 def parse_fixture(f: dict) -> dict:
     fid  = str(f.get("id", ""))
@@ -316,17 +203,14 @@ def parse_fixture(f: dict) -> dict:
     gls  = f.get("goals")  or {}
     blvs = f.get("blv")    or []
     code = f.get("status_code", "NS")
-
     gh, ga = gls.get("home"), gls.get("away")
     if gh is None:
         ft = ((f.get("score") or {}).get("fulltime") or {})
         gh, ga = ft.get("home"), ft.get("away")
     score = f"{gh}-{ga}" if gh is not None and ga is not None else ""
-
     ts, ds, sk = parse_time(f)
     hn = home.get("name", "")
     an = away.get("name", "")
-
     return {
         "id":          fid,
         "base_title":  f"{hn} vs {an}",
@@ -349,15 +233,12 @@ def parse_fixture(f: dict) -> dict:
         "is_hot_top":  bool(f.get("is_hot_top")),
     }
 
-
 # ─── Fetch matches ───────────────────────────────────────────
-
-def fetch_matches(s, only_hot: bool) -> list:
+def fetch_matches(sc, only_hot: bool) -> list:
     log("\n📡 Bước 1: Fetch live.json + all.json...")
     ts   = int(time.time() * 1000)
-    live = _get(API_LIVE, s, "live.json", {"t": ts})
-    all_ = _get(API_ALL,  s, "all.json",  {"t": ts})
-
+    live = _get(API_LIVE, sc, "live.json", {"t": ts})
+    all_ = _get(API_ALL,  sc, "all.json",  {"t": ts})
     out, seen = [], set()
 
     for f in (live.get("response") or []):
@@ -384,7 +265,6 @@ def fetch_matches(s, only_hot: bool) -> list:
 
     prio = {"live": 0, "upcoming": 1, "finished": 2}
     out.sort(key=lambda x: (prio.get(x["status"], 9), x["sort_key"]))
-
     log(
         f"\n  ✅ {len(out)} trận — "
         f"🔴{sum(1 for m in out if m['status']=='live')} live "
@@ -392,32 +272,30 @@ def fetch_matches(s, only_hot: bool) -> list:
     )
     return out
 
-
 # ─── WP AJAX logo ────────────────────────────────────────────
-
-def fetch_wp_logos(s, fid: str) -> tuple:
+def fetch_wp_logos(sc, fid: str) -> tuple:
     try:
-        resp = _post(s, {"action": "load_live_stream", "id": fid})
+        resp = _post(sc, {"action": "load_live_stream", "id": fid})
         if not resp or not isinstance(resp, dict) or not resp.get("success"):
             return {}, {}
         d    = resp.get("data") or {}
         home = d.get("home") or {}
         away = d.get("away") or {}
-        if not isinstance(home, dict): home = {}
-        if not isinstance(away, dict): away = {}
+        if not isinstance(home, dict):
+            home = {}
+        if not isinstance(away, dict):
+            away = {}
         return home, away
     except Exception as e:
-        log(f"  ⚠ WP AJAX: {e}")
+        log(f"     ⚠ WP AJAX: {e}")
         return {}, {}
 
-
 # ─── Stream API ──────────────────────────────────────────────
-
-def fetch_streams(s, fid: str) -> list:
+def fetch_streams(sc, fid: str) -> list:
     url = API_STREAM.format(fid=fid)
     for attempt in range(3):
         try:
-            r = s.get(url, timeout=15, headers={
+            r = sc.get(url, timeout=15, headers={
                 "Accept":  "application/json, */*",
                 "Referer": BASE_URL + "/",
                 "Origin":  BASE_URL,
@@ -425,11 +303,11 @@ def fetch_streams(s, fid: str) -> list:
             if r.status_code != 200 or not r.content:
                 time.sleep(1)
                 continue
-            data = r.json()
+            data     = r.json()
             if data.get("code", -1) != 0:
                 return []
             blv_list = (data.get("response") or {}).get("blv") or []
-            result = []
+            result   = []
             for blv in blv_list:
                 key  = blv.get("blv_key", "")
                 name = blv.get("blv_name") or BLV_MAP.get(key, key)
@@ -437,171 +315,161 @@ def fetch_streams(s, fid: str) -> list:
                 sd   = blv.get("link_stream_sd", "")
                 if hd or sd:
                     result.append({"blv_key": key, "blv_name": name, "url_hd": hd, "url_sd": sd})
-                    log(f"  🎙 {name}: {(hd or sd)[-45:]}")
+                    log(f"     🎙 {name}: {(hd or sd)[-45:]}")
             return result
         except Exception as e:
-            log(f"  ⚠ stream {attempt+1}: {e}")
+            log(f"     ⚠ stream {attempt+1}: {e}")
             if attempt < 2:
                 time.sleep(2)
     return []
 
+# ─── Logo resize helper ──────────────────────────────────────
+def _resize_logo_uniform(logo_img: "Image.Image", size: int) -> "Image.Image":
+    """
+    Resize logo về đúng size x size (uniform): giữ tỉ lệ gốc,
+    scale vừa khít trong khung rồi căn giữa trên nền trong suốt.
+    Đảm bảo mọi logo đều có cùng kích thước canvas.
+    """
+    logo_img = logo_img.convert("RGBA")
+    # Scale để cạnh dài nhất = size (cover tối đa)
+    ratio = min(size / logo_img.width, size / logo_img.height)
+    new_w = max(1, int(logo_img.width  * ratio))
+    new_h = max(1, int(logo_img.height * ratio))
+    resized = logo_img.resize((new_w, new_h), Image.LANCZOS)
+    # Canvas trong suốt đúng size x size
+    canvas = Image.new("RGBA", (size, size), (0, 0, 0, 0))
+    ox = (size - new_w) // 2
+    oy = (size - new_h) // 2
+    canvas.paste(resized, (ox, oy), resized)
+    return canvas
 
 # ─── Thumbnail WEBP ──────────────────────────────────────────
-
 def make_thumbnail_bytes(
     home_name: str, away_name: str,
     logo_a: "Image.Image | None", logo_b: "Image.Image | None",
     time_str: str, date_str: str, league: str,
     status: str = "upcoming", score: str = "", live_time: str = "",
 ) -> bytes:
-    W, H        = 800, 450
-    LOGO_SZ     = sc(156)      # sc(130) × 1.20  (+20%)
-    LOGO_CY     = 218
-    MID_X       = W // 2
-    INFO_HALF   = sc(100)
-    GAP         = sc(12)
-    LX          = MID_X - INFO_HALF - GAP - LOGO_SZ // 2
-    RX          = MID_X + INFO_HALF + GAP + LOGO_SZ // 2
-    NAME_Y      = LOGO_CY + LOGO_SZ // 2 + sc(14)
+    W, H      = 800, 450
+    LOGO_SZ   = sc(130)
+    LOGO_CY   = 205
+    MID_X     = W // 2
+    INFO_HALF = sc(100)
+    GAP       = sc(12)
+    LX        = MID_X - INFO_HALF - GAP - LOGO_SZ // 2
+    RX        = MID_X + INFO_HALF + GAP + LOGO_SZ // 2
+    NAME_Y    = LOGO_CY + LOGO_SZ // 2 + sc(18)
+    DATE_Y    = NAME_Y + sc(28)
+    LEAGUE_Y  = 112
 
-    # ── Font sizes ────────────────────────────────────────────
-    LEAGUE_FS   = sc(22)       # sc(19) × 1.15  (+15%)
-    DATE_FS     = sc(17)       # sc(14) × 1.20  (+20%)
-    TIME_FS     = sc(36)       # giờ thi đấu (giữ nguyên)
-    NAME_FS     = sc(19)       # sc(17) × 1.10  (+10%), không đậm, 1 hàng
-
-    # ── League: góc trên cùng ────────────────────────────────
-    LEAGUE_Y    = 30           # sát viền cam trên (was 112)
-    SEP_Y       = LEAGUE_Y + LEAGUE_FS // 2 + 8
-
+    # Nền sáng trắng → xanh nhạt
     img  = Image.new("RGB", (W, H))
     draw = ImageDraw.Draw(img)
-
-    # Nền gradient trắng → xanh nhạt
     for y in range(H):
         t = y / H
         draw.line([(0, y), (W, y)], fill=(int(252 - 8*t), int(254 - 6*t), 255))
+    draw.rectangle([(0, 0),   (W, 8)], fill=(255, 140, 0))
+    draw.rectangle([(0, H-8), (W, H)], fill=(255, 140, 0))
 
-    # Viền cam trên/dưới
-    draw.rectangle([(0, 0),   (W, 8)],  fill=(255, 140, 0))
-    draw.rectangle([(0, H-8), (W, H)],  fill=(255, 140, 0))
-
-    # ── Tên giải đấu: trên cùng, font lớn hơn 10% ────────────
+    # Tên giải + đường kẻ
     if league:
         draw.text(
-            (MID_X, LEAGUE_Y + 8), league[:28],
-            fill=(55, 80, 160), font=_font(LEAGUE_FS, False), anchor="mm"
+            (MID_X, LEAGUE_Y), league[:26],
+            fill=(55, 80, 160), font=_font(sc(17), False), anchor="mm"
         )
-        ll = sc(110)
+        ll = sc(95)
         draw.line(
-            [(MID_X - ll, SEP_Y + 8), (MID_X + ll, SEP_Y + 8)],
+            [(MID_X - ll, LEAGUE_Y + sc(14)), (MID_X + ll, LEAGUE_Y + sc(14))],
             fill=(195, 210, 235), width=2
         )
 
-    # ── Vùng trung tâm: giờ / tỉ số / LIVE ──────────────────
+    # Giờ / Tỉ số
     if status == "live" and score:
-        # Tỉ số + phút thi đấu
-        draw.text(
-            (MID_X, LOGO_CY - sc(13)),
-            score.replace("-", " : "),
-            fill=(190, 20, 20), font=_font(TIME_FS), anchor="mm"
-        )
-        live_lbl = f"● {live_time}'" if live_time and live_time not in ("", "0") else "● LIVE"
+        main_txt = score.replace("-", " : ")
+        main_col = (190, 20, 20)
+        sub_txt  = (f"● {live_time}'" if live_time and live_time not in ("", "0") else "● LIVE")
+        sub_col  = (190, 20, 20)
+    elif status == "live":
+        main_txt = "LIVE"
+        main_col = (190, 20, 20)
+        sub_txt  = (f"● {live_time}'" if live_time and live_time not in ("", "0") else "●")
+        sub_col  = (190, 20, 20)
+    else:
+        main_txt = time_str or "VS"
+        main_col = (20, 45, 130)
+        sub_txt  = "VS" if time_str else ""
+        sub_col  = (90, 115, 195)
+
+    has_sub = bool(sub_txt)
+    draw.text(
+        (MID_X, LOGO_CY - (sc(13) if has_sub else 0)),
+        main_txt, fill=main_col, font=_font(sc(36)), anchor="mm"
+    )
+    if has_sub:
         draw.text(
             (MID_X, LOGO_CY + sc(24)),
-            live_lbl, fill=(190, 20, 20), font=_font(sc(14), False), anchor="mm"
+            sub_txt, fill=sub_col, font=_font(sc(14), False), anchor="mm"
         )
 
-    elif status == "live":
-        # Chỉ LIVE (chưa có tỉ số)
-        draw.text(
-            (MID_X, LOGO_CY - sc(8)),
-            "LIVE", fill=(190, 20, 20), font=_font(TIME_FS), anchor="mm"
-        )
-        live_lbl = f"● {live_time}'" if live_time and live_time not in ("", "0") else "●"
-        draw.text(
-            (MID_X, LOGO_CY + sc(22)),
-            live_lbl, fill=(190, 20, 20), font=_font(sc(14), False), anchor="mm"
-        )
-
-    else:
-        # UPCOMING: giờ + ngày gần nhau, KHÔNG có chữ "VS"
-        if time_str and date_str:
-            # Giờ ở trên, ngày sát dưới
-            draw.text(
-                (MID_X, LOGO_CY - sc(14)),
-                time_str,
-                fill=(20, 45, 130), font=_font(TIME_FS), anchor="mm"
-            )
-            draw.text(
-                (MID_X, LOGO_CY + sc(22)),
-                f"📅 {date_str}",
-                fill=(55, 85, 175), font=_font(DATE_FS, False), anchor="mm"
-            )
-        elif time_str:
-            draw.text(
-                (MID_X, LOGO_CY),
-                time_str,
-                fill=(20, 45, 130), font=_font(TIME_FS), anchor="mm"
-            )
-        elif date_str:
-            draw.text(
-                (MID_X, LOGO_CY),
-                f"📅 {date_str}",
-                fill=(55, 85, 175), font=_font(DATE_FS, False), anchor="mm"
-            )
-
-    # ── Logo hai đội ─────────────────────────────────────────
+    # Logo — dùng _resize_logo_uniform để mọi logo có cùng kích thước
     def paste_logo(cx, cy, logo_img, name, col):
         nonlocal img, draw
         if logo_img:
-            logo_img = logo_img.convert("RGBA")
-            logo_img.thumbnail((LOGO_SZ, LOGO_SZ), Image.LANCZOS)
-            canvas = Image.new("RGBA", (LOGO_SZ, LOGO_SZ), (0, 0, 0, 0))
-            ox = (LOGO_SZ - logo_img.width)  // 2
-            oy = (LOGO_SZ - logo_img.height) // 2
-            canvas.paste(logo_img, (ox, oy), logo_img)
+            # Resize đồng đều về đúng LOGO_SZ x LOGO_SZ
+            canvas = _resize_logo_uniform(logo_img, LOGO_SZ)
             base = img.convert("RGBA")
-            base.paste(canvas, (cx - LOGO_SZ//2, cy - LOGO_SZ//2), canvas)
+            base.paste(canvas, (cx - LOGO_SZ // 2, cy - LOGO_SZ // 2), canvas)
             img  = base.convert("RGB")
             draw = ImageDraw.Draw(img)
         else:
             r2 = LOGO_SZ // 2 - 4
             draw.ellipse([(cx-r2+3, cy-r2+3), (cx+r2+3, cy+r2+3)], fill=(185, 195, 220))
-            draw.ellipse([(cx-r2,   cy-r2),   (cx+r2,   cy+r2)],   fill=col)
+            draw.ellipse([(cx-r2, cy-r2), (cx+r2, cy+r2)], fill=col)
             init = "".join(w[0].upper() for w in name.split()[:2]) or "?"
             draw.text((cx, cy), init, fill="white", font=_font(sc(34)), anchor="mm")
 
-    paste_logo(LX, LOGO_CY, logo_a, home_name, (25,  70, 175))
-    paste_logo(RX, LOGO_CY, logo_b, away_name, (175, 30,  55))
+    paste_logo(LX, LOGO_CY, logo_a, home_name, (25, 70, 175))
+    paste_logo(RX, LOGO_CY, logo_b, away_name, (175, 30, 55))
 
-    # ── Tên đội: 1 hàng, không đậm, font +10% ───────────────
+    # Tên đội
     def draw_name(cx, name):
-        col = (25, 50, 125)
-        draw.text(
-            (cx, NAME_Y), name[:18],
-            fill=col, font=_font(NAME_FS, False), anchor="mm"
-        )
+        words = name.split()
+        col   = (25, 50, 125)
+        if len(name) <= 12 or len(words) <= 1:
+            draw.text((cx, NAME_Y), name[:16], fill=col, font=_font(sc(17)), anchor="mm")
+        else:
+            mid = max(1, len(words) // 2)
+            draw.text(
+                (cx, NAME_Y - sc(9)), " ".join(words[:mid])[:16],
+                fill=col, font=_font(sc(15)), anchor="mm"
+            )
+            draw.text(
+                (cx, NAME_Y + sc(9)), " ".join(words[mid:])[:16],
+                fill=col, font=_font(sc(13), False), anchor="mm"
+            )
 
     draw_name(LX, home_name)
     draw_name(RX, away_name)
 
-    # Watermark
+    # Ngày — tăng kích thước thêm 20% so với sc(14) cũ → sc(17)
+    if date_str:
+        draw.text(
+            (MID_X, DATE_Y), f"\U0001f4c5  {date_str}",
+            fill=(75, 100, 170), font=_font(sc(17), False), anchor="mm"
+        )
+
     draw.text((W-12, H-14), "giovang.vin", fill=(155, 170, 205), font=_font(10, False), anchor="rm")
 
     buf = io.BytesIO()
     img.save(buf, format="WEBP", quality=83, method=4)
     return buf.getvalue()
 
-
 # ─── Build channel ───────────────────────────────────────────
-
 def make_id(*parts) -> str:
     raw    = "-".join(str(p) for p in parts if p)
     slug   = re.sub(r"[^a-zA-Z0-9]+", "-", raw).strip("-").lower()
     digest = hashlib.md5(raw.encode()).hexdigest()[:8]
     return slug[:48] + "-" + digest if len(slug) > 56 else slug
-
 
 def build_title(m: dict) -> str:
     base, score = m["base_title"], m["score"]
@@ -610,21 +478,20 @@ def build_title(m: dict) -> str:
         lt  = m["live_time"]
         sfx = f" {lt}'" if lt and lt not in ("", "0") else ""
         return (
-            f"{m['home_team']} {score} {m['away_team']} 🔴{sfx}"
-            if score else f"{base} 🔴 LIVE{sfx}"
+            f"{m['home_team']} {score} {m['away_team']}  \U0001f534{sfx}"
+            if score else f"{base}  \U0001f534 LIVE{sfx}"
         )
     if m["status"] == "finished":
         return (
-            f"{m['home_team']} {score} {m['away_team']} ✅"
-            if score else f"{base} ✅ KT"
+            f"{m['home_team']} {score} {m['away_team']}  \u2705"
+            if score else f"{base}  \u2705 KT"
         )
     ti = (
-        f" 🕐 {t} | {d}" if t and d else
-        f" 🕐 {t}"       if t       else
-        f" 📅 {d}"       if d       else ""
+        f"  \U0001f550 {t} | {d}" if t and d else
+        f"  \U0001f550 {t}"       if t else
+        f"  \U0001f4c5 {d}"       if d else ""
     )
     return f"{base}{ti}"
-
 
 def build_sources(ch_id: str, streams: list, detail_url: str) -> list:
     stream_list = []
@@ -688,43 +555,32 @@ def build_sources(ch_id: str, streams: list, detail_url: str) -> list:
         }],
     }]
 
-
 def build_channel(m: dict, streams: list, thumb_url: str, idx: int) -> dict:
-    ch_id      = make_id("gv", str(idx), slugify(m["base_title"])[:24])
-    title      = build_title(m)
-    league     = m["league"]
-    score      = m["score"]
-    blv_names  = m.get("blv_names", [])
-    multi_blv  = len(streams) > 1
+    ch_id     = make_id("gv", str(idx), slugify(m["base_title"])[:24])
+    title     = build_title(m)
+    league    = m["league"]
+    score     = m["score"]
+    blv_names = m.get("blv_names", [])
+    multi_blv = len(streams) > 1
 
     labels = []
+    st_map = {
+        "live":     ("\u25cf LIVE",         "#C62828"),
+        "upcoming": ("\U0001f550 Sắp diễn ra", "#1565C0"),
+        "finished": ("\u2705 Kết thúc",     "#424242"),
+    }
+    st_t, st_c = st_map.get(m["status"], ("\u25cf LIVE", "#C62828"))
+    labels.append({"text": st_t, "color": st_c, "text_color": "#ffffff", "position": "top-left"})
 
-    # ── Status label ──────────────────────────────────────────
-    # CHỈ hiện label cho LIVE và KẾT THÚC.
-    # KHÔNG hiện label "Sắp diễn ra" (upcoming) theo yêu cầu.
-    if m["status"] == "live":
-        labels.append({
-            "text": "● LIVE", "color": "#C62828",
-            "text_color": "#ffffff", "position": "top-left",
-        })
-    elif m["status"] == "finished":
-        labels.append({
-            "text": "✅ Kết thúc", "color": "#424242",
-            "text_color": "#ffffff", "position": "top-left",
-        })
-    # upcoming → không thêm label nào ở top-left
-
-    # ── Score + live time ─────────────────────────────────────
     if score and m["status"] == "live":
         lt  = m["live_time"]
-        txt = f"{score} {lt}'" if lt and lt not in ("", "0") else score
+        txt = f"{score}  {lt}'" if lt and lt not in ("", "0") else score
         labels.append({"text": txt, "color": "#B71C1C", "text_color": "#ffffff", "position": "bottom-right"})
 
-    # ── BLV ──────────────────────────────────────────────────
     if blv_names:
         btxt = (
-            f"🎙 {blv_names[0]}" if len(blv_names) == 1
-            else f"🎙 {len(blv_names)} BLV"
+            f"\U0001f399 {blv_names[0]}" if len(blv_names) == 1
+            else f"\U0001f399 {len(blv_names)} BLV"
         )
         labels.append({"text": btxt, "color": "#1B5E20", "text_color": "#ffffff", "position": "bottom-left"})
 
@@ -736,7 +592,6 @@ def build_channel(m: dict, streams: list, thumb_url: str, idx: int) -> dict:
         "width":            800,
         "height":           450,
     }
-
     sources = build_sources(ch_id, streams, m["detail_url"])
 
     parts = []
@@ -745,10 +600,12 @@ def build_channel(m: dict, streams: list, thumb_url: str, idx: int) -> dict:
     if m["date_str"]:   parts.append(m["date_str"])
     if m["status"] == "live":
         lt = m["live_time"]
-        parts.append(f"🔴 LIVE{' '+lt+chr(39) if lt and lt not in ('','0') else ''}")
+        parts.append(f"\U0001f534 LIVE{' '+lt+chr(39) if lt and lt not in ('','0') else ''}")
         if score: parts.append(score)
+    elif m["status"] == "upcoming":
+        parts.append("\U0001f550 Sắp diễn ra")
     if blv_names:
-        parts.append("🎙 " + " | ".join(blv_names))
+        parts.append("\U0001f399 " + " | ".join(blv_names))
 
     return {
         "id":            ch_id,
@@ -762,7 +619,6 @@ def build_channel(m: dict, streams: list, thumb_url: str, idx: int) -> dict:
         "sources":       sources,
     }
 
-
 def build_iptv_json(channels: list, now_str: str) -> dict:
     return {
         "id":          "giovang-iptv",
@@ -775,7 +631,7 @@ def build_iptv_json(channels: list, now_str: str) -> dict:
         "image":       {"type": "cover", "url": SITE_ICON},
         "groups": [{
             "id":            "hot-match",
-            "name":          "🔥 Hot Match",
+            "name":          "\U0001f525 Hot Match",
             "image":         None,
             "display":       "vertical",
             "grid_number":   2,
@@ -784,82 +640,68 @@ def build_iptv_json(channels: list, now_str: str) -> dict:
         }],
     }
 
-
 # ─── Main ────────────────────────────────────────────────────
-
 def main():
-    ap = argparse.ArgumentParser(description="Crawler giovang.vin v10")
+    ap = argparse.ArgumentParser(description="Crawler giovang.vin v9")
     ap.add_argument("--no-stream", action="store_true")
     ap.add_argument("--all",       action="store_true")
     ap.add_argument("--output",    default=OUTPUT_FILE)
     args = ap.parse_args()
 
     log(f"\n{'='*62}")
-    log(f"  CRAWLER giovang.vin v10 | CDN: {_cdn_base() or 'base64 local'}")
-    log(f"  Logo sources: TheSportsDB → ESPN (thay thế keovip88.net)")
+    log(f"  CRAWLER giovang.vin v9  |  CDN: {_cdn_base() or 'base64 local'}")
     log(f"{'='*62}\n")
 
     now_str = datetime.now(VN_TZ).strftime("%d/%m/%Y %H:%M ICT")
-    s       = make_scraper()
-    init_session(s)
+    sc = make_scraper()
+    init_session(sc)
 
-    matches = fetch_matches(s, only_hot=not args.all)
+    matches = fetch_matches(sc, only_hot=not args.all)
     if not matches:
-        log("Không có trận nào.")
+        log("Khong co tran nao.")
         sys.exit(1)
 
-    log(f"\nBước 2-4: Logo + Stream + Thumbnail ({len(matches)} trận)...")
-
+    log(f"\nBuoc 2-4: Logo + Stream + Thumbnail ({len(matches)} tran)...")
     channels = []
+
     for i, m in enumerate(matches, 1):
         log(f"\n  [{i:02d}/{len(matches):02d}] {m['base_title']}")
-        log(f"  {m['status']:8s} | {m['league']:25s} | {m['time_str']} {m['date_str']}")
+        log(f"        {m['status']:8s} | {m['league']:25s} | {m['time_str']} {m['date_str']}")
 
         logo_a_img = logo_b_img = None
         streams    = []
 
         if not args.no_stream:
-            # ── WP AJAX logo ──────────────────────────────────
             try:
-                log("  WP AJAX logo...")
-                hw, aw = fetch_wp_logos(s, m["id"])
+                log("        WP AJAX logo...")
+                hw, aw = fetch_wp_logos(sc, m["id"])
                 la = (hw or {}).get("logo", "")
                 lb = (aw or {}).get("logo", "")
                 if la: m["logo_a"] = la
                 if lb: m["logo_b"] = lb
+                if m.get("logo_a"): log(f"        A ok {m['logo_a'][-45:]}")
+                if m.get("logo_b"): log(f"        B ok {m['logo_b'][-45:]}")
             except Exception as e:
-                log(f"  WP AJAX lỗi: {e}")
+                log(f"        WP AJAX loi: {e}")
 
-            # ── Giải quyết logo từ nguồn thay thế ────────────
-            # Nếu URL logo từ keovip88.net → thay bằng TheSportsDB / ESPN
             try:
-                m["logo_a"] = resolve_logo(m.get("logo_a", ""), m["home_team"], s)
-                m["logo_b"] = resolve_logo(m.get("logo_b", ""), m["away_team"], s)
-                if m.get("logo_a"): log(f"  A: {m['logo_a'][-60:]}")
-                if m.get("logo_b"): log(f"  B: {m['logo_b'][-60:]}")
+                if m.get("logo_a"): logo_a_img = _dl_logo(m["logo_a"], sc)
+                if m.get("logo_b"): logo_b_img = _dl_logo(m["logo_b"], sc)
+                log(f"        dl: A={'ok' if logo_a_img else 'x'} B={'ok' if logo_b_img else 'x'}")
             except Exception as e:
-                log(f"  Logo resolve lỗi: {e}")
+                log(f"        Logo loi: {e}")
 
-            # ── Tải logo về để vẽ thumbnail ───────────────────
             try:
-                if m.get("logo_a"): logo_a_img = _dl_logo(m["logo_a"], s)
-                if m.get("logo_b"): logo_b_img = _dl_logo(m["logo_b"], s)
-                log(f"  dl: A={'ok' if logo_a_img else 'x'} B={'ok' if logo_b_img else 'x'}")
+                log("        Stream API...")
+                streams = fetch_streams(sc, m["id"])
+                log(f"        -> {len(streams)} BLV")
             except Exception as e:
-                log(f"  Logo tải lỗi: {e}")
-
-            # ── Stream ────────────────────────────────────────
-            try:
-                log("  Stream API...")
-                streams = fetch_streams(s, m["id"])
-                log(f"  -> {len(streams)} BLV")
-            except Exception as e:
-                log(f"  Stream lỗi: {e}")
+                log(f"        Stream loi: {e}")
                 streams = []
 
-        time.sleep(0.4)
+            time.sleep(0.4)
 
-        # ── Thumbnail WEBP ────────────────────────────────────
+        # Thumbnail WEBP
         ch_id = make_id("gv", str(i), slugify(m["base_title"])[:24])
         try:
             webp_bytes = make_thumbnail_bytes(
@@ -871,16 +713,16 @@ def main():
             thumb_url = save_thumbnail(webp_bytes, ch_id)
             is_cdn    = thumb_url.startswith("http")
             log(
-                f"  WEBP {len(webp_bytes):,}B → "
+                f"        WEBP {len(webp_bytes):,}B -> "
                 f"{'CDN: '+thumb_url[-50:] if is_cdn else f'base64 {len(thumb_url):,}c'}"
             )
         except Exception as e:
-            log(f"  Thumbnail lỗi: {e}")
+            log(f"        Thumbnail loi: {e}")
             thumb_url = SITE_ICON
 
         channels.append(build_channel(m, streams, thumb_url, i))
 
-    # ── Xoá thumbnail cũ ─────────────────────────────────────
+    # Xoá thumbnail cũ không còn dùng
     cdn = _cdn_base()
     if cdn:
         td = Path(THUMB_DIR)
@@ -899,8 +741,8 @@ def main():
     up_n    = sum(1 for m in matches if m["status"] == "upcoming")
 
     log(f"\n{'='*62}")
-    log(f"  Xong! → {args.output} ({json_sz // 1024} KB)")
-    log(f"  {len(channels)} trận | Live:{live_n} | Sắp:{up_n} | {now_str}")
+    log(f"  Xong! -> {args.output}  ({json_sz // 1024} KB)")
+    log(f"  {len(channels)} tran | Live:{live_n} | Sap:{up_n} | {now_str}")
     log(f"{'='*62}\n")
 
 
