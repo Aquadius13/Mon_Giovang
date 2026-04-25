@@ -448,146 +448,159 @@ def fetch_streams(s, fid: str) -> list:
 
 # ─── Thumbnail WEBP ──────────────────────────────────────────
 
+def _crop_logo_content(im: "Image.Image") -> "Image.Image":
+    """Cắt bỏ viền trắng / trong suốt xung quanh nội dung thực của logo.
+    Đảm bảo mọi logo có kích thước nội dung đồng đều, không có vùng trắng thừa."""
+    im = im.convert("RGBA")
+    # Lấy bounding box vùng có nội dung (alpha > 10 hoặc màu không phải trắng)
+    r, g, b, a = im.split()
+    # Tạo mask: pixel có nội dung = alpha > 10 VÀ không phải trắng hoàn toàn
+    from PIL import ImageChops
+    # Dùng alpha channel để detect nội dung
+    bbox = a.getbbox()  # bounding box của vùng không trong suốt
+    if bbox:
+        im = im.crop(bbox)
+    return im
+
+
 def make_thumbnail_bytes(
     home_name: str, away_name: str,
     logo_a: "Image.Image | None", logo_b: "Image.Image | None",
     time_str: str, date_str: str, league: str,
     status: str = "upcoming", score: str = "", live_time: str = "",
 ) -> bytes:
-    W, H        = 800, 450
-    LOGO_SZ     = sc(156)      # sc(130) × 1.20  (+20%)
-    LOGO_CY     = 218
-    MID_X       = W // 2
-    INFO_HALF   = sc(100)
-    GAP         = sc(12)
-    LX          = MID_X - INFO_HALF - GAP - LOGO_SZ // 2
-    RX          = MID_X + INFO_HALF + GAP + LOGO_SZ // 2
-    NAME_Y      = LOGO_CY + LOGO_SZ // 2 + sc(14)
+    W, H      = 800, 450
+    MID_X     = W // 2
+
+    # ── Kích thước logo +20% so với gốc sc(130) ──────────────
+    LOGO_SZ   = sc(156)        # = 179 px
 
     # ── Font sizes ────────────────────────────────────────────
-    LEAGUE_FS   = sc(22)       # sc(19) × 1.15  (+15%)
-    DATE_FS     = sc(17)       # sc(14) × 1.20  (+20%)
-    TIME_FS     = sc(36)       # giờ thi đấu (giữ nguyên)
-    NAME_FS     = sc(19)       # sc(17) × 1.10  (+10%), không đậm, 1 hàng
+    LEAGUE_FS = sc(22)         # +15% so với sc(19) → 25 px
+    TIME_FS   = sc(36)         # giờ thi đấu = 41 px
+    DATE_FS   = sc(16)         # ngày thi đấu +15% từ sc(14) → 18 px
+    NAME_FS   = sc(19)         # tên đội +10% từ sc(17), không đậm → 21 px
 
-    # ── League: góc trên cùng ────────────────────────────────
-    LEAGUE_Y    = 30           # sát viền cam trên (was 112)
-    SEP_Y       = LEAGUE_Y + LEAGUE_FS // 2 + 8
+    # ── Layout dọc ───────────────────────────────────────────
+    # Viền cam: 8px trên + 8px dưới
+    # League: sát viền trên (y=8 → text center tại y=26)
+    # Separator: y=42
+    # Logo center: căn giữa phần còn lại
+    LEAGUE_CY = 26             # trên cùng, sát viền cam
+    SEP_Y     = 42             # đường kẻ bên dưới tên giải
+    # Logo: căn giữa vùng từ SEP_Y đến (H-8-NAME_FS-10)
+    # Vùng hữu dụng: từ y=50 đến y=415 → height=365
+    # Logo 179px + gap 12px + name 21px = 212px → margin = (365-212)/2 = 76
+    # LOGO_CY = 50 + 76 + 89 = 215
+    LOGO_CY   = 232            # center của logo
+    NAME_Y    = LOGO_CY + LOGO_SZ // 2 + 14  # tên đội bên dưới logo
 
+    # ── Vị trí logo trái/phải ────────────────────────────────
+    # Khoảng trống giữa 2 logo: đủ để hiển thị TIME (rộng ~120px)
+    # INFO_HALF: khoảng cách từ center đến mép trong của logo
+    INFO_HALF = sc(95)
+    GAP       = sc(10)
+    LX        = MID_X - INFO_HALF - GAP - LOGO_SZ // 2
+    RX        = MID_X + INFO_HALF + GAP + LOGO_SZ // 2
+
+    # ── Vị trí giờ/ngày (TIME và DATE gần nhau) ─────────────
+    # TIME_FS=41px (half≈20), DATE_FS=18px (half≈9), gap 5px giữa hai text
+    # Block height = 20+20+5+9+9 = 63px → center tại LOGO_CY
+    # TIME center = LOGO_CY - (5/2 + 9 + 5/2 + 0) ≈ LOGO_CY - 14
+    TIME_Y    = LOGO_CY - 15
+    DATE_Y    = TIME_Y + 20 + 5 + 9   # = TIME_Y + 34
+
+    # ── Canvas ───────────────────────────────────────────────
     img  = Image.new("RGB", (W, H))
     draw = ImageDraw.Draw(img)
 
-    # Nền gradient trắng → xanh nhạt
+    # Gradient nền trắng → xanh nhạt
     for y in range(H):
         t = y / H
         draw.line([(0, y), (W, y)], fill=(int(252 - 8*t), int(254 - 6*t), 255))
 
-    # Viền cam trên/dưới
+    # Viền cam trên + dưới
     draw.rectangle([(0, 0),   (W, 8)],  fill=(255, 140, 0))
     draw.rectangle([(0, H-8), (W, H)],  fill=(255, 140, 0))
 
-    # ── Tên giải đấu: trên cùng, font lớn hơn 10% ────────────
+    # ── 1. Tên giải đấu: trên cùng, font LEAGUE_FS ───────────
     if league:
         draw.text(
-            (MID_X, LEAGUE_Y + 8), league[:28],
-            fill=(55, 80, 160), font=_font(LEAGUE_FS, False), anchor="mm"
+            (MID_X, LEAGUE_CY), league[:30],
+            fill=(35, 65, 160), font=_font(LEAGUE_FS, False), anchor="mm"
         )
-        ll = sc(110)
-        draw.line(
-            [(MID_X - ll, SEP_Y + 8), (MID_X + ll, SEP_Y + 8)],
-            fill=(195, 210, 235), width=2
-        )
+        ll = sc(115)
+        draw.line([(MID_X - ll, SEP_Y), (MID_X + ll, SEP_Y)],
+                  fill=(190, 210, 240), width=2)
 
-    # ── Vùng trung tâm: giờ / tỉ số / LIVE ──────────────────
+    # ── 2. Vùng trung tâm: giờ/ngày hoặc tỉ số LIVE ─────────
     if status == "live" and score:
-        # Tỉ số + phút thi đấu
-        draw.text(
-            (MID_X, LOGO_CY - sc(13)),
-            score.replace("-", " : "),
-            fill=(190, 20, 20), font=_font(TIME_FS), anchor="mm"
-        )
-        live_lbl = f"● {live_time}'" if live_time and live_time not in ("", "0") else "● LIVE"
-        draw.text(
-            (MID_X, LOGO_CY + sc(24)),
-            live_lbl, fill=(190, 20, 20), font=_font(sc(14), False), anchor="mm"
-        )
+        # Tỉ số lớn + phút thi đấu nhỏ bên dưới
+        draw.text((MID_X, TIME_Y), score.replace("-", " : "),
+                  fill=(190, 20, 20), font=_font(TIME_FS), anchor="mm")
+        live_lbl = (f"● {live_time}'"
+                    if live_time and live_time not in ("", "0")
+                    else "● LIVE")
+        draw.text((MID_X, DATE_Y), live_lbl,
+                  fill=(190, 20, 20), font=_font(DATE_FS, False), anchor="mm")
 
     elif status == "live":
-        # Chỉ LIVE (chưa có tỉ số)
-        draw.text(
-            (MID_X, LOGO_CY - sc(8)),
-            "LIVE", fill=(190, 20, 20), font=_font(TIME_FS), anchor="mm"
-        )
-        live_lbl = f"● {live_time}'" if live_time and live_time not in ("", "0") else "●"
-        draw.text(
-            (MID_X, LOGO_CY + sc(22)),
-            live_lbl, fill=(190, 20, 20), font=_font(sc(14), False), anchor="mm"
-        )
+        draw.text((MID_X, TIME_Y), "LIVE",
+                  fill=(190, 20, 20), font=_font(TIME_FS), anchor="mm")
+        live_lbl = (f"● {live_time}'"
+                    if live_time and live_time not in ("", "0")
+                    else "●")
+        draw.text((MID_X, DATE_Y), live_lbl,
+                  fill=(190, 20, 20), font=_font(DATE_FS, False), anchor="mm")
 
     else:
-        # UPCOMING: giờ + ngày gần nhau, KHÔNG có chữ "VS"
-        if time_str and date_str:
-            # Giờ ở trên, ngày sát dưới
-            draw.text(
-                (MID_X, LOGO_CY - sc(14)),
-                time_str,
-                fill=(20, 45, 130), font=_font(TIME_FS), anchor="mm"
-            )
-            draw.text(
-                (MID_X, LOGO_CY + sc(22)),
-                f"📅 {date_str}",
-                fill=(55, 85, 175), font=_font(DATE_FS, False), anchor="mm"
-            )
-        elif time_str:
-            draw.text(
-                (MID_X, LOGO_CY),
-                time_str,
-                fill=(20, 45, 130), font=_font(TIME_FS), anchor="mm"
-            )
-        elif date_str:
-            draw.text(
-                (MID_X, LOGO_CY),
-                f"📅 {date_str}",
-                fill=(55, 85, 175), font=_font(DATE_FS, False), anchor="mm"
-            )
+        # UPCOMING: giờ trên, ngày sát dưới, KHÔNG chữ VS
+        if time_str:
+            draw.text((MID_X, TIME_Y), time_str,
+                      fill=(20, 45, 130), font=_font(TIME_FS), anchor="mm")
+        if date_str:
+            draw.text((MID_X, DATE_Y), f"📅 {date_str}",
+                      fill=(50, 85, 175), font=_font(DATE_FS, False), anchor="mm")
+        if not time_str and not date_str:
+            draw.text((MID_X, LOGO_CY), "—",
+                      fill=(160, 170, 200), font=_font(TIME_FS), anchor="mm")
 
-    # ── Logo hai đội ─────────────────────────────────────────
-    def paste_logo(cx, cy, logo_img, name, col):
+    # ── 3. Logo hai đội (cắt viền trắng → kích thước đồng đều) ─
+    def paste_logo(cx: int, cy: int, logo_img, name: str, fallback_col: tuple):
         nonlocal img, draw
         if logo_img:
-            logo_img = logo_img.convert("RGBA")
-            logo_img.thumbnail((LOGO_SZ, LOGO_SZ), Image.LANCZOS)
-            canvas = Image.new("RGBA", (LOGO_SZ, LOGO_SZ), (0, 0, 0, 0))
-            ox = (LOGO_SZ - logo_img.width)  // 2
-            oy = (LOGO_SZ - logo_img.height) // 2
-            canvas.paste(logo_img, (ox, oy), logo_img)
-            base = img.convert("RGBA")
-            base.paste(canvas, (cx - LOGO_SZ//2, cy - LOGO_SZ//2), canvas)
-            img  = base.convert("RGB")
-            draw = ImageDraw.Draw(img)
-        else:
-            r2 = LOGO_SZ // 2 - 4
-            draw.ellipse([(cx-r2+3, cy-r2+3), (cx+r2+3, cy+r2+3)], fill=(185, 195, 220))
-            draw.ellipse([(cx-r2,   cy-r2),   (cx+r2,   cy+r2)],   fill=col)
-            init = "".join(w[0].upper() for w in name.split()[:2]) or "?"
-            draw.text((cx, cy), init, fill="white", font=_font(sc(34)), anchor="mm")
+            try:
+                logo_img = _crop_logo_content(logo_img)  # bỏ viền trắng
+                logo_img.thumbnail((LOGO_SZ, LOGO_SZ), Image.LANCZOS)
+                canvas = Image.new("RGBA", (LOGO_SZ, LOGO_SZ), (0, 0, 0, 0))
+                ox = (LOGO_SZ - logo_img.width)  // 2
+                oy = (LOGO_SZ - logo_img.height) // 2
+                canvas.paste(logo_img, (ox, oy), logo_img)
+                base = img.convert("RGBA")
+                base.paste(canvas, (cx - LOGO_SZ // 2, cy - LOGO_SZ // 2), canvas)
+                img  = base.convert("RGB")
+                draw = ImageDraw.Draw(img)
+                return
+            except Exception:
+                pass
+        # Fallback: vòng tròn màu + chữ viết tắt
+        r2 = LOGO_SZ // 2 - 4
+        draw.ellipse([(cx-r2+3, cy-r2+3), (cx+r2+3, cy+r2+3)], fill=(185, 195, 220))
+        draw.ellipse([(cx-r2,   cy-r2),   (cx+r2,   cy+r2)],   fill=fallback_col)
+        init = "".join(w[0].upper() for w in name.split()[:2]) or "?"
+        draw.text((cx, cy), init, fill="white", font=_font(sc(34)), anchor="mm")
 
     paste_logo(LX, LOGO_CY, logo_a, home_name, (25,  70, 175))
     paste_logo(RX, LOGO_CY, logo_b, away_name, (175, 30,  55))
 
-    # ── Tên đội: 1 hàng, không đậm, font +10% ───────────────
-    def draw_name(cx, name):
-        col = (25, 50, 125)
-        draw.text(
-            (cx, NAME_Y), name[:18],
-            fill=col, font=_font(NAME_FS, False), anchor="mm"
-        )
-
-    draw_name(LX, home_name)
-    draw_name(RX, away_name)
+    # ── 4. Tên đội: 1 hàng duy nhất, không đậm, NAME_FS ─────
+    for cx, name in [(LX, home_name), (RX, away_name)]:
+        draw.text((cx, NAME_Y), name[:20],
+                  fill=(22, 50, 125), font=_font(NAME_FS, False), anchor="mm")
 
     # Watermark
-    draw.text((W-12, H-14), "giovang.vin", fill=(155, 170, 205), font=_font(10, False), anchor="rm")
+    draw.text((W - 12, H - 14), "giovang.vin",
+              fill=(155, 170, 205), font=_font(10, False), anchor="rm")
 
     buf = io.BytesIO()
     img.save(buf, format="WEBP", quality=83, method=4)
@@ -700,8 +713,10 @@ def build_channel(m: dict, streams: list, thumb_url: str, idx: int) -> dict:
     labels = []
 
     # ── Status label ──────────────────────────────────────────
-    # CHỈ hiện label cho LIVE và KẾT THÚC.
-    # KHÔNG hiện label "Sắp diễn ra" (upcoming) theo yêu cầu.
+    # - LIVE   → badge đỏ top-left
+    # - KẾT THÚC → badge xám top-left
+    # - UPCOMING → hiện giờ thi đấu ở top-left để ghi đè label
+    #              "Sắp diễn ra" mà player tự sinh ra
     if m["status"] == "live":
         labels.append({
             "text": "● LIVE", "color": "#C62828",
@@ -712,7 +727,12 @@ def build_channel(m: dict, streams: list, thumb_url: str, idx: int) -> dict:
             "text": "✅ Kết thúc", "color": "#424242",
             "text_color": "#ffffff", "position": "top-left",
         })
-    # upcoming → không thêm label nào ở top-left
+    elif m["status"] == "upcoming" and m.get("time_str"):
+        # Dùng giờ thi đấu làm label top-left → thay thế "Sắp diễn ra"
+        labels.append({
+            "text": f"🕐 {m['time_str']}", "color": "#1565C0",
+            "text_color": "#ffffff", "position": "top-left",
+        })
 
     # ── Score + live time ─────────────────────────────────────
     if score and m["status"] == "live":
