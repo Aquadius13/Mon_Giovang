@@ -114,8 +114,8 @@
         },
         {
           "id": "gv-2-botafogo-rj-vs-internaci",
-          "name": "Botafogo (RJ) 0-0 Internacional (RS) 🔴 45+3'",
-          "description": "VĐQG Brazil | 04:30 | 26/04 | 🔴 LIVE 45+3' | 0-0 | 🎙 BLV Dậu",
+          "name": "Botafogo (RJ) 2-2 Internacional (RS) 🔴 78'",
+          "description": "VĐQG Brazil | 04:30 | 26/04 | 🔴 LIVE 78' | 2-2 | 🎙 BLV Dậu",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -135,7 +135,7 @@
               "position": "top-left"
             },
             {
-              "text": "0-0 45+3'",
+              "text": "2-2 78'",
               "color": "#B71C1C",
               "text_color": "#ffffff",
               "position": "bottom-right"
