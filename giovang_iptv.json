@@ -21,8 +21,8 @@
       "channels": [
         {
           "id": "gv-1-newcastle-jets-fc-vs-cen",
-          "name": "Newcastle Jets FC 0-0 Central Coast Mariners FC 🔴 2'",
-          "description": "VĐQG Úc | 14:00 | 25/04 | 🔴 LIVE 2' | 0-0 | 🎙 BLV Dory",
+          "name": "Newcastle Jets FC 0-0 Central Coast Mariners FC 🔴 18'",
+          "description": "VĐQG Úc | 14:00 | 25/04 | 🔴 LIVE 18' | 0-0 | 🎙 BLV Dory",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -42,7 +42,7 @@
               "position": "top-left"
             },
             {
-              "text": "0-0 2'",
+              "text": "0-0 18'",
               "color": "#B71C1C",
               "text_color": "#ffffff",
               "position": "bottom-right"
