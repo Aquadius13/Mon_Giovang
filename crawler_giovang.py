@@ -455,19 +455,20 @@ def make_thumbnail_bytes(
     status: str = "upcoming", score: str = "", live_time: str = "",
 ) -> bytes:
     W, H        = 800, 450
-    LOGO_SZ     = sc(130)
-    LOGO_CY     = 218          # dịch xuống chút để nhường chỗ cho league trên cùng
+    LOGO_SZ     = sc(156)      # sc(130) × 1.20  (+20%)
+    LOGO_CY     = 218
     MID_X       = W // 2
     INFO_HALF   = sc(100)
     GAP         = sc(12)
     LX          = MID_X - INFO_HALF - GAP - LOGO_SZ // 2
     RX          = MID_X + INFO_HALF + GAP + LOGO_SZ // 2
-    NAME_Y      = LOGO_CY + LOGO_SZ // 2 + sc(16)
+    NAME_Y      = LOGO_CY + LOGO_SZ // 2 + sc(14)
 
     # ── Font sizes ────────────────────────────────────────────
-    LEAGUE_FS   = sc(19)       # sc(17) × 1.10 ≈ sc(19)  (+10%)
-    DATE_FS     = sc(17)       # sc(14) × 1.20 ≈ sc(17)  (+20%)
+    LEAGUE_FS   = sc(22)       # sc(19) × 1.15  (+15%)
+    DATE_FS     = sc(17)       # sc(14) × 1.20  (+20%)
     TIME_FS     = sc(36)       # giờ thi đấu (giữ nguyên)
+    NAME_FS     = sc(19)       # sc(17) × 1.10  (+10%), không đậm, 1 hàng
 
     # ── League: góc trên cùng ────────────────────────────────
     LEAGUE_Y    = 30           # sát viền cam trên (was 112)
@@ -574,22 +575,13 @@ def make_thumbnail_bytes(
     paste_logo(LX, LOGO_CY, logo_a, home_name, (25,  70, 175))
     paste_logo(RX, LOGO_CY, logo_b, away_name, (175, 30,  55))
 
-    # ── Tên đội ───────────────────────────────────────────────
+    # ── Tên đội: 1 hàng, không đậm, font +10% ───────────────
     def draw_name(cx, name):
-        words = name.split()
-        col   = (25, 50, 125)
-        if len(name) <= 12 or len(words) <= 1:
-            draw.text((cx, NAME_Y), name[:16], fill=col, font=_font(sc(17)), anchor="mm")
-        else:
-            mid = max(1, len(words) // 2)
-            draw.text(
-                (cx, NAME_Y - sc(9)), " ".join(words[:mid])[:16],
-                fill=col, font=_font(sc(15)), anchor="mm"
-            )
-            draw.text(
-                (cx, NAME_Y + sc(9)), " ".join(words[mid:])[:16],
-                fill=col, font=_font(sc(13), False), anchor="mm"
-            )
+        col = (25, 50, 125)
+        draw.text(
+            (cx, NAME_Y), name[:18],
+            fill=col, font=_font(NAME_FS, False), anchor="mm"
+        )
 
     draw_name(LX, home_name)
     draw_name(RX, away_name)
