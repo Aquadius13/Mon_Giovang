@@ -20,9 +20,9 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-1-los-angeles-dodgers-vs-c",
-          "name": "Los Angeles Dodgers 0-0  Chicago Cubs  🔴",
-          "description": "MLB  | 09:15 | 25/04 | 🔴 LIVE | 0-0 | 🎙 BLV Chanh",
+          "id": "gv-1-blazers-vs-spurs",
+          "name": "Blazers 0-0 Spurs  🔴",
+          "description": "NBA | 09:30 | 25/04 | 🔴 LIVE | 0-0 | 🎙 BLV Perry",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -30,7 +30,7 @@
             "padding": 0,
             "background_color": "#F5F8FF",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-1-los-angeles-dodgers-vs-c.webp",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-1-blazers-vs-spurs.webp",
             "width": 800,
             "height": 450
           },
@@ -48,7 +48,7 @@
               "position": "bottom-right"
             },
             {
-              "text": "🎙 BLV Chanh",
+              "text": "🎙 BLV Perry",
               "color": "#1B5E20",
               "text_color": "#ffffff",
               "position": "bottom-left"
@@ -56,23 +56,23 @@
           ],
           "sources": [
             {
-              "id": "gv-1-los-angeles-dodgers-vs-c-src0",
+              "id": "gv-1-blazers-vs-spurs-src0",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-1-los-angeles-dodgers-vs-c-ct0",
+                  "id": "gv-1-blazers-vs-spurs-ct0",
                   "name": "Trực tiếp",
                   "streams": [
                     {
-                      "id": "gv-1-los-angeles-dodgers-vs-c-st0",
-                      "name": "BLV Chanh",
+                      "id": "gv-1-blazers-vs-spurs-st0",
+                      "name": "BLV Perry",
                       "stream_links": [
                         {
-                          "id": "gv-1-los-angeles-dodgers-vs-c-l0hd",
+                          "id": "gv-1-blazers-vs-spurs-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777047167_hd/1777047167_hd@720p.m3u8",
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777046758_hd/1777046758_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -85,11 +85,11 @@
                           ]
                         },
                         {
-                          "id": "gv-1-los-angeles-dodgers-vs-c-l0sd",
+                          "id": "gv-1-blazers-vs-spurs-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777047167_sd/1777047167_hd@480p.m3u8",
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777046758_sd/1777046758_hd@480p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -111,8 +111,8 @@
         },
         {
           "id": "gv-2-hisamitsu-springs-nu-vs",
-          "name": "Hisamitsu Springs Nữ  vs Osaka Marvelous Nữ  🕐 11:35 | 25/04",
-          "description": "Bóng chuyền SV.League Nữ - Play Offs - Chung kết | 11:35 | 25/04 | 🕐 Sắp diễn ra | 🎙 BLV Băng",
+          "name": "Hisamitsu Springs Nữ  0-0 Osaka Marvelous Nữ  🔴",
+          "description": "Bóng chuyền SV.League Nữ - Play Offs - Chung kết | 11:35 | 25/04 | 🔴 LIVE | 0-0 | 🎙 BLV Băng",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -126,10 +126,16 @@
           },
           "labels": [
             {
-              "text": "🕐 Sắp diễn ra",
-              "color": "#1565C0",
+              "text": "● LIVE",
+              "color": "#C62828",
               "text_color": "#ffffff",
               "position": "top-left"
+            },
+            {
+              "text": "0-0",
+              "color": "#B71C1C",
+              "text_color": "#ffffff",
+              "position": "bottom-right"
             },
             {
               "text": "🎙 BLV Băng",
@@ -195,8 +201,8 @@
         },
         {
           "id": "gv-3-lg-sakers-vs-goyang-sono",
-          "name": "LG Sakers  vs Goyang Sono  🕐 12:00 | 25/04",
-          "description": "KBL | 12:00 | 25/04 | 🕐 Sắp diễn ra | 🎙 BLV Tôm",
+          "name": "LG Sakers  0-0 Goyang Sono  🔴",
+          "description": "KBL | 12:00 | 25/04 | 🔴 LIVE | 0-0 | 🎙 BLV Tôm",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -210,10 +216,16 @@
           },
           "labels": [
             {
-              "text": "🕐 Sắp diễn ra",
-              "color": "#1565C0",
+              "text": "● LIVE",
+              "color": "#C62828",
               "text_color": "#ffffff",
               "position": "top-left"
+            },
+            {
+              "text": "0-0",
+              "color": "#B71C1C",
+              "text_color": "#ffffff",
+              "position": "bottom-right"
             },
             {
               "text": "🎙 BLV Tôm",
@@ -279,8 +291,8 @@
         },
         {
           "id": "gv-4-gangwon-fc-vs-fc-seoul",
-          "name": "Gangwon FC vs FC Seoul  🕐 12:00 | 25/04",
-          "description": "K-League Hàn Quốc | 12:00 | 25/04 | 🕐 Sắp diễn ra | 🎙 BLV Tỵ",
+          "name": "Gangwon FC 0-0 FC Seoul  🔴 19'",
+          "description": "K-League Hàn Quốc | 12:00 | 25/04 | 🔴 LIVE 19' | 0-0 | 🎙 BLV Tỵ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -294,10 +306,16 @@
           },
           "labels": [
             {
-              "text": "🕐 Sắp diễn ra",
-              "color": "#1565C0",
+              "text": "● LIVE",
+              "color": "#C62828",
               "text_color": "#ffffff",
               "position": "top-left"
+            },
+            {
+              "text": "0-0  19'",
+              "color": "#B71C1C",
+              "text_color": "#ffffff",
+              "position": "bottom-right"
             },
             {
               "text": "🎙 BLV Tỵ",
