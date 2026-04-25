@@ -21,7 +21,7 @@
       "channels": [
         {
           "id": "gv-1-dplus-kia-vs-dns",
-          "name": "Dplus Kia  0-0 DNS  🔴",
+          "name": "Dplus Kia  0-0 DNS 🔴",
           "description": "LCK | 17:00 | 25/04 | 🔴 LIVE | 0-0 | 🎙 BLV Tôm",
           "type": "single",
           "display": "thumbnail-only",
@@ -111,8 +111,8 @@
         },
         {
           "id": "gv-2-chengdu-rongcheng-vs-zhe",
-          "name": "Chengdu Rongcheng 3-0 Zhejiang FC  🔴",
-          "description": "VĐQG Trung Quốc | 18:00 | 25/04 | 🔴 LIVE | 3-0 | 🎙 BLV Tí",
+          "name": "Chengdu Rongcheng 3-0 Zhejiang FC 🔴 52'",
+          "description": "VĐQG Trung Quốc | 18:00 | 25/04 | 🔴 LIVE 52' | 3-0 | 🎙 BLV Tí",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -132,7 +132,7 @@
               "position": "top-left"
             },
             {
-              "text": "3-0",
+              "text": "3-0 52'",
               "color": "#B71C1C",
               "text_color": "#ffffff",
               "position": "bottom-right"
@@ -201,8 +201,8 @@
         },
         {
           "id": "gv-3-becamex-binh-duong-vs-th",
-          "name": "Becamex Bình Dương 1-0 Thép Xanh Nam Định  🔴",
-          "description": "V-League | 18:00 | 25/04 | 🔴 LIVE | 1-0 | 🎙 BLV Thìn",
+          "name": "Becamex Bình Dương 1-0 Thép Xanh Nam Định 🔴 56'",
+          "description": "V-League | 18:00 | 25/04 | 🔴 LIVE 56' | 1-0 | 🎙 BLV Thìn",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -222,7 +222,7 @@
               "position": "top-left"
             },
             {
-              "text": "1-0",
+              "text": "1-0 56'",
               "color": "#B71C1C",
               "text_color": "#ffffff",
               "position": "bottom-right"
@@ -291,8 +291,8 @@
         },
         {
           "id": "gv-4-thanh-hoa-vs-pvf-cand",
-          "name": "Thanh Hóa 0-0 PVF-CAND  🔴",
-          "description": "V-League | 18:00 | 25/04 | 🔴 LIVE | 0-0 | 🎙 BLV Chanh",
+          "name": "Thanh Hóa 0-0 PVF-CAND 🔴 55'",
+          "description": "V-League | 18:00 | 25/04 | 🔴 LIVE 55' | 0-0 | 🎙 BLV Chanh",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -312,7 +312,7 @@
               "position": "top-left"
             },
             {
-              "text": "0-0",
+              "text": "0-0 55'",
               "color": "#B71C1C",
               "text_color": "#ffffff",
               "position": "bottom-right"
@@ -381,8 +381,8 @@
         },
         {
           "id": "gv-5-fulham-vs-aston-villa",
-          "name": "Fulham 0-0 Aston Villa  🔴 26'",
-          "description": "Ngoại hạng Anh | 18:30 | 25/04 | 🔴 LIVE 26' | 0-0 | 🎙 BLV Dory",
+          "name": "Fulham 0-0 Aston Villa 🔴 42'",
+          "description": "Ngoại hạng Anh | 18:30 | 25/04 | 🔴 LIVE 42' | 0-0 | 🎙 BLV Dory",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -402,7 +402,7 @@
               "position": "top-left"
             },
             {
-              "text": "0-0  26'",
+              "text": "0-0 42'",
               "color": "#B71C1C",
               "text_color": "#ffffff",
               "position": "bottom-right"
@@ -471,8 +471,8 @@
         },
         {
           "id": "gv-6-perth-glory-fc-vs-brisba",
-          "name": "Perth Glory FC 0-0 Brisbane Roar FC  🔴 3'",
-          "description": "VĐQG Úc | 18:45 | 25/04 | 🔴 LIVE 3' | 0-0 | 🎙 BLV Mason",
+          "name": "Perth Glory FC 1-0 Brisbane Roar FC 🔴 19'",
+          "description": "VĐQG Úc | 18:45 | 25/04 | 🔴 LIVE 19' | 1-0 | 🎙 BLV Mason",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -492,7 +492,7 @@
               "position": "top-left"
             },
             {
-              "text": "0-0  3'",
+              "text": "1-0 19'",
               "color": "#B71C1C",
               "text_color": "#ffffff",
               "position": "bottom-right"
@@ -561,8 +561,8 @@
         },
         {
           "id": "gv-7-mainz-vs-bayern-munich",
-          "name": "Mainz vs Bayern Munich  🕐 20:30 | 25/04",
-          "description": "Bundesliga | 20:30 | 25/04 | 🕐 Sắp diễn ra | 🎙 BLV Chanh",
+          "name": "Mainz vs Bayern Munich 🕐 20:30 | 25/04",
+          "description": "Bundesliga | 20:30 | 25/04 | 🎙 BLV Chanh",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -575,12 +575,6 @@
             "height": 450
           },
           "labels": [
-            {
-              "text": "🕐 Sắp diễn ra",
-              "color": "#1565C0",
-              "text_color": "#ffffff",
-              "position": "top-left"
-            },
             {
               "text": "🎙 BLV Chanh",
               "color": "#1B5E20",
@@ -645,8 +639,8 @@
         },
         {
           "id": "gv-8-wolfsburg-vs-monchenglad",
-          "name": "Wolfsburg vs Monchengladbach  🕐 20:30 | 25/04",
-          "description": "Bundesliga | 20:30 | 25/04 | 🕐 Sắp diễn ra | 🎙 BLV Dory",
+          "name": "Wolfsburg vs Monchengladbach 🕐 20:30 | 25/04",
+          "description": "Bundesliga | 20:30 | 25/04 | 🎙 BLV Dory",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -659,12 +653,6 @@
             "height": 450
           },
           "labels": [
-            {
-              "text": "🕐 Sắp diễn ra",
-              "color": "#1565C0",
-              "text_color": "#ffffff",
-              "position": "top-left"
-            },
             {
               "text": "🎙 BLV Dory",
               "color": "#1B5E20",
@@ -729,8 +717,8 @@
         },
         {
           "id": "gv-9-augsburg-vs-eintracht-fr",
-          "name": "Augsburg vs Eintracht Frankfurt  🕐 20:30 | 25/04",
-          "description": "Bundesliga | 20:30 | 25/04 | 🕐 Sắp diễn ra | 🎙 BLV Băng",
+          "name": "Augsburg vs Eintracht Frankfurt 🕐 20:30 | 25/04",
+          "description": "Bundesliga | 20:30 | 25/04 | 🎙 BLV Băng",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -743,12 +731,6 @@
             "height": 450
           },
           "labels": [
-            {
-              "text": "🕐 Sắp diễn ra",
-              "color": "#1565C0",
-              "text_color": "#ffffff",
-              "position": "top-left"
-            },
             {
               "text": "🎙 BLV Băng",
               "color": "#1B5E20",
@@ -813,8 +795,8 @@
         },
         {
           "id": "gv-10-koln-vs-bayer-leverkusen",
-          "name": "Koln vs Bayer Leverkusen  🕐 20:30 | 25/04",
-          "description": "Bundesliga | 20:30 | 25/04 | 🕐 Sắp diễn ra | 🎙 BLV Tí",
+          "name": "Koln vs Bayer Leverkusen 🕐 20:30 | 25/04",
+          "description": "Bundesliga | 20:30 | 25/04 | 🎙 BLV Tí",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -827,12 +809,6 @@
             "height": 450
           },
           "labels": [
-            {
-              "text": "🕐 Sắp diễn ra",
-              "color": "#1565C0",
-              "text_color": "#ffffff",
-              "position": "top-left"
-            },
             {
               "text": "🎙 BLV Tí",
               "color": "#1B5E20",
@@ -897,8 +873,8 @@
         },
         {
           "id": "gv-11-liverpool-vs-crystal-pal",
-          "name": "Liverpool vs Crystal Palace  🕐 21:00 | 25/04",
-          "description": "Ngoại hạng Anh | 21:00 | 25/04 | 🕐 Sắp diễn ra | 🎙 fan-liver-thin-ty | BLV Dần",
+          "name": "Liverpool vs Crystal Palace 🕐 21:00 | 25/04",
+          "description": "Ngoại hạng Anh | 21:00 | 25/04 | 🎙 fan-liver-thin-ty | BLV Dần",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": true,
@@ -911,12 +887,6 @@
             "height": 450
           },
           "labels": [
-            {
-              "text": "🕐 Sắp diễn ra",
-              "color": "#1565C0",
-              "text_color": "#ffffff",
-              "position": "top-left"
-            },
             {
               "text": "🎙 2 BLV",
               "color": "#1B5E20",
@@ -1021,8 +991,8 @@
         },
         {
           "id": "gv-12-west-ham-united-vs-evert",
-          "name": "West Ham United vs Everton  🕐 21:00 | 25/04",
-          "description": "Ngoại hạng Anh | 21:00 | 25/04 | 🕐 Sắp diễn ra | 🎙 BLV Mason",
+          "name": "West Ham United vs Everton 🕐 21:00 | 25/04",
+          "description": "Ngoại hạng Anh | 21:00 | 25/04 | 🎙 BLV Mason",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1035,12 +1005,6 @@
             "height": 450
           },
           "labels": [
-            {
-              "text": "🕐 Sắp diễn ra",
-              "color": "#1565C0",
-              "text_color": "#ffffff",
-              "position": "top-left"
-            },
             {
               "text": "🎙 BLV Mason",
               "color": "#1B5E20",
@@ -1105,8 +1069,8 @@
         },
         {
           "id": "gv-13-getafe-vs-barcelona",
-          "name": "Getafe vs Barcelona  🕐 21:15 | 25/04",
-          "description": "La Liga | 21:15 | 25/04 | 🕐 Sắp diễn ra | 🎙 BLV Hợi",
+          "name": "Getafe vs Barcelona 🕐 21:15 | 25/04",
+          "description": "La Liga | 21:15 | 25/04 | 🎙 BLV Hợi",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1119,12 +1083,6 @@
             "height": 450
           },
           "labels": [
-            {
-              "text": "🕐 Sắp diễn ra",
-              "color": "#1565C0",
-              "text_color": "#ffffff",
-              "position": "top-left"
-            },
             {
               "text": "🎙 BLV Hợi",
               "color": "#1B5E20",
@@ -1189,8 +1147,8 @@
         },
         {
           "id": "gv-14-bologna-vs-as-roma",
-          "name": "Bologna vs AS Roma  🕐 23:00 | 25/04",
-          "description": "Seria A | 23:00 | 25/04 | 🕐 Sắp diễn ra | 🎙 BLV Băng",
+          "name": "Bologna vs AS Roma 🕐 23:00 | 25/04",
+          "description": "Seria A | 23:00 | 25/04 | 🎙 BLV Băng",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1203,12 +1161,6 @@
             "height": 450
           },
           "labels": [
-            {
-              "text": "🕐 Sắp diễn ra",
-              "color": "#1565C0",
-              "text_color": "#ffffff",
-              "position": "top-left"
-            },
             {
               "text": "🎙 BLV Băng",
               "color": "#1B5E20",
@@ -1273,8 +1225,8 @@
         },
         {
           "id": "gv-15-manchester-city-vs-south",
-          "name": "Manchester City vs Southampton  🕐 23:15 | 25/04",
-          "description": "Cúp FA | 23:15 | 25/04 | 🕐 Sắp diễn ra | 🎙 fan-mc-cam-ben",
+          "name": "Manchester City vs Southampton 🕐 23:15 | 25/04",
+          "description": "Cúp FA | 23:15 | 25/04 | 🎙 fan-mc-cam-ben",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1287,12 +1239,6 @@
             "height": 450
           },
           "labels": [
-            {
-              "text": "🕐 Sắp diễn ra",
-              "color": "#1565C0",
-              "text_color": "#ffffff",
-              "position": "top-left"
-            },
             {
               "text": "🎙 fan-mc-cam-ben",
               "color": "#1B5E20",
@@ -1357,8 +1303,8 @@
         },
         {
           "id": "gv-16-al-ahli-jeddah-vs-fc-mac",
-          "name": "Al Ahli Jeddah vs FC Machida Zelvia  🕐 23:15 | 25/04",
-          "description": "AFC Champions League | 23:15 | 25/04 | 🕐 Sắp diễn ra | 🎙 BLV Tí",
+          "name": "Al Ahli Jeddah vs FC Machida Zelvia 🕐 23:15 | 25/04",
+          "description": "AFC Champions League | 23:15 | 25/04 | 🎙 BLV Tí",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1371,12 +1317,6 @@
             "height": 450
           },
           "labels": [
-            {
-              "text": "🕐 Sắp diễn ra",
-              "color": "#1565C0",
-              "text_color": "#ffffff",
-              "position": "top-left"
-            },
             {
               "text": "🎙 BLV Tí",
               "color": "#1B5E20",
@@ -1441,8 +1381,8 @@
         },
         {
           "id": "gv-17-arsenal-vs-newcastle-uni",
-          "name": "Arsenal  vs Newcastle United  🕐 23:30 | 25/04",
-          "description": "Ngoại hạng Anh | 23:30 | 25/04 | 🕐 Sắp diễn ra | 🎙 fan-ars-nen-dau",
+          "name": "Arsenal  vs Newcastle United 🕐 23:30 | 25/04",
+          "description": "Ngoại hạng Anh | 23:30 | 25/04 | 🎙 fan-ars-nen-dau",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1455,12 +1395,6 @@
             "height": 450
           },
           "labels": [
-            {
-              "text": "🕐 Sắp diễn ra",
-              "color": "#1565C0",
-              "text_color": "#ffffff",
-              "position": "top-left"
-            },
             {
               "text": "🎙 fan-ars-nen-dau",
               "color": "#1B5E20",
@@ -1525,8 +1459,8 @@
         },
         {
           "id": "gv-18-angers-sco-vs-paris-sain",
-          "name": "Angers SCO vs Paris Saint Germain  🕐 00:00 | 26/04",
-          "description": "Ligue 1 | 00:00 | 26/04 | 🕐 Sắp diễn ra | 🎙 BLV Hợi",
+          "name": "Angers SCO vs Paris Saint Germain 🕐 00:00 | 26/04",
+          "description": "Ligue 1 | 00:00 | 26/04 | 🎙 BLV Hợi",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1539,12 +1473,6 @@
             "height": 450
           },
           "labels": [
-            {
-              "text": "🕐 Sắp diễn ra",
-              "color": "#1565C0",
-              "text_color": "#ffffff",
-              "position": "top-left"
-            },
             {
               "text": "🎙 BLV Hợi",
               "color": "#1B5E20",
@@ -1609,8 +1537,8 @@
         },
         {
           "id": "gv-19-magic-vs-pistons",
-          "name": "Magic  vs  Pistons  🕐 00:00 | 26/04",
-          "description": "NBA | 00:00 | 26/04 | 🕐 Sắp diễn ra | 🎙 BLV Tôm",
+          "name": "Magic  vs  Pistons 🕐 00:00 | 26/04",
+          "description": "NBA | 00:00 | 26/04 | 🎙 BLV Tôm",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1623,12 +1551,6 @@
             "height": 450
           },
           "labels": [
-            {
-              "text": "🕐 Sắp diễn ra",
-              "color": "#1565C0",
-              "text_color": "#ffffff",
-              "position": "top-left"
-            },
             {
               "text": "🎙 BLV Tôm",
               "color": "#1B5E20",
@@ -1693,8 +1615,8 @@
         },
         {
           "id": "gv-20-hellas-verona-vs-lecce",
-          "name": "Hellas Verona vs Lecce  🕐 01:45 | 26/04",
-          "description": "Seria A | 01:45 | 26/04 | 🕐 Sắp diễn ra | 🎙 BLV Băng",
+          "name": "Hellas Verona vs Lecce 🕐 01:45 | 26/04",
+          "description": "Seria A | 01:45 | 26/04 | 🎙 BLV Băng",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1707,12 +1629,6 @@
             "height": 450
           },
           "labels": [
-            {
-              "text": "🕐 Sắp diễn ra",
-              "color": "#1565C0",
-              "text_color": "#ffffff",
-              "position": "top-left"
-            },
             {
               "text": "🎙 BLV Băng",
               "color": "#1B5E20",
@@ -1777,8 +1693,8 @@
         },
         {
           "id": "gv-21-toulouse-vs-as-monaco",
-          "name": "Toulouse vs AS Monaco  🕐 02:05 | 26/04",
-          "description": "Ligue 1 | 02:05 | 26/04 | 🕐 Sắp diễn ra | 🎙 BLV Dậu",
+          "name": "Toulouse vs AS Monaco 🕐 02:05 | 26/04",
+          "description": "Ligue 1 | 02:05 | 26/04 | 🎙 BLV Dậu",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1791,12 +1707,6 @@
             "height": 450
           },
           "labels": [
-            {
-              "text": "🕐 Sắp diễn ra",
-              "color": "#1565C0",
-              "text_color": "#ffffff",
-              "position": "top-left"
-            },
             {
               "text": "🎙 BLV Dậu",
               "color": "#1B5E20",
@@ -1861,8 +1771,8 @@
         },
         {
           "id": "gv-22-suns-vs-thunder",
-          "name": "Suns  vs Thunder  🕐 02:30 | 26/04",
-          "description": "NBA | 02:30 | 26/04 | 🕐 Sắp diễn ra | 🎙 BLV Ben",
+          "name": "Suns  vs Thunder 🕐 02:30 | 26/04",
+          "description": "NBA | 02:30 | 26/04 | 🎙 BLV Ben",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1875,12 +1785,6 @@
             "height": 450
           },
           "labels": [
-            {
-              "text": "🕐 Sắp diễn ra",
-              "color": "#1565C0",
-              "text_color": "#ffffff",
-              "position": "top-left"
-            },
             {
               "text": "🎙 BLV Ben",
               "color": "#1B5E20",
@@ -1945,8 +1849,8 @@
         },
         {
           "id": "gv-23-minnesota-united-fc-vs-l",
-          "name": "Minnesota United FC vs Los Angeles FC  🕐 03:45 | 26/04",
-          "description": "MLS Mỹ | 03:45 | 26/04 | 🕐 Sắp diễn ra | 🎙 BLV Thìn",
+          "name": "Minnesota United FC vs Los Angeles FC 🕐 03:45 | 26/04",
+          "description": "MLS Mỹ | 03:45 | 26/04 | 🎙 BLV Thìn",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1959,12 +1863,6 @@
             "height": 450
           },
           "labels": [
-            {
-              "text": "🕐 Sắp diễn ra",
-              "color": "#1565C0",
-              "text_color": "#ffffff",
-              "position": "top-left"
-            },
             {
               "text": "🎙 BLV Thìn",
               "color": "#1B5E20",
@@ -2029,8 +1927,8 @@
         },
         {
           "id": "gv-24-bahiaba-vs-santos",
-          "name": "Bahia(BA) vs Santos  🕐 04:30 | 26/04",
-          "description": "VĐQG Brazil | 04:30 | 26/04 | 🕐 Sắp diễn ra | 🎙 BLV Dần",
+          "name": "Bahia(BA) vs Santos 🕐 04:30 | 26/04",
+          "description": "VĐQG Brazil | 04:30 | 26/04 | 🎙 BLV Dần",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2043,12 +1941,6 @@
             "height": 450
           },
           "labels": [
-            {
-              "text": "🕐 Sắp diễn ra",
-              "color": "#1565C0",
-              "text_color": "#ffffff",
-              "position": "top-left"
-            },
             {
               "text": "🎙 BLV Dần",
               "color": "#1B5E20",
@@ -2113,8 +2005,8 @@
         },
         {
           "id": "gv-25-botafogo-rj-vs-internaci",
-          "name": "Botafogo (RJ) vs Internacional (RS)  🕐 04:30 | 26/04",
-          "description": "VĐQG Brazil | 04:30 | 26/04 | 🕐 Sắp diễn ra | 🎙 BLV Dậu",
+          "name": "Botafogo (RJ) vs Internacional (RS) 🕐 04:30 | 26/04",
+          "description": "VĐQG Brazil | 04:30 | 26/04 | 🎙 BLV Dậu",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2127,12 +2019,6 @@
             "height": 450
           },
           "labels": [
-            {
-              "text": "🕐 Sắp diễn ra",
-              "color": "#1565C0",
-              "text_color": "#ffffff",
-              "position": "top-left"
-            },
             {
               "text": "🎙 BLV Dậu",
               "color": "#1B5E20",
@@ -2197,8 +2083,8 @@
         },
         {
           "id": "gv-26-hawks-vs-knicks",
-          "name": "Hawks  vs  Knicks  🕐 05:00 | 26/04",
-          "description": "NBA | 05:00 | 26/04 | 🕐 Sắp diễn ra | 🎙 BLV Perry",
+          "name": "Hawks  vs  Knicks 🕐 05:00 | 26/04",
+          "description": "NBA | 05:00 | 26/04 | 🎙 BLV Perry",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2211,12 +2097,6 @@
             "height": 450
           },
           "labels": [
-            {
-              "text": "🕐 Sắp diễn ra",
-              "color": "#1565C0",
-              "text_color": "#ffffff",
-              "position": "top-left"
-            },
             {
               "text": "🎙 BLV Perry",
               "color": "#1B5E20",
@@ -2281,8 +2161,8 @@
         },
         {
           "id": "gv-27-los-angeles-dodgers-vs-c",
-          "name": "Los Angeles Dodgers vs Chicago Cubs  🕐 06:15 | 26/04",
-          "description": "MLB | 06:15 | 26/04 | 🕐 Sắp diễn ra | 🎙 BLV Chanh",
+          "name": "Los Angeles Dodgers vs Chicago Cubs 🕐 06:15 | 26/04",
+          "description": "MLB | 06:15 | 26/04 | 🎙 BLV Chanh",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2295,12 +2175,6 @@
             "height": 450
           },
           "labels": [
-            {
-              "text": "🕐 Sắp diễn ra",
-              "color": "#1565C0",
-              "text_color": "#ffffff",
-              "position": "top-left"
-            },
             {
               "text": "🎙 BLV Chanh",
               "color": "#1B5E20",
@@ -2365,8 +2239,8 @@
         },
         {
           "id": "gv-28-inter-miami-vs-new-engla",
-          "name": "Inter Miami vs New England Revolution  🕐 06:30 | 26/04",
-          "description": "MLS Mỹ | 06:30 | 26/04 | 🕐 Sắp diễn ra | 🎙 BLV Hợi",
+          "name": "Inter Miami vs New England Revolution 🕐 06:30 | 26/04",
+          "description": "MLS Mỹ | 06:30 | 26/04 | 🎙 BLV Hợi",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2379,12 +2253,6 @@
             "height": 450
           },
           "labels": [
-            {
-              "text": "🕐 Sắp diễn ra",
-              "color": "#1565C0",
-              "text_color": "#ffffff",
-              "position": "top-left"
-            },
             {
               "text": "🎙 BLV Hợi",
               "color": "#1B5E20",
@@ -2449,8 +2317,8 @@
         },
         {
           "id": "gv-29-timberwolves-vs-nuggets",
-          "name": "Timberwolves vs Nuggets  🕐 07:30 | 26/04",
-          "description": "NBA | 07:30 | 26/04 | 🕐 Sắp diễn ra | 🎙 BLV Perry | BLV Tôm",
+          "name": "Timberwolves vs Nuggets 🕐 07:30 | 26/04",
+          "description": "NBA | 07:30 | 26/04 | 🎙 BLV Perry | BLV Tôm",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": true,
@@ -2463,12 +2331,6 @@
             "height": 450
           },
           "labels": [
-            {
-              "text": "🕐 Sắp diễn ra",
-              "color": "#1565C0",
-              "text_color": "#ffffff",
-              "position": "top-left"
-            },
             {
               "text": "🎙 2 BLV",
               "color": "#1B5E20",
@@ -2573,8 +2435,8 @@
         },
         {
           "id": "gv-30-fc-juarez-vs-atletico-sa",
-          "name": "FC Juarez vs Atletico San Luis  🕐 10:00 | 26/04",
-          "description": "Mexico Liga MX | 10:00 | 26/04 | 🕐 Sắp diễn ra | 🎙 BLV Thìn",
+          "name": "FC Juarez vs Atletico San Luis 🕐 10:00 | 26/04",
+          "description": "Mexico Liga MX | 10:00 | 26/04 | 🎙 BLV Thìn",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2587,12 +2449,6 @@
             "height": 450
           },
           "labels": [
-            {
-              "text": "🕐 Sắp diễn ra",
-              "color": "#1565C0",
-              "text_color": "#ffffff",
-              "position": "top-left"
-            },
             {
               "text": "🎙 BLV Thìn",
               "color": "#1B5E20",
@@ -2657,8 +2513,8 @@
         },
         {
           "id": "gv-31-juarez-vs-atl-san-luis",
-          "name": "Juarez vs Atl. San Luis  🕐 10:00 | 26/04",
-          "description": "Mexico Liga MX | 10:00 | 26/04 | 🕐 Sắp diễn ra | 🎙 BLV Thìn",
+          "name": "Juarez vs Atl. San Luis 🕐 10:00 | 26/04",
+          "description": "Mexico Liga MX | 10:00 | 26/04 | 🎙 BLV Thìn",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2671,12 +2527,6 @@
             "height": 450
           },
           "labels": [
-            {
-              "text": "🕐 Sắp diễn ra",
-              "color": "#1565C0",
-              "text_color": "#ffffff",
-              "position": "top-left"
-            },
             {
               "text": "🎙 BLV Thìn",
               "color": "#1B5E20",
@@ -2741,8 +2591,8 @@
         },
         {
           "id": "gv-32-club-america-vs-atlas",
-          "name": "Club America vs Atlas  🕐 10:00 | 26/04",
-          "description": "Mexico Liga MX | 10:00 | 26/04 | 🕐 Sắp diễn ra | 🎙 BLV Băng",
+          "name": "Club America vs Atlas 🕐 10:00 | 26/04",
+          "description": "Mexico Liga MX | 10:00 | 26/04 | 🎙 BLV Băng",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2755,12 +2605,6 @@
             "height": 450
           },
           "labels": [
-            {
-              "text": "🕐 Sắp diễn ra",
-              "color": "#1565C0",
-              "text_color": "#ffffff",
-              "position": "top-left"
-            },
             {
               "text": "🎙 BLV Băng",
               "color": "#1B5E20",
@@ -2825,8 +2669,8 @@
         },
         {
           "id": "gv-33-anyang-jungkwanjang-vs-k",
-          "name": "Anyang JungKwanJang vs KCC Egis  🕐 12:00 | 26/04",
-          "description": "KBL | 12:00 | 26/04 | 🕐 Sắp diễn ra | 🎙 BLV Tôm",
+          "name": "Anyang JungKwanJang vs KCC Egis 🕐 12:00 | 26/04",
+          "description": "KBL | 12:00 | 26/04 | 🎙 BLV Tôm",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2839,12 +2683,6 @@
             "height": 450
           },
           "labels": [
-            {
-              "text": "🕐 Sắp diễn ra",
-              "color": "#1565C0",
-              "text_color": "#ffffff",
-              "position": "top-left"
-            },
             {
               "text": "🎙 BLV Tôm",
               "color": "#1B5E20",
@@ -2909,8 +2747,8 @@
         },
         {
           "id": "gv-34-sydney-vs-auckland",
-          "name": "Sydney vs Auckland  🕐 12:00 | 26/04",
-          "description": "VĐQG Úc | 12:00 | 26/04 | 🕐 Sắp diễn ra | 🎙 BLV Tỵ",
+          "name": "Sydney vs Auckland 🕐 12:00 | 26/04",
+          "description": "VĐQG Úc | 12:00 | 26/04 | 🎙 BLV Tỵ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2923,12 +2761,6 @@
             "height": 450
           },
           "labels": [
-            {
-              "text": "🕐 Sắp diễn ra",
-              "color": "#1565C0",
-              "text_color": "#ffffff",
-              "position": "top-left"
-            },
             {
               "text": "🎙 BLV Tỵ",
               "color": "#1B5E20",
@@ -2993,8 +2825,8 @@
         },
         {
           "id": "gv-35-jeonbuk-vs-pohang",
-          "name": "Jeonbuk vs Pohang  🕐 12:00 | 26/04",
-          "description": "K-League Hàn Quốc | 12:00 | 26/04 | 🕐 Sắp diễn ra | 🎙 BLV Hợi",
+          "name": "Jeonbuk vs Pohang 🕐 12:00 | 26/04",
+          "description": "K-League Hàn Quốc | 12:00 | 26/04 | 🎙 BLV Hợi",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -3007,12 +2839,6 @@
             "height": 450
           },
           "labels": [
-            {
-              "text": "🕐 Sắp diễn ra",
-              "color": "#1565C0",
-              "text_color": "#ffffff",
-              "position": "top-left"
-            },
             {
               "text": "🎙 BLV Hợi",
               "color": "#1B5E20",
@@ -3077,8 +2903,8 @@
         },
         {
           "id": "gv-36-melbourne-city-vs-adelai",
-          "name": "Melbourne City vs Adelaide United  🕐 14:00 | 26/04",
-          "description": "VĐQG Úc | 14:00 | 26/04 | 🕐 Sắp diễn ra | 🎙 BLV Tí",
+          "name": "Melbourne City vs Adelaide United 🕐 14:00 | 26/04",
+          "description": "VĐQG Úc | 14:00 | 26/04 | 🎙 BLV Tí",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -3091,12 +2917,6 @@
             "height": 450
           },
           "labels": [
-            {
-              "text": "🕐 Sắp diễn ra",
-              "color": "#1565C0",
-              "text_color": "#ffffff",
-              "position": "top-left"
-            },
             {
               "text": "🎙 BLV Tí",
               "color": "#1B5E20",
@@ -3161,8 +2981,8 @@
         },
         {
           "id": "gv-37-hisamitsu-springs-nu-vs",
-          "name": "Hisamitsu Springs Nữ vs Osaka Marvelous Nữ  🕐 14:05 | 26/04",
-          "description": "SV.League Nữ - Play Offs - Chung kết | 14:05 | 26/04 | 🕐 Sắp diễn ra | 🎙 BLV Băng",
+          "name": "Hisamitsu Springs Nữ vs Osaka Marvelous Nữ 🕐 14:05 | 26/04",
+          "description": "SV.League Nữ - Play Offs - Chung kết | 14:05 | 26/04 | 🎙 BLV Băng",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -3175,12 +2995,6 @@
             "height": 450
           },
           "labels": [
-            {
-              "text": "🕐 Sắp diễn ra",
-              "color": "#1565C0",
-              "text_color": "#ffffff",
-              "position": "top-left"
-            },
             {
               "text": "🎙 BLV Băng",
               "color": "#1B5E20",
@@ -3245,8 +3059,8 @@
         },
         {
           "id": "gv-38-gwangju-vs-anyang",
-          "name": "Gwangju vs Anyang  🕐 14:30 | 26/04",
-          "description": "K-League Hàn Quốc | 14:30 | 26/04 | 🕐 Sắp diễn ra | 🎙 BLV Tỵ",
+          "name": "Gwangju vs Anyang 🕐 14:30 | 26/04",
+          "description": "K-League Hàn Quốc | 14:30 | 26/04 | 🎙 BLV Tỵ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -3259,12 +3073,6 @@
             "height": 450
           },
           "labels": [
-            {
-              "text": "🕐 Sắp diễn ra",
-              "color": "#1565C0",
-              "text_color": "#ffffff",
-              "position": "top-left"
-            },
             {
               "text": "🎙 BLV Tỵ",
               "color": "#1B5E20",
@@ -3329,8 +3137,8 @@
         },
         {
           "id": "gv-39-ulsan-hyundai-vs-daejeon",
-          "name": "Ulsan Hyundai vs Daejeon Citizen  🕐 14:30 | 26/04",
-          "description": "K-League Hàn Quốc | 14:30 | 26/04 | 🕐 Sắp diễn ra | 🎙 BLV Thìn",
+          "name": "Ulsan Hyundai vs Daejeon Citizen 🕐 14:30 | 26/04",
+          "description": "K-League Hàn Quốc | 14:30 | 26/04 | 🎙 BLV Thìn",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -3343,12 +3151,6 @@
             "height": 450
           },
           "labels": [
-            {
-              "text": "🕐 Sắp diễn ra",
-              "color": "#1565C0",
-              "text_color": "#ffffff",
-              "position": "top-left"
-            },
             {
               "text": "🎙 BLV Thìn",
               "color": "#1B5E20",
@@ -3413,8 +3215,8 @@
         },
         {
           "id": "gv-40-paris-saint-germain-vs-b",
-          "name": "Paris Saint Germain vs Bayern Munich  🕐 02:00 | 29/04",
-          "description": "C1 | 02:00 | 29/04 | 🕐 Sắp diễn ra | 🎙 BLV Câm",
+          "name": "Paris Saint Germain vs Bayern Munich 🕐 02:00 | 29/04",
+          "description": "C1 | 02:00 | 29/04 | 🎙 BLV Câm",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -3427,12 +3229,6 @@
             "height": 450
           },
           "labels": [
-            {
-              "text": "🕐 Sắp diễn ra",
-              "color": "#1565C0",
-              "text_color": "#ffffff",
-              "position": "top-left"
-            },
             {
               "text": "🎙 BLV Câm",
               "color": "#1B5E20",
@@ -3497,8 +3293,8 @@
         },
         {
           "id": "gv-41-atletico-madrid-vs-arsen",
-          "name": "Atletico Madrid vs Arsenal  🕐 02:00 | 30/04",
-          "description": "C1 | 02:00 | 30/04 | 🕐 Sắp diễn ra | 🎙 fan-ars-nen-dau",
+          "name": "Atletico Madrid vs Arsenal 🕐 02:00 | 30/04",
+          "description": "C1 | 02:00 | 30/04 | 🎙 fan-ars-nen-dau",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -3511,12 +3307,6 @@
             "height": 450
           },
           "labels": [
-            {
-              "text": "🕐 Sắp diễn ra",
-              "color": "#1565C0",
-              "text_color": "#ffffff",
-              "position": "top-left"
-            },
             {
               "text": "🎙 fan-ars-nen-dau",
               "color": "#1B5E20",
