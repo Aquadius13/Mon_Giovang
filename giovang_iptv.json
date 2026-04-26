@@ -114,8 +114,8 @@
         },
         {
           "id": "gv-2-marseille-vs-nice",
-          "name": "Marseille 0-0 Nice 🔴 19'",
-          "description": "Ligue 1 | 01:45 | 27/04 | 🔴 LIVE 19' | 0-0 | 🎙 BLV Dậu",
+          "name": "Marseille 0-0 Nice 🔴 52'",
+          "description": "Ligue 1 | 01:45 | 27/04 | 🔴 LIVE 52' | 0-0 | 🎙 BLV Dậu",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -135,7 +135,7 @@
               "position": "top-left"
             },
             {
-              "text": "0-0 19'",
+              "text": "0-0 52'",
               "color": "#B71C1C",
               "text_color": "#ffffff",
               "position": "bottom-right"
@@ -204,8 +204,8 @@
         },
         {
           "id": "gv-3-ac-milan-vs-juventus",
-          "name": "AC Milan 0-0 Juventus 🔴 16'",
-          "description": "Seria A | 01:45 | 27/04 | 🔴 LIVE 16' | 0-0 | 🎙 BLV Chanh | BLV Hợi",
+          "name": "AC Milan 0-0 Juventus 🔴 51'",
+          "description": "Seria A | 01:45 | 27/04 | 🔴 LIVE 51' | 0-0 | 🎙 BLV Chanh | BLV Hợi",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": true,
@@ -225,7 +225,7 @@
               "position": "top-left"
             },
             {
-              "text": "0-0 16'",
+              "text": "0-0 51'",
               "color": "#B71C1C",
               "text_color": "#ffffff",
               "position": "bottom-right"
@@ -334,8 +334,8 @@
         },
         {
           "id": "gv-4-villarreal-vs-celta-vigo",
-          "name": "Villarreal 0-0 Celta Vigo 🔴",
-          "description": "La Liga | 02:00 | 27/04 | 🔴 LIVE | 0-0 | 🎙 BLV Dần",
+          "name": "Villarreal 2-0 Celta Vigo 🔴",
+          "description": "La Liga | 02:00 | 27/04 | 🔴 LIVE | 2-0 | 🎙 BLV Dần",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -355,7 +355,7 @@
               "position": "top-left"
             },
             {
-              "text": "0-0",
+              "text": "2-0",
               "color": "#B71C1C",
               "text_color": "#ffffff",
               "position": "bottom-right"
@@ -423,97 +423,7 @@
           ]
         },
         {
-          "id": "gv-5-avs-futebol-sad-vs-sport",
-          "name": "AVS Futebol SAD 0-0 Sporting CP 🔴",
-          "description": "VĐQG Bồ Đào Nha | 02:30 | 27/04 | 🔴 LIVE | 0-0 | 🎙 BLV Tí",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 0,
-            "background_color": "#F5F8FF",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-5-avs-futebol-sad-vs-sport.webp",
-            "width": 800,
-            "height": 450
-          },
-          "labels": [
-            {
-              "text": "● LIVE",
-              "color": "#C62828",
-              "text_color": "#ffffff",
-              "position": "top-left"
-            },
-            {
-              "text": "0-0",
-              "color": "#B71C1C",
-              "text_color": "#ffffff",
-              "position": "bottom-right"
-            },
-            {
-              "text": "🎙 BLV Tí",
-              "color": "#1B5E20",
-              "text_color": "#ffffff",
-              "position": "bottom-left"
-            }
-          ],
-          "sources": [
-            {
-              "id": "gv-5-avs-futebol-sad-vs-sport-src0",
-              "name": "GioVang Live",
-              "contents": [
-                {
-                  "id": "gv-5-avs-futebol-sad-vs-sport-ct0",
-                  "name": "Trực tiếp",
-                  "streams": [
-                    {
-                      "id": "gv-5-avs-futebol-sad-vs-sport-st0",
-                      "name": "BLV Tí",
-                      "stream_links": [
-                        {
-                          "id": "gv-5-avs-futebol-sad-vs-sport-l0hd",
-                          "name": "HD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777186501_hd/1777186501_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.vin/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "gv-5-avs-futebol-sad-vs-sport-l0sd",
-                          "name": "SD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777186501_sd/1777186501_hd@480p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.vin/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "gv-6-blazers-vs-spurs",
+          "id": "gv-5-blazers-vs-spurs",
           "name": "Blazers 0-0 Spurs 🔴",
           "description": "NBA | 02:30 | 27/04 | 🔴 LIVE | 0-0 | 🎙 BLV Ben",
           "type": "single",
@@ -523,7 +433,7 @@
             "padding": 0,
             "background_color": "#F5F8FF",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-6-blazers-vs-spurs.webp",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-5-blazers-vs-spurs.webp",
             "width": 800,
             "height": 450
           },
@@ -549,19 +459,19 @@
           ],
           "sources": [
             {
-              "id": "gv-6-blazers-vs-spurs-src0",
+              "id": "gv-5-blazers-vs-spurs-src0",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-6-blazers-vs-spurs-ct0",
+                  "id": "gv-5-blazers-vs-spurs-ct0",
                   "name": "Trực tiếp",
                   "streams": [
                     {
-                      "id": "gv-6-blazers-vs-spurs-st0",
+                      "id": "gv-5-blazers-vs-spurs-st0",
                       "name": "BLV Ben",
                       "stream_links": [
                         {
-                          "id": "gv-6-blazers-vs-spurs-l0hd",
+                          "id": "gv-5-blazers-vs-spurs-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -578,11 +488,101 @@
                           ]
                         },
                         {
-                          "id": "gv-6-blazers-vs-spurs-l0sd",
+                          "id": "gv-5-blazers-vs-spurs-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
                           "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777187498_sd/1777187498_hd@480p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.vin/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gv-6-avs-futebol-sad-vs-sport",
+          "name": "AVS Futebol SAD 0-0 Sporting CP 🔴 24'",
+          "description": "VĐQG Bồ Đào Nha | 02:30 | 27/04 | 🔴 LIVE 24' | 0-0 | 🎙 BLV Tí",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 0,
+            "background_color": "#F5F8FF",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-6-avs-futebol-sad-vs-sport.webp",
+            "width": 800,
+            "height": 450
+          },
+          "labels": [
+            {
+              "text": "● LIVE",
+              "color": "#C62828",
+              "text_color": "#ffffff",
+              "position": "top-left"
+            },
+            {
+              "text": "0-0 24'",
+              "color": "#B71C1C",
+              "text_color": "#ffffff",
+              "position": "bottom-right"
+            },
+            {
+              "text": "🎙 BLV Tí",
+              "color": "#1B5E20",
+              "text_color": "#ffffff",
+              "position": "bottom-left"
+            }
+          ],
+          "sources": [
+            {
+              "id": "gv-6-avs-futebol-sad-vs-sport-src0",
+              "name": "GioVang Live",
+              "contents": [
+                {
+                  "id": "gv-6-avs-futebol-sad-vs-sport-ct0",
+                  "name": "Trực tiếp",
+                  "streams": [
+                    {
+                      "id": "gv-6-avs-futebol-sad-vs-sport-st0",
+                      "name": "BLV Tí",
+                      "stream_links": [
+                        {
+                          "id": "gv-6-avs-futebol-sad-vs-sport-l0hd",
+                          "name": "HD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777186501_hd/1777186501_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.vin/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "gv-6-avs-futebol-sad-vs-sport-l0sd",
+                          "name": "SD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777186501_sd/1777186501_hd@480p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
