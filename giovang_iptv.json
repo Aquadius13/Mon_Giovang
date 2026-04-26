@@ -24,8 +24,8 @@
       "channels": [
         {
           "id": "gv-1-cong-an-ha-noi-vs-song-l",
-          "name": "Công An Hà Nội 3-1 Sông Lam Nghệ An 🔴",
-          "description": "V-League | 19:15 | 26/04 | 🔴 LIVE | 3-1 | 🎙 BLV Chanh",
+          "name": "Công An Hà Nội 3-1 Sông Lam Nghệ An 🔴 52'",
+          "description": "V-League | 19:15 | 26/04 | 🔴 LIVE 52' | 3-1 | 🎙 BLV Chanh",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -45,7 +45,7 @@
               "position": "top-left"
             },
             {
-              "text": "3-1",
+              "text": "3-1 52'",
               "color": "#B71C1C",
               "text_color": "#ffffff",
               "position": "bottom-right"
@@ -114,8 +114,8 @@
         },
         {
           "id": "gv-2-lorient-vs-strasbourg",
-          "name": "Lorient 0-0 Strasbourg 🔴 14'",
-          "description": "Ligue 1 | 20:00 | 26/04 | 🔴 LIVE 14' | 0-0 | 🎙 BLV Tí",
+          "name": "Lorient 0-0 Strasbourg 🔴 26'",
+          "description": "Ligue 1 | 20:00 | 26/04 | 🔴 LIVE 26' | 0-0 | 🎙 BLV Tí",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -135,7 +135,7 @@
               "position": "top-left"
             },
             {
-              "text": "0-0 14'",
+              "text": "0-0 26'",
               "color": "#B71C1C",
               "text_color": "#ffffff",
               "position": "bottom-right"
