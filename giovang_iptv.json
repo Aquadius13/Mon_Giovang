@@ -114,8 +114,8 @@
         },
         {
           "id": "gv-2-fiorentina-vs-us-sassuol",
-          "name": "Fiorentina 0-0 US Sassuolo Calcio 🔴 34'",
-          "description": "Seria A | 17:30 | 26/04 | 🔴 LIVE 34' | 0-0 | 🎙 BLV Thìn",
+          "name": "Fiorentina 0-0 US Sassuolo Calcio 🔴 66'",
+          "description": "Seria A | 17:30 | 26/04 | 🔴 LIVE 66' | 0-0 | 🎙 BLV Thìn",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -135,7 +135,7 @@
               "position": "top-left"
             },
             {
-              "text": "0-0 34'",
+              "text": "0-0 66'",
               "color": "#B71C1C",
               "text_color": "#ffffff",
               "position": "bottom-right"
@@ -204,8 +204,8 @@
         },
         {
           "id": "gv-3-shb-da-nang-vs-the-cong",
-          "name": "SHB Đà Nẵng 1-0 Thể Công Viettel 🔴 5'",
-          "description": "V-League | 18:00 | 26/04 | 🔴 LIVE 5' | 1-0 | 🎙 BLV Mason",
+          "name": "SHB Đà Nẵng 2-2 Thể Công Viettel 🔴",
+          "description": "V-League | 18:00 | 26/04 | 🔴 LIVE | 2-2 | 🎙 BLV Mason",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -225,7 +225,7 @@
               "position": "top-left"
             },
             {
-              "text": "1-0 5'",
+              "text": "2-2",
               "color": "#B71C1C",
               "text_color": "#ffffff",
               "position": "bottom-right"
@@ -294,8 +294,8 @@
         },
         {
           "id": "gv-4-hong-linh-ha-tinh-vs-tp",
-          "name": "Hồng Lĩnh Hà Tĩnh 0-0 TP Hồ Chí Minh 🔴 2'",
-          "description": "V-League | 18:00 | 26/04 | 🔴 LIVE 2' | 0-0 | 🎙 BLV Dory",
+          "name": "Hồng Lĩnh Hà Tĩnh 0-1 TP Hồ Chí Minh 🔴",
+          "description": "V-League | 18:00 | 26/04 | 🔴 LIVE | 0-1 | 🎙 BLV Dory",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -315,7 +315,7 @@
               "position": "top-left"
             },
             {
-              "text": "0-0 2'",
+              "text": "0-1",
               "color": "#B71C1C",
               "text_color": "#ffffff",
               "position": "bottom-right"
