@@ -114,8 +114,8 @@
         },
         {
           "id": "gv-2-bragantino-sp-vs-palmeir",
-          "name": "Bragantino SP 0-0 Palmeiras 🔴 13'",
-          "description": "VĐQG Brazil | 04:30 | 27/04 | 🔴 LIVE 13' | 0-0 | 🎙 BLV Dậu",
+          "name": "Bragantino SP 0-1 Palmeiras 🔴",
+          "description": "VĐQG Brazil | 04:30 | 27/04 | 🔴 LIVE | 0-1 | 🎙 BLV Dậu",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -135,7 +135,7 @@
               "position": "top-left"
             },
             {
-              "text": "0-0 13'",
+              "text": "0-1",
               "color": "#B71C1C",
               "text_color": "#ffffff",
               "position": "bottom-right"
