@@ -511,7 +511,7 @@ def make_thumbnail_bytes(
     LEAGUE_FS = sc(26)             # +20% từ sc(22) → 30 px
     TIME_FS   = sc(36)             # giờ thi đấu = 41 px
     DATE_FS   = TIME_FS * 2 // 3   # ngày = 2/3 giờ ≈ 27 px, không hiện năm
-    NAME_FS   = sc(19)             # tên đội, không đậm → 21 px
+    NAME_FS   = sc(22)             # sc(19) × 1.15 ≈ sc(22) (+15%), không đậm → 25 px
 
     # ── Layout dọc ───────────────────────────────────────────
     # Viền cam: 8px trên + 8px dưới
@@ -521,7 +521,7 @@ def make_thumbnail_bytes(
     LEAGUE_CY = 26             # trên cùng, sát viền cam
     SEP_Y     = 42             # đường kẻ bên dưới tên giải
     LOGO_CY   = 192            # 152 + 40 = 192  ← hạ xuống 40px
-    NAME_Y    = LOGO_CY + LOGO_SZ // 2 + 14  # tên đội bên dưới logo
+    NAME_Y    = LOGO_CY + LOGO_SZ // 2 + 19  # +5px so với trước (14→19)
 
     # ── Vị trí logo trái/phải ────────────────────────────────
     INFO_HALF = sc(95)
