@@ -24,8 +24,8 @@
       "channels": [
         {
           "id": "gv-1-velez-sarsfield-vs-union",
-          "name": "Velez Sarsfield 1-1 Union Santa Fe 🔴 25'",
-          "description": "VĐQG Argentina | 04:45 | 28/04 | 🔴 LIVE 25' | 1-1 | 🎙 BLV Dậu",
+          "name": "Velez Sarsfield 2-1 Union Santa Fe 🔴 68'",
+          "description": "VĐQG Argentina | 04:45 | 28/04 | 🔴 LIVE 68' | 2-1 | 🎙 BLV Dậu",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -45,7 +45,7 @@
               "position": "top-left"
             },
             {
-              "text": "1-1 25'",
+              "text": "2-1 68'",
               "color": "#B71C1C",
               "text_color": "#ffffff",
               "position": "bottom-right"
