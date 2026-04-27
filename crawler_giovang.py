@@ -508,10 +508,10 @@ def make_thumbnail_bytes(
     LOGO_SZ   = sc(156)        # = 179 px
 
     # ── Font sizes ────────────────────────────────────────────
-    LEAGUE_FS = sc(26)             # +20% từ sc(22) → 30 px
+    LEAGUE_FS = sc(31)             # sc(26) × 1.20 ≈ sc(31) (+20%) → 35 px
     TIME_FS   = sc(36)             # giờ thi đấu = 41 px
     DATE_FS   = TIME_FS * 2 // 3   # ngày = 2/3 giờ ≈ 27 px, không hiện năm
-    NAME_FS   = sc(22)             # sc(19) × 1.15 ≈ sc(22) (+15%), không đậm → 25 px
+    NAME_FS   = sc(25)             # sc(22) × 1.15 ≈ sc(25) (+15%), không đậm → 28 px
 
     # ── Layout dọc ───────────────────────────────────────────
     # Viền cam: 8px trên + 8px dưới
