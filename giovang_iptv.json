@@ -24,8 +24,8 @@
       "channels": [
         {
           "id": "gv-1-san-lorenzo-vs-santos",
-          "name": "San Lorenzo 1-1 Santos 🔴 42'",
-          "description": "Copa Sudamericana | 05:00 | 29/04 | 🔴 LIVE 42' | 1-1 | 🎙 BLV Dậu",
+          "name": "San Lorenzo 1-1 Santos 🔴 82'",
+          "description": "Copa Sudamericana | 05:00 | 29/04 | 🔴 LIVE 82' | 1-1 | 🎙 BLV Dậu",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -45,7 +45,7 @@
               "position": "top-left"
             },
             {
-              "text": "1-1 42'",
+              "text": "1-1 82'",
               "color": "#B71C1C",
               "text_color": "#ffffff",
               "position": "bottom-right"
