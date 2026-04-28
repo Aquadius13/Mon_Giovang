@@ -24,8 +24,8 @@
       "channels": [
         {
           "id": "gv-1-arema-cronus-vs-persebay",
-          "name": "Arema Cronus vs Persebaya 🕐 15:30 | 28/04",
-          "description": "VĐQG Indonesia | 15:30 | 28/04 | 🎙 BLV Tỵ",
+          "name": "Arema Cronus 0-0 Persebaya 🔴",
+          "description": "VĐQG Indonesia | 15:30 | 28/04 | 🔴 LIVE | 0-0 | 🎙 BLV Tỵ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -38,6 +38,18 @@
             "height": 450
           },
           "labels": [
+            {
+              "text": "● LIVE",
+              "color": "#C62828",
+              "text_color": "#ffffff",
+              "position": "top-left"
+            },
+            {
+              "text": "0-0",
+              "color": "#B71C1C",
+              "text_color": "#ffffff",
+              "position": "bottom-right"
+            },
             {
               "text": "🎙 BLV Tỵ",
               "color": "#1B5E20",
@@ -102,8 +114,8 @@
         },
         {
           "id": "gv-2-jannink-sinner-vs-norrie",
-          "name": "Jannink Sinner vs Norrie 🕐 16:00 | 28/04",
-          "description": "ATP Madrid  | 16:00 | 28/04 | 🎙 BLV Băng",
+          "name": "Jannink Sinner 0-0 Norrie 🔴",
+          "description": "ATP Madrid  | 16:00 | 28/04 | 🔴 LIVE | 0-0 | 🎙 BLV Băng",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -116,6 +128,18 @@
             "height": 450
           },
           "labels": [
+            {
+              "text": "● LIVE",
+              "color": "#C62828",
+              "text_color": "#ffffff",
+              "position": "top-left"
+            },
+            {
+              "text": "0-0",
+              "color": "#B71C1C",
+              "text_color": "#ffffff",
+              "position": "bottom-right"
+            },
             {
               "text": "🎙 BLV Băng",
               "color": "#1B5E20",
