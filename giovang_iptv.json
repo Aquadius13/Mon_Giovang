@@ -24,8 +24,8 @@
       "channels": [
         {
           "id": "gv-1-san-lorenzo-vs-santos",
-          "name": "San Lorenzo 0-0 Santos 🔴",
-          "description": "Copa Sudamericana | 05:00 | 29/04 | 🔴 LIVE | 0-0 | 🎙 BLV Dậu",
+          "name": "San Lorenzo 1-1 Santos 🔴 42'",
+          "description": "Copa Sudamericana | 05:00 | 29/04 | 🔴 LIVE 42' | 1-1 | 🎙 BLV Dậu",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -45,7 +45,7 @@
               "position": "top-left"
             },
             {
-              "text": "0-0",
+              "text": "1-1 42'",
               "color": "#B71C1C",
               "text_color": "#ffffff",
               "position": "bottom-right"
@@ -114,8 +114,8 @@
         },
         {
           "id": "gv-2-celtics-vs-76ers",
-          "name": "Celtics vs 76ers 🕐 06:00 | 29/04",
-          "description": "NBA | 06:00 | 29/04 | 🎙 BLV Cầy",
+          "name": "Celtics 0-0 76ers 🔴",
+          "description": "NBA | 06:00 | 29/04 | 🔴 LIVE | 0-0 | 🎙 BLV Cầy",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -128,6 +128,18 @@
             "height": 450
           },
           "labels": [
+            {
+              "text": "● LIVE",
+              "color": "#C62828",
+              "text_color": "#ffffff",
+              "position": "top-left"
+            },
+            {
+              "text": "0-0",
+              "color": "#B71C1C",
+              "text_color": "#ffffff",
+              "position": "bottom-right"
+            },
             {
               "text": "🎙 BLV Cầy",
               "color": "#1B5E20",
