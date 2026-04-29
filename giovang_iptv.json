@@ -24,8 +24,8 @@
       "channels": [
         {
           "id": "gv-1-new-england-revolution-v",
-          "name": "New England Revolution  vs Orlando City 🕐 06:30 | 30/04",
-          "description": "Cúp Lamar Hunt Mỹ mở rộng | 06:30 | 30/04 | 🎙 BLV Thìn",
+          "name": "New England Revolution  0-0 Orlando City 🔴",
+          "description": "Cúp Lamar Hunt Mỹ mở rộng | 06:30 | 30/04 | 🔴 LIVE | 0-0 | 🎙 BLV Thìn",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -38,6 +38,18 @@
             "height": 450
           },
           "labels": [
+            {
+              "text": "● LIVE",
+              "color": "#C62828",
+              "text_color": "#ffffff",
+              "position": "top-left"
+            },
+            {
+              "text": "0-0",
+              "color": "#B71C1C",
+              "text_color": "#ffffff",
+              "position": "bottom-right"
+            },
             {
               "text": "🎙 BLV Thìn",
               "color": "#1B5E20",
@@ -102,8 +114,8 @@
         },
         {
           "id": "gv-2-cavaliers-vs-raptors",
-          "name": "Cavaliers  vs Raptors 🕐 06:30 | 30/04",
-          "description": "NBA | 06:30 | 30/04 | 🎙 BLV Perry",
+          "name": "Cavaliers  0-0 Raptors 🔴",
+          "description": "NBA | 06:30 | 30/04 | 🔴 LIVE | 0-0 | 🎙 BLV Perry",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -116,6 +128,18 @@
             "height": 450
           },
           "labels": [
+            {
+              "text": "● LIVE",
+              "color": "#C62828",
+              "text_color": "#ffffff",
+              "position": "top-left"
+            },
+            {
+              "text": "0-0",
+              "color": "#B71C1C",
+              "text_color": "#ffffff",
+              "position": "bottom-right"
+            },
             {
               "text": "🎙 BLV Perry",
               "color": "#1B5E20",
