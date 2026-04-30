@@ -23,9 +23,9 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-1-new-england-revolution-v",
-          "name": "New England Revolution  0-0 Orlando City 🔴",
-          "description": "Cúp Lamar Hunt Mỹ mở rộng | 06:30 | 30/04 | 🔴 LIVE | 0-0 | 🎙 BLV Thìn",
+          "id": "gv-1-pistons-vs-magic",
+          "name": "Pistons  0-0 Magic 🔴",
+          "description": "NBA | 06:00 | 30/04 | 🔴 LIVE | 0-0 | 🎙 BLV Cầy",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -33,7 +33,7 @@
             "padding": 0,
             "background_color": "#F5F8FF",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-1-new-england-revolution-v.webp",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-1-pistons-vs-magic.webp",
             "width": 800,
             "height": 450
           },
@@ -51,7 +51,7 @@
               "position": "bottom-right"
             },
             {
-              "text": "🎙 BLV Thìn",
+              "text": "🎙 BLV Cầy",
               "color": "#1B5E20",
               "text_color": "#ffffff",
               "position": "bottom-left"
@@ -59,23 +59,23 @@
           ],
           "sources": [
             {
-              "id": "gv-1-new-england-revolution-v-src0",
+              "id": "gv-1-pistons-vs-magic-src0",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-1-new-england-revolution-v-ct0",
+                  "id": "gv-1-pistons-vs-magic-ct0",
                   "name": "Trực tiếp",
                   "streams": [
                     {
-                      "id": "gv-1-new-england-revolution-v-st0",
-                      "name": "BLV Thìn",
+                      "id": "gv-1-pistons-vs-magic-st0",
+                      "name": "BLV Cầy",
                       "stream_links": [
                         {
-                          "id": "gv-1-new-england-revolution-v-l0hd",
+                          "id": "gv-1-pistons-vs-magic-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777444936_hd/1777444936_hd@720p.m3u8",
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777445469_hd/1777445469_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -88,11 +88,11 @@
                           ]
                         },
                         {
-                          "id": "gv-1-new-england-revolution-v-l0sd",
+                          "id": "gv-1-pistons-vs-magic-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777444936_sd/1777444936_hd@480p.m3u8",
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777445469_sd/1777445469_hd@480p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -204,8 +204,8 @@
         },
         {
           "id": "gv-3-estudiantes-la-plata-vs",
-          "name": "Estudiantes La Plata vs Flamengo 🕐 07:30 | 30/04",
-          "description": "Copa Libertadores | 07:30 | 30/04 | 🎙 BLV Dần",
+          "name": "Estudiantes La Plata 0-0 Flamengo 🔴 27'",
+          "description": "Copa Libertadores | 07:30 | 30/04 | 🔴 LIVE 27' | 0-0 | 🎙 BLV Tỵ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -219,7 +219,19 @@
           },
           "labels": [
             {
-              "text": "🎙 BLV Dần",
+              "text": "● LIVE",
+              "color": "#C62828",
+              "text_color": "#ffffff",
+              "position": "top-left"
+            },
+            {
+              "text": "0-0 27'",
+              "color": "#B71C1C",
+              "text_color": "#ffffff",
+              "position": "bottom-right"
+            },
+            {
+              "text": "🎙 BLV Tỵ",
               "color": "#1B5E20",
               "text_color": "#ffffff",
               "position": "bottom-left"
@@ -236,14 +248,14 @@
                   "streams": [
                     {
                       "id": "gv-3-estudiantes-la-plata-vs-st0",
-                      "name": "BLV Dần",
+                      "name": "BLV Tỵ",
                       "stream_links": [
                         {
                           "id": "gv-3-estudiantes-la-plata-vs-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777251256_hd/1777251256_hd@720p.m3u8",
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777508101_hd/1777508101_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -260,7 +272,7 @@
                           "name": "SD",
                           "type": "hls",
                           "default": false,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777251256_sd/1777251256_hd@480p.m3u8",
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777508101_sd/1777508101_hd@480p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
