@@ -24,8 +24,8 @@
       "channels": [
         {
           "id": "gv-1-bolivar-vs-fluminense-rj",
-          "name": "Bolivar 1-0 Fluminense (RJ) 🔴 12'",
-          "description": "Copa Libertadores | 05:00 | 01/05 | 🔴 LIVE 12' | 1-0 | 🎙 BLV Hợi",
+          "name": "Bolivar 1-0 Fluminense (RJ) 🔴 52'",
+          "description": "Copa Libertadores | 05:00 | 01/05 | 🔴 LIVE 52' | 1-0 | 🎙 BLV Hợi",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -45,7 +45,7 @@
               "position": "top-left"
             },
             {
-              "text": "1-0 12'",
+              "text": "1-0 52'",
               "color": "#B71C1C",
               "text_color": "#ffffff",
               "position": "bottom-right"
@@ -114,8 +114,8 @@
         },
         {
           "id": "gv-2-independiente-rivadavia",
-          "name": "Independiente Rivadavia 0-0 Deportivo La Guaira 🔴 13'",
-          "description": "Copa Libertadores | 05:00 | 01/05 | 🔴 LIVE 13' | 0-0 | 🎙 BLV Dậu",
+          "name": "Independiente Rivadavia 3-1 Deportivo La Guaira 🔴 56'",
+          "description": "Copa Libertadores | 05:00 | 01/05 | 🔴 LIVE 56' | 3-1 | 🎙 BLV Dậu",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -135,7 +135,7 @@
               "position": "top-left"
             },
             {
-              "text": "0-0 13'",
+              "text": "3-1 56'",
               "color": "#B71C1C",
               "text_color": "#ffffff",
               "position": "bottom-right"
@@ -204,8 +204,8 @@
         },
         {
           "id": "gv-3-carabobo-fc-vs-blooming",
-          "name": "Carabobo FC 1-0 Blooming 🔴 12'",
-          "description": "Copa Sudamericana | 05:00 | 01/05 | 🔴 LIVE 12' | 1-0 | 🎙 BLV Dần",
+          "name": "Carabobo FC 2-0 Blooming 🔴 53'",
+          "description": "Copa Sudamericana | 05:00 | 01/05 | 🔴 LIVE 53' | 2-0 | 🎙 BLV Dần",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -225,7 +225,7 @@
               "position": "top-left"
             },
             {
-              "text": "1-0 12'",
+              "text": "2-0 53'",
               "color": "#B71C1C",
               "text_color": "#ffffff",
               "position": "bottom-right"
@@ -294,8 +294,8 @@
         },
         {
           "id": "gv-4-hawks-vs-knicks",
-          "name": "Hawks vs Knicks 🕐 06:00 | 01/05",
-          "description": "NBA | 06:00 | 01/05 | 🎙 BLV Perry | BLV Ben",
+          "name": "Hawks 0-0 Knicks 🔴",
+          "description": "NBA | 06:00 | 01/05 | 🔴 LIVE | 0-0 | 🎙 BLV Perry | BLV Ben",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": true,
@@ -308,6 +308,18 @@
             "height": 450
           },
           "labels": [
+            {
+              "text": "● LIVE",
+              "color": "#C62828",
+              "text_color": "#ffffff",
+              "position": "top-left"
+            },
+            {
+              "text": "0-0",
+              "color": "#B71C1C",
+              "text_color": "#ffffff",
+              "position": "bottom-right"
+            },
             {
               "text": "🎙 2 BLV",
               "color": "#1B5E20",
