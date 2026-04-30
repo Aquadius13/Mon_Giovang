@@ -24,8 +24,8 @@
       "channels": [
         {
           "id": "gv-1-bolivar-vs-fluminense-rj",
-          "name": "Bolivar vs Fluminense (RJ) 🕐 05:00 | 01/05",
-          "description": "Copa Libertadores | 05:00 | 01/05 | 🎙 BLV Hợi",
+          "name": "Bolivar 1-0 Fluminense (RJ) 🔴 12'",
+          "description": "Copa Libertadores | 05:00 | 01/05 | 🔴 LIVE 12' | 1-0 | 🎙 BLV Hợi",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -38,6 +38,18 @@
             "height": 450
           },
           "labels": [
+            {
+              "text": "● LIVE",
+              "color": "#C62828",
+              "text_color": "#ffffff",
+              "position": "top-left"
+            },
+            {
+              "text": "1-0 12'",
+              "color": "#B71C1C",
+              "text_color": "#ffffff",
+              "position": "bottom-right"
+            },
             {
               "text": "🎙 BLV Hợi",
               "color": "#1B5E20",
@@ -102,8 +114,8 @@
         },
         {
           "id": "gv-2-independiente-rivadavia",
-          "name": "Independiente Rivadavia vs Deportivo La Guaira 🕐 05:00 | 01/05",
-          "description": "Copa Libertadores | 05:00 | 01/05 | 🎙 BLV Dậu",
+          "name": "Independiente Rivadavia 0-0 Deportivo La Guaira 🔴 13'",
+          "description": "Copa Libertadores | 05:00 | 01/05 | 🔴 LIVE 13' | 0-0 | 🎙 BLV Dậu",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -116,6 +128,18 @@
             "height": 450
           },
           "labels": [
+            {
+              "text": "● LIVE",
+              "color": "#C62828",
+              "text_color": "#ffffff",
+              "position": "top-left"
+            },
+            {
+              "text": "0-0 13'",
+              "color": "#B71C1C",
+              "text_color": "#ffffff",
+              "position": "bottom-right"
+            },
             {
               "text": "🎙 BLV Dậu",
               "color": "#1B5E20",
@@ -180,8 +204,8 @@
         },
         {
           "id": "gv-3-carabobo-fc-vs-blooming",
-          "name": "Carabobo FC vs Blooming 🕐 05:00 | 01/05",
-          "description": "Copa Sudamericana | 05:00 | 01/05 | 🎙 BLV Dần",
+          "name": "Carabobo FC 1-0 Blooming 🔴 12'",
+          "description": "Copa Sudamericana | 05:00 | 01/05 | 🔴 LIVE 12' | 1-0 | 🎙 BLV Dần",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -194,6 +218,18 @@
             "height": 450
           },
           "labels": [
+            {
+              "text": "● LIVE",
+              "color": "#C62828",
+              "text_color": "#ffffff",
+              "position": "top-left"
+            },
+            {
+              "text": "1-0 12'",
+              "color": "#B71C1C",
+              "text_color": "#ffffff",
+              "position": "bottom-right"
+            },
             {
               "text": "🎙 BLV Dần",
               "color": "#1B5E20",
