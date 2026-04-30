@@ -204,8 +204,8 @@
         },
         {
           "id": "gv-3-estudiantes-la-plata-vs",
-          "name": "Estudiantes La Plata 0-0 Flamengo 🔴 27'",
-          "description": "Copa Libertadores | 07:30 | 30/04 | 🔴 LIVE 27' | 0-0 | 🎙 BLV Tỵ",
+          "name": "Estudiantes La Plata 0-1 Flamengo 🔴",
+          "description": "Copa Libertadores | 07:30 | 30/04 | 🔴 LIVE | 0-1 | 🎙 BLV Tỵ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -225,7 +225,7 @@
               "position": "top-left"
             },
             {
-              "text": "0-0 27'",
+              "text": "0-1",
               "color": "#B71C1C",
               "text_color": "#ffffff",
               "position": "bottom-right"
