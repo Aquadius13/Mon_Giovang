@@ -114,8 +114,8 @@
         },
         {
           "id": "gv-2-alexander-blockx-vs-alex",
-          "name": "Alexander Blockx vs Alexander Zverev 🕐 01:00 | 02/05",
-          "description": "Madrid, clay - Semi-finals | 01:00 | 02/05 | 🎙 BLV Ben",
+          "name": "Alexander Blockx 0-0 Alexander Zverev 🔴",
+          "description": "Madrid, clay - Semi-finals | 01:00 | 02/05 | 🔴 LIVE | 0-0 | 🎙 BLV Ben",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -128,6 +128,18 @@
             "height": 450
           },
           "labels": [
+            {
+              "text": "● LIVE",
+              "color": "#C62828",
+              "text_color": "#ffffff",
+              "position": "top-left"
+            },
+            {
+              "text": "0-0",
+              "color": "#B71C1C",
+              "text_color": "#ffffff",
+              "position": "bottom-right"
+            },
             {
               "text": "🎙 BLV Ben",
               "color": "#1B5E20",
@@ -1247,7 +1259,163 @@
           ]
         },
         {
-          "id": "gv-15-villarreal-vs-levante",
+          "id": "gv-15-ningbo-rockets-vs-zhejia",
+          "name": "Ningbo Rockets  vs Zhejiang Chouzhou 🕐 18:35 | 02/05",
+          "description": "CBA | 18:35 | 02/05 | 🎙 blv-diec",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 0,
+            "background_color": "#F5F8FF",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-15-ningbo-rockets-vs-zhejia.webp",
+            "width": 800,
+            "height": 450
+          },
+          "labels": [
+            {
+              "text": "🎙 blv-diec",
+              "color": "#1B5E20",
+              "text_color": "#ffffff",
+              "position": "bottom-left"
+            }
+          ],
+          "sources": [
+            {
+              "id": "gv-15-ningbo-rockets-vs-zhejia-src0",
+              "name": "GioVang Live",
+              "contents": [
+                {
+                  "id": "gv-15-ningbo-rockets-vs-zhejia-ct0",
+                  "name": "Trực tiếp",
+                  "streams": [
+                    {
+                      "id": "gv-15-ningbo-rockets-vs-zhejia-st0",
+                      "name": "BLV Điếc",
+                      "stream_links": [
+                        {
+                          "id": "gv-15-ningbo-rockets-vs-zhejia-l0hd",
+                          "name": "HD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777655830_hd/1777655830_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.vin/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "gv-15-ningbo-rockets-vs-zhejia-l0sd",
+                          "name": "SD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777655830_sd/1777655830_hd@480p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.vin/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gv-16-shanxi-zhongyu-vs-quingd",
+          "name": "Shanxi Zhongyu  vs Quingdao 🕐 18:35 | 02/05",
+          "description": "CBA | 18:35 | 02/05 | 🎙 BLV Cầy",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 0,
+            "background_color": "#F5F8FF",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-16-shanxi-zhongyu-vs-quingd.webp",
+            "width": 800,
+            "height": 450
+          },
+          "labels": [
+            {
+              "text": "🎙 BLV Cầy",
+              "color": "#1B5E20",
+              "text_color": "#ffffff",
+              "position": "bottom-left"
+            }
+          ],
+          "sources": [
+            {
+              "id": "gv-16-shanxi-zhongyu-vs-quingd-src0",
+              "name": "GioVang Live",
+              "contents": [
+                {
+                  "id": "gv-16-shanxi-zhongyu-vs-quingd-ct0",
+                  "name": "Trực tiếp",
+                  "streams": [
+                    {
+                      "id": "gv-16-shanxi-zhongyu-vs-quingd-st0",
+                      "name": "BLV Cầy",
+                      "stream_links": [
+                        {
+                          "id": "gv-16-shanxi-zhongyu-vs-quingd-l0hd",
+                          "name": "HD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777655912_hd/1777655912_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.vin/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "gv-16-shanxi-zhongyu-vs-quingd-l0sd",
+                          "name": "SD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777655912_sd/1777655912_hd@480p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.vin/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gv-17-villarreal-vs-levante",
           "name": "Villarreal vs Levante 🕐 19:00 | 02/05",
           "description": "La Liga | 19:00 | 02/05 | 🎙 BLV Mason",
           "type": "single",
@@ -1257,7 +1425,7 @@
             "padding": 0,
             "background_color": "#F5F8FF",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-15-villarreal-vs-levante.webp",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-17-villarreal-vs-levante.webp",
             "width": 800,
             "height": 450
           },
@@ -1271,19 +1439,19 @@
           ],
           "sources": [
             {
-              "id": "gv-15-villarreal-vs-levante-src0",
+              "id": "gv-17-villarreal-vs-levante-src0",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-15-villarreal-vs-levante-ct0",
+                  "id": "gv-17-villarreal-vs-levante-ct0",
                   "name": "Trực tiếp",
                   "streams": [
                     {
-                      "id": "gv-15-villarreal-vs-levante-st0",
+                      "id": "gv-17-villarreal-vs-levante-st0",
                       "name": "BLV Mason",
                       "stream_links": [
                         {
-                          "id": "gv-15-villarreal-vs-levante-l0hd",
+                          "id": "gv-17-villarreal-vs-levante-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -1300,7 +1468,7 @@
                           ]
                         },
                         {
-                          "id": "gv-15-villarreal-vs-levante-l0sd",
+                          "id": "gv-17-villarreal-vs-levante-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
