@@ -619,6 +619,592 @@
               ]
             }
           ]
+        },
+        {
+          "id": "gv-8-stlouis-cardinals-vs-los",
+          "name": "St.Louis Cardinals  vs Los Angeles Dodgers 🕐 07:15 | 02/05",
+          "description": "MBL | 07:15 | 02/05 | 🎙 BLV Chanh",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 0,
+            "background_color": "#F5F8FF",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-8-stlouis-cardinals-vs-los.webp",
+            "width": 800,
+            "height": 450
+          },
+          "labels": [
+            {
+              "text": "🎙 BLV Chanh",
+              "color": "#1B5E20",
+              "text_color": "#ffffff",
+              "position": "bottom-left"
+            }
+          ],
+          "sources": [
+            {
+              "id": "gv-8-stlouis-cardinals-vs-los-src0",
+              "name": "GioVang Live",
+              "contents": [
+                {
+                  "id": "gv-8-stlouis-cardinals-vs-los-ct0",
+                  "name": "Trực tiếp",
+                  "streams": [
+                    {
+                      "id": "gv-8-stlouis-cardinals-vs-los-st0",
+                      "name": "BLV Chanh",
+                      "stream_links": [
+                        {
+                          "id": "gv-8-stlouis-cardinals-vs-los-l0hd",
+                          "name": "HD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777644219_hd/1777644219_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.vin/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "gv-8-stlouis-cardinals-vs-los-l0sd",
+                          "name": "SD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777644219_sd/1777644219_hd@480p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.vin/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gv-9-rockets-vs-lakers",
+          "name": "Rockets  vs Lakers 🕐 08:30 | 02/05",
+          "description": "NBA | 08:30 | 02/05 | 🎙 BLV Perry | blv-diec",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": true,
+          "image": {
+            "padding": 0,
+            "background_color": "#F5F8FF",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-9-rockets-vs-lakers.webp",
+            "width": 800,
+            "height": 450
+          },
+          "labels": [
+            {
+              "text": "🎙 2 BLV",
+              "color": "#1B5E20",
+              "text_color": "#ffffff",
+              "position": "bottom-left"
+            }
+          ],
+          "sources": [
+            {
+              "id": "gv-9-rockets-vs-lakers-src0",
+              "name": "GioVang Live",
+              "contents": [
+                {
+                  "id": "gv-9-rockets-vs-lakers-ct0",
+                  "name": "Trực tiếp",
+                  "streams": [
+                    {
+                      "id": "gv-9-rockets-vs-lakers-st0",
+                      "name": "BLV Perry",
+                      "stream_links": [
+                        {
+                          "id": "gv-9-rockets-vs-lakers-l0hd",
+                          "name": "HD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777643841_hd/1777643841_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.vin/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "gv-9-rockets-vs-lakers-l0sd",
+                          "name": "SD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777643841_sd/1777643841_hd@480p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.vin/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "gv-9-rockets-vs-lakers-st1",
+                      "name": "BLV Điếc",
+                      "stream_links": [
+                        {
+                          "id": "gv-9-rockets-vs-lakers-l1hd",
+                          "name": "HD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777643848_hd/1777643848_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.vin/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "gv-9-rockets-vs-lakers-l1sd",
+                          "name": "SD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777643848_sd/1777643848_hd@480p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.vin/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gv-10-okayama-fc-vs-sanfrecce",
+          "name": "Okayama FC vs Sanfrecce Hiroshima 🕐 10:55 | 02/05",
+          "description": "VĐQG Nhật Bản | 10:55 | 02/05 | 🎙 BLV Hợi",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 0,
+            "background_color": "#F5F8FF",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-10-okayama-fc-vs-sanfrecce.webp",
+            "width": 800,
+            "height": 450
+          },
+          "labels": [
+            {
+              "text": "🎙 BLV Hợi",
+              "color": "#1B5E20",
+              "text_color": "#ffffff",
+              "position": "bottom-left"
+            }
+          ],
+          "sources": [
+            {
+              "id": "gv-10-okayama-fc-vs-sanfrecce-src0",
+              "name": "GioVang Live",
+              "contents": [
+                {
+                  "id": "gv-10-okayama-fc-vs-sanfrecce-ct0",
+                  "name": "Trực tiếp",
+                  "streams": [
+                    {
+                      "id": "gv-10-okayama-fc-vs-sanfrecce-st0",
+                      "name": "BLV Hợi",
+                      "stream_links": [
+                        {
+                          "id": "gv-10-okayama-fc-vs-sanfrecce-l0hd",
+                          "name": "HD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777644053_hd/1777644053_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.vin/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "gv-10-okayama-fc-vs-sanfrecce-l0sd",
+                          "name": "SD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777644053_sd/1777644053_hd@480p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.vin/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gv-11-nelson-giants-vs-taranak",
+          "name": "Nelson Giants  vs Taranaki Airs 🕐 11:30 | 02/05",
+          "description": "NBL | 11:30 | 02/05 | 🎙 BLV Perry",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 0,
+            "background_color": "#F5F8FF",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-11-nelson-giants-vs-taranak.webp",
+            "width": 800,
+            "height": 450
+          },
+          "labels": [
+            {
+              "text": "🎙 BLV Perry",
+              "color": "#1B5E20",
+              "text_color": "#ffffff",
+              "position": "bottom-left"
+            }
+          ],
+          "sources": [
+            {
+              "id": "gv-11-nelson-giants-vs-taranak-src0",
+              "name": "GioVang Live",
+              "contents": [
+                {
+                  "id": "gv-11-nelson-giants-vs-taranak-ct0",
+                  "name": "Trực tiếp",
+                  "streams": [
+                    {
+                      "id": "gv-11-nelson-giants-vs-taranak-st0",
+                      "name": "BLV Perry",
+                      "stream_links": [
+                        {
+                          "id": "gv-11-nelson-giants-vs-taranak-l0hd",
+                          "name": "HD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777643934_hd/1777643934_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.vin/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "gv-11-nelson-giants-vs-taranak-l0sd",
+                          "name": "SD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777643934_sd/1777643934_hd@480p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.vin/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gv-12-auckland-fc-vs-melbourne",
+          "name": "Auckland FC vs Melbourne City 🕐 12:00 | 02/05",
+          "description": "VĐQG Úc | 12:00 | 02/05 | 🎙 BLV Tỵ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 0,
+            "background_color": "#F5F8FF",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-12-auckland-fc-vs-melbourne.webp",
+            "width": 800,
+            "height": 450
+          },
+          "labels": [
+            {
+              "text": "🎙 BLV Tỵ",
+              "color": "#1B5E20",
+              "text_color": "#ffffff",
+              "position": "bottom-left"
+            }
+          ],
+          "sources": [
+            {
+              "id": "gv-12-auckland-fc-vs-melbourne-src0",
+              "name": "GioVang Live",
+              "contents": [
+                {
+                  "id": "gv-12-auckland-fc-vs-melbourne-ct0",
+                  "name": "Trực tiếp",
+                  "streams": [
+                    {
+                      "id": "gv-12-auckland-fc-vs-melbourne-st0",
+                      "name": "BLV Tỵ",
+                      "stream_links": [
+                        {
+                          "id": "gv-12-auckland-fc-vs-melbourne-l0hd",
+                          "name": "HD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777644095_hd/1777644095_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.vin/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "gv-12-auckland-fc-vs-melbourne-l0sd",
+                          "name": "SD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777644095_sd/1777644095_hd@480p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.vin/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gv-13-bay-hawks-vs-auckland-tu",
+          "name": "Bay Hawks  vs Auckland Tuatara 🕐 14:30 | 02/05",
+          "description": "NBL | 14:30 | 02/05 | 🎙 BLV Ben",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 0,
+            "background_color": "#F5F8FF",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-13-bay-hawks-vs-auckland-tu.webp",
+            "width": 800,
+            "height": 450
+          },
+          "labels": [
+            {
+              "text": "🎙 BLV Ben",
+              "color": "#1B5E20",
+              "text_color": "#ffffff",
+              "position": "bottom-left"
+            }
+          ],
+          "sources": [
+            {
+              "id": "gv-13-bay-hawks-vs-auckland-tu-src0",
+              "name": "GioVang Live",
+              "contents": [
+                {
+                  "id": "gv-13-bay-hawks-vs-auckland-tu-ct0",
+                  "name": "Trực tiếp",
+                  "streams": [
+                    {
+                      "id": "gv-13-bay-hawks-vs-auckland-tu-st0",
+                      "name": "BLV Ben",
+                      "stream_links": [
+                        {
+                          "id": "gv-13-bay-hawks-vs-auckland-tu-l0hd",
+                          "name": "HD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777644023_hd/1777644023_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.vin/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "gv-13-bay-hawks-vs-auckland-tu-l0sd",
+                          "name": "SD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777644023_sd/1777644023_hd@480p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.vin/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gv-14-incheon-united-fc-vs-gan",
+          "name": "Incheon United FC vs Gangwon FC 🕐 14:30 | 02/05",
+          "description": "K-League Hàn Quốc | 14:30 | 02/05 | 🎙 BLV Tỵ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 0,
+            "background_color": "#F5F8FF",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-14-incheon-united-fc-vs-gan.webp",
+            "width": 800,
+            "height": 450
+          },
+          "labels": [
+            {
+              "text": "🎙 BLV Tỵ",
+              "color": "#1B5E20",
+              "text_color": "#ffffff",
+              "position": "bottom-left"
+            }
+          ],
+          "sources": [
+            {
+              "id": "gv-14-incheon-united-fc-vs-gan-src0",
+              "name": "GioVang Live",
+              "contents": [
+                {
+                  "id": "gv-14-incheon-united-fc-vs-gan-ct0",
+                  "name": "Trực tiếp",
+                  "streams": [
+                    {
+                      "id": "gv-14-incheon-united-fc-vs-gan-st0",
+                      "name": "BLV Tỵ",
+                      "stream_links": [
+                        {
+                          "id": "gv-14-incheon-united-fc-vs-gan-l0hd",
+                          "name": "HD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777644116_hd/1777644116_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.vin/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "gv-14-incheon-united-fc-vs-gan-l0sd",
+                          "name": "SD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777644116_sd/1777644116_hd@480p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.vin/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
