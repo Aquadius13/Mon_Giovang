@@ -193,10 +193,10 @@
         {
           "id": "gv-3-leeds-united-vs-burnley",
           "name": "Leeds United vs Burnley 🕐 02:00 | 02/05",
-          "description": "Ngoại hạng Anh | 02:00 | 02/05 | 🎙 BLV Dậu",
+          "description": "Ngoại hạng Anh | 02:00 | 02/05 | 🎙 BLV Dậu | BLV Dần",
           "type": "single",
           "display": "thumbnail-only",
-          "enable_detail": false,
+          "enable_detail": true,
           "image": {
             "padding": 0,
             "background_color": "#F5F8FF",
@@ -207,7 +207,7 @@
           },
           "labels": [
             {
-              "text": "🎙 BLV Dậu",
+              "text": "🎙 2 BLV",
               "color": "#1B5E20",
               "text_color": "#ffffff",
               "position": "bottom-left"
@@ -249,6 +249,46 @@
                           "type": "hls",
                           "default": false,
                           "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777616508_sd/1777616508_hd@480p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.vin/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "gv-3-leeds-united-vs-burnley-st1",
+                      "name": "BLV Dần",
+                      "stream_links": [
+                        {
+                          "id": "gv-3-leeds-united-vs-burnley-l1hd",
+                          "name": "HD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777654337_hd/1777654337_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.vin/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "gv-3-leeds-united-vs-burnley-l1sd",
+                          "name": "SD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777654337_sd/1777654337_hd@480p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1109,6 +1149,162 @@
                           "type": "hls",
                           "default": false,
                           "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777644116_sd/1777644116_hd@480p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.vin/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gv-14-fc-anyang-vs-bucheon-fc",
+          "name": "FC Anyang vs Bucheon FC 1995 🕐 17:00 | 02/05",
+          "description": "K-League Hàn Quốc | 17:00 | 02/05 | 🎙 BLV Mason",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 0,
+            "background_color": "#F5F8FF",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-14-fc-anyang-vs-bucheon-fc.webp",
+            "width": 800,
+            "height": 450
+          },
+          "labels": [
+            {
+              "text": "🎙 BLV Mason",
+              "color": "#1B5E20",
+              "text_color": "#ffffff",
+              "position": "bottom-left"
+            }
+          ],
+          "sources": [
+            {
+              "id": "gv-14-fc-anyang-vs-bucheon-fc-src0",
+              "name": "GioVang Live",
+              "contents": [
+                {
+                  "id": "gv-14-fc-anyang-vs-bucheon-fc-ct0",
+                  "name": "Trực tiếp",
+                  "streams": [
+                    {
+                      "id": "gv-14-fc-anyang-vs-bucheon-fc-st0",
+                      "name": "BLV Mason",
+                      "stream_links": [
+                        {
+                          "id": "gv-14-fc-anyang-vs-bucheon-fc-l0hd",
+                          "name": "HD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777655190_hd/1777655190_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.vin/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "gv-14-fc-anyang-vs-bucheon-fc-l0sd",
+                          "name": "SD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777655190_sd/1777655190_hd@480p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.vin/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gv-15-villarreal-vs-levante",
+          "name": "Villarreal vs Levante 🕐 19:00 | 02/05",
+          "description": "La Liga | 19:00 | 02/05 | 🎙 BLV Mason",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 0,
+            "background_color": "#F5F8FF",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-15-villarreal-vs-levante.webp",
+            "width": 800,
+            "height": 450
+          },
+          "labels": [
+            {
+              "text": "🎙 BLV Mason",
+              "color": "#1B5E20",
+              "text_color": "#ffffff",
+              "position": "bottom-left"
+            }
+          ],
+          "sources": [
+            {
+              "id": "gv-15-villarreal-vs-levante-src0",
+              "name": "GioVang Live",
+              "contents": [
+                {
+                  "id": "gv-15-villarreal-vs-levante-ct0",
+                  "name": "Trực tiếp",
+                  "streams": [
+                    {
+                      "id": "gv-15-villarreal-vs-levante-st0",
+                      "name": "BLV Mason",
+                      "stream_links": [
+                        {
+                          "id": "gv-15-villarreal-vs-levante-l0hd",
+                          "name": "HD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777655323_hd/1777655323_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.vin/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "gv-15-villarreal-vs-levante-l0sd",
+                          "name": "SD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777655323_sd/1777655323_hd@480p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
