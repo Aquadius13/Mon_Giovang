@@ -23,97 +23,7 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-1-otago-nuggets-vs-manawat",
-          "name": "Otago Nuggets 0-0 Manawatu Jets 🔴",
-          "description": "NBL | 14:30 | 01/05 | 🔴 LIVE | 0-0 | 🎙 BLV Cầy",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 0,
-            "background_color": "#F5F8FF",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-1-otago-nuggets-vs-manawat.webp",
-            "width": 800,
-            "height": 450
-          },
-          "labels": [
-            {
-              "text": "● LIVE",
-              "color": "#C62828",
-              "text_color": "#ffffff",
-              "position": "top-left"
-            },
-            {
-              "text": "0-0",
-              "color": "#B71C1C",
-              "text_color": "#ffffff",
-              "position": "bottom-right"
-            },
-            {
-              "text": "🎙 BLV Cầy",
-              "color": "#1B5E20",
-              "text_color": "#ffffff",
-              "position": "bottom-left"
-            }
-          ],
-          "sources": [
-            {
-              "id": "gv-1-otago-nuggets-vs-manawat-src0",
-              "name": "GioVang Live",
-              "contents": [
-                {
-                  "id": "gv-1-otago-nuggets-vs-manawat-ct0",
-                  "name": "Trực tiếp",
-                  "streams": [
-                    {
-                      "id": "gv-1-otago-nuggets-vs-manawat-st0",
-                      "name": "BLV Cầy",
-                      "stream_links": [
-                        {
-                          "id": "gv-1-otago-nuggets-vs-manawat-l0hd",
-                          "name": "HD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777491724_hd/1777491724_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.vin/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "gv-1-otago-nuggets-vs-manawat-l0sd",
-                          "name": "SD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777491724_sd/1777491724_hd@480p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.vin/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "gv-2-thailand-u17-w-vs-vietna",
+          "id": "gv-1-thailand-u17-w-vs-vietna",
           "name": "Thailand U17 (W)  0-0 Vietnam U17 (W) 🔴",
           "description": "AFC Asian Cup Women U17 | 14:30 | 01/05 | 🔴 LIVE | 0-0 | 🎙 BLV Hợi",
           "type": "single",
@@ -123,7 +33,7 @@
             "padding": 0,
             "background_color": "#F5F8FF",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-2-thailand-u17-w-vs-vietna.webp",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-1-thailand-u17-w-vs-vietna.webp",
             "width": 800,
             "height": 450
           },
@@ -149,19 +59,19 @@
           ],
           "sources": [
             {
-              "id": "gv-2-thailand-u17-w-vs-vietna-src0",
+              "id": "gv-1-thailand-u17-w-vs-vietna-src0",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-2-thailand-u17-w-vs-vietna-ct0",
+                  "id": "gv-1-thailand-u17-w-vs-vietna-ct0",
                   "name": "Trực tiếp",
                   "streams": [
                     {
-                      "id": "gv-2-thailand-u17-w-vs-vietna-st0",
+                      "id": "gv-1-thailand-u17-w-vs-vietna-st0",
                       "name": "BLV Hợi",
                       "stream_links": [
                         {
-                          "id": "gv-2-thailand-u17-w-vs-vietna-l0hd",
+                          "id": "gv-1-thailand-u17-w-vs-vietna-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -178,7 +88,7 @@
                           ]
                         },
                         {
-                          "id": "gv-2-thailand-u17-w-vs-vietna-l0sd",
+                          "id": "gv-1-thailand-u17-w-vs-vietna-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
@@ -203,9 +113,99 @@
           ]
         },
         {
+          "id": "gv-2-otago-nuggets-vs-manawat",
+          "name": "Otago Nuggets 0-0 Manawatu Jets 🔴",
+          "description": "NBL | 14:30 | 01/05 | 🔴 LIVE | 0-0 | 🎙 BLV Cầy",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 0,
+            "background_color": "#F5F8FF",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-2-otago-nuggets-vs-manawat.webp",
+            "width": 800,
+            "height": 450
+          },
+          "labels": [
+            {
+              "text": "● LIVE",
+              "color": "#C62828",
+              "text_color": "#ffffff",
+              "position": "top-left"
+            },
+            {
+              "text": "0-0",
+              "color": "#B71C1C",
+              "text_color": "#ffffff",
+              "position": "bottom-right"
+            },
+            {
+              "text": "🎙 BLV Cầy",
+              "color": "#1B5E20",
+              "text_color": "#ffffff",
+              "position": "bottom-left"
+            }
+          ],
+          "sources": [
+            {
+              "id": "gv-2-otago-nuggets-vs-manawat-src0",
+              "name": "GioVang Live",
+              "contents": [
+                {
+                  "id": "gv-2-otago-nuggets-vs-manawat-ct0",
+                  "name": "Trực tiếp",
+                  "streams": [
+                    {
+                      "id": "gv-2-otago-nuggets-vs-manawat-st0",
+                      "name": "BLV Cầy",
+                      "stream_links": [
+                        {
+                          "id": "gv-2-otago-nuggets-vs-manawat-l0hd",
+                          "name": "HD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777491724_hd/1777491724_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.vin/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "gv-2-otago-nuggets-vs-manawat-l0sd",
+                          "name": "SD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777491724_sd/1777491724_hd@480p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.vin/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "gv-3-dns-vs-bro",
-          "name": "DNS vs BRO 🕐 15:00 | 01/05",
-          "description": "LCK | 15:00 | 01/05 | 🎙 BLV Tôm",
+          "name": "DNS 0-0 BRO 🔴",
+          "description": "LCK | 15:00 | 01/05 | 🔴 LIVE | 0-0 | 🎙 BLV Tôm",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -218,6 +218,18 @@
             "height": 450
           },
           "labels": [
+            {
+              "text": "● LIVE",
+              "color": "#C62828",
+              "text_color": "#ffffff",
+              "position": "top-left"
+            },
+            {
+              "text": "0-0",
+              "color": "#B71C1C",
+              "text_color": "#ffffff",
+              "position": "bottom-right"
+            },
             {
               "text": "🎙 BLV Tôm",
               "color": "#1B5E20",
@@ -282,8 +294,8 @@
         },
         {
           "id": "gv-4-tnt-tropang-5g-vs-phoeni",
-          "name": "TNT Tropang 5G vs Phoenix Fuelmasters 🕐 16:15 | 01/05",
-          "description": "Phillipines | 16:15 | 01/05 | 🎙 BLV Perry",
+          "name": "TNT Tropang 5G 0-0 Phoenix Fuelmasters 🔴",
+          "description": "Phillipines | 16:15 | 01/05 | 🔴 LIVE | 0-0 | 🎙 BLV Perry",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -296,6 +308,18 @@
             "height": 450
           },
           "labels": [
+            {
+              "text": "● LIVE",
+              "color": "#C62828",
+              "text_color": "#ffffff",
+              "position": "top-left"
+            },
+            {
+              "text": "0-0",
+              "color": "#B71C1C",
+              "text_color": "#ffffff",
+              "position": "bottom-right"
+            },
             {
               "text": "🎙 BLV Perry",
               "color": "#1B5E20",
