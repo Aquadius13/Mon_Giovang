@@ -24,8 +24,8 @@
       "channels": [
         {
           "id": "gv-1-magic-vs-pistons",
-          "name": "Magic vs Pistons 🕐 06:00 | 02/05",
-          "description": "NBA | 06:00 | 02/05 | 🎙 BLV Perry | BLV Ben",
+          "name": "Magic 0-0 Pistons 🔴",
+          "description": "NBA | 06:00 | 02/05 | 🔴 LIVE | 0-0 | 🎙 BLV Perry | BLV Ben",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": true,
@@ -38,6 +38,18 @@
             "height": 450
           },
           "labels": [
+            {
+              "text": "● LIVE",
+              "color": "#C62828",
+              "text_color": "#ffffff",
+              "position": "top-left"
+            },
+            {
+              "text": "0-0",
+              "color": "#B71C1C",
+              "text_color": "#ffffff",
+              "position": "bottom-right"
+            },
             {
               "text": "🎙 2 BLV",
               "color": "#1B5E20",
@@ -142,8 +154,8 @@
         },
         {
           "id": "gv-2-raptors-vs-cavaliers",
-          "name": "Raptors vs Cavaliers 🕐 06:30 | 02/05",
-          "description": "NBA | 06:30 | 02/05 | 🎙 BLV Tôm | BLV Cầy",
+          "name": "Raptors 0-0 Cavaliers 🔴",
+          "description": "NBA | 06:30 | 02/05 | 🔴 LIVE | 0-0 | 🎙 BLV Cầy | BLV Tôm",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": true,
@@ -156,6 +168,18 @@
             "height": 450
           },
           "labels": [
+            {
+              "text": "● LIVE",
+              "color": "#C62828",
+              "text_color": "#ffffff",
+              "position": "top-left"
+            },
+            {
+              "text": "0-0",
+              "color": "#B71C1C",
+              "text_color": "#ffffff",
+              "position": "bottom-right"
+            },
             {
               "text": "🎙 2 BLV",
               "color": "#1B5E20",
@@ -174,50 +198,10 @@
                   "streams": [
                     {
                       "id": "gv-2-raptors-vs-cavaliers-st0",
-                      "name": "BLV Tôm",
-                      "stream_links": [
-                        {
-                          "id": "gv-2-raptors-vs-cavaliers-l0hd",
-                          "name": "HD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777617295_hd/1777617295_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.vin/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "gv-2-raptors-vs-cavaliers-l0sd",
-                          "name": "SD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777617295_sd/1777617295_hd@480p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.vin/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "id": "gv-2-raptors-vs-cavaliers-st1",
                       "name": "BLV Cầy",
                       "stream_links": [
                         {
-                          "id": "gv-2-raptors-vs-cavaliers-l1hd",
+                          "id": "gv-2-raptors-vs-cavaliers-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -234,11 +218,51 @@
                           ]
                         },
                         {
-                          "id": "gv-2-raptors-vs-cavaliers-l1sd",
+                          "id": "gv-2-raptors-vs-cavaliers-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
                           "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777670178_sd/1777670178_hd@480p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.vin/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "gv-2-raptors-vs-cavaliers-st1",
+                      "name": "BLV Tôm",
+                      "stream_links": [
+                        {
+                          "id": "gv-2-raptors-vs-cavaliers-l1hd",
+                          "name": "HD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777617295_hd/1777617295_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.vin/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "gv-2-raptors-vs-cavaliers-l1sd",
+                          "name": "SD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777617295_sd/1777617295_hd@480p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
