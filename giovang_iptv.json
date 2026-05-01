@@ -23,97 +23,7 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-1-tnt-tropang-5g-vs-phoeni",
-          "name": "TNT Tropang 5G 0-0 Phoenix Fuelmasters 🔴",
-          "description": "Phillipines | 16:15 | 01/05 | 🔴 LIVE | 0-0 | 🎙 BLV Perry",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 0,
-            "background_color": "#F5F8FF",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-1-tnt-tropang-5g-vs-phoeni.webp",
-            "width": 800,
-            "height": 450
-          },
-          "labels": [
-            {
-              "text": "● LIVE",
-              "color": "#C62828",
-              "text_color": "#ffffff",
-              "position": "top-left"
-            },
-            {
-              "text": "0-0",
-              "color": "#B71C1C",
-              "text_color": "#ffffff",
-              "position": "bottom-right"
-            },
-            {
-              "text": "🎙 BLV Perry",
-              "color": "#1B5E20",
-              "text_color": "#ffffff",
-              "position": "bottom-left"
-            }
-          ],
-          "sources": [
-            {
-              "id": "gv-1-tnt-tropang-5g-vs-phoeni-src0",
-              "name": "GioVang Live",
-              "contents": [
-                {
-                  "id": "gv-1-tnt-tropang-5g-vs-phoeni-ct0",
-                  "name": "Trực tiếp",
-                  "streams": [
-                    {
-                      "id": "gv-1-tnt-tropang-5g-vs-phoeni-st0",
-                      "name": "BLV Perry",
-                      "stream_links": [
-                        {
-                          "id": "gv-1-tnt-tropang-5g-vs-phoeni-l0hd",
-                          "name": "HD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777598240_hd/1777598240_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.vin/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "gv-1-tnt-tropang-5g-vs-phoeni-l0sd",
-                          "name": "SD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777598240_sd/1777598240_hd@480p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.vin/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "gv-2-nam-dinh-vs-ho-chi-minh",
+          "id": "gv-1-nam-dinh-vs-ho-chi-minh",
           "name": "Nam Dinh 0-0 Hồ Chí Minh 🔴",
           "description": "V-League | 18:00 | 01/05 | 🔴 LIVE | 0-0 | 🎙 BLV Tỵ",
           "type": "single",
@@ -123,7 +33,7 @@
             "padding": 0,
             "background_color": "#F5F8FF",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-2-nam-dinh-vs-ho-chi-minh.webp",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-1-nam-dinh-vs-ho-chi-minh.webp",
             "width": 800,
             "height": 450
           },
@@ -149,19 +59,19 @@
           ],
           "sources": [
             {
-              "id": "gv-2-nam-dinh-vs-ho-chi-minh-src0",
+              "id": "gv-1-nam-dinh-vs-ho-chi-minh-src0",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-2-nam-dinh-vs-ho-chi-minh-ct0",
+                  "id": "gv-1-nam-dinh-vs-ho-chi-minh-ct0",
                   "name": "Trực tiếp",
                   "streams": [
                     {
-                      "id": "gv-2-nam-dinh-vs-ho-chi-minh-st0",
+                      "id": "gv-1-nam-dinh-vs-ho-chi-minh-st0",
                       "name": "BLV Tỵ",
                       "stream_links": [
                         {
-                          "id": "gv-2-nam-dinh-vs-ho-chi-minh-l0hd",
+                          "id": "gv-1-nam-dinh-vs-ho-chi-minh-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -178,7 +88,7 @@
                           ]
                         },
                         {
-                          "id": "gv-2-nam-dinh-vs-ho-chi-minh-l0sd",
+                          "id": "gv-1-nam-dinh-vs-ho-chi-minh-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
@@ -203,9 +113,9 @@
           ]
         },
         {
-          "id": "gv-3-ratchasiesan-vs-elbrus-o",
-          "name": "Ratchasiesan vs Elbrus Osmanov 🕐 18:30 | 01/05",
-          "description": "One The Inner Circle | 18:30 | 01/05 | 🎙 BLV Dory",
+          "id": "gv-2-ratchasiesan-vs-elbrus-o",
+          "name": "Ratchasiesan 0-0 Elbrus Osmanov 🔴",
+          "description": "One The Inner Circle | 18:30 | 01/05 | 🔴 LIVE | 0-0 | 🎙 BLV Dory",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -213,11 +123,23 @@
             "padding": 0,
             "background_color": "#F5F8FF",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-3-ratchasiesan-vs-elbrus-o.webp",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-2-ratchasiesan-vs-elbrus-o.webp",
             "width": 800,
             "height": 450
           },
           "labels": [
+            {
+              "text": "● LIVE",
+              "color": "#C62828",
+              "text_color": "#ffffff",
+              "position": "top-left"
+            },
+            {
+              "text": "0-0",
+              "color": "#B71C1C",
+              "text_color": "#ffffff",
+              "position": "bottom-right"
+            },
             {
               "text": "🎙 BLV Dory",
               "color": "#1B5E20",
@@ -227,19 +149,19 @@
           ],
           "sources": [
             {
-              "id": "gv-3-ratchasiesan-vs-elbrus-o-src0",
+              "id": "gv-2-ratchasiesan-vs-elbrus-o-src0",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-3-ratchasiesan-vs-elbrus-o-ct0",
+                  "id": "gv-2-ratchasiesan-vs-elbrus-o-ct0",
                   "name": "Trực tiếp",
                   "streams": [
                     {
-                      "id": "gv-3-ratchasiesan-vs-elbrus-o-st0",
+                      "id": "gv-2-ratchasiesan-vs-elbrus-o-st0",
                       "name": "BLV Dory",
                       "stream_links": [
                         {
-                          "id": "gv-3-ratchasiesan-vs-elbrus-o-l0hd",
+                          "id": "gv-2-ratchasiesan-vs-elbrus-o-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -256,7 +178,7 @@
                           ]
                         },
                         {
-                          "id": "gv-3-ratchasiesan-vs-elbrus-o-l0sd",
+                          "id": "gv-2-ratchasiesan-vs-elbrus-o-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
@@ -281,9 +203,9 @@
           ]
         },
         {
-          "id": "gv-4-guangzhou-vs-guangdong",
-          "name": "Guangzhou vs Guangdong 🕐 18:35 | 01/05",
-          "description": "CBA | 18:35 | 01/05 | 🎙 BLV Tôm",
+          "id": "gv-3-guangzhou-vs-guangdong",
+          "name": "Guangzhou 0-0 Guangdong 🔴",
+          "description": "CBA | 18:35 | 01/05 | 🔴 LIVE | 0-0 | 🎙 BLV Tôm",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -291,11 +213,23 @@
             "padding": 0,
             "background_color": "#F5F8FF",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-4-guangzhou-vs-guangdong.webp",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-3-guangzhou-vs-guangdong.webp",
             "width": 800,
             "height": 450
           },
           "labels": [
+            {
+              "text": "● LIVE",
+              "color": "#C62828",
+              "text_color": "#ffffff",
+              "position": "top-left"
+            },
+            {
+              "text": "0-0",
+              "color": "#B71C1C",
+              "text_color": "#ffffff",
+              "position": "bottom-right"
+            },
             {
               "text": "🎙 BLV Tôm",
               "color": "#1B5E20",
@@ -305,19 +239,19 @@
           ],
           "sources": [
             {
-              "id": "gv-4-guangzhou-vs-guangdong-src0",
+              "id": "gv-3-guangzhou-vs-guangdong-src0",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-4-guangzhou-vs-guangdong-ct0",
+                  "id": "gv-3-guangzhou-vs-guangdong-ct0",
                   "name": "Trực tiếp",
                   "streams": [
                     {
-                      "id": "gv-4-guangzhou-vs-guangdong-st0",
+                      "id": "gv-3-guangzhou-vs-guangdong-st0",
                       "name": "BLV Tôm",
                       "stream_links": [
                         {
-                          "id": "gv-4-guangzhou-vs-guangdong-l0hd",
+                          "id": "gv-3-guangzhou-vs-guangdong-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -334,7 +268,7 @@
                           ]
                         },
                         {
-                          "id": "gv-4-guangzhou-vs-guangdong-l0sd",
+                          "id": "gv-3-guangzhou-vs-guangdong-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
@@ -359,7 +293,7 @@
           ]
         },
         {
-          "id": "gv-5-jannik-sinner-vs-arthur",
+          "id": "gv-4-jannik-sinner-vs-arthur",
           "name": "Jannik Sinner vs Arthur Fils 🕐 21:00 | 01/05",
           "description": "ATP Madrid - Bán kết 1 | 21:00 | 01/05 | 🎙 BLV Perry",
           "type": "single",
@@ -369,7 +303,7 @@
             "padding": 0,
             "background_color": "#F5F8FF",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-5-jannik-sinner-vs-arthur.webp",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-4-jannik-sinner-vs-arthur.webp",
             "width": 800,
             "height": 450
           },
@@ -383,19 +317,19 @@
           ],
           "sources": [
             {
-              "id": "gv-5-jannik-sinner-vs-arthur-src0",
+              "id": "gv-4-jannik-sinner-vs-arthur-src0",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-5-jannik-sinner-vs-arthur-ct0",
+                  "id": "gv-4-jannik-sinner-vs-arthur-ct0",
                   "name": "Trực tiếp",
                   "streams": [
                     {
-                      "id": "gv-5-jannik-sinner-vs-arthur-st0",
+                      "id": "gv-4-jannik-sinner-vs-arthur-st0",
                       "name": "BLV Perry",
                       "stream_links": [
                         {
-                          "id": "gv-5-jannik-sinner-vs-arthur-l0hd",
+                          "id": "gv-4-jannik-sinner-vs-arthur-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -412,7 +346,7 @@
                           ]
                         },
                         {
-                          "id": "gv-5-jannik-sinner-vs-arthur-l0sd",
+                          "id": "gv-4-jannik-sinner-vs-arthur-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
@@ -437,7 +371,7 @@
           ]
         },
         {
-          "id": "gv-6-dep-la-coruna-vs-leganes",
+          "id": "gv-5-dep-la-coruna-vs-leganes",
           "name": "Dep. La Coruna vs Leganes 🕐 23:30 | 01/05",
           "description": "La Liga 2 | 23:30 | 01/05 | 🎙 BLV Hợi",
           "type": "single",
@@ -447,7 +381,7 @@
             "padding": 0,
             "background_color": "#F5F8FF",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-6-dep-la-coruna-vs-leganes.webp",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-5-dep-la-coruna-vs-leganes.webp",
             "width": 800,
             "height": 450
           },
@@ -461,19 +395,19 @@
           ],
           "sources": [
             {
-              "id": "gv-6-dep-la-coruna-vs-leganes-src0",
+              "id": "gv-5-dep-la-coruna-vs-leganes-src0",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-6-dep-la-coruna-vs-leganes-ct0",
+                  "id": "gv-5-dep-la-coruna-vs-leganes-ct0",
                   "name": "Trực tiếp",
                   "streams": [
                     {
-                      "id": "gv-6-dep-la-coruna-vs-leganes-st0",
+                      "id": "gv-5-dep-la-coruna-vs-leganes-st0",
                       "name": "BLV Hợi",
                       "stream_links": [
                         {
-                          "id": "gv-6-dep-la-coruna-vs-leganes-l0hd",
+                          "id": "gv-5-dep-la-coruna-vs-leganes-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -490,7 +424,7 @@
                           ]
                         },
                         {
-                          "id": "gv-6-dep-la-coruna-vs-leganes-l0sd",
+                          "id": "gv-5-dep-la-coruna-vs-leganes-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
@@ -515,7 +449,7 @@
           ]
         },
         {
-          "id": "gv-7-alexander-blockx-vs-alex",
+          "id": "gv-6-alexander-blockx-vs-alex",
           "name": "Alexander Blockx vs Alexander Zverev 🕐 01:00 | 02/05",
           "description": "Madrid, clay - Semi-finals | 01:00 | 02/05 | 🎙 BLV Ben",
           "type": "single",
@@ -525,7 +459,7 @@
             "padding": 0,
             "background_color": "#F5F8FF",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-7-alexander-blockx-vs-alex.webp",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-6-alexander-blockx-vs-alex.webp",
             "width": 800,
             "height": 450
           },
@@ -539,19 +473,19 @@
           ],
           "sources": [
             {
-              "id": "gv-7-alexander-blockx-vs-alex-src0",
+              "id": "gv-6-alexander-blockx-vs-alex-src0",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-7-alexander-blockx-vs-alex-ct0",
+                  "id": "gv-6-alexander-blockx-vs-alex-ct0",
                   "name": "Trực tiếp",
                   "streams": [
                     {
-                      "id": "gv-7-alexander-blockx-vs-alex-st0",
+                      "id": "gv-6-alexander-blockx-vs-alex-st0",
                       "name": "BLV Ben",
                       "stream_links": [
                         {
-                          "id": "gv-7-alexander-blockx-vs-alex-l0hd",
+                          "id": "gv-6-alexander-blockx-vs-alex-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -568,7 +502,7 @@
                           ]
                         },
                         {
-                          "id": "gv-7-alexander-blockx-vs-alex-l0sd",
+                          "id": "gv-6-alexander-blockx-vs-alex-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
@@ -593,7 +527,7 @@
           ]
         },
         {
-          "id": "gv-8-leeds-united-vs-burnley",
+          "id": "gv-7-leeds-united-vs-burnley",
           "name": "Leeds United vs Burnley 🕐 02:00 | 02/05",
           "description": "Ngoại hạng Anh | 02:00 | 02/05 | 🎙 BLV Dậu",
           "type": "single",
@@ -603,7 +537,7 @@
             "padding": 0,
             "background_color": "#F5F8FF",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-8-leeds-united-vs-burnley.webp",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-7-leeds-united-vs-burnley.webp",
             "width": 800,
             "height": 450
           },
@@ -617,19 +551,19 @@
           ],
           "sources": [
             {
-              "id": "gv-8-leeds-united-vs-burnley-src0",
+              "id": "gv-7-leeds-united-vs-burnley-src0",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-8-leeds-united-vs-burnley-ct0",
+                  "id": "gv-7-leeds-united-vs-burnley-ct0",
                   "name": "Trực tiếp",
                   "streams": [
                     {
-                      "id": "gv-8-leeds-united-vs-burnley-st0",
+                      "id": "gv-7-leeds-united-vs-burnley-st0",
                       "name": "BLV Dậu",
                       "stream_links": [
                         {
-                          "id": "gv-8-leeds-united-vs-burnley-l0hd",
+                          "id": "gv-7-leeds-united-vs-burnley-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -646,7 +580,7 @@
                           ]
                         },
                         {
-                          "id": "gv-8-leeds-united-vs-burnley-l0sd",
+                          "id": "gv-7-leeds-united-vs-burnley-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
@@ -671,7 +605,7 @@
           ]
         },
         {
-          "id": "gv-9-girona-vs-mallorca",
+          "id": "gv-8-girona-vs-mallorca",
           "name": "Girona vs Mallorca 🕐 02:00 | 02/05",
           "description": "La Liga | 02:00 | 02/05 | 🎙 BLV Hợi",
           "type": "single",
@@ -681,7 +615,7 @@
             "padding": 0,
             "background_color": "#F5F8FF",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-9-girona-vs-mallorca.webp",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-8-girona-vs-mallorca.webp",
             "width": 800,
             "height": 450
           },
@@ -695,19 +629,19 @@
           ],
           "sources": [
             {
-              "id": "gv-9-girona-vs-mallorca-src0",
+              "id": "gv-8-girona-vs-mallorca-src0",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-9-girona-vs-mallorca-ct0",
+                  "id": "gv-8-girona-vs-mallorca-ct0",
                   "name": "Trực tiếp",
                   "streams": [
                     {
-                      "id": "gv-9-girona-vs-mallorca-st0",
+                      "id": "gv-8-girona-vs-mallorca-st0",
                       "name": "BLV Hợi",
                       "stream_links": [
                         {
-                          "id": "gv-9-girona-vs-mallorca-l0hd",
+                          "id": "gv-8-girona-vs-mallorca-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -724,7 +658,7 @@
                           ]
                         },
                         {
-                          "id": "gv-9-girona-vs-mallorca-l0sd",
+                          "id": "gv-8-girona-vs-mallorca-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
@@ -749,7 +683,7 @@
           ]
         },
         {
-          "id": "gv-10-magic-vs-pistons",
+          "id": "gv-9-magic-vs-pistons",
           "name": "Magic vs Pistons 🕐 06:00 | 02/05",
           "description": "NBA | 06:00 | 02/05 | 🎙 BLV Cầy | BLV Ben",
           "type": "single",
@@ -759,7 +693,7 @@
             "padding": 0,
             "background_color": "#F5F8FF",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-10-magic-vs-pistons.webp",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-9-magic-vs-pistons.webp",
             "width": 800,
             "height": 450
           },
@@ -773,19 +707,19 @@
           ],
           "sources": [
             {
-              "id": "gv-10-magic-vs-pistons-src0",
+              "id": "gv-9-magic-vs-pistons-src0",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-10-magic-vs-pistons-ct0",
+                  "id": "gv-9-magic-vs-pistons-ct0",
                   "name": "Trực tiếp",
                   "streams": [
                     {
-                      "id": "gv-10-magic-vs-pistons-st0",
+                      "id": "gv-9-magic-vs-pistons-st0",
                       "name": "BLV Cầy",
                       "stream_links": [
                         {
-                          "id": "gv-10-magic-vs-pistons-l0hd",
+                          "id": "gv-9-magic-vs-pistons-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -802,7 +736,7 @@
                           ]
                         },
                         {
-                          "id": "gv-10-magic-vs-pistons-l0sd",
+                          "id": "gv-9-magic-vs-pistons-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
@@ -821,11 +755,11 @@
                       ]
                     },
                     {
-                      "id": "gv-10-magic-vs-pistons-st1",
+                      "id": "gv-9-magic-vs-pistons-st1",
                       "name": "BLV Ben",
                       "stream_links": [
                         {
-                          "id": "gv-10-magic-vs-pistons-l1hd",
+                          "id": "gv-9-magic-vs-pistons-l1hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -842,7 +776,7 @@
                           ]
                         },
                         {
-                          "id": "gv-10-magic-vs-pistons-l1sd",
+                          "id": "gv-9-magic-vs-pistons-l1sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
@@ -867,7 +801,7 @@
           ]
         },
         {
-          "id": "gv-11-raptors-vs-cavaliers",
+          "id": "gv-10-raptors-vs-cavaliers",
           "name": "Raptors vs Cavaliers 🕐 06:30 | 02/05",
           "description": "NBA | 06:30 | 02/05 | 🎙 BLV Tôm",
           "type": "single",
@@ -877,7 +811,7 @@
             "padding": 0,
             "background_color": "#F5F8FF",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-11-raptors-vs-cavaliers.webp",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-10-raptors-vs-cavaliers.webp",
             "width": 800,
             "height": 450
           },
@@ -891,19 +825,19 @@
           ],
           "sources": [
             {
-              "id": "gv-11-raptors-vs-cavaliers-src0",
+              "id": "gv-10-raptors-vs-cavaliers-src0",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-11-raptors-vs-cavaliers-ct0",
+                  "id": "gv-10-raptors-vs-cavaliers-ct0",
                   "name": "Trực tiếp",
                   "streams": [
                     {
-                      "id": "gv-11-raptors-vs-cavaliers-st0",
+                      "id": "gv-10-raptors-vs-cavaliers-st0",
                       "name": "BLV Tôm",
                       "stream_links": [
                         {
-                          "id": "gv-11-raptors-vs-cavaliers-l0hd",
+                          "id": "gv-10-raptors-vs-cavaliers-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -920,7 +854,7 @@
                           ]
                         },
                         {
-                          "id": "gv-11-raptors-vs-cavaliers-l0sd",
+                          "id": "gv-10-raptors-vs-cavaliers-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
