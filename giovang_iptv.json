@@ -204,8 +204,8 @@
         },
         {
           "id": "gv-3-arsenal-vs-fulham",
-          "name": "Arsenal 1-0 Fulham 🔴 38'",
-          "description": "Ngoại hạng Anh | 23:30 | 02/05 | 🔴 LIVE 38' | 1-0 | 🎙 BLV Dậu | BLV Dần",
+          "name": "Arsenal 3-0 Fulham 🔴 74'",
+          "description": "Ngoại hạng Anh | 23:30 | 02/05 | 🔴 LIVE 74' | 3-0 | 🎙 BLV Dậu | BLV Dần",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": true,
@@ -225,7 +225,7 @@
               "position": "top-left"
             },
             {
-              "text": "1-0 38'",
+              "text": "3-0 74'",
               "color": "#B71C1C",
               "text_color": "#ffffff",
               "position": "bottom-right"
@@ -334,8 +334,8 @@
         },
         {
           "id": "gv-4-bayer-leverkusen-vs-rb-l",
-          "name": "Bayer Leverkusen 1-0 RB Leipzig 🔴 37'",
-          "description": "Bundesliga | 23:30 | 02/05 | 🔴 LIVE 37' | 1-0 | 🎙 BLV Câm",
+          "name": "Bayer Leverkusen 2-0 RB Leipzig 🔴 75'",
+          "description": "Bundesliga | 23:30 | 02/05 | 🔴 LIVE 75' | 2-0 | 🎙 BLV Câm",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -355,7 +355,7 @@
               "position": "top-left"
             },
             {
-              "text": "1-0 37'",
+              "text": "2-0 75'",
               "color": "#B71C1C",
               "text_color": "#ffffff",
               "position": "bottom-right"
@@ -424,8 +424,8 @@
         },
         {
           "id": "gv-5-al-hazm-vs-al-hilal",
-          "name": "Al-Hazm vs Al Hilal 🕐 01:00 | 03/05",
-          "description": "VĐQG Ả Rập Xê Út | 01:00 | 03/05 | 🎙 BLV Ben",
+          "name": "Al-Hazm 0-0 Al Hilal 🔴",
+          "description": "VĐQG Ả Rập Xê Út | 01:00 | 03/05 | 🔴 LIVE | 0-0 | 🎙 BLV Ben",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -438,6 +438,18 @@
             "height": 450
           },
           "labels": [
+            {
+              "text": "● LIVE",
+              "color": "#C62828",
+              "text_color": "#ffffff",
+              "position": "top-left"
+            },
+            {
+              "text": "0-0",
+              "color": "#B71C1C",
+              "text_color": "#ffffff",
+              "position": "bottom-right"
+            },
             {
               "text": "🎙 BLV Ben",
               "color": "#1B5E20",
