@@ -284,8 +284,8 @@
         },
         {
           "id": "gv-3-stlouis-cardinals-vs-los",
-          "name": "St.Louis Cardinals  vs Los Angeles Dodgers 🕐 07:15 | 02/05",
-          "description": "MBL | 07:15 | 02/05 | 🎙 BLV Chanh",
+          "name": "St.Louis Cardinals  0-0 Los Angeles Dodgers 🔴",
+          "description": "MBL | 07:15 | 02/05 | 🔴 LIVE | 0-0 | 🎙 BLV Chanh",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -298,6 +298,18 @@
             "height": 450
           },
           "labels": [
+            {
+              "text": "● LIVE",
+              "color": "#C62828",
+              "text_color": "#ffffff",
+              "position": "top-left"
+            },
+            {
+              "text": "0-0",
+              "color": "#B71C1C",
+              "text_color": "#ffffff",
+              "position": "bottom-right"
+            },
             {
               "text": "🎙 BLV Chanh",
               "color": "#1B5E20",
