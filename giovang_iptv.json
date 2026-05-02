@@ -2427,7 +2427,125 @@
           ]
         },
         {
-          "id": "gv-31-monchengladbach-vs-dortm",
+          "id": "gv-31-manchester-united-vs-liv",
+          "name": "Manchester United vs Liverpool 🕐 21:30 | 03/05",
+          "description": "Ngoại hạng Anh | 21:30 | 03/05 | 🎙 fan-liver-thin-ty | fan-mu-cam-dory",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": true,
+          "image": {
+            "padding": 0,
+            "background_color": "#F5F8FF",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-31-manchester-united-vs-liv.webp",
+            "width": 800,
+            "height": 450
+          },
+          "labels": [
+            {
+              "text": "🎙 2 BLV",
+              "color": "#1B5E20",
+              "text_color": "#ffffff",
+              "position": "bottom-left"
+            }
+          ],
+          "sources": [
+            {
+              "id": "gv-31-manchester-united-vs-liv-src0",
+              "name": "GioVang Live",
+              "contents": [
+                {
+                  "id": "gv-31-manchester-united-vs-liv-ct0",
+                  "name": "Trực tiếp",
+                  "streams": [
+                    {
+                      "id": "gv-31-manchester-united-vs-liv-st0",
+                      "name": "Fan Liver: Thìn vs Tỵ",
+                      "stream_links": [
+                        {
+                          "id": "gv-31-manchester-united-vs-liv-l0hd",
+                          "name": "HD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777713256_hd/1777713256_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.vin/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "gv-31-manchester-united-vs-liv-l0sd",
+                          "name": "SD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777713256_sd/1777713256_hd@480p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.vin/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "gv-31-manchester-united-vs-liv-st1",
+                      "name": "Fan MU: Câm vs Dory",
+                      "stream_links": [
+                        {
+                          "id": "gv-31-manchester-united-vs-liv-l1hd",
+                          "name": "HD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777713277_hd/1777713277_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.vin/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "gv-31-manchester-united-vs-liv-l1sd",
+                          "name": "SD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777713277_sd/1777713277_hd@480p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.vin/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gv-32-monchengladbach-vs-dortm",
           "name": "Monchengladbach vs Dortmund 🕐 22:30 | 03/05",
           "description": "Bundesliga | 22:30 | 03/05 | 🎙 BLV Hợi",
           "type": "single",
@@ -2437,7 +2555,7 @@
             "padding": 0,
             "background_color": "#F5F8FF",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-31-monchengladbach-vs-dortm.webp",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-32-monchengladbach-vs-dortm.webp",
             "width": 800,
             "height": 450
           },
@@ -2451,19 +2569,19 @@
           ],
           "sources": [
             {
-              "id": "gv-31-monchengladbach-vs-dortm-src0",
+              "id": "gv-32-monchengladbach-vs-dortm-src0",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-31-monchengladbach-vs-dortm-ct0",
+                  "id": "gv-32-monchengladbach-vs-dortm-ct0",
                   "name": "Trực tiếp",
                   "streams": [
                     {
-                      "id": "gv-31-monchengladbach-vs-dortm-st0",
+                      "id": "gv-32-monchengladbach-vs-dortm-st0",
                       "name": "BLV Hợi",
                       "stream_links": [
                         {
-                          "id": "gv-31-monchengladbach-vs-dortm-l0hd",
+                          "id": "gv-32-monchengladbach-vs-dortm-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
@@ -2480,7 +2598,7 @@
                           ]
                         },
                         {
-                          "id": "gv-31-monchengladbach-vs-dortm-l0sd",
+                          "id": "gv-32-monchengladbach-vs-dortm-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
