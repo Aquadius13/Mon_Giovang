@@ -294,8 +294,8 @@
         },
         {
           "id": "gv-4-brentford-vs-west-ham-un",
-          "name": "Brentford 0-0 West Ham United 🔴",
-          "description": "Ngoại hạng Anh | 21:00 | 02/05 | 🔴 LIVE | 0-0 | 🎙 BLV Tỵ",
+          "name": "Brentford 0-0 West Ham United 🔴 4'",
+          "description": "Ngoại hạng Anh | 21:00 | 02/05 | 🔴 LIVE 4' | 0-0 | 🎙 BLV Tỵ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -315,7 +315,7 @@
               "position": "top-left"
             },
             {
-              "text": "0-0",
+              "text": "0-0 4'",
               "color": "#B71C1C",
               "text_color": "#ffffff",
               "position": "bottom-right"
