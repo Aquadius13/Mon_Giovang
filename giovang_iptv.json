@@ -114,8 +114,8 @@
         },
         {
           "id": "gv-2-inter-miami-vs-orlando-c",
-          "name": "Inter Miami vs Orlando City 🕐 06:00 | 03/05",
-          "description": "MLS Mỹ | 06:00 | 03/05 | 🎙 BLV Hợi",
+          "name": "Inter Miami 0-0 Orlando City 🔴",
+          "description": "MLS Mỹ | 06:00 | 03/05 | 🔴 LIVE | 0-0 | 🎙 BLV Hợi",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -128,6 +128,18 @@
             "height": 450
           },
           "labels": [
+            {
+              "text": "● LIVE",
+              "color": "#C62828",
+              "text_color": "#ffffff",
+              "position": "top-left"
+            },
+            {
+              "text": "0-0",
+              "color": "#B71C1C",
+              "text_color": "#ffffff",
+              "position": "bottom-right"
+            },
             {
               "text": "🎙 BLV Hợi",
               "color": "#1B5E20",
@@ -1655,162 +1667,6 @@
                           "type": "hls",
                           "default": false,
                           "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777688336_sd/1777688336_hd@480p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.vin/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "gv-21-aston-villa-vs-tottenham",
-          "name": "Aston Villa vs Tottenham Hotspur 🕐 01:00 | 04/05",
-          "description": "Ngoại hạng Anh | 01:00 | 04/05 | 🎙 BLV Câm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 0,
-            "background_color": "#F5F8FF",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-21-aston-villa-vs-tottenham.webp",
-            "width": 800,
-            "height": 450
-          },
-          "labels": [
-            {
-              "text": "🎙 BLV Câm",
-              "color": "#1B5E20",
-              "text_color": "#ffffff",
-              "position": "bottom-left"
-            }
-          ],
-          "sources": [
-            {
-              "id": "gv-21-aston-villa-vs-tottenham-src0",
-              "name": "GioVang Live",
-              "contents": [
-                {
-                  "id": "gv-21-aston-villa-vs-tottenham-ct0",
-                  "name": "Trực tiếp",
-                  "streams": [
-                    {
-                      "id": "gv-21-aston-villa-vs-tottenham-st0",
-                      "name": "BLV Câm",
-                      "stream_links": [
-                        {
-                          "id": "gv-21-aston-villa-vs-tottenham-l0hd",
-                          "name": "HD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777020214_hd/1777020214_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.vin/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "gv-21-aston-villa-vs-tottenham-l0sd",
-                          "name": "SD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777020214_sd/1777020214_hd@480p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.vin/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "gv-22-lyonnais-vs-stade-rennai",
-          "name": "Lyonnais vs Stade Rennais FC 🕐 01:45 | 04/05",
-          "description": "Ligue 1 | 01:45 | 04/05 | 🎙 BLV Chanh",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 0,
-            "background_color": "#F5F8FF",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-22-lyonnais-vs-stade-rennai.webp",
-            "width": 800,
-            "height": 450
-          },
-          "labels": [
-            {
-              "text": "🎙 BLV Chanh",
-              "color": "#1B5E20",
-              "text_color": "#ffffff",
-              "position": "bottom-left"
-            }
-          ],
-          "sources": [
-            {
-              "id": "gv-22-lyonnais-vs-stade-rennai-src0",
-              "name": "GioVang Live",
-              "contents": [
-                {
-                  "id": "gv-22-lyonnais-vs-stade-rennai-ct0",
-                  "name": "Trực tiếp",
-                  "streams": [
-                    {
-                      "id": "gv-22-lyonnais-vs-stade-rennai-st0",
-                      "name": "BLV Chanh",
-                      "stream_links": [
-                        {
-                          "id": "gv-22-lyonnais-vs-stade-rennai-l0hd",
-                          "name": "HD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777179168_hd/1777179168_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.vin/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "gv-22-lyonnais-vs-stade-rennai-l0sd",
-                          "name": "SD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777179168_sd/1777179168_hd@480p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
