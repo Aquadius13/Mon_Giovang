@@ -203,9 +203,9 @@
           ]
         },
         {
-          "id": "gv-3-shanxi-zhongyu-vs-quingd",
-          "name": "Shanxi Zhongyu  0-0 Quingdao 🔴",
-          "description": "CBA | 18:35 | 02/05 | 🔴 LIVE | 0-0 | 🎙 BLV Cầy",
+          "id": "gv-3-inoue-vs-nakatani",
+          "name": "Inoue  0-0 nakatani 🔴",
+          "description": "Boxing | 20:00 | 02/05 | 🔴 LIVE | 0-0 | 🎙 BLV Dory",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -213,7 +213,7 @@
             "padding": 0,
             "background_color": "#F5F8FF",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-3-shanxi-zhongyu-vs-quingd.webp",
+            "url": "https://raw.githubusercontent.com/Aquadius13/Mon_Giovang/main/thumbnails/gv-3-inoue-vs-nakatani.webp",
             "width": 800,
             "height": 450
           },
@@ -231,7 +231,7 @@
               "position": "bottom-right"
             },
             {
-              "text": "🎙 BLV Cầy",
+              "text": "🎙 BLV Dory",
               "color": "#1B5E20",
               "text_color": "#ffffff",
               "position": "bottom-left"
@@ -239,23 +239,23 @@
           ],
           "sources": [
             {
-              "id": "gv-3-shanxi-zhongyu-vs-quingd-src0",
+              "id": "gv-3-inoue-vs-nakatani-src0",
               "name": "GioVang Live",
               "contents": [
                 {
-                  "id": "gv-3-shanxi-zhongyu-vs-quingd-ct0",
+                  "id": "gv-3-inoue-vs-nakatani-ct0",
                   "name": "Trực tiếp",
                   "streams": [
                     {
-                      "id": "gv-3-shanxi-zhongyu-vs-quingd-st0",
-                      "name": "BLV Cầy",
+                      "id": "gv-3-inoue-vs-nakatani-st0",
+                      "name": "BLV Dory",
                       "stream_links": [
                         {
-                          "id": "gv-3-shanxi-zhongyu-vs-quingd-l0hd",
+                          "id": "gv-3-inoue-vs-nakatani-l0hd",
                           "name": "HD",
                           "type": "hls",
                           "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777655912_hd/1777655912_hd@720p.m3u8",
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777727023_hd/1777727023_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -268,11 +268,11 @@
                           ]
                         },
                         {
-                          "id": "gv-3-shanxi-zhongyu-vs-quingd-l0sd",
+                          "id": "gv-3-inoue-vs-nakatani-l0sd",
                           "name": "SD",
                           "type": "hls",
                           "default": false,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777655912_sd/1777655912_hd@480p.m3u8",
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1777727023_sd/1777727023_hd@480p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -294,8 +294,8 @@
         },
         {
           "id": "gv-4-brentford-vs-west-ham-un",
-          "name": "Brentford vs West Ham United 🕐 21:00 | 02/05",
-          "description": "Ngoại hạng Anh | 21:00 | 02/05 | 🎙 BLV Tỵ",
+          "name": "Brentford 0-0 West Ham United 🔴",
+          "description": "Ngoại hạng Anh | 21:00 | 02/05 | 🔴 LIVE | 0-0 | 🎙 BLV Tỵ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -308,6 +308,18 @@
             "height": 450
           },
           "labels": [
+            {
+              "text": "● LIVE",
+              "color": "#C62828",
+              "text_color": "#ffffff",
+              "position": "top-left"
+            },
+            {
+              "text": "0-0",
+              "color": "#B71C1C",
+              "text_color": "#ffffff",
+              "position": "bottom-right"
+            },
             {
               "text": "🎙 BLV Tỵ",
               "color": "#1B5E20",
