@@ -114,8 +114,8 @@
         },
         {
           "id": "gv-2-ningbo-rockets-vs-zhejia",
-          "name": "Ningbo Rockets  vs Zhejiang Chouzhou 🕐 18:35 | 02/05",
-          "description": "CBA | 18:35 | 02/05 | 🎙 blv-diec",
+          "name": "Ningbo Rockets  0-0 Zhejiang Chouzhou 🔴",
+          "description": "CBA | 18:35 | 02/05 | 🔴 LIVE | 0-0 | 🎙 blv-diec",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -128,6 +128,18 @@
             "height": 450
           },
           "labels": [
+            {
+              "text": "● LIVE",
+              "color": "#C62828",
+              "text_color": "#ffffff",
+              "position": "top-left"
+            },
+            {
+              "text": "0-0",
+              "color": "#B71C1C",
+              "text_color": "#ffffff",
+              "position": "bottom-right"
+            },
             {
               "text": "🎙 blv-diec",
               "color": "#1B5E20",
@@ -192,8 +204,8 @@
         },
         {
           "id": "gv-3-shanxi-zhongyu-vs-quingd",
-          "name": "Shanxi Zhongyu  vs Quingdao 🕐 18:35 | 02/05",
-          "description": "CBA | 18:35 | 02/05 | 🎙 BLV Cầy",
+          "name": "Shanxi Zhongyu  0-0 Quingdao 🔴",
+          "description": "CBA | 18:35 | 02/05 | 🔴 LIVE | 0-0 | 🎙 BLV Cầy",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -206,6 +218,18 @@
             "height": 450
           },
           "labels": [
+            {
+              "text": "● LIVE",
+              "color": "#C62828",
+              "text_color": "#ffffff",
+              "position": "top-left"
+            },
+            {
+              "text": "0-0",
+              "color": "#B71C1C",
+              "text_color": "#ffffff",
+              "position": "bottom-right"
+            },
             {
               "text": "🎙 BLV Cầy",
               "color": "#1B5E20",
